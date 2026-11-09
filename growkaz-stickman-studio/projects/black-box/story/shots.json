@@ -1,6 +1,6 @@
 {
  "title": "Inside the Black Box",
- "duration": 319.27,
+ "duration": 474.51,
  "shots": [
   {
    "id": "b1_01",
@@ -2869,6 +2869,1228 @@
       "at": "survive",
       "color": "#ff7a30",
       "over": 0.5
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b3_01",
+   "start": 319.27,
+   "end": 331.45,
+   "line": "Here's the trick. Most of a black box is protection. The part that actually matters, the memory, is a small, heavily armored core in the middle, wrapped in layers of insulation and steel or titanium.",
+   "scene": "Cutaway: mostly protection, an armored memory core",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.0,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.0,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "box",
+      "x": 0.22,
+      "y": 0.18,
+      "w": 0.56,
+      "h": 0.64,
+      "at": 0.1,
+      "fill": 0.35,
+      "color": "#ff8a1f",
+      "label": ""
+     },
+     {
+      "k": "box",
+      "x": 0.3,
+      "y": 0.28,
+      "w": 0.4,
+      "h": 0.44,
+      "at": "protection",
+      "fill": 0.25,
+      "color": "text",
+      "label": ""
+     },
+     {
+      "k": "box",
+      "x": 0.38,
+      "y": 0.38,
+      "w": 0.24,
+      "h": 0.24,
+      "at": "armored",
+      "fill": 0.3,
+      "color": "#9aa8b0",
+      "label": ""
+     },
+     {
+      "k": "box",
+      "x": 0.44,
+      "y": 0.45,
+      "w": 0.12,
+      "h": 0.1,
+      "at": "memory",
+      "fill": 0.9,
+      "color": "gold",
+      "label": ""
+     },
+     {
+      "k": "text",
+      "s": "MEMORY",
+      "x": 0.5,
+      "y": 0.5,
+      "at": "memory",
+      "size": 30,
+      "color": "#0b141c"
+     },
+     {
+      "k": "text",
+      "s": "ORANGE SHELL",
+      "x": 0.86,
+      "y": 0.24,
+      "at": 0.3,
+      "size": 30,
+      "color": "#ff8a1f"
+     },
+     {
+      "k": "text",
+      "s": "INSULATION",
+      "x": 0.86,
+      "y": 0.34,
+      "at": "layers",
+      "size": 30,
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "STEEL / TITANIUM ARMOR",
+      "x": 0.86,
+      "y": 0.44,
+      "at": "steel",
+      "size": 26,
+      "color": "#9aa8b0"
+     },
+     {
+      "k": "text",
+      "s": "MOSTLY PROTECTION",
+      "x": 0.5,
+      "y": 0.08,
+      "at": "protection",
+      "size": 48,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b3_02",
+   "start": 331.45,
+   "end": 336.11,
+   "line": "And before a design is approved, it's put through tests that sound almost cruel.",
+   "scene": "Tests that sound almost cruel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "testlab",
+    "test": "none",
+    "plate": "THE TEST LAB",
+    "hit": 99,
+    "cam": {
+     "z": [
+      1.0,
+      1.08
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "ALMOST CRUEL",
+      "at": "cruel",
+      "y": 0.9,
+      "color": "warn",
+      "size": 56
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b3_03",
+   "start": 336.11,
+   "end": 344.03,
+   "line": "Test one: impact. The box is fired at a target so it stops with a force of about three thousand four hundred times gravity.",
+   "scene": "Test 1: impact, ~3,400 G",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.4,
+     "name": "whoosh",
+     "gain": -6
+    },
+    {
+     "at": 3.9,
+     "name": "impact",
+     "gain": -3
+    }
+   ],
+   "params": {
+    "tpl": "testlab",
+    "test": "impact",
+    "n": 1,
+    "name": "IMPACT",
+    "hit": "stops",
+    "ok": "gravity",
+    "cam": {
+     "z": [
+      1.0,
+      1.0
+     ]
+    },
+    "ov": [
+     {
+      "k": "counter",
+      "to": 3400,
+      "at": "stops",
+      "over": 0.5,
+      "suffix": " G",
+      "x": 0.5,
+      "y": 0.2,
+      "size": 120,
+      "label": "TIMES GRAVITY",
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b3_04",
+   "start": 344.03,
+   "end": 350.35,
+   "line": "Test two: a heavy steel spike is dropped onto it, to make sure nothing sharp in a crash can punch through.",
+   "scene": "Test 2: a steel spike dropped on it",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.4,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 2.9,
+     "name": "hit",
+     "gain": -4
+    }
+   ],
+   "params": {
+    "tpl": "testlab",
+    "test": "pierce",
+    "n": 2,
+    "name": "PIERCE",
+    "hit": "dropped",
+    "ok": "through",
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b3_05",
+   "start": 350.35,
+   "end": 355.73,
+   "line": "Test three: it's crushed under a press with tons of force, for minutes at a time.",
+   "scene": "Test 3: crushed under a press",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "powerup",
+     "gain": -10
+    },
+    {
+     "at": 2.4,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "testlab",
+    "test": "crush",
+    "n": 3,
+    "name": "CRUSH",
+    "hit": "tons",
+    "ok": "minutes",
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "TONS OF FORCE",
+      "at": "tons",
+      "y": 0.9,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b3_06",
+   "start": 355.73,
+   "end": 364.35,
+   "line": "Test four: fire. Jet fuel burns hot, so the box is blasted with flames of more than a thousand degrees Celsius for up to an hour.",
+   "scene": "Test 4: fire, 1,000+ \u00b0C for up to an hour",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.2,
+     "name": "flash",
+     "gain": -8
+    },
+    {
+     "at": 3.4,
+     "name": "riser",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "testlab",
+    "test": "fire",
+    "n": 4,
+    "name": "FIRE",
+    "hit": "blasted",
+    "ok": "hour",
+    "cam": {
+     "z": [
+      1.0,
+      1.06
+     ]
+    },
+    "ov": [
+     {
+      "k": "counter",
+      "to": 1100,
+      "at": "thousand",
+      "over": 0.8,
+      "prefix": "",
+      "suffix": " \u00b0C",
+      "x": 0.82,
+      "y": 0.2,
+      "size": 90,
+      "label": "1,000+ \u00b0C",
+      "color": "warn"
+     },
+     {
+      "k": "label",
+      "text": "UP TO AN HOUR",
+      "at": "hour",
+      "y": 0.9,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b3_07",
+   "start": 364.35,
+   "end": 374.27,
+   "line": "Test five: the deep ocean. It's held under pressure like the bottom of the sea, around six kilometers down, for a month, to prove the water and the pressure can't get in.",
+   "scene": "Test 5: deep-ocean pressure, ~6 km, a month",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "powerup",
+     "gain": -14
+    },
+    {
+     "at": 3.4,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "testlab",
+    "test": "deep",
+    "n": 5,
+    "name": "DEEP SEA",
+    "hit": 0.3,
+    "ok": "get",
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "ov": [
+     {
+      "k": "counter",
+      "to": 6000,
+      "at": "six",
+      "over": 1.0,
+      "suffix": " M",
+      "x": 0.84,
+      "y": 0.2,
+      "size": 80,
+      "label": "DEPTH EQUIVALENT",
+      "color": "accent"
+     },
+     {
+      "k": "label",
+      "text": "FOR A MONTH",
+      "at": "month",
+      "y": 0.9,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b3_08",
+   "start": 374.27,
+   "end": 385.09,
+   "line": "And there's more. It's soaked in jet fuel, hydraulic fluid, and fire-fighting chemicals, all the nasty liquids that can end up around a crash site, to make sure none of them can eat their way inside.",
+   "scene": "Test 6: soaked in jet fuel, hydraulic fluid, foam",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 2.6,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 4.0,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "testlab",
+    "test": "fluids",
+    "n": 6,
+    "name": "FLUIDS",
+    "hit": 0.2,
+    "ok": "inside",
+    "words": [
+     "jet",
+     "hydraulic",
+     "fire-fighting"
+    ],
+    "cam": {
+     "z": [
+      1.0,
+      1.0
+     ]
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b3_09",
+   "start": 385.09,
+   "end": 390.05,
+   "line": "Only if the memory inside still reads perfectly afterwards does the design pass.",
+   "scene": "Only if the memory reads perfectly does it pass",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 0.4,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 0.8,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 1.0,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 4.0,
+     "name": "ding",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "IMPACT",
+      "x": 0.2,
+      "y": 0.28,
+      "at": 0.1,
+      "size": 40
+     },
+     {
+      "k": "tick",
+      "x": 0.2,
+      "y": 0.4,
+      "at": 0.2,
+      "r": 36
+     },
+     {
+      "k": "text",
+      "s": "PIERCE",
+      "x": 0.35,
+      "y": 0.28,
+      "at": 0.3,
+      "size": 40
+     },
+     {
+      "k": "tick",
+      "x": 0.35,
+      "y": 0.4,
+      "at": 0.4,
+      "r": 36
+     },
+     {
+      "k": "text",
+      "s": "CRUSH",
+      "x": 0.5,
+      "y": 0.28,
+      "at": 0.5,
+      "size": 40
+     },
+     {
+      "k": "tick",
+      "x": 0.5,
+      "y": 0.4,
+      "at": 0.6,
+      "r": 36
+     },
+     {
+      "k": "text",
+      "s": "FIRE",
+      "x": 0.65,
+      "y": 0.28,
+      "at": 0.7,
+      "size": 40
+     },
+     {
+      "k": "tick",
+      "x": 0.65,
+      "y": 0.4,
+      "at": 0.8,
+      "r": 36
+     },
+     {
+      "k": "text",
+      "s": "DEEP SEA",
+      "x": 0.8,
+      "y": 0.28,
+      "at": 0.9,
+      "size": 40
+     },
+     {
+      "k": "tick",
+      "x": 0.8,
+      "y": 0.4,
+      "at": 1.0,
+      "r": 36
+     },
+     {
+      "k": "text",
+      "s": "MEMORY READS PERFECTLY?",
+      "x": 0.5,
+      "y": 0.62,
+      "at": "memory",
+      "size": 50,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "= DESIGN APPROVED",
+      "x": 0.5,
+      "y": 0.76,
+      "at": "pass",
+      "size": 56,
+      "color": "good",
+      "font": "title"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b3_10",
+   "start": 390.05,
+   "end": 400.83,
+   "line": "And remember my question? Even where they sit is part of the plan. The recorders are usually mounted near the tail, because in many crashes the back of the aircraft takes less of the impact than the front.",
+   "scene": "Remember the question? The tail.",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.2,
+     "name": "ding",
+     "gain": -8
+    },
+    {
+     "at": 6.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "REMEMBER MY QUESTION?",
+      "x": 0.5,
+      "y": 0.1,
+      "at": 0.1,
+      "size": 48,
+      "color": "cream"
+     },
+     {
+      "k": "plane",
+      "x": 0.5,
+      "y": 0.5,
+      "s": 0.95,
+      "at": 0
+     },
+     {
+      "k": "ring",
+      "x": 0.28,
+      "y": 0.48,
+      "r": 60,
+      "w": 6,
+      "at": "tail",
+      "color": "good"
+     },
+     {
+      "k": "text",
+      "s": "THE TAIL",
+      "x": 0.28,
+      "y": 0.68,
+      "at": "tail",
+      "size": 56,
+      "color": "good",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "FRONT TAKES MORE OF THE IMPACT",
+      "x": 0.72,
+      "y": 0.7,
+      "at": "impact",
+      "size": 32,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b3_11",
+   "start": 400.83,
+   "end": 414.13,
+   "line": "Inside, the technology changed too. Early recorders used metal foil and magnetic tape, with moving parts that could break. Modern ones store everything on solid-state memory chips, like a much tougher version of the memory in your phone.",
+   "scene": "Tape to chips",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 7.8,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "ring",
+      "x": 0.2,
+      "y": 0.5,
+      "r": 80,
+      "w": 8,
+      "at": "tape",
+      "color": "text"
+     },
+     {
+      "k": "ring",
+      "x": 0.36,
+      "y": 0.5,
+      "r": 80,
+      "w": 8,
+      "at": "tape",
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "FOIL + MAGNETIC TAPE",
+      "x": 0.28,
+      "y": 0.7,
+      "at": "tape",
+      "size": 32
+     },
+     {
+      "k": "text",
+      "s": "MOVING PARTS COULD BREAK",
+      "x": 0.28,
+      "y": 0.78,
+      "at": "moving",
+      "size": 28,
+      "color": "warn"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.47,
+      "y1": 0.5,
+      "x2": 0.58,
+      "y2": 0.5,
+      "at": "modern",
+      "w": 8,
+      "color": "gold"
+     },
+     {
+      "k": "box",
+      "x": 0.64,
+      "y": 0.38,
+      "w": 0.2,
+      "h": 0.24,
+      "at": "solid-state",
+      "fill": 0.4,
+      "color": "gold",
+      "label": "MEMORY CHIPS",
+      "labelColor": "#0b141c"
+     },
+     {
+      "k": "text",
+      "s": "SOLID-STATE",
+      "x": 0.74,
+      "y": 0.7,
+      "at": "solid-state",
+      "size": 36,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "INSIDE, THE TECH CHANGED",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 44,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b3_12",
+   "start": 414.13,
+   "end": 425.27,
+   "line": "And even when the outside of a box is badly damaged, investigators can often remove the memory board, clean it, and read it directly in the lab. The armor only has to protect a tiny thing.",
+   "scene": "Damaged box: pull the memory board and read it",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.0,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "recorder",
+      "x": 0.3,
+      "y": 0.5,
+      "s": 1.1,
+      "burnt": 1,
+      "at": 0.1
+     },
+     {
+      "k": "box",
+      "x": 0.56,
+      "y": 0.44,
+      "w": 0.1,
+      "h": 0.12,
+      "at": "remove",
+      "fill": 0.9,
+      "color": "gold",
+      "label": ""
+     },
+     {
+      "k": "arrow",
+      "x1": 0.68,
+      "y1": 0.5,
+      "x2": 0.8,
+      "y2": 0.5,
+      "at": "read",
+      "w": 8,
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "gauge",
+      "x": 0.88,
+      "y": 0.5,
+      "r": 50,
+      "at": "read",
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "BADLY DAMAGED",
+      "x": 0.3,
+      "y": 0.75,
+      "at": "damaged",
+      "size": 36,
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "READ IN THE LAB",
+      "x": 0.84,
+      "y": 0.7,
+      "at": "read",
+      "size": 34,
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "THE ARMOR PROTECTS A TINY THING",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "armor",
+      "size": 44,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b3_13",
+   "start": 425.27,
+   "end": 440.17,
+   "line": "For years, the cockpit voice recorder kept only the last two hours of sound, recording over the oldest audio again and again. Newer rules are pushing that to twenty-five hours, so investigators don't lose anything important that happened earlier in a long flight.",
+   "scene": "CVR: 2 hours, now 25 hours",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 8.0,
+     "name": "counter",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "COCKPIT VOICE RECORDER",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 48,
+      "color": "gold"
+     },
+     {
+      "k": "bar",
+      "x": 0.1,
+      "y": 0.38,
+      "w": 0.8,
+      "f": 0.08,
+      "at": "two",
+      "color": "text",
+      "label": "FOR YEARS",
+      "value": "2 HOURS"
+     },
+     {
+      "k": "text",
+      "s": "RECORDING OVER THE OLDEST AUDIO",
+      "x": 0.1,
+      "y": 0.48,
+      "at": "recording",
+      "size": 28,
+      "align": "left"
+     },
+     {
+      "k": "bar",
+      "x": 0.1,
+      "y": 0.66,
+      "w": 0.8,
+      "f": 1,
+      "at": "twenty-five",
+      "over": 1.4,
+      "color": "gold",
+      "label": "NEWER RULES",
+      "value": "25 HOURS"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b3_14",
+   "start": 440.17,
+   "end": 455.75,
+   "line": "Another lesson came from accidents where the plane's electrical power failed, and the recorders went silent at exactly the wrong moment. Many newer cockpit recorders now carry their own small backup power supply, so they keep recording for around ten minutes after the plane's power is lost.",
+   "scene": "Backup power: ~10 more minutes",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 9.4,
+     "name": "powerup",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.1,
+        0.5
+       ],
+       [
+        0.4,
+        0.5
+       ]
+      ],
+      "w": 8,
+      "at": 0.1,
+      "color": "text"
+     },
+     {
+      "k": "x",
+      "x": 0.44,
+      "y": 0.5,
+      "at": "failed",
+      "r": 40
+     },
+     {
+      "k": "text",
+      "s": "POWER LOST",
+      "x": 0.3,
+      "y": 0.4,
+      "at": "failed",
+      "size": 36,
+      "color": "warn"
+     },
+     {
+      "k": "recorder",
+      "x": 0.68,
+      "y": 0.5,
+      "s": 0.9,
+      "at": 0.1
+     },
+     {
+      "k": "icon",
+      "name": "bolt",
+      "x": 0.68,
+      "y": 0.78,
+      "r": 40,
+      "at": "backup",
+      "color": "gold",
+      "ring": false
+     },
+     {
+      "k": "text",
+      "s": "~10 MIN BACKUP",
+      "x": 0.68,
+      "y": 0.9,
+      "at": "ten",
+      "size": 40,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "SILENT AT THE WRONG MOMENT",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "silent",
+      "size": 40,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b3_15",
+   "start": 455.75,
+   "end": 467.13,
+   "line": "There's one more piece. Bolted to each recorder is a small beacon. If it lands in water, it switches on and starts sending out a high-pitched ping, once every second, so search teams can hear it.",
+   "scene": "The underwater locator beacon pings",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.2,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 5.2,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 6.2,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 7.2,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 8.2,
+     "name": "blip",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "deep",
+    "from": 3000,
+    "to": 3200,
+    "floor": true,
+    "floorY": 0.8,
+    "boxes": [
+     {
+      "x": 0.45,
+      "y": 0.76,
+      "s": 0.95,
+      "rot": 0.1,
+      "ping": true
+     }
+    ],
+    "lamp": true,
+    "cam": {
+     "z": [
+      1.0,
+      1.08
+     ],
+     "y": [
+      0,
+      -40
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "UNDERWATER LOCATOR BEACON",
+      "at": "beacon",
+      "y": 0.12,
+      "color": "accent",
+      "size": 48
+     },
+     {
+      "k": "label",
+      "text": "PING... ONCE A SECOND",
+      "at": "ping",
+      "y": 0.2,
+      "color": "cream",
+      "size": 40
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b3_16",
+   "start": 467.13,
+   "end": 474.51,
+   "line": "But that beacon runs on a battery. And for one flight, that battery ran out long before anyone found it.",
+   "scene": "But the battery ran out",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "clock",
+     "gain": -14
+    },
+    {
+     "at": 5.0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "recorder",
+      "x": 0.32,
+      "y": 0.5,
+      "s": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "bar",
+      "x": 0.55,
+      "y": 0.5,
+      "w": 0.35,
+      "f0": 1,
+      "f": 0.03,
+      "at": "battery",
+      "over": 4,
+      "color": "warn",
+      "label": "BEACON BATTERY"
+     },
+     {
+      "k": "text",
+      "s": "...RAN OUT",
+      "x": 0.72,
+      "y": 0.7,
+      "at": "ran",
+      "size": 56,
+      "color": "warn",
+      "font": "title"
      }
     ]
    },

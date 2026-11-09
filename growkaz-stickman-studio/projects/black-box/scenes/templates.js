@@ -247,6 +247,7 @@ T.deep = (g, t, info, p, cam) => {
   if (p.floor) { const FY = Y(p.floorY ?? 0.78); g.fillStyle = linGrad(g, 0, FY - 40, 0, E.H, ['#1a2a2e', '#0a1214']); g.beginPath(); g.moveTo(-E.W, E.H * 2); for (let x = -E.W; x <= E.W * 2; x += 30) g.lineTo(x, FY + Math.sin(x / 210) * 24 + Math.sin(x / 67) * 8); g.lineTo(E.W * 2, E.H * 2); g.fill();
     if (p.debris) { const r2 = rng(4); for (let i = 0; i < p.debris; i++) { const x = r2() * E.W, y = FY + 10 + r2() * 80; g.save(); g.translate(x, y); g.rotate(r2() * 3); rr(g, -30, -6, 60 + r2() * 60, 12, 3); g.fillStyle = '#3a4a50'; g.fill(); g.restore(); } } }
   if (p.lamp) for (const b of p.boxes || []) glow(g, X(b.x), Y(b.y), 320 * (b.s ?? 0.6) / 0.6, '#9ad8f0', 0.28);
+  for (const b of p.boxes || []) if (b.ping) FX.rings(g, X(b.x) + 160 * (b.s ?? 0.6), Y(b.y) - 30 * (b.s ?? 0.6), t, { count: 4, r0: 20, r1: 420, speed: 0.6, color: '#9af2ff', a: 0.5, w: 3 });
   for (const b of p.boxes || []) { const lift = b.lift != null ? ease.inOut(prog(t, at(b.lift, info, 1), at(b.lift, info, 1) + 3)) : 0; recorder(g, X(b.x), Y(b.y) - lift * Y(0.5), b.s ?? 0.6, { burnt: b.burnt ?? 0.3, ping: b.ping ? 0.5 + 0.5 * Math.sin(t * 6) : 0, rot: b.rot ?? 0.15 }); }
   if (p.auv) { const a = p.auv, u = ease.inOut(prog(t, at(a.a, info, 0), at(a.b, info, info.dur))), x = X(lerp(a.x ?? -0.1, a.x1 ?? 1.1, u)), y = Y(a.y ?? 0.45);
     if (a.sonar !== false) { g.save(); g.globalCompositeOperation = 'lighter'; g.fillStyle = linGrad(g, 0, y, 0, Y(0.8), ['rgba(120,240,255,.25)', 'rgba(120,240,255,0)']); g.beginPath(); g.moveTo(x, y + 20); g.lineTo(x - 260, Y(0.82)); g.lineTo(x + 260, Y(0.82)); g.closePath(); g.fill(); g.restore(); }
@@ -272,6 +273,31 @@ T.lab = (g, t, info, p, cam) => {
       if (p.recorder) recorder(g, CX + 160, GY - 200, 0.55, { rot: 0 }); } });
   layer(g, cam, 1, (g) => (p.figs || []).forEach((f, i) => drawFigure(g, { x: X(f.x), y: GY + (f.dy ?? 0), s: f.s ?? s, facing: f.facing ?? 1, outfit: WHO[f.who] || WHO.EXTRA, pose: breathe(POSES[f.pose || 'stand'] || POSES.stand, t, 1, i + 3), expr: exprAt(f.expr, t), look: f.look, prop: f.prop, rim: { color: M.rim, dir: [0.8, -0.6] } })));
   FX.dust(g, t, { count: 30, color: '#ffe2bd', a: 0.25 });
+};
+// test lab: p {test: impact|pierce|crush|fire|deep|fluids, n, name, hit (at)}
+T.testlab = (g, t, info, p, cam) => {
+  const M = mood('interiorCool'), GY = Y(0.8), cx = X(0.5), cy = Y(0.56), th = at(p.hit, info, 1.2), after = t > th, k = clamp((t - th) / 0.5);
+  const [sx, sy] = after && (p.test === 'impact' || p.test === 'pierce') ? shake(t, 14 * (1 - prog(t, th, th + 0.8)), 30) : [0, 0];
+  g.save(); g.translate(sx, sy); const cz = cam.z; g.translate(E.W / 2, E.H / 2); g.scale(cz, cz); g.translate(-E.W / 2 + cam.x, -E.H / 2 + cam.y);
+  backdrop(g, [shade(M.dark, -0.3), shade(M.wall, -0.25), shade(M.dark, -0.2)]); for (let i = -2; i < 12; i++) { rr(g, i * 220, Y(0.08), 200, GY - Y(0.1), 6); g.fillStyle = alpha('#ffffff', 0.025); g.fill(); }
+  FX.lightCone(g, cx, -20, { len: E.H, spread: 0.6, a: 0.12, color: '#e8fbff' });
+  g.fillStyle = linGrad(g, 0, GY, 0, E.H, ['#1a2830', '#0a1014']); g.fillRect(-E.W, GY, E.W * 3, E.H); for (let x = -40; x < E.W + 40; x += 80) poly(g, [[x, GY], [x + 40, GY], [x + 10, GY + 24], [x - 30, GY + 24]], alpha('#e8c23a', 0.45));
+  rr(g, X(0.04), Y(0.06), 420, 80, 12); g.fillStyle = 'rgba(8,24,34,.92)'; g.fill(); g.strokeStyle = '#e8c23a'; g.lineWidth = 3; g.stroke(); text(g, p.plate || ('TEST ' + (p.n || 1) + ': ' + (p.name || '')), X(0.04) + 210, Y(0.06) + 42, { size: 40, color: '#e8c23a', font: FONTS.ui, weight: 900 });
+  let bx = cx, by = cy, rot = 0, burnt = 0;
+  if (p.test === 'impact') { const u = ease.in(prog(t, th - 0.6, th)); bx = lerp(X(-0.15), X(0.74), u); rr(g, X(0.8), Y(0.12), 90, GY - Y(0.12), 6); g.fillStyle = '#4a5a64'; g.fill(); for (let i = 0; i < 8; i++) seg(g, [[X(0.8), Y(0.15) + i * 80], [X(0.8) + 90, Y(0.2) + i * 80]], 3, alpha('#000', 0.3));
+    if (!after) FX.speedLines(g, t, { cx: bx, cy, count: 30, a: 0.25 }); else { glow(g, X(0.78), cy, 300, '#ffffff', 0.6 * (1 - k)); FX.rings(g, X(0.78), cy, t - th, { count: 3, r0: 40, r1: 400, speed: 1.6, color: '#ffffff', a: 0.6 * (1 - k) }); } rot = after ? -0.08 : 0; }
+  if (p.test === 'pierce') { const u = ease.in(prog(t, th - 0.7, th)), py = lerp(-Y(0.4), cy - 240, u); rr(g, cx - 26, py - 600, 52, 600, 8); g.fillStyle = '#9aa8b0'; g.fill(); poly(g, [[cx - 26, py], [cx + 26, py], [cx, py + 60]], '#c8d4dc'); rr(g, cx - 60, py - 640, 120, 60, 8); g.fillStyle = '#5a6a74'; g.fill(); if (after) FX.rings(g, cx, cy - 60, t - th, { count: 2, r0: 30, r1: 260, speed: 1.6, color: '#ffffff', a: 0.6 * (1 - k) }); }
+  if (p.test === 'crush') { const u = ease.inOut(prog(t, 0.3, th)), gap = lerp(Y(0.42), 150, u); rr(g, cx - 380, cy - gap - 120, 760, 120, 10); g.fillStyle = '#5a6a74'; g.fill(); rr(g, cx - 380, cy + gap - 20, 760, 120, 10); g.fillStyle = '#5a6a74'; g.fill(); seg(g, [[cx, cy - gap - 120], [cx, -100]], 60, '#3a4a54'); for (const dx of [-250, 250]) { const ay = cy - gap - 170; poly(g, [[cx + dx, ay + 40], [cx + dx - 26, ay], [cx + dx + 26, ay]], '#e8c23a'); } }
+  if (p.test === 'fire') { const f = ease.out(prog(t, th - 0.3, th + 0.6)); glow(g, cx, cy, 600, '#ff7a20', 0.5 * f); burnt = 0.6 * f;
+    for (let i = 0; i < 26; i++) { const fx = cx - 340 + i * 27, h = (140 + Math.sin(t * 9 + i * 1.7) * 60 + Math.sin(t * 23 + i) * 30) * f, fy = cy + 120; g.fillStyle = i % 3 ? alpha('#ff8a1f', 0.85) : alpha('#ffd040', 0.9); g.beginPath(); g.moveTo(fx - 22, fy); g.quadraticCurveTo(fx - 18, fy - h * 0.6, fx + Math.sin(t * 7 + i) * 14, fy - h); g.quadraticCurveTo(fx + 18, fy - h * 0.6, fx + 22, fy); g.fill(); } }
+  if (p.test === 'deep') { rr(g, cx - 380, Y(0.16), 760, GY - Y(0.16), 30); g.fillStyle = alpha('#1e5a78', 0.55); g.fill(); g.strokeStyle = '#c8d4dc'; g.lineWidth = 8; g.stroke(); rr(g, cx - 400, Y(0.12), 800, 60, 14); g.fillStyle = '#5a6a74'; g.fill(); const r = rng(5); for (let i = 0; i < 30; i++) circle(g, cx - 340 + r() * 680, GY - ((t * 60 + r() * 600) % (GY - Y(0.2))), 4 + r() * 6, alpha('#cfe8f0', 0.5)); }
+  if (p.test === 'fluids') { const cols = ['#c8a020', '#c84a8a', '#e8eef0'], names = ['JET FUEL', 'HYDRAULIC FLUID', 'EXTINGUISHER FOAM'], ws = (p.words || []).map((w2, i) => at(w2, info, 1 + i * 1.5)); let cur = -1; ws.forEach((w2, i) => { if (t > w2) cur = i; });
+    for (let i = 0; i < 3; i++) { const tx = X(0.2 + i * 0.3); rr(g, tx - 200, Y(0.5), 400, GY - Y(0.5), 20); g.fillStyle = alpha(cols[i], 0.5); g.fill(); g.strokeStyle = '#c8d4dc'; g.lineWidth = 5; g.stroke(); text(g, names[i], tx, GY + 60, { size: 32, color: cols[i], font: FONTS.ui, weight: 900 }); }
+    bx = cur >= 0 ? X(0.2 + cur * 0.3) : X(0.2); by = cur >= 0 ? Y(0.68) + Math.sin(t * 2) * 10 : Y(0.32); }
+  recorder(g, bx, by, p.test === 'fluids' ? 0.75 : 1.1, { rot, burnt });
+  if (p.test === 'deep') { rr(g, cx - 380, Y(0.16), 760, GY - Y(0.16), 30); g.fillStyle = alpha('#3a8ab0', 0.25); g.fill(); }
+  if (after && p.ok) { const pp = ease.outBack(prog(t, at(p.ok, info, th + 1), at(p.ok, info, th + 1) + 0.3)); if (pp > 0) { g.save(); g.translate(X(0.86), Y(0.2)); g.scale(pp, pp); circle(g, 0, 0, 70, S().ui.good); icon(g, 'check', 0, 0, 44, '#0b141c'); g.restore(); } }
+  g.restore();
 };
 // inserts: close-up objects. p.obj = pitot | tire | window | meal | tail
 T.insert = (g, t, info, p, cam) => {
