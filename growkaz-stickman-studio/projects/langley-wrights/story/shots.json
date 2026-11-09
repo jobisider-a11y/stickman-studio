@@ -1,0 +1,610 @@
+{
+ "title": "The Flying Machine That Lost to Two Bike Mechanics",
+ "duration": 72.1,
+ "shots": [
+  {
+   "id": "w01",
+   "start": 0.0,
+   "end": 2.4,
+   "line": "December eighth, nineteen-oh-three.",
+   "scene": "Date card DEC 8, 1903 over a freezing dusk river",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w02",
+   "start": 2.4,
+   "end": 4.75,
+   "line": "A freezing river in Washington, D.C.",
+   "scene": "Wide: icy Potomac at dusk, ice floes, Capitol dome far away",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w03",
+   "start": 4.75,
+   "end": 9.3,
+   "line": "A giant flying machine sits on a catapult, on top of a houseboat.",
+   "scene": "Houseboat with Langley's giant tandem-wing Aerodrome on the catapult, crowd on the bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w04",
+   "start": 9.3,
+   "end": 12.8,
+   "line": "Its creator is Samuel Langley, head of the Smithsonian.",
+   "scene": "Langley (trench + fedora) on the riverbank, arms crossed, name label",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w05",
+   "start": 12.8,
+   "end": 16.0,
+   "line": "The U.S. Army has given him fifty thousand dollars.",
+   "scene": "Card: U.S. ARMY grant counter to $50,000",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 2.4,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w06",
+   "start": 16.0,
+   "end": 19.6,
+   "line": "The whole country expects him to build the first airplane.",
+   "scene": "Crowd on the bank cheers, newspaper spins in 'WILL MAN FLY?'",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 1.0,
+     "name": "cheer",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "w07",
+   "start": 19.6,
+   "end": 21.2,
+   "line": "The catapult fires.",
+   "scene": "Insert: catapult fires, speed lines",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -6
+    },
+    {
+     "at": 0.35,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w08",
+   "start": 21.2,
+   "end": 24.75,
+   "line": "The machine snaps apart and plunges straight into the Potomac.",
+   "scene": "Aerodrome snaps apart and plunges into the river, splash",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 1.6,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w09",
+   "start": 24.75,
+   "end": 28.35,
+   "line": "Its pilot is dragged from the icy water, lucky to be alive.",
+   "scene": "bigFace pilot (Manly) gasping, water drops",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w10",
+   "start": 28.35,
+   "end": 31.1,
+   "line": "It was Langley's second crash in two months.",
+   "scene": "Card: two crashes OCT 7 and DEC 8, X marks",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 1.2,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w11",
+   "start": 31.1,
+   "end": 34.9,
+   "line": "After the first one, the New York Times predicted a real flying machine might",
+   "scene": "Newspaper editorial spins in: 'flying machines which do not fly'",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w12",
+   "start": 34.9,
+   "end": 37.4,
+   "line": "take one to ten million years.",
+   "scene": "Counter spins to 10,000,000 YEARS",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 1.6,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w13",
+   "start": 37.4,
+   "end": 39.3,
+   "line": "It took nine days.",
+   "scene": "Calendar flips 8 -> 17: 9 DAYS",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -10
+    },
+    {
+     "at": 1.0,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w14",
+   "start": 39.3,
+   "end": 42.5,
+   "line": "On December seventeenth, at Kitty Hawk, two bicycle mechanics",
+   "scene": "Kitty Hawk dunes establishing, windy, Flyer on its rail",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w15",
+   "start": 42.5,
+   "end": 45.7,
+   "line": "from Dayton, Ohio, flew for twelve seconds.",
+   "scene": "Wright Flyer lifts off, Wilbur runs alongside, 12 SEC timer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 1.8,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w16",
+   "start": 45.7,
+   "end": 47.4,
+   "line": "Orville and Wilbur Wright.",
+   "scene": "Two-shot: Orville and Wilbur on the dunes, names",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w17",
+   "start": 47.4,
+   "end": 51.55,
+   "line": "No government money. By most accounts, they spent less than a thousand dollars.",
+   "scene": "Compare bars: LANGLEY $50,000 vs WRIGHTS < $1,000",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.2,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w18",
+   "start": 51.55,
+   "end": 53.1,
+   "line": "But the story didn't end there.",
+   "scene": "BUT... line",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w19",
+   "start": 53.1,
+   "end": 56.4,
+   "line": "Years later, the Smithsonian modified Langley's machine,",
+   "scene": "1914: rebuilt Aerodrome hops off a lake on pontoons",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 2.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "w20",
+   "start": 56.4,
+   "end": 59.3,
+   "line": "flew it, and claimed it could have flown first.",
+   "scene": "Museum hall: Langley's machine on display, glowing sign 'FIRST?'",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "w21",
+   "start": 59.3,
+   "end": 61.3,
+   "line": "The Wrights were furious.",
+   "scene": "bigFace Orville furious",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w22",
+   "start": 61.3,
+   "end": 64.3,
+   "line": "Orville sent their original airplane to a museum in London.",
+   "scene": "Map: crate ships the Flyer across the ocean to LONDON",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 2.3,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w23",
+   "start": 64.3,
+   "end": 67.65,
+   "line": "It didn't come home to America until nineteen forty-eight.",
+   "scene": "Years spin to 1948, the Flyer comes home to the museum",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 2.6,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "w24",
+   "start": 67.65,
+   "end": 69.6,
+   "line": "Would you have bet on the bike mechanics?",
+   "scene": "Split: Langley vs the Wright brothers, '?'",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "w25",
+   "start": 69.6,
+   "end": 72.1,
+   "line": "Follow for more.",
+   "scene": "End card FOLLOW FOR MORE",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [],
+ "sfx": []
+}

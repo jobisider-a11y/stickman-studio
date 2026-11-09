@@ -1,0 +1,26 @@
+{
+ "title": "The Truth About Turbulence",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "arctic",
+ "voiceover": "input/voiceover.mp3",
+ "script": "input/script.txt",
+ "duration": 49.946,
+ "captions": true,
+ "bars": null,
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": false
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "captionStyle": {
+  "hi": "#3de0ff",
+  "size": 82
+ }
+}

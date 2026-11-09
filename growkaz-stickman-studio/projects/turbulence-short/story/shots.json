@@ -1,0 +1,559 @@
+{
+ "title": "The Truth About Turbulence",
+ "duration": 51.4,
+ "shots": [
+  {
+   "id": "t01",
+   "start": 0.0,
+   "end": 2.1,
+   "line": "Your plane suddenly drops.",
+   "scene": "Cabin shakes hard, PAX gripping armrests",
+   "set": "cabin",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t02",
+   "start": 2.1,
+   "end": 3.2,
+   "line": "Drinks jump.",
+   "scene": "Insert: cup jumps off the tray table, droplets in the air",
+   "set": "cabin",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 0.4,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t03",
+   "start": 3.2,
+   "end": 5.0,
+   "line": "Your stomach lurches.",
+   "scene": "bigFace PAX shocked, camera shake",
+   "set": "cabin",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t04",
+   "start": 5.0,
+   "end": 6.95,
+   "line": "Here's what's really going on.",
+   "scene": "Title: THE TRUTH ABOUT TURBULENCE over plane above clouds",
+   "set": "sky",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "t05",
+   "start": 6.95,
+   "end": 9.9,
+   "line": "Turbulence is just air moving at different speeds, like",
+   "scene": "Blueprint: air streams at different speeds, plane bumps over them",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "zoom",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 2.0,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "t06",
+   "start": 9.9,
+   "end": 11.85,
+   "line": "a boat crossing choppy water.",
+   "scene": "Little boat bobbing on choppy dusk water",
+   "set": "sea",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "t07",
+   "start": 11.85,
+   "end": 16.4,
+   "line": "Rising heat, mountains, storms, and those fast jet streams all stir it up.",
+   "scene": "Blueprint icons stack: HEAT, MOUNTAINS, STORMS, JET STREAMS",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 2.7,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "t08",
+   "start": 16.4,
+   "end": 18.4,
+   "line": "And your plane is built for it.",
+   "scene": "3D: low-poly airliner flies steady over cloud sea",
+   "set": "3d",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 1.0,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "t09",
+   "start": 18.4,
+   "end": 22.6,
+   "line": "Airliners are designed to handle at least two and a half times the force of gravity.",
+   "scene": "Blueprint G-meter fills to 2.5 G",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "counter",
+     "gain": -16
+    },
+    {
+     "at": 3.4,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "t10",
+   "start": 22.6,
+   "end": 26.0,
+   "line": "Then engineers add a fifty percent safety margin on top.",
+   "scene": "+50% safety block stacks on top: = 3.75 G",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 2.4,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "t11",
+   "start": 26.0,
+   "end": 29.7,
+   "line": "In one famous test, engineers bent a Boeing seven-seven-seven's",
+   "scene": "Hangar front view: test rig bends a wide-body's wings upward",
+   "set": "hangar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t12",
+   "start": 29.7,
+   "end": 33.4,
+   "line": "wings upward about seven meters before they finally snapped.",
+   "scene": "Wings at max bend, 7 M dimension, SNAP flash",
+   "set": "hangar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.1,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 2.95,
+     "name": "impact",
+     "gain": -4
+    },
+    {
+     "at": 3.0,
+     "name": "glitch",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t13",
+   "start": 33.4,
+   "end": 36.25,
+   "line": "That's far beyond what turbulence should ever do.",
+   "scene": "Compare bars: TURBULENCE small vs WING LIMIT huge",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.2,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "t14",
+   "start": 36.25,
+   "end": 38.35,
+   "line": "So what actually gets hurt?",
+   "scene": "bigFace PAX thinking, glowing ?",
+   "set": "cabin",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t15",
+   "start": 38.35,
+   "end": 39.15,
+   "line": "People.",
+   "scene": "PEOPLE. slams in",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "impact",
+     "gain": -6
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "t16",
+   "start": 39.15,
+   "end": 42.7,
+   "line": "Most turbulence injuries happen to people who aren't wearing a seatbelt.",
+   "scene": "FREEZE: unbuckled passenger floats off seat, PAX buckled stays put",
+   "set": "cabin",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "freeze",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t17",
+   "start": 42.7,
+   "end": 45.15,
+   "line": "So next time that seatbelt sign dings,",
+   "scene": "Seatbelt sign lights up and dings",
+   "set": "cabin",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.75,
+     "name": "ding",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t18",
+   "start": 45.15,
+   "end": 46.0,
+   "line": "buckle up.",
+   "scene": "Insert: buckle clicks shut",
+   "set": "cabin",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 0.25,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t19",
+   "start": 46.0,
+   "end": 47.4,
+   "line": "The plane can handle it.",
+   "scene": "Plane rides through bumps steadily, sunlit",
+   "set": "sky",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "t20",
+   "start": 47.4,
+   "end": 48.9,
+   "line": "Make sure you can too.",
+   "scene": "bigFace PAX smirk, buckled",
+   "set": "cabin",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "t21",
+   "start": 48.9,
+   "end": 51.4,
+   "line": "Follow for more.",
+   "scene": "End: FOLLOW FOR MORE, cast lined up",
+   "set": "end",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [],
+ "sfx": []
+}

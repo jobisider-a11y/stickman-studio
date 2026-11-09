@@ -1,0 +1,2865 @@
+{
+ "source": "whisper:small.en+script",
+ "words": [
+  {
+   "word": "Right",
+   "start": 0.0,
+   "end": 0.26
+  },
+  {
+   "word": "now,",
+   "start": 0.26,
+   "end": 0.62
+  },
+  {
+   "word": "outside",
+   "start": 0.88,
+   "end": 1.14
+  },
+  {
+   "word": "the",
+   "start": 1.14,
+   "end": 1.4
+  },
+  {
+   "word": "window",
+   "start": 1.4,
+   "end": 1.62
+  },
+  {
+   "word": "of",
+   "start": 1.62,
+   "end": 1.92
+  },
+  {
+   "word": "almost",
+   "start": 1.92,
+   "end": 2.22
+  },
+  {
+   "word": "every",
+   "start": 2.22,
+   "end": 2.74
+  },
+  {
+   "word": "airliner",
+   "start": 2.74,
+   "end": 3.12
+  },
+  {
+   "word": "in",
+   "start": 3.12,
+   "end": 3.38
+  },
+  {
+   "word": "the",
+   "start": 3.38,
+   "end": 3.48
+  },
+  {
+   "word": "sky,",
+   "start": 3.48,
+   "end": 3.78
+  },
+  {
+   "word": "the",
+   "start": 4.16,
+   "end": 4.26
+  },
+  {
+   "word": "air",
+   "start": 4.26,
+   "end": 4.46
+  },
+  {
+   "word": "is",
+   "start": 4.46,
+   "end": 4.68
+  },
+  {
+   "word": "around",
+   "start": 4.68,
+   "end": 4.92
+  },
+  {
+   "word": "minus",
+   "start": 4.92,
+   "end": 5.32
+  },
+  {
+   "word": "fifty-five",
+   "start": 5.32,
+   "end": 6.0
+  },
+  {
+   "word": "degrees",
+   "start": 6.0,
+   "end": 6.34
+  },
+  {
+   "word": "Celsius.",
+   "start": 6.34,
+   "end": 6.74
+  },
+  {
+   "word": "It's",
+   "start": 7.36,
+   "end": 7.64
+  },
+  {
+   "word": "so",
+   "start": 7.64,
+   "end": 7.92
+  },
+  {
+   "word": "thin",
+   "start": 7.92,
+   "end": 8.28
+  },
+  {
+   "word": "that",
+   "start": 8.28,
+   "end": 8.54
+  },
+  {
+   "word": "without",
+   "start": 8.54,
+   "end": 8.78
+  },
+  {
+   "word": "oxygen,",
+   "start": 8.78,
+   "end": 9.26
+  },
+  {
+   "word": "you'd",
+   "start": 9.46,
+   "end": 9.64
+  },
+  {
+   "word": "have",
+   "start": 9.64,
+   "end": 9.78
+  },
+  {
+   "word": "well",
+   "start": 9.78,
+   "end": 10.1
+  },
+  {
+   "word": "under",
+   "start": 10.1,
+   "end": 10.4
+  },
+  {
+   "word": "a",
+   "start": 10.4,
+   "end": 10.6
+  },
+  {
+   "word": "minute",
+   "start": 10.6,
+   "end": 10.8
+  },
+  {
+   "word": "of",
+   "start": 10.8,
+   "end": 11.04
+  },
+  {
+   "word": "useful",
+   "start": 11.04,
+   "end": 11.32
+  },
+  {
+   "word": "consciousness.",
+   "start": 11.32,
+   "end": 11.88
+  },
+  {
+   "word": "And",
+   "start": 12.54,
+   "end": 12.66
+  },
+  {
+   "word": "yet,",
+   "start": 12.66,
+   "end": 12.9
+  },
+  {
+   "word": "this",
+   "start": 13.26,
+   "end": 13.46
+  },
+  {
+   "word": "is",
+   "start": 13.46,
+   "end": 13.7
+  },
+  {
+   "word": "exactly",
+   "start": 13.7,
+   "end": 14.16
+  },
+  {
+   "word": "where",
+   "start": 14.16,
+   "end": 14.54
+  },
+  {
+   "word": "pilots",
+   "start": 14.54,
+   "end": 14.82
+  },
+  {
+   "word": "want",
+   "start": 14.82,
+   "end": 15.12
+  },
+  {
+   "word": "to",
+   "start": 15.12,
+   "end": 15.3
+  },
+  {
+   "word": "be.",
+   "start": 15.3,
+   "end": 15.54
+  },
+  {
+   "word": "Thirty-five",
+   "start": 15.54,
+   "end": 16.42
+  },
+  {
+   "word": "thousand",
+   "start": 16.42,
+   "end": 17.3
+  },
+  {
+   "word": "feet.",
+   "start": 17.3,
+   "end": 17.58
+  },
+  {
+   "word": "About",
+   "start": 18.1,
+   "end": 18.2
+  },
+  {
+   "word": "ten",
+   "start": 18.2,
+   "end": 18.48
+  },
+  {
+   "word": "and",
+   "start": 18.48,
+   "end": 18.58
+  },
+  {
+   "word": "a",
+   "start": 18.58,
+   "end": 18.7
+  },
+  {
+   "word": "half",
+   "start": 18.7,
+   "end": 18.86
+  },
+  {
+   "word": "kilometers",
+   "start": 18.86,
+   "end": 19.26
+  },
+  {
+   "word": "up.",
+   "start": 19.26,
+   "end": 19.66
+  },
+  {
+   "word": "Higher",
+   "start": 20.06,
+   "end": 20.22
+  },
+  {
+   "word": "than",
+   "start": 20.22,
+   "end": 20.48
+  },
+  {
+   "word": "Mount",
+   "start": 20.48,
+   "end": 20.6
+  },
+  {
+   "word": "Everest,",
+   "start": 20.6,
+   "end": 20.98
+  },
+  {
+   "word": "by",
+   "start": 20.98,
+   "end": 21.34
+  },
+  {
+   "word": "more",
+   "start": 21.34,
+   "end": 21.6
+  },
+  {
+   "word": "than",
+   "start": 21.6,
+   "end": 21.78
+  },
+  {
+   "word": "a",
+   "start": 21.78,
+   "end": 21.94
+  },
+  {
+   "word": "mile.",
+   "start": 21.94,
+   "end": 22.22
+  },
+  {
+   "word": "It's",
+   "start": 22.76,
+   "end": 22.96
+  },
+  {
+   "word": "the",
+   "start": 22.96,
+   "end": 23.1
+  },
+  {
+   "word": "number",
+   "start": 23.1,
+   "end": 23.28
+  },
+  {
+   "word": "your",
+   "start": 23.28,
+   "end": 23.5
+  },
+  {
+   "word": "captain",
+   "start": 23.5,
+   "end": 23.72
+  },
+  {
+   "word": "announces",
+   "start": 23.72,
+   "end": 24.18
+  },
+  {
+   "word": "on",
+   "start": 24.18,
+   "end": 24.5
+  },
+  {
+   "word": "flight",
+   "start": 24.5,
+   "end": 24.86
+  },
+  {
+   "word": "after",
+   "start": 24.86,
+   "end": 25.2
+  },
+  {
+   "word": "flight.",
+   "start": 25.2,
+   "end": 25.58
+  },
+  {
+   "word": "But",
+   "start": 26.04,
+   "end": 26.24
+  },
+  {
+   "word": "why",
+   "start": 26.24,
+   "end": 26.46
+  },
+  {
+   "word": "there?",
+   "start": 26.46,
+   "end": 26.8
+  },
+  {
+   "word": "Why",
+   "start": 27.28,
+   "end": 27.44
+  },
+  {
+   "word": "not",
+   "start": 27.44,
+   "end": 27.62
+  },
+  {
+   "word": "lower,",
+   "start": 27.62,
+   "end": 27.9
+  },
+  {
+   "word": "where",
+   "start": 27.9,
+   "end": 28.24
+  },
+  {
+   "word": "the",
+   "start": 28.24,
+   "end": 28.36
+  },
+  {
+   "word": "air",
+   "start": 28.36,
+   "end": 28.52
+  },
+  {
+   "word": "is",
+   "start": 28.52,
+   "end": 28.68
+  },
+  {
+   "word": "warm",
+   "start": 28.68,
+   "end": 28.98
+  },
+  {
+   "word": "and",
+   "start": 28.98,
+   "end": 29.2
+  },
+  {
+   "word": "thick?",
+   "start": 29.2,
+   "end": 29.5
+  },
+  {
+   "word": "Or",
+   "start": 29.5,
+   "end": 30.06
+  },
+  {
+   "word": "higher,",
+   "start": 30.06,
+   "end": 30.4
+  },
+  {
+   "word": "where",
+   "start": 30.66,
+   "end": 30.72
+  },
+  {
+   "word": "it's",
+   "start": 30.72,
+   "end": 30.86
+  },
+  {
+   "word": "even",
+   "start": 30.86,
+   "end": 31.02
+  },
+  {
+   "word": "emptier?",
+   "start": 31.02,
+   "end": 31.46
+  },
+  {
+   "word": "The",
+   "start": 31.96,
+   "end": 32.16
+  },
+  {
+   "word": "answer",
+   "start": 32.16,
+   "end": 32.46
+  },
+  {
+   "word": "is",
+   "start": 32.46,
+   "end": 32.84
+  },
+  {
+   "word": "a",
+   "start": 32.84,
+   "end": 32.98
+  },
+  {
+   "word": "balancing",
+   "start": 32.98,
+   "end": 33.34
+  },
+  {
+   "word": "act.",
+   "start": 33.34,
+   "end": 33.7
+  },
+  {
+   "word": "And",
+   "start": 33.94,
+   "end": 34.1
+  },
+  {
+   "word": "once",
+   "start": 34.1,
+   "end": 34.26
+  },
+  {
+   "word": "you",
+   "start": 34.26,
+   "end": 34.42
+  },
+  {
+   "word": "see",
+   "start": 34.42,
+   "end": 34.62
+  },
+  {
+   "word": "it,",
+   "start": 34.62,
+   "end": 34.86
+  },
+  {
+   "word": "you'll",
+   "start": 35.04,
+   "end": 35.18
+  },
+  {
+   "word": "never",
+   "start": 35.18,
+   "end": 35.46
+  },
+  {
+   "word": "hear",
+   "start": 35.46,
+   "end": 35.66
+  },
+  {
+   "word": "that",
+   "start": 35.66,
+   "end": 35.88
+  },
+  {
+   "word": "announcement",
+   "start": 35.88,
+   "end": 36.28
+  },
+  {
+   "word": "the",
+   "start": 36.28,
+   "end": 36.52
+  },
+  {
+   "word": "same",
+   "start": 36.52,
+   "end": 36.78
+  },
+  {
+   "word": "way",
+   "start": 36.78,
+   "end": 36.98
+  },
+  {
+   "word": "again.",
+   "start": 36.98,
+   "end": 37.46
+  },
+  {
+   "word": "First:",
+   "start": 38.08,
+   "end": 38.24
+  },
+  {
+   "word": "thin",
+   "start": 38.86,
+   "end": 38.98
+  },
+  {
+   "word": "air",
+   "start": 38.98,
+   "end": 39.28
+  },
+  {
+   "word": "is",
+   "start": 39.28,
+   "end": 39.64
+  },
+  {
+   "word": "cheap",
+   "start": 39.64,
+   "end": 39.98
+  },
+  {
+   "word": "air.",
+   "start": 39.98,
+   "end": 40.34
+  },
+  {
+   "word": "Flying",
+   "start": 41.2,
+   "end": 41.2
+  },
+  {
+   "word": "through",
+   "start": 41.2,
+   "end": 41.44
+  },
+  {
+   "word": "air",
+   "start": 41.44,
+   "end": 41.7
+  },
+  {
+   "word": "is",
+   "start": 41.7,
+   "end": 41.9
+  },
+  {
+   "word": "a",
+   "start": 41.9,
+   "end": 42.04
+  },
+  {
+   "word": "bit",
+   "start": 42.04,
+   "end": 42.14
+  },
+  {
+   "word": "like",
+   "start": 42.14,
+   "end": 42.36
+  },
+  {
+   "word": "wading",
+   "start": 42.36,
+   "end": 42.66
+  },
+  {
+   "word": "through",
+   "start": 42.66,
+   "end": 42.98
+  },
+  {
+   "word": "water.",
+   "start": 42.98,
+   "end": 43.36
+  },
+  {
+   "word": "Near",
+   "start": 43.78,
+   "end": 43.86
+  },
+  {
+   "word": "the",
+   "start": 43.86,
+   "end": 44.02
+  },
+  {
+   "word": "ground,",
+   "start": 44.02,
+   "end": 44.32
+  },
+  {
+   "word": "it's",
+   "start": 44.32,
+   "end": 44.68
+  },
+  {
+   "word": "thick,",
+   "start": 44.68,
+   "end": 45.0
+  },
+  {
+   "word": "and",
+   "start": 45.0,
+   "end": 45.3
+  },
+  {
+   "word": "it",
+   "start": 45.3,
+   "end": 45.42
+  },
+  {
+   "word": "pushes",
+   "start": 45.42,
+   "end": 45.74
+  },
+  {
+   "word": "back",
+   "start": 45.74,
+   "end": 46.04
+  },
+  {
+   "word": "hard.",
+   "start": 46.04,
+   "end": 46.46
+  },
+  {
+   "word": "At",
+   "start": 46.96,
+   "end": 47.12
+  },
+  {
+   "word": "thirty-five",
+   "start": 47.12,
+   "end": 47.53
+  },
+  {
+   "word": "thousand",
+   "start": 47.53,
+   "end": 47.94
+  },
+  {
+   "word": "feet,",
+   "start": 47.94,
+   "end": 48.18
+  },
+  {
+   "word": "the",
+   "start": 48.46,
+   "end": 48.48
+  },
+  {
+   "word": "air",
+   "start": 48.48,
+   "end": 48.68
+  },
+  {
+   "word": "is",
+   "start": 48.68,
+   "end": 48.82
+  },
+  {
+   "word": "only",
+   "start": 48.82,
+   "end": 49.02
+  },
+  {
+   "word": "about",
+   "start": 49.02,
+   "end": 49.24
+  },
+  {
+   "word": "a",
+   "start": 49.24,
+   "end": 49.44
+  },
+  {
+   "word": "third",
+   "start": 49.44,
+   "end": 49.64
+  },
+  {
+   "word": "as",
+   "start": 49.64,
+   "end": 49.86
+  },
+  {
+   "word": "dense",
+   "start": 49.86,
+   "end": 50.12
+  },
+  {
+   "word": "as",
+   "start": 50.12,
+   "end": 50.3
+  },
+  {
+   "word": "at",
+   "start": 50.3,
+   "end": 50.46
+  },
+  {
+   "word": "sea",
+   "start": 50.46,
+   "end": 50.64
+  },
+  {
+   "word": "level.",
+   "start": 50.64,
+   "end": 50.94
+  },
+  {
+   "word": "Less",
+   "start": 51.48,
+   "end": 51.6
+  },
+  {
+   "word": "air",
+   "start": 51.6,
+   "end": 51.82
+  },
+  {
+   "word": "pushing",
+   "start": 51.82,
+   "end": 52.08
+  },
+  {
+   "word": "back",
+   "start": 52.08,
+   "end": 52.44
+  },
+  {
+   "word": "means",
+   "start": 52.44,
+   "end": 52.78
+  },
+  {
+   "word": "less",
+   "start": 52.78,
+   "end": 53.06
+  },
+  {
+   "word": "drag.",
+   "start": 53.06,
+   "end": 53.48
+  },
+  {
+   "word": "Less",
+   "start": 53.96,
+   "end": 54.06
+  },
+  {
+   "word": "drag",
+   "start": 54.06,
+   "end": 54.48
+  },
+  {
+   "word": "means",
+   "start": 54.48,
+   "end": 54.82
+  },
+  {
+   "word": "less",
+   "start": 54.82,
+   "end": 55.08
+  },
+  {
+   "word": "fuel.",
+   "start": 55.08,
+   "end": 55.44
+  },
+  {
+   "word": "And",
+   "start": 55.94,
+   "end": 55.98
+  },
+  {
+   "word": "for",
+   "start": 55.98,
+   "end": 56.1
+  },
+  {
+   "word": "an",
+   "start": 56.1,
+   "end": 56.24
+  },
+  {
+   "word": "airline,",
+   "start": 56.24,
+   "end": 56.6
+  },
+  {
+   "word": "fuel",
+   "start": 56.94,
+   "end": 57.12
+  },
+  {
+   "word": "is",
+   "start": 57.12,
+   "end": 57.34
+  },
+  {
+   "word": "one",
+   "start": 57.34,
+   "end": 57.5
+  },
+  {
+   "word": "of",
+   "start": 57.5,
+   "end": 57.6
+  },
+  {
+   "word": "the",
+   "start": 57.6,
+   "end": 57.72
+  },
+  {
+   "word": "biggest",
+   "start": 57.72,
+   "end": 58.1
+  },
+  {
+   "word": "bills",
+   "start": 58.1,
+   "end": 58.4
+  },
+  {
+   "word": "there",
+   "start": 58.4,
+   "end": 58.62
+  },
+  {
+   "word": "is.",
+   "start": 58.62,
+   "end": 58.94
+  },
+  {
+   "word": "So",
+   "start": 59.4,
+   "end": 59.7
+  },
+  {
+   "word": "why",
+   "start": 59.7,
+   "end": 59.96
+  },
+  {
+   "word": "not",
+   "start": 59.96,
+   "end": 60.14
+  },
+  {
+   "word": "just",
+   "start": 60.14,
+   "end": 60.3
+  },
+  {
+   "word": "keep",
+   "start": 60.3,
+   "end": 60.52
+  },
+  {
+   "word": "climbing",
+   "start": 60.52,
+   "end": 60.82
+  },
+  {
+   "word": "forever?",
+   "start": 60.82,
+   "end": 61.22
+  },
+  {
+   "word": "Because",
+   "start": 61.8,
+   "end": 62.1
+  },
+  {
+   "word": "the",
+   "start": 62.1,
+   "end": 62.24
+  },
+  {
+   "word": "air",
+   "start": 62.24,
+   "end": 62.46
+  },
+  {
+   "word": "that",
+   "start": 62.46,
+   "end": 62.64
+  },
+  {
+   "word": "slows",
+   "start": 62.64,
+   "end": 62.84
+  },
+  {
+   "word": "you",
+   "start": 62.84,
+   "end": 63.06
+  },
+  {
+   "word": "down",
+   "start": 63.06,
+   "end": 63.34
+  },
+  {
+   "word": "is",
+   "start": 63.34,
+   "end": 63.74
+  },
+  {
+   "word": "also",
+   "start": 63.74,
+   "end": 64.14
+  },
+  {
+   "word": "the",
+   "start": 64.14,
+   "end": 64.34
+  },
+  {
+   "word": "air",
+   "start": 64.34,
+   "end": 64.54
+  },
+  {
+   "word": "that",
+   "start": 64.54,
+   "end": 64.72
+  },
+  {
+   "word": "holds",
+   "start": 64.72,
+   "end": 64.94
+  },
+  {
+   "word": "you",
+   "start": 64.94,
+   "end": 65.16
+  },
+  {
+   "word": "up.",
+   "start": 65.16,
+   "end": 65.44
+  },
+  {
+   "word": "Wings",
+   "start": 66.08,
+   "end": 66.24
+  },
+  {
+   "word": "make",
+   "start": 66.24,
+   "end": 66.48
+  },
+  {
+   "word": "lift",
+   "start": 66.48,
+   "end": 66.78
+  },
+  {
+   "word": "by",
+   "start": 66.78,
+   "end": 67.02
+  },
+  {
+   "word": "pushing",
+   "start": 67.02,
+   "end": 67.38
+  },
+  {
+   "word": "air",
+   "start": 67.38,
+   "end": 67.66
+  },
+  {
+   "word": "downward.",
+   "start": 67.66,
+   "end": 68.2
+  },
+  {
+   "word": "Engines",
+   "start": 68.72,
+   "end": 69.06
+  },
+  {
+   "word": "need",
+   "start": 69.06,
+   "end": 69.28
+  },
+  {
+   "word": "air",
+   "start": 69.28,
+   "end": 69.58
+  },
+  {
+   "word": "to",
+   "start": 69.58,
+   "end": 69.82
+  },
+  {
+   "word": "burn",
+   "start": 69.82,
+   "end": 69.96
+  },
+  {
+   "word": "their",
+   "start": 69.96,
+   "end": 70.16
+  },
+  {
+   "word": "fuel.",
+   "start": 70.16,
+   "end": 70.5
+  },
+  {
+   "word": "Thin",
+   "start": 71.02,
+   "end": 71.18
+  },
+  {
+   "word": "it",
+   "start": 71.18,
+   "end": 71.3
+  },
+  {
+   "word": "out",
+   "start": 71.3,
+   "end": 71.44
+  },
+  {
+   "word": "too",
+   "start": 71.44,
+   "end": 71.68
+  },
+  {
+   "word": "much,",
+   "start": 71.68,
+   "end": 71.94
+  },
+  {
+   "word": "and",
+   "start": 71.94,
+   "end": 72.18
+  },
+  {
+   "word": "the",
+   "start": 72.18,
+   "end": 72.3
+  },
+  {
+   "word": "plane",
+   "start": 72.3,
+   "end": 72.5
+  },
+  {
+   "word": "has",
+   "start": 72.5,
+   "end": 72.68
+  },
+  {
+   "word": "to",
+   "start": 72.68,
+   "end": 72.84
+  },
+  {
+   "word": "fly",
+   "start": 72.84,
+   "end": 73.02
+  },
+  {
+   "word": "faster",
+   "start": 73.02,
+   "end": 73.54
+  },
+  {
+   "word": "and",
+   "start": 73.54,
+   "end": 73.76
+  },
+  {
+   "word": "faster",
+   "start": 73.76,
+   "end": 74.2
+  },
+  {
+   "word": "just",
+   "start": 74.2,
+   "end": 74.52
+  },
+  {
+   "word": "to",
+   "start": 74.52,
+   "end": 74.74
+  },
+  {
+   "word": "stay",
+   "start": 74.74,
+   "end": 74.94
+  },
+  {
+   "word": "in",
+   "start": 74.94,
+   "end": 75.06
+  },
+  {
+   "word": "the",
+   "start": 75.06,
+   "end": 75.2
+  },
+  {
+   "word": "sky.",
+   "start": 75.2,
+   "end": 75.48
+  },
+  {
+   "word": "Climb",
+   "start": 76.12,
+   "end": 76.4
+  },
+  {
+   "word": "high",
+   "start": 76.4,
+   "end": 76.58
+  },
+  {
+   "word": "enough,",
+   "start": 76.58,
+   "end": 76.88
+  },
+  {
+   "word": "and",
+   "start": 76.88,
+   "end": 77.32
+  },
+  {
+   "word": "the",
+   "start": 77.32,
+   "end": 77.44
+  },
+  {
+   "word": "slowest",
+   "start": 77.44,
+   "end": 77.92
+  },
+  {
+   "word": "speed",
+   "start": 77.92,
+   "end": 78.14
+  },
+  {
+   "word": "the",
+   "start": 78.14,
+   "end": 78.32
+  },
+  {
+   "word": "plane",
+   "start": 78.32,
+   "end": 78.54
+  },
+  {
+   "word": "can",
+   "start": 78.54,
+   "end": 78.78
+  },
+  {
+   "word": "safely",
+   "start": 78.78,
+   "end": 79.14
+  },
+  {
+   "word": "fly",
+   "start": 79.14,
+   "end": 79.54
+  },
+  {
+   "word": "and",
+   "start": 79.54,
+   "end": 79.9
+  },
+  {
+   "word": "the",
+   "start": 79.9,
+   "end": 80.04
+  },
+  {
+   "word": "fastest",
+   "start": 80.04,
+   "end": 80.4
+  },
+  {
+   "word": "speed",
+   "start": 80.4,
+   "end": 80.72
+  },
+  {
+   "word": "it's",
+   "start": 80.72,
+   "end": 80.92
+  },
+  {
+   "word": "allowed",
+   "start": 80.92,
+   "end": 81.2
+  },
+  {
+   "word": "to",
+   "start": 81.2,
+   "end": 81.38
+  },
+  {
+   "word": "fly",
+   "start": 81.38,
+   "end": 81.68
+  },
+  {
+   "word": "start",
+   "start": 81.68,
+   "end": 82.08
+  },
+  {
+   "word": "squeezing",
+   "start": 82.08,
+   "end": 82.5
+  },
+  {
+   "word": "together.",
+   "start": 82.5,
+   "end": 83.04
+  },
+  {
+   "word": "Pilots",
+   "start": 83.82,
+   "end": 84.0
+  },
+  {
+   "word": "have",
+   "start": 84.0,
+   "end": 84.18
+  },
+  {
+   "word": "a",
+   "start": 84.18,
+   "end": 84.36
+  },
+  {
+   "word": "grim",
+   "start": 84.36,
+   "end": 84.62
+  },
+  {
+   "word": "name",
+   "start": 84.62,
+   "end": 84.9
+  },
+  {
+   "word": "for",
+   "start": 84.9,
+   "end": 85.1
+  },
+  {
+   "word": "that",
+   "start": 85.1,
+   "end": 85.24
+  },
+  {
+   "word": "narrow",
+   "start": 85.24,
+   "end": 85.54
+  },
+  {
+   "word": "gap.",
+   "start": 85.54,
+   "end": 85.86
+  },
+  {
+   "word": "The",
+   "start": 86.26,
+   "end": 86.52
+  },
+  {
+   "word": "coffin",
+   "start": 86.52,
+   "end": 86.86
+  },
+  {
+   "word": "corner.",
+   "start": 86.86,
+   "end": 87.3
+  },
+  {
+   "word": "So",
+   "start": 87.88,
+   "end": 88.18
+  },
+  {
+   "word": "the",
+   "start": 88.18,
+   "end": 88.44
+  },
+  {
+   "word": "plane",
+   "start": 88.44,
+   "end": 88.68
+  },
+  {
+   "word": "hunts",
+   "start": 88.68,
+   "end": 88.96
+  },
+  {
+   "word": "for",
+   "start": 88.96,
+   "end": 89.22
+  },
+  {
+   "word": "a",
+   "start": 89.22,
+   "end": 89.32
+  },
+  {
+   "word": "sweet",
+   "start": 89.32,
+   "end": 89.52
+  },
+  {
+   "word": "spot.",
+   "start": 89.52,
+   "end": 89.82
+  },
+  {
+   "word": "And",
+   "start": 90.26,
+   "end": 90.36
+  },
+  {
+   "word": "up",
+   "start": 90.36,
+   "end": 90.48
+  },
+  {
+   "word": "there,",
+   "start": 90.48,
+   "end": 90.8
+  },
+  {
+   "word": "there's",
+   "start": 91.04,
+   "end": 91.26
+  },
+  {
+   "word": "a",
+   "start": 91.26,
+   "end": 91.36
+  },
+  {
+   "word": "bonus.",
+   "start": 91.36,
+   "end": 91.64
+  },
+  {
+   "word": "Most",
+   "start": 92.3,
+   "end": 92.48
+  },
+  {
+   "word": "of",
+   "start": 92.48,
+   "end": 92.66
+  },
+  {
+   "word": "our",
+   "start": 92.66,
+   "end": 92.78
+  },
+  {
+   "word": "weather",
+   "start": 92.78,
+   "end": 93.02
+  },
+  {
+   "word": "lives",
+   "start": 93.02,
+   "end": 93.3
+  },
+  {
+   "word": "in",
+   "start": 93.3,
+   "end": 93.52
+  },
+  {
+   "word": "the",
+   "start": 93.52,
+   "end": 93.68
+  },
+  {
+   "word": "lowest",
+   "start": 93.68,
+   "end": 94.0
+  },
+  {
+   "word": "layer",
+   "start": 94.0,
+   "end": 94.24
+  },
+  {
+   "word": "of",
+   "start": 94.24,
+   "end": 94.46
+  },
+  {
+   "word": "the",
+   "start": 94.46,
+   "end": 94.56
+  },
+  {
+   "word": "atmosphere,",
+   "start": 94.56,
+   "end": 94.98
+  },
+  {
+   "word": "the",
+   "start": 95.34,
+   "end": 95.44
+  },
+  {
+   "word": "troposphere.",
+   "start": 95.44,
+   "end": 95.88
+  },
+  {
+   "word": "Its",
+   "start": 96.54,
+   "end": 96.68
+  },
+  {
+   "word": "ceiling",
+   "start": 96.68,
+   "end": 97.02
+  },
+  {
+   "word": "sits",
+   "start": 97.02,
+   "end": 97.26
+  },
+  {
+   "word": "at",
+   "start": 97.26,
+   "end": 97.42
+  },
+  {
+   "word": "roughly",
+   "start": 97.42,
+   "end": 97.76
+  },
+  {
+   "word": "thirty-six",
+   "start": 97.76,
+   "end": 98.26
+  },
+  {
+   "word": "thousand",
+   "start": 98.26,
+   "end": 98.76
+  },
+  {
+   "word": "feet",
+   "start": 98.76,
+   "end": 98.96
+  },
+  {
+   "word": "in",
+   "start": 98.96,
+   "end": 99.14
+  },
+  {
+   "word": "the",
+   "start": 99.14,
+   "end": 99.22
+  },
+  {
+   "word": "mid-latitudes.",
+   "start": 99.22,
+   "end": 100.48
+  },
+  {
+   "word": "Cruise",
+   "start": 100.48,
+   "end": 100.64
+  },
+  {
+   "word": "near",
+   "start": 100.64,
+   "end": 100.9
+  },
+  {
+   "word": "that",
+   "start": 100.9,
+   "end": 101.14
+  },
+  {
+   "word": "ceiling,",
+   "start": 101.14,
+   "end": 101.5
+  },
+  {
+   "word": "and",
+   "start": 101.5,
+   "end": 101.78
+  },
+  {
+   "word": "you're",
+   "start": 101.78,
+   "end": 101.92
+  },
+  {
+   "word": "above",
+   "start": 101.92,
+   "end": 102.14
+  },
+  {
+   "word": "much",
+   "start": 102.14,
+   "end": 102.48
+  },
+  {
+   "word": "of",
+   "start": 102.48,
+   "end": 102.62
+  },
+  {
+   "word": "the",
+   "start": 102.62,
+   "end": 102.78
+  },
+  {
+   "word": "rain,",
+   "start": 102.78,
+   "end": 103.08
+  },
+  {
+   "word": "cloud,",
+   "start": 103.36,
+   "end": 103.6
+  },
+  {
+   "word": "and",
+   "start": 103.8,
+   "end": 103.9
+  },
+  {
+   "word": "chaos",
+   "start": 103.9,
+   "end": 104.3
+  },
+  {
+   "word": "below.",
+   "start": 104.3,
+   "end": 104.66
+  },
+  {
+   "word": "Not",
+   "start": 105.22,
+   "end": 105.4
+  },
+  {
+   "word": "all",
+   "start": 105.4,
+   "end": 105.64
+  },
+  {
+   "word": "of",
+   "start": 105.64,
+   "end": 105.76
+  },
+  {
+   "word": "it.",
+   "start": 105.76,
+   "end": 105.92
+  },
+  {
+   "word": "The",
+   "start": 106.08,
+   "end": 106.28
+  },
+  {
+   "word": "biggest",
+   "start": 106.28,
+   "end": 106.58
+  },
+  {
+   "word": "thunderstorms",
+   "start": 106.58,
+   "end": 107.12
+  },
+  {
+   "word": "punch",
+   "start": 107.12,
+   "end": 107.4
+  },
+  {
+   "word": "even",
+   "start": 107.4,
+   "end": 107.74
+  },
+  {
+   "word": "higher,",
+   "start": 107.74,
+   "end": 108.18
+  },
+  {
+   "word": "which",
+   "start": 108.18,
+   "end": 108.56
+  },
+  {
+   "word": "is",
+   "start": 108.56,
+   "end": 108.68
+  },
+  {
+   "word": "why",
+   "start": 108.68,
+   "end": 108.86
+  },
+  {
+   "word": "pilots",
+   "start": 108.86,
+   "end": 109.22
+  },
+  {
+   "word": "still",
+   "start": 109.22,
+   "end": 109.54
+  },
+  {
+   "word": "steer",
+   "start": 109.54,
+   "end": 109.84
+  },
+  {
+   "word": "around",
+   "start": 109.84,
+   "end": 110.12
+  },
+  {
+   "word": "them.",
+   "start": 110.12,
+   "end": 110.54
+  },
+  {
+   "word": "Next,",
+   "start": 111.24,
+   "end": 111.24
+  },
+  {
+   "word": "the",
+   "start": 111.62,
+   "end": 111.7
+  },
+  {
+   "word": "wind.",
+   "start": 111.7,
+   "end": 111.98
+  },
+  {
+   "word": "Up",
+   "start": 112.54,
+   "end": 112.64
+  },
+  {
+   "word": "here",
+   "start": 112.64,
+   "end": 112.92
+  },
+  {
+   "word": "flow",
+   "start": 112.92,
+   "end": 113.18
+  },
+  {
+   "word": "the",
+   "start": 113.18,
+   "end": 113.38
+  },
+  {
+   "word": "jet",
+   "start": 113.38,
+   "end": 113.62
+  },
+  {
+   "word": "streams,",
+   "start": 113.62,
+   "end": 114.02
+  },
+  {
+   "word": "rivers",
+   "start": 114.44,
+   "end": 114.58
+  },
+  {
+   "word": "of",
+   "start": 114.58,
+   "end": 114.82
+  },
+  {
+   "word": "air",
+   "start": 114.82,
+   "end": 115.0
+  },
+  {
+   "word": "that",
+   "start": 115.0,
+   "end": 115.18
+  },
+  {
+   "word": "can",
+   "start": 115.18,
+   "end": 115.32
+  },
+  {
+   "word": "race",
+   "start": 115.32,
+   "end": 115.62
+  },
+  {
+   "word": "along",
+   "start": 115.62,
+   "end": 115.92
+  },
+  {
+   "word": "at",
+   "start": 115.92,
+   "end": 116.08
+  },
+  {
+   "word": "well",
+   "start": 116.08,
+   "end": 116.38
+  },
+  {
+   "word": "over",
+   "start": 116.38,
+   "end": 116.7
+  },
+  {
+   "word": "a",
+   "start": 116.7,
+   "end": 116.92
+  },
+  {
+   "word": "hundred",
+   "start": 116.92,
+   "end": 117.14
+  },
+  {
+   "word": "miles",
+   "start": 117.14,
+   "end": 117.36
+  },
+  {
+   "word": "an",
+   "start": 117.36,
+   "end": 117.58
+  },
+  {
+   "word": "hour.",
+   "start": 117.58,
+   "end": 117.86
+  },
+  {
+   "word": "Ride",
+   "start": 118.28,
+   "end": 118.56
+  },
+  {
+   "word": "one,",
+   "start": 118.56,
+   "end": 118.84
+  },
+  {
+   "word": "and",
+   "start": 118.84,
+   "end": 119.08
+  },
+  {
+   "word": "you",
+   "start": 119.08,
+   "end": 119.18
+  },
+  {
+   "word": "arrive",
+   "start": 119.18,
+   "end": 119.46
+  },
+  {
+   "word": "early",
+   "start": 119.46,
+   "end": 119.84
+  },
+  {
+   "word": "on",
+   "start": 119.84,
+   "end": 120.18
+  },
+  {
+   "word": "less",
+   "start": 120.18,
+   "end": 120.44
+  },
+  {
+   "word": "fuel.",
+   "start": 120.44,
+   "end": 120.82
+  },
+  {
+   "word": "That's",
+   "start": 121.28,
+   "end": 121.5
+  },
+  {
+   "word": "a",
+   "start": 121.5,
+   "end": 121.6
+  },
+  {
+   "word": "big",
+   "start": 121.6,
+   "end": 121.74
+  },
+  {
+   "word": "reason",
+   "start": 121.74,
+   "end": 122.08
+  },
+  {
+   "word": "a",
+   "start": 122.08,
+   "end": 122.24
+  },
+  {
+   "word": "flight",
+   "start": 122.24,
+   "end": 122.38
+  },
+  {
+   "word": "from",
+   "start": 122.38,
+   "end": 122.58
+  },
+  {
+   "word": "New",
+   "start": 122.58,
+   "end": 122.78
+  },
+  {
+   "word": "York",
+   "start": 122.78,
+   "end": 122.94
+  },
+  {
+   "word": "to",
+   "start": 122.94,
+   "end": 123.14
+  },
+  {
+   "word": "London",
+   "start": 123.14,
+   "end": 123.4
+  },
+  {
+   "word": "is",
+   "start": 123.4,
+   "end": 123.68
+  },
+  {
+   "word": "often",
+   "start": 123.68,
+   "end": 124.0
+  },
+  {
+   "word": "about",
+   "start": 124.0,
+   "end": 124.22
+  },
+  {
+   "word": "an",
+   "start": 124.22,
+   "end": 124.38
+  },
+  {
+   "word": "hour",
+   "start": 124.38,
+   "end": 124.72
+  },
+  {
+   "word": "shorter",
+   "start": 124.72,
+   "end": 125.08
+  },
+  {
+   "word": "than",
+   "start": 125.08,
+   "end": 125.34
+  },
+  {
+   "word": "the",
+   "start": 125.34,
+   "end": 125.48
+  },
+  {
+   "word": "trip",
+   "start": 125.48,
+   "end": 125.64
+  },
+  {
+   "word": "back.",
+   "start": 125.64,
+   "end": 126.0
+  },
+  {
+   "word": "And",
+   "start": 126.52,
+   "end": 126.66
+  },
+  {
+   "word": "then,",
+   "start": 126.66,
+   "end": 126.96
+  },
+  {
+   "word": "there's",
+   "start": 127.18,
+   "end": 127.52
+  },
+  {
+   "word": "traffic.",
+   "start": 127.52,
+   "end": 127.92
+  },
+  {
+   "word": "In",
+   "start": 128.48,
+   "end": 128.6
+  },
+  {
+   "word": "much",
+   "start": 128.6,
+   "end": 128.8
+  },
+  {
+   "word": "of",
+   "start": 128.8,
+   "end": 128.94
+  },
+  {
+   "word": "the",
+   "start": 128.94,
+   "end": 129.04
+  },
+  {
+   "word": "world,",
+   "start": 129.04,
+   "end": 129.32
+  },
+  {
+   "word": "eastbound",
+   "start": 129.56,
+   "end": 129.9
+  },
+  {
+   "word": "flights",
+   "start": 129.9,
+   "end": 130.26
+  },
+  {
+   "word": "cruise",
+   "start": 130.26,
+   "end": 130.56
+  },
+  {
+   "word": "at",
+   "start": 130.56,
+   "end": 130.78
+  },
+  {
+   "word": "odd",
+   "start": 130.78,
+   "end": 131.08
+  },
+  {
+   "word": "thousands,",
+   "start": 131.08,
+   "end": 131.48
+  },
+  {
+   "word": "like",
+   "start": 131.74,
+   "end": 131.92
+  },
+  {
+   "word": "thirty-five",
+   "start": 131.92,
+   "end": 132.57
+  },
+  {
+   "word": "thousand,",
+   "start": 132.57,
+   "end": 133.22
+  },
+  {
+   "word": "and",
+   "start": 133.22,
+   "end": 133.4
+  },
+  {
+   "word": "westbound",
+   "start": 133.4,
+   "end": 133.84
+  },
+  {
+   "word": "flights",
+   "start": 133.84,
+   "end": 134.18
+  },
+  {
+   "word": "at",
+   "start": 134.18,
+   "end": 134.38
+  },
+  {
+   "word": "even",
+   "start": 134.38,
+   "end": 134.64
+  },
+  {
+   "word": "ones,",
+   "start": 134.64,
+   "end": 134.98
+  },
+  {
+   "word": "like",
+   "start": 135.2,
+   "end": 135.3
+  },
+  {
+   "word": "thirty-six",
+   "start": 135.3,
+   "end": 135.81
+  },
+  {
+   "word": "thousand.",
+   "start": 135.81,
+   "end": 136.32
+  },
+  {
+   "word": "Thousands",
+   "start": 136.32,
+   "end": 137.14
+  },
+  {
+   "word": "of",
+   "start": 137.14,
+   "end": 137.34
+  },
+  {
+   "word": "aircraft,",
+   "start": 137.34,
+   "end": 137.74
+  },
+  {
+   "word": "stacked",
+   "start": 137.74,
+   "end": 138.32
+  },
+  {
+   "word": "in",
+   "start": 138.32,
+   "end": 138.6
+  },
+  {
+   "word": "invisible",
+   "start": 138.6,
+   "end": 139.02
+  },
+  {
+   "word": "lanes.",
+   "start": 139.02,
+   "end": 139.48
+  },
+  {
+   "word": "But",
+   "start": 140.1,
+   "end": 140.12
+  },
+  {
+   "word": "here's",
+   "start": 140.12,
+   "end": 140.38
+  },
+  {
+   "word": "the",
+   "start": 140.38,
+   "end": 140.52
+  },
+  {
+   "word": "twist.",
+   "start": 140.52,
+   "end": 140.86
+  },
+  {
+   "word": "Thirty-five",
+   "start": 140.86,
+   "end": 141.55
+  },
+  {
+   "word": "thousand",
+   "start": 141.55,
+   "end": 142.24
+  },
+  {
+   "word": "isn't",
+   "start": 142.24,
+   "end": 142.72
+  },
+  {
+   "word": "a",
+   "start": 142.72,
+   "end": 142.84
+  },
+  {
+   "word": "magic",
+   "start": 142.84,
+   "end": 143.1
+  },
+  {
+   "word": "number.",
+   "start": 143.1,
+   "end": 143.46
+  },
+  {
+   "word": "It's",
+   "start": 143.82,
+   "end": 144.0
+  },
+  {
+   "word": "a",
+   "start": 144.0,
+   "end": 144.12
+  },
+  {
+   "word": "moving",
+   "start": 144.12,
+   "end": 144.46
+  },
+  {
+   "word": "target.",
+   "start": 144.46,
+   "end": 144.92
+  },
+  {
+   "word": "A",
+   "start": 145.34,
+   "end": 145.34
+  },
+  {
+   "word": "long-haul",
+   "start": 145.34,
+   "end": 145.74
+  },
+  {
+   "word": "jet",
+   "start": 145.74,
+   "end": 146.02
+  },
+  {
+   "word": "can",
+   "start": 146.02,
+   "end": 146.26
+  },
+  {
+   "word": "take",
+   "start": 146.26,
+   "end": 146.48
+  },
+  {
+   "word": "off",
+   "start": 146.48,
+   "end": 146.74
+  },
+  {
+   "word": "carrying",
+   "start": 146.74,
+   "end": 147.06
+  },
+  {
+   "word": "more",
+   "start": 147.06,
+   "end": 147.32
+  },
+  {
+   "word": "than",
+   "start": 147.32,
+   "end": 147.48
+  },
+  {
+   "word": "a",
+   "start": 147.48,
+   "end": 147.6
+  },
+  {
+   "word": "hundred",
+   "start": 147.6,
+   "end": 147.96
+  },
+  {
+   "word": "tons",
+   "start": 147.96,
+   "end": 148.32
+  },
+  {
+   "word": "of",
+   "start": 148.32,
+   "end": 148.6
+  },
+  {
+   "word": "fuel.",
+   "start": 148.6,
+   "end": 148.86
+  },
+  {
+   "word": "That",
+   "start": 149.22,
+   "end": 149.38
+  },
+  {
+   "word": "makes",
+   "start": 149.38,
+   "end": 149.54
+  },
+  {
+   "word": "it",
+   "start": 149.54,
+   "end": 149.76
+  },
+  {
+   "word": "too",
+   "start": 149.76,
+   "end": 150.0
+  },
+  {
+   "word": "heavy",
+   "start": 150.0,
+   "end": 150.28
+  },
+  {
+   "word": "for",
+   "start": 150.28,
+   "end": 150.52
+  },
+  {
+   "word": "its",
+   "start": 150.52,
+   "end": 150.68
+  },
+  {
+   "word": "best",
+   "start": 150.68,
+   "end": 150.88
+  },
+  {
+   "word": "altitude.",
+   "start": 150.88,
+   "end": 151.36
+  },
+  {
+   "word": "So",
+   "start": 151.52,
+   "end": 151.94
+  },
+  {
+   "word": "it",
+   "start": 151.94,
+   "end": 152.24
+  },
+  {
+   "word": "starts",
+   "start": 152.24,
+   "end": 152.5
+  },
+  {
+   "word": "lower.",
+   "start": 152.5,
+   "end": 152.84
+  },
+  {
+   "word": "And",
+   "start": 153.26,
+   "end": 153.34
+  },
+  {
+   "word": "as",
+   "start": 153.34,
+   "end": 153.48
+  },
+  {
+   "word": "it",
+   "start": 153.48,
+   "end": 153.64
+  },
+  {
+   "word": "burns",
+   "start": 153.64,
+   "end": 153.82
+  },
+  {
+   "word": "fuel",
+   "start": 153.82,
+   "end": 154.18
+  },
+  {
+   "word": "and",
+   "start": 154.18,
+   "end": 154.38
+  },
+  {
+   "word": "gets",
+   "start": 154.38,
+   "end": 154.54
+  },
+  {
+   "word": "lighter,",
+   "start": 154.54,
+   "end": 154.86
+  },
+  {
+   "word": "it",
+   "start": 155.16,
+   "end": 155.28
+  },
+  {
+   "word": "climbs,",
+   "start": 155.28,
+   "end": 155.68
+  },
+  {
+   "word": "step",
+   "start": 156.0,
+   "end": 156.36
+  },
+  {
+   "word": "by",
+   "start": 156.36,
+   "end": 156.72
+  },
+  {
+   "word": "step.",
+   "start": 156.72,
+   "end": 157.06
+  },
+  {
+   "word": "Your",
+   "start": 157.5,
+   "end": 157.66
+  },
+  {
+   "word": "plane",
+   "start": 157.66,
+   "end": 157.92
+  },
+  {
+   "word": "literally",
+   "start": 157.92,
+   "end": 158.4
+  },
+  {
+   "word": "rises",
+   "start": 158.4,
+   "end": 158.96
+  },
+  {
+   "word": "higher",
+   "start": 158.96,
+   "end": 159.42
+  },
+  {
+   "word": "as",
+   "start": 159.42,
+   "end": 159.66
+  },
+  {
+   "word": "the",
+   "start": 159.66,
+   "end": 159.8
+  },
+  {
+   "word": "flight",
+   "start": 159.8,
+   "end": 159.98
+  },
+  {
+   "word": "goes",
+   "start": 159.98,
+   "end": 160.18
+  },
+  {
+   "word": "on.",
+   "start": 160.18,
+   "end": 160.54
+  },
+  {
+   "word": "So",
+   "start": 160.92,
+   "end": 161.06
+  },
+  {
+   "word": "the",
+   "start": 161.06,
+   "end": 161.18
+  },
+  {
+   "word": "next",
+   "start": 161.18,
+   "end": 161.34
+  },
+  {
+   "word": "time",
+   "start": 161.34,
+   "end": 161.54
+  },
+  {
+   "word": "your",
+   "start": 161.54,
+   "end": 161.68
+  },
+  {
+   "word": "captain",
+   "start": 161.68,
+   "end": 161.9
+  },
+  {
+   "word": "says,",
+   "start": 161.9,
+   "end": 162.28
+  },
+  {
+   "word": "\"We're",
+   "start": 162.68,
+   "end": 162.78
+  },
+  {
+   "word": "cruising",
+   "start": 162.78,
+   "end": 163.06
+  },
+  {
+   "word": "at",
+   "start": 163.06,
+   "end": 163.24
+  },
+  {
+   "word": "thirty-five",
+   "start": 163.24,
+   "end": 163.7
+  },
+  {
+   "word": "thousand",
+   "start": 163.7,
+   "end": 164.16
+  },
+  {
+   "word": "feet,\"",
+   "start": 164.16,
+   "end": 164.4
+  },
+  {
+   "word": "you'll",
+   "start": 164.68,
+   "end": 164.94
+  },
+  {
+   "word": "know",
+   "start": 164.94,
+   "end": 165.1
+  },
+  {
+   "word": "that",
+   "start": 165.1,
+   "end": 165.32
+  },
+  {
+   "word": "number",
+   "start": 165.32,
+   "end": 165.58
+  },
+  {
+   "word": "wasn't",
+   "start": 165.58,
+   "end": 166.04
+  },
+  {
+   "word": "random.",
+   "start": 166.04,
+   "end": 166.44
+  },
+  {
+   "word": "It",
+   "start": 166.8,
+   "end": 166.88
+  },
+  {
+   "word": "was",
+   "start": 166.88,
+   "end": 166.98
+  },
+  {
+   "word": "worked",
+   "start": 166.98,
+   "end": 167.24
+  },
+  {
+   "word": "out",
+   "start": 167.24,
+   "end": 167.46
+  },
+  {
+   "word": "for",
+   "start": 167.46,
+   "end": 167.62
+  },
+  {
+   "word": "your",
+   "start": 167.62,
+   "end": 167.76
+  },
+  {
+   "word": "plane's",
+   "start": 167.76,
+   "end": 168.14
+  },
+  {
+   "word": "weight,",
+   "start": 168.14,
+   "end": 168.4
+  },
+  {
+   "word": "today's",
+   "start": 168.74,
+   "end": 169.02
+  },
+  {
+   "word": "winds,",
+   "start": 169.02,
+   "end": 169.28
+  },
+  {
+   "word": "and",
+   "start": 169.54,
+   "end": 169.78
+  },
+  {
+   "word": "the",
+   "start": 169.78,
+   "end": 169.92
+  },
+  {
+   "word": "traffic",
+   "start": 169.92,
+   "end": 170.22
+  },
+  {
+   "word": "around",
+   "start": 170.22,
+   "end": 170.54
+  },
+  {
+   "word": "you.",
+   "start": 170.54,
+   "end": 170.88
+  },
+  {
+   "word": "A",
+   "start": 171.18,
+   "end": 171.3
+  },
+  {
+   "word": "quiet",
+   "start": 171.3,
+   "end": 171.64
+  },
+  {
+   "word": "calculation,",
+   "start": 171.64,
+   "end": 172.34
+  },
+  {
+   "word": "made",
+   "start": 172.34,
+   "end": 172.8
+  },
+  {
+   "word": "in",
+   "start": 172.8,
+   "end": 172.98
+  },
+  {
+   "word": "freezing,",
+   "start": 172.98,
+   "end": 173.46
+  },
+  {
+   "word": "thin",
+   "start": 173.7,
+   "end": 173.98
+  },
+  {
+   "word": "air,",
+   "start": 173.98,
+   "end": 174.36
+  },
+  {
+   "word": "more",
+   "start": 174.36,
+   "end": 174.7
+  },
+  {
+   "word": "than",
+   "start": 174.7,
+   "end": 174.86
+  },
+  {
+   "word": "a",
+   "start": 174.86,
+   "end": 175.06
+  },
+  {
+   "word": "mile",
+   "start": 175.06,
+   "end": 175.32
+  },
+  {
+   "word": "above",
+   "start": 175.32,
+   "end": 175.7
+  },
+  {
+   "word": "the",
+   "start": 175.7,
+   "end": 175.94
+  },
+  {
+   "word": "top",
+   "start": 175.94,
+   "end": 176.18
+  },
+  {
+   "word": "of",
+   "start": 176.18,
+   "end": 176.4
+  },
+  {
+   "word": "Everest.",
+   "start": 176.4,
+   "end": 176.66
+  },
+  {
+   "word": "What's",
+   "start": 177.3,
+   "end": 177.56
+  },
+  {
+   "word": "the",
+   "start": 177.56,
+   "end": 177.66
+  },
+  {
+   "word": "longest",
+   "start": 177.66,
+   "end": 177.9
+  },
+  {
+   "word": "flight",
+   "start": 177.9,
+   "end": 178.2
+  },
+  {
+   "word": "you've",
+   "start": 178.2,
+   "end": 178.52
+  },
+  {
+   "word": "ever",
+   "start": 178.52,
+   "end": 178.68
+  },
+  {
+   "word": "taken?",
+   "start": 178.68,
+   "end": 178.98
+  },
+  {
+   "word": "Tell",
+   "start": 179.38,
+   "end": 179.48
+  },
+  {
+   "word": "me",
+   "start": 179.48,
+   "end": 179.6
+  },
+  {
+   "word": "in",
+   "start": 179.6,
+   "end": 179.68
+  },
+  {
+   "word": "the",
+   "start": 179.68,
+   "end": 179.78
+  },
+  {
+   "word": "comments.",
+   "start": 179.78,
+   "end": 180.04
+  },
+  {
+   "word": "And",
+   "start": 180.5,
+   "end": 180.54
+  },
+  {
+   "word": "subscribe,",
+   "start": 180.54,
+   "end": 180.92
+  },
+  {
+   "word": "because",
+   "start": 181.14,
+   "end": 181.42
+  },
+  {
+   "word": "next,",
+   "start": 181.42,
+   "end": 181.74
+  },
+  {
+   "word": "we're",
+   "start": 181.98,
+   "end": 182.24
+  },
+  {
+   "word": "finding",
+   "start": 182.24,
+   "end": 182.46
+  },
+  {
+   "word": "out",
+   "start": 182.46,
+   "end": 182.7
+  },
+  {
+   "word": "what",
+   "start": 182.7,
+   "end": 182.9
+  },
+  {
+   "word": "really",
+   "start": 182.9,
+   "end": 183.26
+  },
+  {
+   "word": "happens",
+   "start": 183.26,
+   "end": 183.7
+  },
+  {
+   "word": "when",
+   "start": 183.7,
+   "end": 183.96
+  },
+  {
+   "word": "turbulence",
+   "start": 183.96,
+   "end": 184.36
+  },
+  {
+   "word": "hits.",
+   "start": 184.36,
+   "end": 184.7
+  }
+ ]
+}

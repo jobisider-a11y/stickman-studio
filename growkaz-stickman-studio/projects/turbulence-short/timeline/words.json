@@ -1,0 +1,700 @@
+{
+ "source": "whisper:small.en+script",
+ "words": [
+  {
+   "word": "Your",
+   "start": 0.0,
+   "end": 0.22
+  },
+  {
+   "word": "plane",
+   "start": 0.22,
+   "end": 0.52
+  },
+  {
+   "word": "suddenly",
+   "start": 0.52,
+   "end": 1.12
+  },
+  {
+   "word": "drops.",
+   "start": 1.12,
+   "end": 1.6
+  },
+  {
+   "word": "Drinks",
+   "start": 2.24,
+   "end": 2.38
+  },
+  {
+   "word": "jump.",
+   "start": 2.38,
+   "end": 2.84
+  },
+  {
+   "word": "Your",
+   "start": 3.32,
+   "end": 3.42
+  },
+  {
+   "word": "stomach",
+   "start": 3.42,
+   "end": 3.9
+  },
+  {
+   "word": "lurches.",
+   "start": 3.9,
+   "end": 4.4
+  },
+  {
+   "word": "Here's",
+   "start": 5.16,
+   "end": 5.38
+  },
+  {
+   "word": "what's",
+   "start": 5.38,
+   "end": 5.64
+  },
+  {
+   "word": "really",
+   "start": 5.64,
+   "end": 5.84
+  },
+  {
+   "word": "going",
+   "start": 5.84,
+   "end": 6.18
+  },
+  {
+   "word": "on.",
+   "start": 6.18,
+   "end": 6.64
+  },
+  {
+   "word": "Turbulence",
+   "start": 7.1,
+   "end": 7.5
+  },
+  {
+   "word": "is",
+   "start": 7.5,
+   "end": 7.7
+  },
+  {
+   "word": "just",
+   "start": 7.7,
+   "end": 7.9
+  },
+  {
+   "word": "air",
+   "start": 7.9,
+   "end": 8.24
+  },
+  {
+   "word": "moving",
+   "start": 8.24,
+   "end": 8.46
+  },
+  {
+   "word": "at",
+   "start": 8.46,
+   "end": 8.72
+  },
+  {
+   "word": "different",
+   "start": 8.72,
+   "end": 9.0
+  },
+  {
+   "word": "speeds,",
+   "start": 9.0,
+   "end": 9.4
+  },
+  {
+   "word": "like",
+   "start": 9.68,
+   "end": 9.86
+  },
+  {
+   "word": "a",
+   "start": 9.86,
+   "end": 10.0
+  },
+  {
+   "word": "boat",
+   "start": 10.0,
+   "end": 10.2
+  },
+  {
+   "word": "crossing",
+   "start": 10.2,
+   "end": 10.6
+  },
+  {
+   "word": "choppy",
+   "start": 10.6,
+   "end": 10.92
+  },
+  {
+   "word": "water.",
+   "start": 10.92,
+   "end": 11.26
+  },
+  {
+   "word": "Rising",
+   "start": 11.98,
+   "end": 11.98
+  },
+  {
+   "word": "heat,",
+   "start": 11.98,
+   "end": 12.36
+  },
+  {
+   "word": "mountains,",
+   "start": 12.78,
+   "end": 13.08
+  },
+  {
+   "word": "storms,",
+   "start": 13.48,
+   "end": 13.72
+  },
+  {
+   "word": "and",
+   "start": 14.0,
+   "end": 14.06
+  },
+  {
+   "word": "those",
+   "start": 14.06,
+   "end": 14.22
+  },
+  {
+   "word": "fast",
+   "start": 14.22,
+   "end": 14.58
+  },
+  {
+   "word": "jet",
+   "start": 14.58,
+   "end": 14.8
+  },
+  {
+   "word": "streams",
+   "start": 14.8,
+   "end": 15.12
+  },
+  {
+   "word": "all",
+   "start": 15.12,
+   "end": 15.54
+  },
+  {
+   "word": "stir",
+   "start": 15.54,
+   "end": 15.82
+  },
+  {
+   "word": "it",
+   "start": 15.82,
+   "end": 15.96
+  },
+  {
+   "word": "up.",
+   "start": 15.96,
+   "end": 16.2
+  },
+  {
+   "word": "And",
+   "start": 16.58,
+   "end": 16.68
+  },
+  {
+   "word": "your",
+   "start": 16.68,
+   "end": 16.8
+  },
+  {
+   "word": "plane",
+   "start": 16.8,
+   "end": 17.12
+  },
+  {
+   "word": "is",
+   "start": 17.12,
+   "end": 17.36
+  },
+  {
+   "word": "built",
+   "start": 17.36,
+   "end": 17.62
+  },
+  {
+   "word": "for",
+   "start": 17.62,
+   "end": 17.92
+  },
+  {
+   "word": "it.",
+   "start": 17.92,
+   "end": 18.18
+  },
+  {
+   "word": "Airliners",
+   "start": 18.5,
+   "end": 18.8
+  },
+  {
+   "word": "are",
+   "start": 18.8,
+   "end": 19.06
+  },
+  {
+   "word": "designed",
+   "start": 19.06,
+   "end": 19.34
+  },
+  {
+   "word": "to",
+   "start": 19.34,
+   "end": 19.54
+  },
+  {
+   "word": "handle",
+   "start": 19.54,
+   "end": 19.8
+  },
+  {
+   "word": "at",
+   "start": 19.8,
+   "end": 20.0
+  },
+  {
+   "word": "least",
+   "start": 20.0,
+   "end": 20.18
+  },
+  {
+   "word": "two",
+   "start": 20.18,
+   "end": 20.54
+  },
+  {
+   "word": "and",
+   "start": 20.54,
+   "end": 20.68
+  },
+  {
+   "word": "a",
+   "start": 20.68,
+   "end": 20.8
+  },
+  {
+   "word": "half",
+   "start": 20.8,
+   "end": 20.94
+  },
+  {
+   "word": "times",
+   "start": 20.94,
+   "end": 21.34
+  },
+  {
+   "word": "the",
+   "start": 21.34,
+   "end": 21.54
+  },
+  {
+   "word": "force",
+   "start": 21.54,
+   "end": 21.72
+  },
+  {
+   "word": "of",
+   "start": 21.72,
+   "end": 21.92
+  },
+  {
+   "word": "gravity.",
+   "start": 21.92,
+   "end": 22.28
+  },
+  {
+   "word": "Then",
+   "start": 22.72,
+   "end": 23.0
+  },
+  {
+   "word": "engineers",
+   "start": 23.34,
+   "end": 23.4
+  },
+  {
+   "word": "add",
+   "start": 23.4,
+   "end": 23.74
+  },
+  {
+   "word": "a",
+   "start": 23.74,
+   "end": 23.9
+  },
+  {
+   "word": "fifty",
+   "start": 23.9,
+   "end": 24.21
+  },
+  {
+   "word": "percent",
+   "start": 24.21,
+   "end": 24.52
+  },
+  {
+   "word": "safety",
+   "start": 24.52,
+   "end": 24.94
+  },
+  {
+   "word": "margin",
+   "start": 24.94,
+   "end": 25.2
+  },
+  {
+   "word": "on",
+   "start": 25.2,
+   "end": 25.44
+  },
+  {
+   "word": "top.",
+   "start": 25.44,
+   "end": 25.7
+  },
+  {
+   "word": "In",
+   "start": 26.12,
+   "end": 26.26
+  },
+  {
+   "word": "one",
+   "start": 26.26,
+   "end": 26.44
+  },
+  {
+   "word": "famous",
+   "start": 26.44,
+   "end": 26.86
+  },
+  {
+   "word": "test,",
+   "start": 26.86,
+   "end": 27.26
+  },
+  {
+   "word": "engineers",
+   "start": 27.56,
+   "end": 27.82
+  },
+  {
+   "word": "bent",
+   "start": 27.82,
+   "end": 28.16
+  },
+  {
+   "word": "a",
+   "start": 28.16,
+   "end": 28.36
+  },
+  {
+   "word": "Boeing",
+   "start": 28.36,
+   "end": 28.62
+  },
+  {
+   "word": "seven-seven-seven's",
+   "start": 28.62,
+   "end": 29.68
+  },
+  {
+   "word": "wings",
+   "start": 29.68,
+   "end": 29.88
+  },
+  {
+   "word": "upward",
+   "start": 29.88,
+   "end": 30.46
+  },
+  {
+   "word": "about",
+   "start": 30.46,
+   "end": 30.78
+  },
+  {
+   "word": "seven",
+   "start": 30.78,
+   "end": 31.28
+  },
+  {
+   "word": "meters",
+   "start": 31.28,
+   "end": 31.68
+  },
+  {
+   "word": "before",
+   "start": 31.68,
+   "end": 32.1
+  },
+  {
+   "word": "they",
+   "start": 32.1,
+   "end": 32.24
+  },
+  {
+   "word": "finally",
+   "start": 32.24,
+   "end": 32.66
+  },
+  {
+   "word": "snapped.",
+   "start": 32.66,
+   "end": 33.04
+  },
+  {
+   "word": "That's",
+   "start": 33.54,
+   "end": 33.88
+  },
+  {
+   "word": "far",
+   "start": 33.88,
+   "end": 34.08
+  },
+  {
+   "word": "beyond",
+   "start": 34.08,
+   "end": 34.44
+  },
+  {
+   "word": "what",
+   "start": 34.44,
+   "end": 34.68
+  },
+  {
+   "word": "turbulence",
+   "start": 34.68,
+   "end": 34.98
+  },
+  {
+   "word": "should",
+   "start": 34.98,
+   "end": 35.28
+  },
+  {
+   "word": "ever",
+   "start": 35.28,
+   "end": 35.6
+  },
+  {
+   "word": "do.",
+   "start": 35.6,
+   "end": 35.92
+  },
+  {
+   "word": "So",
+   "start": 36.4,
+   "end": 36.64
+  },
+  {
+   "word": "what",
+   "start": 36.82,
+   "end": 37.02
+  },
+  {
+   "word": "actually",
+   "start": 37.02,
+   "end": 37.44
+  },
+  {
+   "word": "gets",
+   "start": 37.44,
+   "end": 37.7
+  },
+  {
+   "word": "hurt?",
+   "start": 37.7,
+   "end": 37.96
+  },
+  {
+   "word": "People.",
+   "start": 38.48,
+   "end": 38.76
+  },
+  {
+   "word": "Most",
+   "start": 39.28,
+   "end": 39.46
+  },
+  {
+   "word": "turbulence",
+   "start": 39.46,
+   "end": 39.86
+  },
+  {
+   "word": "injuries",
+   "start": 39.86,
+   "end": 40.26
+  },
+  {
+   "word": "happen",
+   "start": 40.26,
+   "end": 40.6
+  },
+  {
+   "word": "to",
+   "start": 40.6,
+   "end": 40.8
+  },
+  {
+   "word": "people",
+   "start": 40.8,
+   "end": 41.02
+  },
+  {
+   "word": "who",
+   "start": 41.02,
+   "end": 41.24
+  },
+  {
+   "word": "aren't",
+   "start": 41.24,
+   "end": 41.56
+  },
+  {
+   "word": "wearing",
+   "start": 41.56,
+   "end": 41.8
+  },
+  {
+   "word": "a",
+   "start": 41.8,
+   "end": 42.0
+  },
+  {
+   "word": "seatbelt.",
+   "start": 42.0,
+   "end": 42.38
+  },
+  {
+   "word": "So",
+   "start": 42.82,
+   "end": 43.06
+  },
+  {
+   "word": "next",
+   "start": 43.36,
+   "end": 43.5
+  },
+  {
+   "word": "time",
+   "start": 43.5,
+   "end": 43.72
+  },
+  {
+   "word": "that",
+   "start": 43.72,
+   "end": 43.88
+  },
+  {
+   "word": "seatbelt",
+   "start": 43.88,
+   "end": 44.28
+  },
+  {
+   "word": "sign",
+   "start": 44.28,
+   "end": 44.52
+  },
+  {
+   "word": "dings,",
+   "start": 44.52,
+   "end": 44.96
+  },
+  {
+   "word": "buckle",
+   "start": 45.34,
+   "end": 45.46
+  },
+  {
+   "word": "up.",
+   "start": 45.46,
+   "end": 45.8
+  },
+  {
+   "word": "The",
+   "start": 46.14,
+   "end": 46.26
+  },
+  {
+   "word": "plane",
+   "start": 46.26,
+   "end": 46.46
+  },
+  {
+   "word": "can",
+   "start": 46.46,
+   "end": 46.64
+  },
+  {
+   "word": "handle",
+   "start": 46.64,
+   "end": 46.92
+  },
+  {
+   "word": "it.",
+   "start": 46.92,
+   "end": 47.22
+  },
+  {
+   "word": "Make",
+   "start": 47.54,
+   "end": 47.64
+  },
+  {
+   "word": "sure",
+   "start": 47.64,
+   "end": 47.8
+  },
+  {
+   "word": "you",
+   "start": 47.8,
+   "end": 48.02
+  },
+  {
+   "word": "can",
+   "start": 48.02,
+   "end": 48.26
+  },
+  {
+   "word": "too.",
+   "start": 48.26,
+   "end": 48.52
+  },
+  {
+   "word": "Follow",
+   "start": 49.02,
+   "end": 49.24
+  },
+  {
+   "word": "for",
+   "start": 49.24,
+   "end": 49.42
+  },
+  {
+   "word": "more.",
+   "start": 49.42,
+   "end": 49.6
+  }
+ ]
+}
