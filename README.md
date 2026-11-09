@@ -29,4 +29,4 @@ python3 audio/mix.py --project projects/airliner-24h                            
 | planes-35000ft | 16:9 720p, Arctic Glass | done |
 | turbulence-short | 9:16 1080p, captions | done |
 | langley-wrights | 9:16 1080p, Retro Print, captions | done |
-| airliner-24h | 16:9 720p, Arctic Glass, 14:38 | chapter 1 of 5 built (data-driven templates in `scenes/templates.js`, shot data from `story/build_ch*.py`) |
+| airliner-24h | 16:9 720p, Arctic Glass, 14:40 | done: 146 data-driven shots (`scenes/templates.js` + `story/build_ch1-5.py`, assemble with `python3 story/build.py`) |
