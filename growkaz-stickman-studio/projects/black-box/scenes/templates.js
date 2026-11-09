@@ -3,7 +3,7 @@
 // the shot start, or a word (string) = the moment that word is spoken. Shared extras on every template:
 //   cam: {z:[a,b], x:[a,b], y:[a,b]}  camera move over the shot      clock: "5:15 AM" time-of-day card
 //   ov:  [overlay, ...]  (label | readout | counter | badge | check | callout | bigLine | title | dim | flash | veil | qmark)
-import { E, V, S, registerShot, mood, layer, blurLayer, veil, backdrop, ease, prog, clamp, lerp, rng, shake, wordTime, talkAmount, seg, circle, ring, rr, poly, glow, alpha, shade, mix, linGrad, text, FONTS } from '/engine/core.js';
+import { E, V, S, registerShot, mood, layer, blurLayer, veil, backdrop, ease, prog, clamp, lerp, rng, shake, wordTime, talkAmount, seg, circle, ring, rr, poly, glow, alpha, shade, mix, linGrad, text, measure, FONTS } from '/engine/core.js';
 import { drawFigure, POSES, posesAt, breathe, walkPose, bigFace } from '/engine/rig2d.js';
 import * as FX from '/engine/fx2d.js';
 import * as UI from '/engine/ui2d.js';
@@ -86,9 +86,9 @@ function overlays(g, t, info, list = []) {
   }
 }
 function clockCard(g, t, s) {
-  const p = ease.outBack(prog(t, 0.05, 0.4)), ui = S().ui; g.save(); g.translate(V(70, 60), V(60, 120)); g.scale(p, p);
-  rr(g, 0, 0, 250, 74, 16); g.fillStyle = alpha(ui.card, 0.92); g.fill(); g.strokeStyle = ui.cardLine; g.lineWidth = 2; g.stroke(); icon(g, 'clock', 40, 37, 22, ui.accent);
-  text(g, s, 150, 39, { size: 40, color: ui.cream, font: FONTS.ui, weight: 900, align: 'center' }); g.restore();
+  const p = ease.outBack(prog(t, 0.05, 0.4)), ui = S().ui, tw = measure(g, s, 40, FONTS.ui, 900), w = Math.max(250, 96 + tw + 28); g.save(); g.translate(V(70, 60), V(60, 120)); g.scale(p, p);
+  rr(g, 0, 0, w, 74, 16); g.fillStyle = alpha(ui.card, 0.92); g.fill(); g.strokeStyle = ui.cardLine; g.lineWidth = 2; g.stroke(); icon(g, 'clock', 40, 37, 22, ui.accent);
+  text(g, s, 80 + (w - 80) / 2 - 6, 39, { size: 40, color: ui.cream, font: FONTS.ui, weight: 900, align: 'center' }); g.restore();
 }
 
 // ---------------- templates ----------------
