@@ -97,7 +97,10 @@ const bg = (g, t, kind, p) => {
   else if (kind === 'dark') backdrop(g, ['#03070b', '#071822']);
   else cabinSet(g, t, { z: 1.7, x: 200, y: -160 }, { outside: p.outside || 'dusk' });
 };
-T.ramp = (g, t, info, p, cam) => { rampSet(g, t, cam, p); FX.dust(g, t, { count: 20, color: '#e8fbff', a: 0.15 }); };
+T.ramp = (g, t, info, p, cam) => {
+  const R = (v, fb) => (typeof v === 'string' ? at(v, info, fb) : v);
+  if (!p._res) { p._res = { ...p, veh: (p.veh || []).map((v) => ({ ...v, at: R(v.at, 0), sprayAt: R(v.sprayAt, 0.5), lift: v.lift && v.lift.map((x) => R(x, 0)) })), figs: (p.figs || []).map((f) => ({ ...f, a: R(f.a, 0), b: R(f.b, 3) })), spool: p.spool && p.spool.map((x) => R(x, 0)), plane: p.plane && { ...p.plane, a: R(p.plane.a, 0), b: R(p.plane.b, 3) } }; }
+  rampSet(g, t, cam, p._res); FX.dust(g, t, { count: 20, color: '#e8fbff', a: 0.15 }); };
 T.sky = (g, t, info, p, cam) => {
   const { DY, M } = skySet(g, t, cam, { mood: p.mood || 'dusk', everest: p.everest, deckY: p.deckY != null ? Y(p.deckY) : undefined, sunX: p.sunX, sunY: p.sunY, stars: p.stars });
   if (p.dots) { const r = rng(3); for (let i = 0; i < p.dots; i++) { const x = ((r() * E.W * 1.4 - t * (p.dotSpeed ?? 300)) % (E.W * 1.4) + E.W * 1.4) % (E.W * 1.4) - 100; circle(g, x, r() * E.H, 3, alpha(M.rim, 0.4)); } }
@@ -155,6 +158,11 @@ T.bp = (g, t, info, p) => {
       case 'path': { const k = ease.inOut(prog(t, a0, a0 + (it.over ?? 2))), pts = it.pts.map(([a, b]) => [X(a), Y(b)]); g.save(); if (it.dashed) g.setLineDash([16, 12]); g.strokeStyle = c; g.lineWidth = it.w || 5; g.beginPath(); const n = pts.length - 1, f = k * n, m = Math.min(n - 1, Math.floor(f)), u = f - m; g.moveTo(...pts[0]); for (let i = 1; i <= m; i++) g.lineTo(...pts[i]); const hd = [lerp(pts[m][0], pts[m + 1][0], u), lerp(pts[m][1], pts[m + 1][1], u)]; g.lineTo(...hd); g.stroke(); g.restore(); if (it.head) { const nx = pts[Math.min(n, m + 1)]; planeIcon(g, hd[0], hd[1], it.head, c, Math.atan2(nx[1] - pts[m][1], nx[0] - pts[m][0])); } break; }
       case 'dominoes': { const n = it.labels.length, gap = X(it.w ?? 0.7) / n; it.labels.forEach((lb, i) => { const ti = a0 + i * (it.step ?? 0.45), f = ease.in(prog(t, ti, ti + 0.35)) * (i === n - 1 && it.last === false ? 0 : 1), bx = x - X(it.w ?? 0.7) / 2 + i * gap + gap / 2, by = y;
           g.save(); g.translate(bx + 30, by); g.rotate(f * 1.2); rr(g, -60, -220, 60, 220, 10); g.fillStyle = i === 0 ? WARN : alpha(c, 0.25); g.fill(); g.strokeStyle = i === 0 ? WARN : c; g.lineWidth = 3; g.stroke(); g.restore(); lbl(g, lb, bx, by + 50, { size: 30, color: i === 0 ? WARN : c }); }); break; }
+      case 'airfoil': { const W2 = X(it.w ?? 0.4), ice = it.ice != null ? ease.out(prog(t, at(it.ice, info, 1), at(it.ice, info, 1) + 1)) : 0; g.save(); g.translate(x, y); g.rotate(0.1);
+          g.beginPath(); g.moveTo(-W2 / 2, 0); g.bezierCurveTo(-W2 / 2, -70, -W2 * 0.1, -90, W2 / 2, 6); g.bezierCurveTo(W2 * 0.1, 30, -W2 / 2, 40, -W2 / 2, 0); g.fillStyle = alpha(c, 0.15); g.fill(); g.strokeStyle = c; g.lineWidth = 4; g.stroke();
+          if (ice > 0) { const r = rng(4); for (let i = 0; i < 26; i++) { const u = i / 25, xx = lerp(-W2 / 2, W2 * 0.1, u), yy = -55 * Math.sin(u * Math.PI * 0.9) - 22; poly(g, [[xx, yy], [xx + 6 + r() * 10, yy - (8 + r() * 18) * ice], [xx + 14, yy]], alpha('#e8fbff', 0.9)); } } g.restore();
+          for (let j = -4; j <= 4; j++) { if (!j) continue; const y0 = y + j * 44; g.strokeStyle = alpha(ice > 0.5 && j < 0 ? WARN : c, 0.6); g.lineWidth = 3; g.setLineDash([24, 16]); g.lineDashOffset = -t * 300; g.beginPath(); for (let xx = x - X(0.45); xx <= x + X(0.45); xx += 16) { const d = (xx - x) / (W2 * 0.7), bump = j < 0 ? -Math.exp(-d * d) * 36 : Math.exp(-d * d) * 14, wob = ice > 0.5 && j < 0 && xx > x ? Math.sin(xx / 18 + t * 9) * 16 * ice : 0; xx === x - X(0.45) ? g.moveTo(xx, y0 + bump + wob) : g.lineTo(xx, y0 + bump + wob); } g.stroke(); g.setLineDash([]); }
+          const L = 260 * (1 - 0.55 * ice); arrow(g, x, y - 80, x, y - 80 - L, 12, S().ui.gold, A); lbl(g, 'LIFT', x + 60, y - 80 - L, { size: 40, color: S().ui.gold, align: 'left' }); break; }
       case 'oval': { g.save(); g.setLineDash([16, 12]); g.lineDashOffset = -t * 60; g.strokeStyle = c; g.lineWidth = 4; g.beginPath(); g.ellipse(x, y, X(it.rx), Y(it.ry), 0, 0, 7); g.stroke(); g.restore(); if (it.plane) { const a = t * (it.speed || 0.8); planeIcon(g, x + Math.cos(a) * X(it.rx), y + Math.sin(a) * Y(it.ry), 1, S().ui.gold, a + Math.PI / 2); } break; }
     }
     g.restore();

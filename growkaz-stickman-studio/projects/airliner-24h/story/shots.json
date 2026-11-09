@@ -1,6 +1,6 @@
 {
  "title": "24 Hours in the Life of an Airliner",
- "duration": 659.59,
+ "duration": 879.9,
  "shots": [
   {
    "id": "c1_01",
@@ -7007,7 +7007,7 @@
     "figs": [
      {
       "who": "MECH",
-      "x": 0.2,
+      "x": 0.14,
       "prop": "flashlight",
       "facing": 1,
       "expr": "surprised"
@@ -7016,8 +7016,8 @@
     "ov": [
      {
       "k": "mark",
-      "x": 0.4,
-      "y": 0.48,
+      "x": 0.5,
+      "y": 0.6,
       "at": "two",
       "color": "warn",
       "text": "IN"
@@ -7203,6 +7203,2124 @@
       "y": 0.6,
       "size": 200,
       "color": "gold",
+      "font": "title"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_01",
+   "start": 659.59,
+   "end": 664.01,
+   "line": "Seven p.m. Snow is falling.",
+   "scene": "7:00 PM: snow falling at the gate",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "wind",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "night",
+    "snow": true,
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "clock": "7:00 PM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "FLIGHT 4",
+      "at": "seven",
+      "y": 0.12,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_02",
+   "start": 664.01,
+   "end": 672.17,
+   "line": "Before flight four can leave, the plane gets a shower. De-icing trucks spray it with heated fluid, often orange, to melt off the ice and snow.",
+   "scene": "De-icing: heated orange fluid",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "powerup",
+     "gain": -14
+    },
+    {
+     "at": 3.0,
+     "name": "rain",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "night",
+    "snow": true,
+    "cam": {
+     "z": [
+      1.15,
+      1.2
+     ],
+     "x": [
+      200,
+      230
+     ],
+     "y": [
+      40,
+      40
+     ]
+    },
+    "veh": [
+     {
+      "k": "deice",
+      "x": 0.86,
+      "at": 0.2,
+      "spray": "#ff8a1f",
+      "sprayAt": "spray"
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "DE-ICING",
+      "at": "de-icing",
+      "y": 0.12,
+      "color": "gold"
+     },
+     {
+      "k": "label",
+      "text": "HEATED + ORANGE",
+      "at": "orange",
+      "y": 0.2,
+      "color": "#ff8a1f",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_03",
+   "start": 672.17,
+   "end": 677.33,
+   "line": "Sometimes they add a second, green fluid that helps stop new ice forming before takeoff.",
+   "scene": "Second fluid: green, stops new ice",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "rain",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "night",
+    "snow": true,
+    "cam": {
+     "z": [
+      1.2,
+      1.24
+     ],
+     "x": [
+      260,
+      280
+     ],
+     "y": [
+      40,
+      40
+     ]
+    },
+    "veh": [
+     {
+      "k": "deice",
+      "x": 0.86,
+      "from": 0.86,
+      "spray": "#5fd39a",
+      "sprayAt": "green"
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "GREEN = STOPS NEW ICE",
+      "at": "green",
+      "y": 0.12,
+      "color": "#5fd39a"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_04",
+   "start": 677.33,
+   "end": 686.31,
+   "line": "Why does a little ice matter so much? Because a wing depends on its exact shape. Even a thin layer of ice or frost can disrupt the airflow and steal lift.",
+   "scene": "Wing shape: a thin layer of ice steals lift",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 5.3,
+     "name": "glitch",
+     "gain": -12
+    },
+    {
+     "at": 8.4,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "WHY DOES A LITTLE ICE MATTER?",
+      "x": 0.5,
+      "y": 0.1,
+      "at": 0.1,
+      "size": 44,
+      "color": "cream"
+     },
+     {
+      "k": "airfoil",
+      "x": 0.5,
+      "y": 0.58,
+      "w": 0.42,
+      "at": 0,
+      "ice": "thin"
+     },
+     {
+      "k": "text",
+      "s": "EXACT SHAPE",
+      "x": 0.5,
+      "y": 0.86,
+      "at": "exact",
+      "size": 40,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "LESS LIFT",
+      "x": 0.8,
+      "y": 0.3,
+      "at": "steal",
+      "size": 50,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_05",
+   "start": 686.31,
+   "end": 691.37,
+   "line": "Seven thirty. The plane lines up on a cold, wet runway.",
+   "scene": "7:30: lining up on a cold, wet runway",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "wind",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "runway",
+    "mood": "night",
+    "snow": true,
+    "cam": {
+     "z": [
+      1.06,
+      1.0
+     ]
+    },
+    "clock": "7:30 PM",
+    "ov": [
+     {
+      "k": "badge",
+      "text": "V1",
+      "size": 40
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_06",
+   "start": 691.37,
+   "end": 697.39,
+   "line": "And now, finally, it's time to talk about V-one. V-one is the decision speed.",
+   "scene": "Finally: V1",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "stinger",
+     "gain": -6
+    },
+    {
+     "at": 4.6,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "FINALLY...",
+      "at": 0.1,
+      "y": 0.26,
+      "size": 44,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "V1",
+      "at": "v-one",
+      "y": 0.5,
+      "size": 220,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "THE DECISION SPEED",
+      "at": "decision",
+      "y": 0.72,
+      "size": 50,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_07",
+   "start": 697.39,
+   "end": 704.93,
+   "line": "Before V-one, if something goes seriously wrong, like an engine failing, the pilots can slam on the brakes and stop on the runway that's left.",
+   "scene": "Runway diagram: before V1 you can stop",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 5.8,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "box",
+      "x": 0.05,
+      "y": 0.4,
+      "w": 0.9,
+      "h": 0.2,
+      "at": 0,
+      "color": "text"
+     },
+     {
+      "k": "box",
+      "x": 0.05,
+      "y": 0.4,
+      "w": 0.45,
+      "h": 0.2,
+      "at": "before",
+      "fill": 0.25,
+      "color": "good",
+      "label": ""
+     },
+     {
+      "k": "text",
+      "s": "STOP ZONE",
+      "x": 0.275,
+      "y": 0.35,
+      "at": "before",
+      "size": 40,
+      "color": "good"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.5,
+        0.32
+       ],
+       [
+        0.5,
+        0.68
+       ]
+      ],
+      "w": 6,
+      "color": "gold",
+      "at": 0
+     },
+     {
+      "k": "text",
+      "s": "V1",
+      "x": 0.5,
+      "y": 0.26,
+      "at": 0,
+      "size": 60,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "picon",
+      "x": 0.1,
+      "y": 0.5,
+      "x1": 0.42,
+      "y1": 0.5,
+      "s": 1.6,
+      "at": "wrong",
+      "over": 2.5,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "ENGINE FAILURE?",
+      "x": 0.27,
+      "y": 0.78,
+      "at": "engine",
+      "size": 40,
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "BRAKES: STOP SAFELY",
+      "x": 0.27,
+      "y": 0.86,
+      "at": "slam",
+      "size": 36,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_08",
+   "start": 704.93,
+   "end": 711.55,
+   "line": "But after V-one, there isn't enough runway left to stop safely. So the rule is simple, and absolute.",
+   "scene": "After V1: not enough runway to stop. GO.",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 4.2,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "box",
+      "x": 0.05,
+      "y": 0.4,
+      "w": 0.9,
+      "h": 0.2,
+      "at": 0,
+      "color": "text"
+     },
+     {
+      "k": "box",
+      "x": 0.5,
+      "y": 0.4,
+      "w": 0.45,
+      "h": 0.2,
+      "at": 0.2,
+      "fill": 0.25,
+      "color": "gold",
+      "label": ""
+     },
+     {
+      "k": "text",
+      "s": "GO ZONE",
+      "x": 0.725,
+      "y": 0.35,
+      "at": 0.2,
+      "size": 40,
+      "color": "gold"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.5,
+        0.32
+       ],
+       [
+        0.5,
+        0.68
+       ]
+      ],
+      "w": 6,
+      "color": "gold",
+      "at": 0
+     },
+     {
+      "k": "text",
+      "s": "V1",
+      "x": 0.5,
+      "y": 0.26,
+      "at": 0,
+      "size": 60,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "picon",
+      "x": 0.55,
+      "y": 0.5,
+      "x1": 0.9,
+      "y1": 0.5,
+      "s": 1.6,
+      "at": 0.5,
+      "over": 3,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "NOT ENOUGH RUNWAY TO STOP",
+      "x": 0.72,
+      "y": 0.78,
+      "at": "enough",
+      "size": 36,
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "SIMPLE. ABSOLUTE.",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "simple",
+      "size": 50,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_09",
+   "start": 711.55,
+   "end": 717.47,
+   "line": "Once you pass V-one, you go. Even if an engine fails. Even if alarms are blaring.",
+   "scene": "Once you pass V1, you go",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 4.3,
+     "name": "glitch",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "runway",
+    "mood": "night",
+    "snow": true,
+    "roll": 0,
+    "v": 2600,
+    "cam": {
+     "z": [
+      1.04,
+      1.0
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "PAST V1 = GO",
+      "at": "go",
+      "y": 0.12,
+      "color": "gold",
+      "size": 70,
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "EVEN IF AN ENGINE FAILS",
+      "at": "even",
+      "y": 0.22,
+      "color": "warn",
+      "size": 40
+     },
+     {
+      "k": "label",
+      "text": "EVEN IF ALARMS ARE BLARING",
+      "at": "alarms",
+      "y": 0.3,
+      "color": "warn",
+      "size": 40
+     },
+     {
+      "k": "flash",
+      "at": "alarms",
+      "color": "#ff3020",
+      "over": 0.5
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_10",
+   "start": 717.47,
+   "end": 722.21,
+   "line": "And it works, because airliners are designed to keep climbing on just one engine.",
+   "scene": "Airliners can keep climbing on one engine",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "night",
+    "plane": {
+     "x": 0.3,
+     "x1": 0.55,
+     "y": 0.6,
+     "y1": 0.4,
+     "s": 0.55,
+     "pitch": 0.12
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "ONE ENGINE IS ENOUGH TO CLIMB",
+      "at": "one",
+      "y": 0.12,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_11",
+   "start": 722.21,
+   "end": 729.81,
+   "line": "That's the split-second decision I promised you at the start. Before V-one: stop. After V-one: fly.",
+   "scene": "The split-second decision: STOP or FLY",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.4,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 5.6,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "THE SPLIT-SECOND DECISION",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 50,
+      "color": "cream"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.5,
+        0.25
+       ],
+       [
+        0.5,
+        0.85
+       ]
+      ],
+      "w": 4,
+      "at": 0
+     },
+     {
+      "k": "text",
+      "s": "BEFORE V1",
+      "x": 0.27,
+      "y": 0.4,
+      "at": "before",
+      "size": 50,
+      "color": "good"
+     },
+     {
+      "k": "text",
+      "s": "STOP",
+      "x": 0.27,
+      "y": 0.58,
+      "at": "stop",
+      "size": 130,
+      "color": "good",
+      "font": "title",
+      "glow": true
+     },
+     {
+      "k": "text",
+      "s": "AFTER V1",
+      "x": 0.73,
+      "y": 0.4,
+      "at": "after",
+      "size": 50,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "FLY",
+      "x": 0.73,
+      "y": 0.58,
+      "at": "fly",
+      "size": 130,
+      "color": "gold",
+      "font": "title",
+      "glow": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_12",
+   "start": 729.81,
+   "end": 736.67,
+   "line": "Pilots practice that exact moment in simulators again and again, so that if it ever happens for real, there's nothing left to think about.",
+   "scene": "Pilots practice it in simulators again and again",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "PILOT",
+    "bg": "cockpit",
+    "warn": true,
+    "expr": "determined",
+    "dx": -140,
+    "side": 1,
+    "rim": "warn",
+    "glow": [
+     0.8,
+     0.5,
+     "warn"
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "PRACTICED AGAIN AND AGAIN",
+      "at": "practice",
+      "x": 0.75,
+      "y": 0.2,
+      "size": 40,
+      "color": "gold"
+     },
+     {
+      "k": "label",
+      "text": "NOTHING LEFT TO THINK ABOUT",
+      "at": "nothing",
+      "x": 0.75,
+      "y": 0.3,
+      "size": 36,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c5_13",
+   "start": 736.67,
+   "end": 745.39,
+   "line": "Tonight, it doesn't happen. The pilots call out, \"V-one.\" A beat later, \"rotate.\" And flight four lifts into the night.",
+   "scene": "Tonight: V1... rotate. Lift into the night",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "pop",
+     "gain": -6
+    },
+    {
+     "at": 5.0,
+     "name": "pop",
+     "gain": -6
+    },
+    {
+     "at": 6.0,
+     "name": "whoosh",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "runway",
+    "mood": "night",
+    "snow": true,
+    "roll": 0,
+    "lift": "rotate",
+    "climb": 0.5,
+    "climbT": 3.5,
+    "v": 2800,
+    "cam": {
+     "z": [
+      1.02,
+      1.06
+     ],
+     "y": [
+      0,
+      -60
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "\"V1\"",
+      "at": "v-one",
+      "y": 0.14,
+      "color": "gold",
+      "size": 90,
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "\"ROTATE\"",
+      "at": "rotate",
+      "y": 0.26,
+      "color": "accent",
+      "size": 70,
+      "font": "title"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_14",
+   "start": 745.39,
+   "end": 753.87,
+   "line": "Nine fifteen p.m. The last landing of the day. The wheels touch the runway at around two hundred and fifty kilometers an hour.",
+   "scene": "9:15 PM: the last landing, ~250 km/h",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 2.8,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "runway",
+    "mood": "night",
+    "snow": true,
+    "land": 2.0,
+    "reverse": 2.6,
+    "v": 1800,
+    "clock": "9:15 PM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "THE LAST LANDING",
+      "at": "last",
+      "y": 0.12,
+      "color": "cream"
+     },
+     {
+      "k": "counter",
+      "to": 250,
+      "at": "two",
+      "over": 1.0,
+      "prefix": "~",
+      "suffix": " KM/H",
+      "x": 0.78,
+      "y": 0.3,
+      "size": 80,
+      "color": "gold",
+      "label": "AT TOUCHDOWN"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_15",
+   "start": 753.87,
+   "end": 760.93,
+   "line": "Getting there wasn't simple. On the approach, the snow was so heavy the pilots couldn't see the runway until the very last moment.",
+   "scene": "On the approach: snow, runway invisible",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "wind",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "night",
+    "deckY": 1.2,
+    "plane": {
+     "x": 0.3,
+     "x1": 0.55,
+     "y": 0.35,
+     "y1": 0.5,
+     "s": 0.5,
+     "pitch": -0.04
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "ov": [
+     {
+      "k": "veil",
+      "a": 0.2,
+      "color": "#cfd8e0"
+     },
+     {
+      "k": "label",
+      "text": "CAN'T SEE THE RUNWAY",
+      "at": "see",
+      "y": 0.12,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_16",
+   "start": 760.93,
+   "end": 767.63,
+   "line": "So they followed invisible radio beams from the airport, guiding the plane down a precise slope, straight to the runway.",
+   "scene": "Invisible radio beams guide the plane down",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 2.6,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.05,
+        0.85
+       ],
+       [
+        0.95,
+        0.85
+       ]
+      ],
+      "w": 4,
+      "at": 0
+     },
+     {
+      "k": "box",
+      "x": 0.72,
+      "y": 0.82,
+      "w": 0.2,
+      "h": 0.04,
+      "at": 0,
+      "fill": 0.3,
+      "color": "gold",
+      "label": ""
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.1,
+        0.25
+       ],
+       [
+        0.75,
+        0.83
+       ]
+      ],
+      "w": 3,
+      "dashed": true,
+      "color": "accent",
+      "at": "radio"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.1,
+        0.33
+       ],
+       [
+        0.75,
+        0.83
+       ]
+      ],
+      "w": 2,
+      "dashed": true,
+      "color": "text",
+      "at": "radio"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.1,
+        0.17
+       ],
+       [
+        0.75,
+        0.83
+       ]
+      ],
+      "w": 2,
+      "dashed": true,
+      "color": "text",
+      "at": "radio"
+     },
+     {
+      "k": "picon",
+      "x": 0.12,
+      "y": 0.26,
+      "x1": 0.7,
+      "y1": 0.8,
+      "s": 1.4,
+      "rot": 0.73,
+      "at": "guiding",
+      "over": 4,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "INVISIBLE RADIO BEAMS",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "invisible",
+      "size": 50,
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "A PRECISE SLOPE",
+      "x": 0.4,
+      "y": 0.62,
+      "at": "precise",
+      "size": 36,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_17",
+   "start": 767.63,
+   "end": 774.37,
+   "line": "In very poor visibility, many airliners can even land themselves, with the pilots watching closely, ready to take over.",
+   "scene": "Autoland: the plane can land itself",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "blip",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "cockpit",
+    "mood": "night",
+    "outside": "night",
+    "expr": "neutral",
+    "cam": {
+     "z": [
+      1.3,
+      1.35
+     ],
+     "x": [
+      -120,
+      -120
+     ],
+     "y": [
+      110,
+      110
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "AUTOLAND",
+      "at": "land",
+      "x": 0.7,
+      "y": 0.12,
+      "color": "good",
+      "size": 60
+     },
+     {
+      "k": "label",
+      "text": "PILOTS READY TO TAKE OVER",
+      "at": "ready",
+      "x": 0.7,
+      "y": 0.2,
+      "color": "cream",
+      "size": 36
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c5_18",
+   "start": 774.37,
+   "end": 779.47,
+   "line": "And just before landing, the cabin lights were dimmed, and passengers were asked to open the window shades.",
+   "scene": "Cabin lights dimmed, shades up",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "cabin",
+    "outside": "night",
+    "paxExpr": "neutral",
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "ov": [
+     {
+      "k": "veil",
+      "at": "dimmed",
+      "a": 0.55,
+      "color": "#000000"
+     },
+     {
+      "k": "label",
+      "text": "LIGHTS DIMMED",
+      "at": "dimmed",
+      "y": 0.12,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "SHADES UP",
+      "at": "window",
+      "y": 0.2,
+      "color": "cream",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c5_19",
+   "start": 779.47,
+   "end": 788.81,
+   "line": "That isn't for the mood. It lets your eyes adjust to the dark, and lets the crew see outside, so that if anyone ever needed to get out fast, nobody would be blinded or confused.",
+   "scene": "Eyes adjust; if you ever had to get out fast",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 7.0,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "PAX",
+    "bg": "cabin",
+    "outside": "night",
+    "expr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      2.0,
+      "surprised"
+     ],
+     [
+      5.0,
+      "determined"
+     ]
+    ],
+    "ov": [
+     {
+      "k": "veil",
+      "at": 0,
+      "a": 0.3,
+      "color": "#000000"
+     },
+     {
+      "k": "label",
+      "text": "NOT FOR THE MOOD",
+      "at": "mood",
+      "x": 0.24,
+      "y": 0.2,
+      "size": 44,
+      "color": "warn"
+     },
+     {
+      "k": "label",
+      "text": "EYES ADJUST TO THE DARK",
+      "at": "eyes",
+      "x": 0.24,
+      "y": 0.3,
+      "size": 40,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "READY TO GET OUT FAST",
+      "at": "fast",
+      "x": 0.24,
+      "y": 0.4,
+      "size": 40,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c5_20",
+   "start": 788.81,
+   "end": 797.41,
+   "line": "Ten p.m. The passengers are gone. The crew is gone. The airport goes quiet. But the plane's day isn't over.",
+   "scene": "10 PM: passengers gone, crew gone, airport quiet",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "ramp",
+    "mood": "night",
+    "dark": true,
+    "cam": {
+     "z": [
+      1.0,
+      0.97
+     ]
+    },
+    "clock": "10:00 PM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "PASSENGERS: GONE",
+      "at": "passengers",
+      "y": 0.12,
+      "color": "cream",
+      "size": 44
+     },
+     {
+      "k": "label",
+      "text": "CREW: GONE",
+      "at": "crew",
+      "y": 0.2,
+      "color": "cream",
+      "size": 44
+     },
+     {
+      "k": "label",
+      "text": "BUT THE DAY ISN\u2019T OVER",
+      "at": "isn",
+      "y": 0.88,
+      "color": "gold",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_21",
+   "start": 797.41,
+   "end": 807.05,
+   "line": "Overnight, the mechanics come back. They check the brakes, the tires, the engines, the lights, and the oil. They review every fault the computers logged during the day.",
+   "scene": "Overnight: the mechanics come back",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 3.0,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 3.8,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 4.6,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 5.4,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 7.0,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "night",
+    "dark": true,
+    "cam": {
+     "z": [
+      1.3,
+      1.36
+     ],
+     "x": [
+      120,
+      140
+     ],
+     "y": [
+      100,
+      100
+     ]
+    },
+    "figs": [
+     {
+      "who": "MECH",
+      "x": 0.42,
+      "prop": "flashlight",
+      "facing": 1
+     },
+     {
+      "who": "EXTRA",
+      "x": 0.72,
+      "pose": "crouch",
+      "prop": "flashlight",
+      "facing": -1
+     }
+    ],
+    "ov": [
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.2,
+      "items": [
+       [
+        "brakes",
+        "BRAKES"
+       ],
+       [
+        "tires",
+        "TIRES"
+       ],
+       [
+        "engines",
+        "ENGINES"
+       ],
+       [
+        "lights",
+        "LIGHTS"
+       ],
+       [
+        "oil",
+        "OIL"
+       ],
+       [
+        "fault",
+        "FAULT LOG"
+       ]
+      ]
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_22",
+   "start": 807.05,
+   "end": 826.49,
+   "line": "And quietly, the whole day has been recorded. In the tail sit two bright orange boxes, the famous black boxes. One records the sounds in the cockpit. The other has been logging hundreds of measurements, speed, altitude, engine power, every control movement, from the first push back to the final stop.",
+   "scene": "The black boxes: two orange recorders in the tail",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 8.0,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 10.6,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "plane",
+      "x": 0.55,
+      "y": 0.42,
+      "s": 0.95,
+      "at": 0
+     },
+     {
+      "k": "box",
+      "x": 0.22,
+      "y": 0.62,
+      "w": 0.08,
+      "h": 0.08,
+      "at": "orange",
+      "fill": 0.9,
+      "color": "#ff8a1f",
+      "label": ""
+     },
+     {
+      "k": "box",
+      "x": 0.32,
+      "y": 0.62,
+      "w": 0.08,
+      "h": 0.08,
+      "at": "orange",
+      "fill": 0.9,
+      "color": "#ff8a1f",
+      "label": ""
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.27,
+        0.45
+       ],
+       [
+        0.26,
+        0.62
+       ]
+      ],
+      "w": 3,
+      "dashed": true,
+      "at": "orange",
+      "color": "#ff8a1f"
+     },
+     {
+      "k": "text",
+      "s": "THE BLACK BOXES",
+      "x": 0.5,
+      "y": 0.1,
+      "at": "black",
+      "size": 56,
+      "color": "#ff8a1f"
+     },
+     {
+      "k": "text",
+      "s": "...THEY'RE ORANGE",
+      "x": 0.5,
+      "y": 0.18,
+      "at": "famous",
+      "size": 36,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "COCKPIT SOUNDS",
+      "x": 0.26,
+      "y": 0.8,
+      "at": "sounds",
+      "size": 32,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "HUNDREDS OF MEASUREMENTS",
+      "x": 0.6,
+      "y": 0.8,
+      "at": "hundreds",
+      "size": 32,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "SPEED \u00b7 ALTITUDE \u00b7 POWER \u00b7 CONTROLS",
+      "x": 0.6,
+      "y": 0.88,
+      "at": "speed",
+      "size": 28
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_23",
+   "start": 826.49,
+   "end": 834.19,
+   "line": "And every so often, the plane is pulled out of service for a much bigger check, where it can spend weeks being taken apart and inspected.",
+   "scene": "Every so often: a much bigger check, for weeks",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 4.8,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "icon",
+      "name": "wrench",
+      "x": 0.3,
+      "y": 0.45,
+      "r": 90,
+      "at": 0.2,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "A MUCH BIGGER CHECK",
+      "x": 0.62,
+      "y": 0.4,
+      "at": "bigger",
+      "size": 50,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "TAKEN APART FOR WEEKS",
+      "x": 0.62,
+      "y": 0.52,
+      "at": "weeks",
+      "size": 44,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_24",
+   "start": 834.19,
+   "end": 841.61,
+   "line": "Midnight. Twenty-four hours after we met it, our jet sits at the gate again. Cold. Silent. Empty.",
+   "scene": "Midnight: back where we started",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "night",
+    "dark": true,
+    "cam": {
+     "z": [
+      1.08,
+      1.0
+     ],
+     "x": [
+      0,
+      -60
+     ]
+    },
+    "clock": "12:00 AM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "COLD.",
+      "at": "cold",
+      "y": 0.18,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "SILENT.",
+      "at": "silent",
+      "y": 0.26,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "EMPTY.",
+      "at": "empty",
+      "y": 0.34,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_25",
+   "start": 841.61,
+   "end": 853.13,
+   "line": "Today, it flew four flights. It carried hundreds of people. It dodged a storm, took a lightning strike, and passed through one split-second decision without anyone in the cabin ever noticing.",
+   "scene": "Recap: 4 flights, hundreds of people, a storm, a strike, one decision",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 2.0,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.5,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 7.0,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "icon",
+      "name": "plane",
+      "x": 0.15,
+      "y": 0.42,
+      "r": 55,
+      "at": "four",
+      "label": "4 FLIGHTS",
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "people",
+      "x": 0.33,
+      "y": 0.42,
+      "r": 55,
+      "at": "hundreds",
+      "label": "HUNDREDS"
+     },
+     {
+      "k": "icon",
+      "name": "storm",
+      "x": 0.5,
+      "y": 0.42,
+      "r": 55,
+      "at": "storm",
+      "label": "1 STORM"
+     },
+     {
+      "k": "icon",
+      "name": "bolt",
+      "x": 0.67,
+      "y": 0.42,
+      "r": 55,
+      "at": "lightning",
+      "label": "1 STRIKE",
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "V1",
+      "x": 0.85,
+      "y": 0.42,
+      "at": "split",
+      "size": 100,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "1 DECISION",
+      "x": 0.85,
+      "y": 0.6,
+      "at": "split",
+      "size": 34,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "...AND NOBODY IN THE CABIN NOTICED",
+      "x": 0.5,
+      "y": 0.82,
+      "at": "noticing",
+      "size": 40,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_26",
+   "start": 853.13,
+   "end": 856.95,
+   "line": "Tomorrow, at four forty-five a.m., it will do it all again.",
+   "scene": "Tomorrow at 4:45 AM, it all starts again",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "night",
+    "dark": true,
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "clock": "4:45 AM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "TOMORROW: AGAIN",
+      "at": "again",
+      "y": 0.12,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c5_27",
+   "start": 856.95,
+   "end": 863.57,
+   "line": "And over a career that can last twenty-five years or more, a jet like this can fly tens of thousands of flights.",
+   "scene": "A career: 25+ years, tens of thousands of flights",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 5.0,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "counter",
+      "to": 25,
+      "at": "twenty-five",
+      "over": 0.8,
+      "suffix": "+ YEARS",
+      "x": 0.5,
+      "y": 0.32,
+      "size": 110,
+      "color": "gold"
+     },
+     {
+      "k": "label",
+      "text": "TENS OF THOUSANDS OF FLIGHTS",
+      "at": "tens",
+      "y": 0.56,
+      "size": 56,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c5_28",
+   "start": 863.57,
+   "end": 869.47,
+   "line": "So next time you step on board, remember: you're just one chapter in a very long day.",
+   "scene": "Next time you step on board: one chapter in a very long day",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.0,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "golden",
+    "sunY": 60,
+    "walkers": true,
+    "cam": {
+     "z": [
+      1.4,
+      1.3
+     ],
+     "x": [
+      -380,
+      -300
+     ],
+     "y": [
+      -60,
+      -40
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "JUST ONE CHAPTER",
+      "at": "chapter",
+      "y": 0.12,
+      "color": "gold",
+      "size": 60,
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "IN A VERY LONG DAY",
+      "at": "long",
+      "y": 0.21,
+      "color": "cream",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c5_29",
+   "start": 869.47,
+   "end": 879.9,
+   "line": "If you made it all the way here, tell me in the comments the most surprising thing you learned. And subscribe, because next, we're going inside the black box.",
+   "scene": "End screen: comment, subscribe, next: the black box",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 5.2,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 7.6,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "MADE IT THIS FAR?",
+      "at": 0.1,
+      "y": 0.16,
+      "size": 60,
+      "color": "cream",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "WHAT SURPRISED YOU MOST? TELL ME IN THE COMMENTS",
+      "at": "comments",
+      "y": 0.28,
+      "size": 36,
+      "color": "text"
+     },
+     {
+      "k": "label",
+      "text": "SUBSCRIBE",
+      "at": "subscribe",
+      "y": 0.46,
+      "size": 70,
+      "color": "warn",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "NEXT:",
+      "at": "next",
+      "y": 0.64,
+      "size": 40,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "INSIDE THE BLACK BOX",
+      "at": "black",
+      "y": 0.74,
+      "size": 80,
+      "color": "#ff8a1f",
       "font": "title"
      }
     ]
