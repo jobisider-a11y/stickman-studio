@@ -1,6 +1,6 @@
 {
  "title": "Inside the Black Box",
- "duration": 628.93,
+ "duration": 811.9,
  "shots": [
   {
    "id": "b1_01",
@@ -5215,6 +5215,1323 @@
       "at": "really",
       "size": 44,
       "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_01",
+   "start": 628.93,
+   "end": 637.25,
+   "line": "The recordings start calmly. The plane is cruising at night, at around thirty-five thousand feet, approaching an area of storms near the equator.",
+   "scene": "The recordings start calmly: night cruise toward equatorial storms",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hum",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "cockpit",
+    "mood": "night",
+    "outside": "night",
+    "expr": "neutral",
+    "cam": {
+     "z": [
+      1.15,
+      1.2
+     ],
+     "x": [
+      -60,
+      -60
+     ],
+     "y": [
+      40,
+      40
+     ]
+    },
+    "ov": [
+     {
+      "k": "readout",
+      "label": "ALTITUDE",
+      "value": "~35,000 FT",
+      "at": "thirty-five",
+      "x": 0.75,
+      "y": 0.12
+     },
+     {
+      "k": "label",
+      "text": "STORMS NEAR THE EQUATOR",
+      "at": "storms",
+      "x": 0.7,
+      "y": 0.88,
+      "color": "warn",
+      "size": 40
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b5_02",
+   "start": 637.25,
+   "end": 645.83,
+   "line": "Remember the pitot tubes from our last video, those little tubes on the nose that measure airspeed? Flying through the storm clouds, they begin to clog with ice crystals.",
+   "scene": "Callback: the pitot tubes start to clog with ice",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 5.6,
+     "name": "freeze",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "obj": "pitot",
+    "ice": "clog",
+    "bg": "sky",
+    "mood": "storm",
+    "cam": {
+     "z": [
+      1.0,
+      1.08
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "REMEMBER THE PITOT TUBES?",
+      "at": 0.2,
+      "y": 0.1,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "ICE CRYSTALS",
+      "at": "ice",
+      "y": 0.88,
+      "color": "accent",
+      "size": 56
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b5_03",
+   "start": 645.83,
+   "end": 651.51,
+   "line": "Within seconds, the airspeed readings become unreliable. The plane no longer knows how fast it's going.",
+   "scene": "Airspeed readings become unreliable",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "glitch",
+     "gain": -8
+    },
+    {
+     "at": 2.0,
+     "name": "glitch",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "gauge",
+      "x": 0.5,
+      "y": 0.52,
+      "r": 220,
+      "v0": 0.55,
+      "v": 0.55,
+      "wild": 0.2,
+      "label": "AIRSPEED",
+      "at": 0
+     },
+     {
+      "k": "text",
+      "s": "UNRELIABLE",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "unreliable",
+      "size": 70,
+      "color": "warn",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "HOW FAST ARE WE GOING?",
+      "x": 0.5,
+      "y": 0.88,
+      "at": "knows",
+      "size": 44,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_04",
+   "start": 651.51,
+   "end": 663.03,
+   "line": "Without a trustworthy airspeed, the autopilot does exactly what it's designed to do. It disconnects, and hands the plane back to the pilots, suddenly, in the dark, in turbulence.",
+   "scene": "Autopilot disconnects, hands the plane back",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 5.2,
+     "name": "glitch",
+     "gain": -6
+    },
+    {
+     "at": 5.4,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "cockpit",
+    "mood": "night",
+    "outside": "storm",
+    "warn": true,
+    "expr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      5.4,
+      "shocked"
+     ]
+    ],
+    "cam": {
+     "z": [
+      1.4,
+      1.46
+     ],
+     "x": [
+      -120,
+      -120
+     ],
+     "y": [
+      110,
+      110
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "AUTOPILOT DISCONNECT",
+      "at": "disconnects",
+      "x": 0.68,
+      "y": 0.12,
+      "color": "warn",
+      "size": 50
+     },
+     {
+      "k": "flash",
+      "at": "disconnects",
+      "color": "#ff3020",
+      "over": 0.4
+     },
+     {
+      "k": "label",
+      "text": "IN THE DARK \u00b7 IN TURBULENCE",
+      "at": "dark",
+      "x": 0.68,
+      "y": 0.88,
+      "color": "cream",
+      "size": 40
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b5_05",
+   "start": 663.03,
+   "end": 675.95,
+   "line": "What happened next is the hardest part. The data shows the pilot flying pulled the nose up, and the plane climbed. As it climbed, it slowed. And the wings, losing the airflow they needed, stopped producing enough lift.",
+   "scene": "Nose up, climbing, slowing",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 7.0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "THE HARDEST PART",
+      "x": 0.5,
+      "y": 0.1,
+      "at": 0.1,
+      "size": 44,
+      "color": "cream"
+     },
+     {
+      "k": "plane",
+      "x": 0.3,
+      "x1": 0.55,
+      "y": 0.6,
+      "y1": 0.35,
+      "s": 0.55,
+      "pitch": 0.3,
+      "at": "nose",
+      "over": 6
+     },
+     {
+      "k": "bar",
+      "x": 0.72,
+      "y": 0.55,
+      "w": 0.2,
+      "f0": 1,
+      "f": 0.25,
+      "at": "slowed",
+      "over": 2.5,
+      "color": "warn",
+      "label": "SPEED"
+     },
+     {
+      "k": "text",
+      "s": "NOSE UP",
+      "x": 0.3,
+      "y": 0.86,
+      "at": "nose",
+      "size": 50,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "CLIMBING \u00b7 SLOWING",
+      "x": 0.62,
+      "y": 0.86,
+      "at": "slowed",
+      "size": 40,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_06",
+   "start": 675.95,
+   "end": 684.53,
+   "line": "That's called a stall. Not an engine stall. A wing stall. The airflow over the wing breaks away, and the wing stops holding the plane up.",
+   "scene": "A wing stall: the airflow breaks away",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "A STALL",
+      "x": 0.5,
+      "y": 0.1,
+      "at": "stall",
+      "size": 70,
+      "color": "warn",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "NOT AN ENGINE STALL: A WING STALL",
+      "x": 0.5,
+      "y": 0.18,
+      "at": "engine",
+      "size": 36,
+      "color": "cream"
+     },
+     {
+      "k": "airfoil",
+      "x": 0.5,
+      "y": 0.6,
+      "w": 0.42,
+      "at": 0,
+      "stall": 0.3
+     },
+     {
+      "k": "text",
+      "s": "AIRFLOW BREAKS AWAY",
+      "x": 0.8,
+      "y": 0.32,
+      "at": "breaks",
+      "size": 36,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_07",
+   "start": 684.53,
+   "end": 692.97,
+   "line": "The stall warning sounded again and again. But in the confusion, with conflicting readings and alarms, the crew never fully recognized what was happening.",
+   "scene": "The stall warning sounds again and again; confusion",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -8
+    },
+    {
+     "at": 1.2,
+     "name": "glitch",
+     "gain": -8
+    },
+    {
+     "at": 2.2,
+     "name": "glitch",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "cockpit",
+    "mood": "night",
+    "outside": "storm",
+    "warn": true,
+    "expr": "scared",
+    "cam": {
+     "z": [
+      1.4,
+      1.46
+     ],
+     "x": [
+      -120,
+      -120
+     ],
+     "y": [
+      110,
+      110
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "\"STALL! STALL!\"",
+      "at": 0.2,
+      "x": 0.68,
+      "y": 0.12,
+      "color": "warn",
+      "size": 56,
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "CONFLICTING READINGS + ALARMS",
+      "at": "conflicting",
+      "x": 0.68,
+      "y": 0.88,
+      "color": "cream",
+      "size": 36
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b5_08",
+   "start": 692.97,
+   "end": 711.15,
+   "line": "And the recordings revealed two details that made it even harder. At times, the airspeed readings dropped so low that the system treated them as invalid, and the stall warning actually went quiet. Then, when the nose came down a little, the readings returned and the warning started again, sending exactly the wrong signal.",
+   "scene": "Detail 1: the warning went quiet at the wrong times",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 10.6,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 16.0,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "DETAIL #1",
+      "x": 0.5,
+      "y": 0.1,
+      "at": 0.1,
+      "size": 48,
+      "color": "gold"
+     },
+     {
+      "k": "blink",
+      "x": 0.5,
+      "y": 0.36,
+      "at": 0,
+      "pattern": [
+       [
+        0,
+        "invalid"
+       ],
+       [
+        "returned",
+        99
+       ]
+      ],
+      "rate": 3
+     },
+     {
+      "k": "text",
+      "s": "SPEED TOO LOW = TREATED AS INVALID",
+      "x": 0.5,
+      "y": 0.56,
+      "at": "invalid",
+      "size": 36,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "WARNING GOES QUIET",
+      "x": 0.5,
+      "y": 0.64,
+      "at": "quiet",
+      "size": 40,
+      "color": "good"
+     },
+     {
+      "k": "text",
+      "s": "NOSE DOWN A LITTLE = WARNING AGAIN",
+      "x": 0.5,
+      "y": 0.78,
+      "at": "nose",
+      "size": 36,
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "EXACTLY THE WRONG SIGNAL",
+      "x": 0.5,
+      "y": 0.88,
+      "at": "wrong",
+      "size": 44,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_09",
+   "start": 711.15,
+   "end": 722.03,
+   "line": "On this aircraft, the two pilots' side sticks aren't mechanically linked. So one pilot couldn't feel what the other was doing with his controls. For most of the descent, the plane's nose stayed up.",
+   "scene": "Detail 2: the side sticks are not linked",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 5.0,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "DETAIL #2",
+      "x": 0.5,
+      "y": 0.1,
+      "at": 0.1,
+      "size": 48,
+      "color": "gold"
+     },
+     {
+      "k": "sticks",
+      "at": "couldn",
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "NOT LINKED",
+      "x": 0.5,
+      "y": 0.3,
+      "at": "linked",
+      "size": 60,
+      "color": "warn",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "ONE PILOT CAN'T FEEL THE OTHER'S INPUTS",
+      "x": 0.5,
+      "y": 0.4,
+      "at": "feel",
+      "size": 36,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_10",
+   "start": 722.03,
+   "end": 732.39,
+   "line": "The way out of a stall is counterintuitive. You lower the nose, let the plane gain speed, and let the air flow smoothly over the wings again. Pulling up only makes it worse.",
+   "scene": "The way out: nose down, gain speed, airflow returns",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 8.2,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "HOW TO RECOVER",
+      "x": 0.5,
+      "y": 0.1,
+      "at": 0.1,
+      "size": 50,
+      "color": "good"
+     },
+     {
+      "k": "airfoil",
+      "x": 0.5,
+      "y": 0.62,
+      "w": 0.42,
+      "at": 0,
+      "stall": 0,
+      "recover": "lower"
+     },
+     {
+      "k": "text",
+      "s": "NOSE DOWN",
+      "x": 0.2,
+      "y": 0.3,
+      "at": "lower",
+      "size": 44,
+      "color": "good"
+     },
+     {
+      "k": "text",
+      "s": "GAIN SPEED",
+      "x": 0.2,
+      "y": 0.38,
+      "at": "gain",
+      "size": 36,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "PULLING UP MAKES IT WORSE",
+      "x": 0.5,
+      "y": 0.9,
+      "at": "pulling",
+      "size": 40,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_11",
+   "start": 732.39,
+   "end": 738.69,
+   "line": "The plane fell for about three and a half minutes, nose high, belly first, until it hit the ocean.",
+   "scene": "About three and a half minutes, nose high, into the ocean",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "counter",
+      "from_": 38000,
+      "to": 0,
+      "at": 0.3,
+      "over": 5.6,
+      "suffix": " FT",
+      "x": 0.5,
+      "y": 0.42,
+      "size": 130,
+      "color": "warn"
+     },
+     {
+      "k": "label",
+      "text": "~3.5 MINUTES",
+      "at": "three",
+      "y": 0.62,
+      "size": 56,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "NOSE HIGH",
+      "at": "nose",
+      "y": 0.72,
+      "size": 40,
+      "color": "text"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_12",
+   "start": 738.69,
+   "end": 745.85,
+   "line": "Everyone on board was lost. Two hundred and twenty-eight people. And for almost two years, nobody knew why.",
+   "scene": "228 people. For almost two years, nobody knew why.",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "sea",
+    "mood": "night",
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "ov": [
+     {
+      "k": "veil",
+      "at": 0,
+      "a": 0.35,
+      "color": "#000000"
+     },
+     {
+      "k": "label",
+      "text": "228",
+      "at": "two",
+      "y": 0.3,
+      "size": 150,
+      "color": "cream",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "FOR ALMOST TWO YEARS, NOBODY KNEW WHY",
+      "at": "nobody",
+      "y": 0.46,
+      "size": 40,
+      "color": "text"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b5_13",
+   "start": 745.85,
+   "end": 763.91,
+   "line": "Because the boxes survived, the investigators could answer that question, and change things. Airlines replaced that model of pitot tube. Pilots around the world began training much more on what to do when airspeed readings fail, and on recovering from a stall at high altitude. Cockpit procedures and warnings were rethought.",
+   "scene": "Because the boxes survived: new pitot tubes, new training, new warnings",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 5.4,
+     "name": "ding",
+     "gain": -10
+    },
+    {
+     "at": 8.0,
+     "name": "ding",
+     "gain": -10
+    },
+    {
+     "at": 15.6,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "recorder",
+      "x": 0.5,
+      "y": 0.3,
+      "s": 0.9,
+      "at": 0.1,
+      "ping": true
+     },
+     {
+      "k": "text",
+      "s": "BECAUSE THE BOXES SURVIVED",
+      "x": 0.5,
+      "y": 0.1,
+      "at": "survived",
+      "size": 44,
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "gauge",
+      "x": 0.2,
+      "y": 0.66,
+      "r": 60,
+      "at": "replaced",
+      "label": "NEW PITOT TUBES",
+      "color": "good",
+      "size": 30
+     },
+     {
+      "k": "icon",
+      "name": "people",
+      "x": 0.5,
+      "y": 0.66,
+      "r": 60,
+      "at": "training",
+      "label": "NEW STALL TRAINING",
+      "color": "good",
+      "size": 30
+     },
+     {
+      "k": "icon",
+      "name": "bolt",
+      "x": 0.8,
+      "y": 0.66,
+      "r": 60,
+      "at": "rethought",
+      "label": "BETTER PROCEDURES",
+      "color": "good",
+      "size": 30
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_14",
+   "start": 763.91,
+   "end": 771.77,
+   "line": "And that's the real job of the black box. It isn't to tell a sad story. It's to make sure the same story never happens again.",
+   "scene": "The real job: so the same story never happens again",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.6,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "golden",
+    "plane": {
+     "x": 0.25,
+     "x1": 0.6,
+     "y": 0.45,
+     "s": 0.5,
+     "contrail": 0.8
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.06
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "THE BLACK BOX'S REAL JOB",
+      "at": "real",
+      "y": 0.12,
+      "color": "gold"
+     },
+     {
+      "k": "label",
+      "text": "SO IT NEVER HAPPENS AGAIN",
+      "at": "never",
+      "y": 0.88,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b5_15",
+   "start": 771.77,
+   "end": 779.45,
+   "line": "Many of the rules, checklists, and safety features on your flight today exist because a recorder survived and told investigators the truth.",
+   "scene": "Rules and checklists on your flight exist because recorders survived",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 2.8,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "cabin",
+    "outside": "golden",
+    "paxExpr": "smile",
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "ov": [
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.2,
+      "items": [
+       [
+        "rules",
+        "RULES"
+       ],
+       [
+        "checklists",
+        "CHECKLISTS"
+       ],
+       [
+        "safety",
+        "SAFETY FEATURES"
+       ]
+      ]
+     },
+     {
+      "k": "label",
+      "text": "BECAUSE A RECORDER SURVIVED",
+      "at": "survived",
+      "y": 0.12,
+      "x": 0.62,
+      "color": "gold",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b5_16",
+   "start": 779.45,
+   "end": 785.55,
+   "line": "It's a big part of why flying has become one of the safest ways to travel, even as more people fly than ever.",
+   "scene": "Accidents down, passengers up",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 4.0,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.1,
+        0.85
+       ],
+       [
+        0.9,
+        0.85
+       ]
+      ],
+      "w": 3,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.1,
+        0.85
+       ],
+       [
+        0.1,
+        0.18
+       ]
+      ],
+      "w": 3,
+      "at": 0
+     },
+     {
+      "k": "path",
+      "pts": [
+       [
+        0.12,
+        0.3
+       ],
+       [
+        0.3,
+        0.45
+       ],
+       [
+        0.5,
+        0.62
+       ],
+       [
+        0.7,
+        0.72
+       ],
+       [
+        0.88,
+        0.78
+       ]
+      ],
+      "at": 0.3,
+      "over": 3,
+      "color": "good",
+      "w": 6
+     },
+     {
+      "k": "path",
+      "pts": [
+       [
+        0.12,
+        0.8
+       ],
+       [
+        0.3,
+        0.72
+       ],
+       [
+        0.5,
+        0.58
+       ],
+       [
+        0.7,
+        0.4
+       ],
+       [
+        0.88,
+        0.25
+       ]
+      ],
+      "at": "more",
+      "over": 2,
+      "color": "gold",
+      "w": 6
+     },
+     {
+      "k": "text",
+      "s": "ACCIDENT RATE",
+      "x": 0.78,
+      "y": 0.86,
+      "at": 0.8,
+      "size": 30,
+      "color": "good"
+     },
+     {
+      "k": "text",
+      "s": "PEOPLE FLYING",
+      "x": 0.78,
+      "y": 0.2,
+      "at": "more",
+      "size": 30,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "ONE OF THE SAFEST WAYS TO TRAVEL",
+      "x": 0.5,
+      "y": 0.1,
+      "at": "safest",
+      "size": 44,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b5_17",
+   "start": 785.55,
+   "end": 798.03,
+   "line": "So the next time you board a plane, remember: somewhere near the tail, two orange boxes are already listening. Not to spy. But to make sure that, whatever happens, the next flight is safer than the last.",
+   "scene": "Two orange boxes near the tail, already listening",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.0,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 10.0,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "golden",
+    "sunY": 60,
+    "cam": {
+     "z": [
+      1.3,
+      1.36
+     ],
+     "x": [
+      400,
+      440
+     ],
+     "y": [
+      -40,
+      -40
+     ]
+    },
+    "ov": [
+     {
+      "k": "mark",
+      "x": 0.83,
+      "y": 0.5,
+      "at": "tail",
+      "color": "#ff8a1f",
+      "text": "ALWAYS LISTENING"
+     },
+     {
+      "k": "label",
+      "text": "NOT TO SPY",
+      "at": "spy",
+      "y": 0.82,
+      "color": "cream",
+      "size": 44
+     },
+     {
+      "k": "label",
+      "text": "THE NEXT FLIGHT, SAFER THAN THE LAST",
+      "at": "safer",
+      "y": 0.9,
+      "color": "gold",
+      "size": 40
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b5_18",
+   "start": 798.03,
+   "end": 811.9,
+   "line": "If you watched all the way to here, tell me in the comments: did you know the black box was orange? And subscribe, because next, we're going to the deadliest accident in aviation history, and how it changed the way every cockpit works.",
+   "scene": "End screen: comments, subscribe, next: the deadliest accident",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 4.8,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 7.0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "DID YOU KNOW IT WAS ORANGE?",
+      "at": 0.2,
+      "y": 0.18,
+      "size": 56,
+      "color": "#ff8a1f",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "TELL ME IN THE COMMENTS",
+      "at": "comments",
+      "y": 0.28,
+      "size": 36,
+      "color": "text"
+     },
+     {
+      "k": "label",
+      "text": "SUBSCRIBE",
+      "at": "subscribe",
+      "y": 0.46,
+      "size": 70,
+      "color": "warn",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "NEXT:",
+      "at": "next",
+      "y": 0.62,
+      "size": 40,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "THE DEADLIEST ACCIDENT IN AVIATION",
+      "at": "deadliest",
+      "y": 0.72,
+      "size": 60,
+      "color": "gold",
+      "font": "title"
      }
     ]
    },
