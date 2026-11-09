@@ -1,6 +1,6 @@
 {
  "title": "24 Hours in the Life of an Airliner",
- "duration": 502.23,
+ "duration": 659.59,
  "shots": [
   {
    "id": "c1_01",
@@ -5399,6 +5399,1815 @@
     "name": "hum",
     "gain": -26
    }
+  },
+  {
+   "id": "c4_01",
+   "start": 502.23,
+   "end": 508.15,
+   "line": "One p.m. Flight three climbs out. The sky ahead is getting darker.",
+   "scene": "1:00 PM: flight three climbs toward a darkening sky",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 4.0,
+     "name": "thunder",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "storm",
+    "plane": {
+     "x": 0.25,
+     "x1": 0.5,
+     "y": 0.6,
+     "y1": 0.42,
+     "s": 0.5,
+     "pitch": 0.12
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.06
+     ]
+    },
+    "clock": "1:00 PM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "FLIGHT 3",
+      "at": "flight",
+      "y": 0.12,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_02",
+   "start": 508.15,
+   "end": 512.77,
+   "line": "In the cockpit, the weather radar paints the storm in green, yellow, and red.",
+   "scene": "Weather radar paints the storm: green, yellow, red",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 3.2,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 3.8,
+     "name": "blip",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "radar",
+    "cells": [
+     {
+      "x": 0.45,
+      "y": 0.42,
+      "r": 0.2,
+      "at": 0.2,
+      "over": 2.5
+     },
+     {
+      "x": 0.62,
+      "y": 0.3,
+      "r": 0.14,
+      "at": 0.6,
+      "over": 2.5
+     },
+     {
+      "x": 0.32,
+      "y": 0.3,
+      "r": 0.11,
+      "at": 1.0,
+      "over": 2.5
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "GREEN",
+      "at": "green",
+      "x": 0.2,
+      "y": 0.88,
+      "color": "#3fdc6a",
+      "size": 44
+     },
+     {
+      "k": "label",
+      "text": "YELLOW",
+      "at": "yellow",
+      "x": 0.5,
+      "y": 0.88,
+      "color": "#e8d23a",
+      "size": 44
+     },
+     {
+      "k": "label",
+      "text": "RED",
+      "at": "red",
+      "x": 0.8,
+      "y": 0.88,
+      "color": "#e8402e",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c4_03",
+   "start": 512.77,
+   "end": 516.15,
+   "line": "Red means heavy rain, and often violent turbulence.",
+   "scene": "Red: heavy rain, violent turbulence",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "thunder",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "radar",
+    "cells": [
+     {
+      "x": 0.45,
+      "y": 0.42,
+      "r": 0.2,
+      "at": 0,
+      "over": 0.1
+     },
+     {
+      "x": 0.62,
+      "y": 0.3,
+      "r": 0.14,
+      "at": 0,
+      "over": 0.1
+     },
+     {
+      "x": 0.32,
+      "y": 0.3,
+      "r": 0.11,
+      "at": 0,
+      "over": 0.1
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "HEAVY RAIN",
+      "at": "heavy",
+      "y": 0.12,
+      "color": "warn",
+      "size": 56
+     },
+     {
+      "k": "label",
+      "text": "VIOLENT TURBULENCE",
+      "at": "violent",
+      "y": 0.2,
+      "color": "warn",
+      "size": 56
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c4_04",
+   "start": 516.15,
+   "end": 523.11,
+   "line": "Pilots don't fly through that. They ask air traffic control for a new path and steer around it, sometimes by many kilometers.",
+   "scene": "Pilots steer around it",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 4.2,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "radar",
+    "reroute": "steer",
+    "cells": [
+     {
+      "x": 0.45,
+      "y": 0.42,
+      "r": 0.2,
+      "at": 0,
+      "over": 0.1
+     },
+     {
+      "x": 0.62,
+      "y": 0.3,
+      "r": 0.14,
+      "at": 0,
+      "over": 0.1
+     },
+     {
+      "x": 0.32,
+      "y": 0.3,
+      "r": 0.11,
+      "at": 0,
+      "over": 0.1
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "DON'T FLY THROUGH",
+      "at": 0.2,
+      "y": 0.12,
+      "color": "warn",
+      "size": 50
+     },
+     {
+      "k": "label",
+      "text": "NEW PATH",
+      "at": "new",
+      "x": 0.16,
+      "y": 0.5,
+      "color": "accent",
+      "size": 50
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c4_05",
+   "start": 523.11,
+   "end": 525.65,
+   "line": "Near storms, the ride can still get bumpy.",
+   "scene": "Bumpy ride near the storm",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "impact",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "storm",
+    "plane": {
+     "x": 0.45,
+     "y": 0.42,
+     "s": 0.55,
+     "shake": 10
+    },
+    "storm": true,
+    "cam": {
+     "z": [
+      1.05,
+      1.08
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "BUMPY",
+      "at": "bumpy",
+      "y": 0.12,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_06",
+   "start": 525.65,
+   "end": 534.51,
+   "line": "But as we covered in our turbulence video, airliners are built to handle at least two and a half times the force of gravity, plus a fifty percent safety margin on top.",
+   "scene": "Callback: built for 2.5 G + 50% margin",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 7.8,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "FROM OUR TURBULENCE VIDEO",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.2,
+      "size": 40
+     },
+     {
+      "k": "bar",
+      "x": 0.15,
+      "y": 0.45,
+      "w": 0.5,
+      "f": 1,
+      "at": "two",
+      "color": "text",
+      "label": "DESIGN LOAD",
+      "value": "2.5 G"
+     },
+     {
+      "k": "bar",
+      "x": 0.65,
+      "y": 0.45,
+      "w": 0.2,
+      "f": 1,
+      "at": "fifty",
+      "color": "accent",
+      "label": "+50%"
+     },
+     {
+      "k": "text",
+      "s": "AT LEAST",
+      "x": 0.15,
+      "y": 0.6,
+      "at": "least",
+      "size": 34,
+      "align": "left"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c4_07",
+   "start": 534.51,
+   "end": 539.55,
+   "line": "The plane can take it. That's why the seatbelt sign matters more for you than for the plane.",
+   "scene": "The plane can take it; the seatbelt is for you",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "cabin",
+    "outside": "storm",
+    "paxExpr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      1.8,
+      "smirk"
+     ]
+    ],
+    "cam": {
+     "z": [
+      1.2,
+      1.26
+     ],
+     "y": [
+      60,
+      60
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "THE PLANE CAN TAKE IT",
+      "at": "plane",
+      "y": 0.12,
+      "color": "good"
+     },
+     {
+      "k": "label",
+      "text": "BUCKLE UP",
+      "at": "seatbelt",
+      "y": 0.2,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c4_08",
+   "start": 539.55,
+   "end": 542.93,
+   "line": "But storms have another trick, around the edges.",
+   "scene": "Storm edges: another trick",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "storm",
+    "plane": {
+     "x": 0.35,
+     "x1": 0.45,
+     "y": 0.45,
+     "s": 0.45
+    },
+    "storm": "light",
+    "cam": {
+     "z": [
+      1.0,
+      1.08
+     ]
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_09",
+   "start": 542.93,
+   "end": 543.83,
+   "line": "Lightning.",
+   "scene": "LIGHTNING",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "thunder",
+     "gain": -4
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "storm",
+    "plane": {
+     "x": 0.45,
+     "y": 0.45,
+     "s": 0.45
+    },
+    "strike": 0.1,
+    "ov": [
+     {
+      "k": "label",
+      "text": "LIGHTNING",
+      "at": 0.15,
+      "y": 0.18,
+      "size": 110,
+      "color": "gold",
+      "font": "title"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_10",
+   "start": 543.83,
+   "end": 550.25,
+   "line": "Here's a fact that sounds terrifying. On average, an airliner is struck by lightning roughly once a year.",
+   "scene": "Roughly once a year per airliner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.8,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "SOUNDS TERRIFYING...",
+      "at": 0.1,
+      "y": 0.2,
+      "size": 44,
+      "color": "cream"
+     },
+     {
+      "k": "counter",
+      "to": 1,
+      "at": "roughly",
+      "over": 0.4,
+      "prefix": "~",
+      "suffix": " STRIKE",
+      "x": 0.5,
+      "y": 0.48,
+      "size": 130,
+      "color": "gold"
+     },
+     {
+      "k": "label",
+      "text": "PER AIRLINER, PER YEAR (ON AVERAGE)",
+      "at": "year",
+      "y": 0.66,
+      "size": 40,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c4_11",
+   "start": 550.25,
+   "end": 556.19,
+   "line": "So what happens when it hits? Usually, a loud bang, a bright flash, and then nothing.",
+   "scene": "Strike! bang, flash, then nothing",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "thunder",
+     "gain": -6
+    },
+    {
+     "at": 5.0,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "storm",
+    "plane": {
+     "x": 0.4,
+     "x1": 0.5,
+     "y": 0.45,
+     "s": 0.5
+    },
+    "strike": "bang",
+    "storm": "light",
+    "ov": [
+     {
+      "k": "label",
+      "text": "BANG",
+      "at": "bang",
+      "x": 0.2,
+      "y": 0.2,
+      "color": "cream",
+      "size": 70
+     },
+     {
+      "k": "label",
+      "text": "FLASH",
+      "at": "flash",
+      "x": 0.5,
+      "y": 0.2,
+      "color": "gold",
+      "size": 70
+     },
+     {
+      "k": "label",
+      "text": "...NOTHING",
+      "at": "nothing",
+      "x": 0.8,
+      "y": 0.2,
+      "color": "good",
+      "size": 70
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_12",
+   "start": 556.19,
+   "end": 565.69,
+   "line": "The plane's skin is built to carry the electricity. The current hits one point, like the nose, races along the outside of the plane, and leaves from another point, like the tail.",
+   "scene": "Current races along the skin: in at the nose, out at the tail",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "powerup",
+     "gain": -14
+    },
+    {
+     "at": 3.6,
+     "name": "glitch",
+     "gain": -12
+    },
+    {
+     "at": 8.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "plane",
+      "x": 0.5,
+      "y": 0.5,
+      "s": 0.95,
+      "at": 0
+     },
+     {
+      "k": "path",
+      "pts": [
+       [
+        0.73,
+        0.5
+       ],
+       [
+        0.6,
+        0.47
+       ],
+       [
+        0.45,
+        0.47
+       ],
+       [
+        0.3,
+        0.46
+       ],
+       [
+        0.27,
+        0.32
+       ]
+      ],
+      "w": 8,
+      "at": "races",
+      "over": 1.8,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "IN",
+      "x": 0.76,
+      "y": 0.38,
+      "at": "nose",
+      "size": 60,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "OUT",
+      "x": 0.27,
+      "y": 0.22,
+      "at": "tail",
+      "size": 60,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "THE SKIN CARRIES IT",
+      "x": 0.5,
+      "y": 0.84,
+      "at": "skin",
+      "size": 44,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c4_13",
+   "start": 565.69,
+   "end": 569.69,
+   "line": "The people inside are protected, a bit like sitting inside a metal cage.",
+   "scene": "Passengers safe, like inside a metal cage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "cabin",
+    "outside": "storm",
+    "paxExpr": "smirk",
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "LIKE A METAL CAGE",
+      "at": "cage",
+      "y": 0.12,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c4_14",
+   "start": 569.69,
+   "end": 574.39,
+   "line": "The flight carries on. But after landing, the plane will need an inspection.",
+   "scene": "The flight carries on",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "sky",
+    "mood": "dusk",
+    "plane": {
+     "x": 0.3,
+     "x1": 0.55,
+     "y": 0.42,
+     "s": 0.5
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "THE FLIGHT CARRIES ON",
+      "at": "carries",
+      "y": 0.12,
+      "color": "good"
+     },
+     {
+      "k": "label",
+      "text": "INSPECTION AFTER LANDING",
+      "at": "inspection",
+      "y": 0.88,
+      "color": "gold",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_15",
+   "start": 574.39,
+   "end": 578.79,
+   "line": "Engineers will hunt for tiny burn marks where the lightning went in, and where it came out.",
+   "scene": "Hunting for burn marks: in and out",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 3.6,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "plane",
+      "x": 0.5,
+      "y": 0.5,
+      "s": 0.95,
+      "at": 0
+     },
+     {
+      "k": "ring",
+      "x": 0.735,
+      "y": 0.5,
+      "r": 40,
+      "at": "went",
+      "color": "warn"
+     },
+     {
+      "k": "ring",
+      "x": 0.27,
+      "y": 0.32,
+      "r": 40,
+      "at": "came",
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "TINY BURN MARKS",
+      "x": 0.5,
+      "y": 0.14,
+      "at": "burn",
+      "size": 50,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c4_16",
+   "start": 578.79,
+   "end": 582.93,
+   "line": "Two thirty. Out of the storm and back into smooth air.",
+   "scene": "2:30: back in smooth air",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "day",
+    "plane": {
+     "x": 0.3,
+     "x1": 0.5,
+     "y": 0.4,
+     "s": 0.5,
+     "contrail": 0.7
+    },
+    "clock": "2:30 PM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "SMOOTH AIR",
+      "at": "smooth",
+      "y": 0.12,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_17",
+   "start": 582.93,
+   "end": 595.53,
+   "line": "But the storm has slowed everything down at the destination. So air traffic control sends our jet into a holding pattern: a big oval racetrack in the sky, with other planes stacked above and below, each waiting its turn to land.",
+   "scene": "Holding pattern: racetrack in the sky, planes stacked",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.4,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 8.5,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "DESTINATION: SLOWED DOWN",
+      "x": 0.5,
+      "y": 0.1,
+      "at": 0.2,
+      "size": 44,
+      "color": "warn"
+     },
+     {
+      "k": "oval",
+      "x": 0.5,
+      "y": 0.3,
+      "rx": 0.22,
+      "ry": 0.07,
+      "at": "holding",
+      "color": "text",
+      "plane": true,
+      "speed": 0.9
+     },
+     {
+      "k": "oval",
+      "x": 0.5,
+      "y": 0.5,
+      "rx": 0.22,
+      "ry": 0.07,
+      "at": "holding",
+      "color": "gold",
+      "plane": true,
+      "speed": 1.1
+     },
+     {
+      "k": "oval",
+      "x": 0.5,
+      "y": 0.7,
+      "rx": 0.22,
+      "ry": 0.07,
+      "at": "others",
+      "color": "text",
+      "plane": true,
+      "speed": 0.8
+     },
+     {
+      "k": "text",
+      "s": "HOLDING PATTERN",
+      "x": 0.5,
+      "y": 0.88,
+      "at": "holding",
+      "size": 56,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c4_18",
+   "start": 595.53,
+   "end": 603.77,
+   "line": "And remember that extra fuel from this morning? This is exactly what it's for. The pilots circle for fifteen minutes, and the final reserve is still untouched.",
+   "scene": "The extra fuel is for exactly this; reserve untouched",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.6,
+     "name": "counter",
+     "gain": -16
+    },
+    {
+     "at": 7.6,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "REMEMBER THE EXTRA FUEL?",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 48,
+      "color": "cream"
+     },
+     {
+      "k": "bar",
+      "x": 0.12,
+      "y": 0.34,
+      "w": 0.5,
+      "f0": 1,
+      "f": 0.55,
+      "at": 0.4,
+      "over": 4,
+      "color": "gold",
+      "label": "TRIP FUEL"
+     },
+     {
+      "k": "bar",
+      "x": 0.12,
+      "y": 0.54,
+      "w": 0.2,
+      "f0": 1,
+      "f": 0.4,
+      "at": "circle",
+      "over": 2,
+      "color": "accent",
+      "label": "EXTRA: HOLDING"
+     },
+     {
+      "k": "bar",
+      "x": 0.12,
+      "y": 0.74,
+      "w": 0.09,
+      "f": 1,
+      "at": 0.4,
+      "color": "warn",
+      "label": "FINAL RESERVE"
+     },
+     {
+      "k": "tick",
+      "x": 0.3,
+      "y": 0.74,
+      "at": "untouched",
+      "r": 40
+     },
+     {
+      "k": "text",
+      "s": "UNTOUCHED",
+      "x": 0.4,
+      "y": 0.74,
+      "at": "untouched",
+      "size": 40,
+      "color": "good",
+      "align": "left"
+     }
+    ],
+    "ov": [
+     {
+      "k": "counter",
+      "to": 15,
+      "at": "fifteen",
+      "over": 0.8,
+      "suffix": " MIN",
+      "x": 0.8,
+      "y": 0.5,
+      "size": 90,
+      "label": "CIRCLING",
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c4_19",
+   "start": 603.77,
+   "end": 609.11,
+   "line": "And on the way down, another hazard most passengers never see. Birds.",
+   "scene": "On the way down: birds",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.8,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "day",
+    "plane": {
+     "x": 0.6,
+     "x1": 0.7,
+     "y": 0.35,
+     "y1": 0.45,
+     "s": 0.4,
+     "pitch": -0.04
+    },
+    "birds": 30,
+    "birdY": 0.6,
+    "birdSize": 12,
+    "ov": [
+     {
+      "k": "label",
+      "text": "BIRDS",
+      "at": "birds",
+      "y": 0.12,
+      "color": "warn",
+      "size": 80,
+      "font": "title"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_20",
+   "start": 609.11,
+   "end": 617.59,
+   "line": "Every year, there are thousands of bird strikes in the United States alone. Most happen low, during takeoff and landing, which is exactly where birds fly.",
+   "scene": "Thousands of bird strikes a year, mostly low",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "counter",
+     "gain": -16
+    },
+    {
+     "at": 4.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "THOUSANDS",
+      "x": 0.32,
+      "y": 0.4,
+      "at": "thousands",
+      "size": 110,
+      "color": "gold",
+      "font": "title",
+      "glow": true
+     },
+     {
+      "k": "text",
+      "s": "OF BIRD STRIKES A YEAR",
+      "x": 0.32,
+      "y": 0.53,
+      "at": "strikes",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "s": "IN THE U.S. ALONE",
+      "x": 0.32,
+      "y": 0.61,
+      "at": "united",
+      "size": 34,
+      "color": "accent"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.78,
+        0.15
+       ],
+       [
+        0.78,
+        0.85
+       ]
+      ],
+      "w": 4,
+      "at": 0
+     },
+     {
+      "k": "text",
+      "s": "ALTITUDE",
+      "x": 0.78,
+      "y": 0.1,
+      "at": 0,
+      "size": 30
+     },
+     {
+      "k": "bar",
+      "x": 0.72,
+      "y": 0.8,
+      "w": 0.12,
+      "f": 1,
+      "h": 80,
+      "at": "low",
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "MOST HAPPEN LOW",
+      "x": 0.78,
+      "y": 0.92,
+      "at": "low",
+      "size": 34,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c4_21",
+   "start": 617.59,
+   "end": 624.17,
+   "line": "Most do little or no damage. Engines are even tested by firing bird-sized objects into them, to prove they can take it.",
+   "scene": "Engines tested by firing bird-sized objects",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 4.0,
+     "name": "impact",
+     "gain": -12
+    },
+    {
+     "at": 5.6,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "ring",
+      "x": 0.65,
+      "y": 0.5,
+      "r": 170,
+      "w": 8,
+      "at": 0
+     },
+     {
+      "k": "ring",
+      "x": 0.65,
+      "y": 0.5,
+      "r": 60,
+      "at": 0
+     },
+     {
+      "k": "text",
+      "s": "LITTLE OR NO DAMAGE",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "little",
+      "size": 48,
+      "color": "good"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.1,
+      "y1": 0.5,
+      "x2": 0.5,
+      "y2": 0.5,
+      "at": "firing",
+      "w": 10,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "BIRD-SIZED TEST",
+      "x": 0.24,
+      "y": 0.42,
+      "at": "bird",
+      "size": 34,
+      "color": "gold"
+     },
+     {
+      "k": "tick",
+      "x": 0.65,
+      "y": 0.84,
+      "at": "prove",
+      "r": 50
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c4_22",
+   "start": 624.17,
+   "end": 627.05,
+   "line": "But a big enough flock can stop an engine.",
+   "scene": "A big enough flock can stop an engine",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 2.0,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "day",
+    "plane": {
+     "x": 0.62,
+     "y": 0.42,
+     "s": 0.5,
+     "pitch": 0.08
+    },
+    "birds": 70,
+    "birdY": 0.42,
+    "birdSpread": 0.25,
+    "birdSize": 16,
+    "ov": [
+     {
+      "k": "label",
+      "text": "A BIG ENOUGH FLOCK...",
+      "at": "flock",
+      "y": 0.12,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_23",
+   "start": 627.05,
+   "end": 632.03,
+   "line": "That's exactly what happened to the jet that landed on the Hudson River in two thousand nine.",
+   "scene": "Hudson River, 2009",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 4.0,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "2009",
+      "x": 0.5,
+      "y": 0.14,
+      "at": "two",
+      "size": 100,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.38,
+        0.0
+       ],
+       [
+        0.42,
+        1.0
+       ]
+      ],
+      "w": 4,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.62,
+        0.0
+       ],
+       [
+        0.6,
+        1.0
+       ]
+      ],
+      "w": 4,
+      "at": 0
+     },
+     {
+      "k": "text",
+      "s": "HUDSON RIVER",
+      "x": 0.5,
+      "y": 0.86,
+      "at": "hudson",
+      "size": 44
+     },
+     {
+      "k": "picon",
+      "x": 0.5,
+      "y": 0.2,
+      "x1": 0.5,
+      "y1": 0.55,
+      "s": 1.8,
+      "rot": 1.5708,
+      "at": "landed",
+      "over": 2.5,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c4_24",
+   "start": 632.03,
+   "end": 636.73,
+   "line": "Three fifteen. Flight three lands safely, and the mechanics walk straight to the nose.",
+   "scene": "3:15: flight three lands",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "runway",
+    "mood": "dusk",
+    "land": 0.9,
+    "reverse": 1.3,
+    "v": 1600,
+    "clock": "3:15 PM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "FLIGHT 3: LANDED",
+      "at": "lands",
+      "y": 0.12,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_25",
+   "start": 636.73,
+   "end": 642.97,
+   "line": "They find what they're looking for. Two tiny marks, one where the lightning went in, and one at the tail where it left.",
+   "scene": "Mechanic at the nose: two tiny marks",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 4.0,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "dusk",
+    "sunY": 60,
+    "cam": {
+     "z": [
+      1.7,
+      1.8
+     ],
+     "x": [
+      -560,
+      -540
+     ],
+     "y": [
+      60,
+      60
+     ]
+    },
+    "figs": [
+     {
+      "who": "MECH",
+      "x": 0.2,
+      "prop": "flashlight",
+      "facing": 1,
+      "expr": "surprised"
+     }
+    ],
+    "ov": [
+     {
+      "k": "mark",
+      "x": 0.4,
+      "y": 0.48,
+      "at": "two",
+      "color": "warn",
+      "text": "IN"
+     },
+     {
+      "k": "label",
+      "text": "...AND ONE AT THE TAIL: OUT",
+      "at": "tail",
+      "y": 0.12,
+      "color": "gold",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_26",
+   "start": 642.97,
+   "end": 646.63,
+   "line": "An inspection, a quick repair, and the plane is cleared to fly again.",
+   "scene": "Inspection, quick repair, cleared",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 2.8,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "dusk",
+    "sunY": 60,
+    "cam": {
+     "z": [
+      1.2,
+      1.24
+     ]
+    },
+    "figs": [
+     {
+      "who": "MECH",
+      "x": 0.25,
+      "pose": "point",
+      "facing": 1,
+      "expr": "smile"
+     }
+    ],
+    "ov": [
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.2,
+      "items": [
+       [
+        "inspection",
+        "INSPECTION"
+       ],
+       [
+        "repair",
+        "QUICK REPAIR"
+       ],
+       [
+        "cleared",
+        "CLEARED TO FLY"
+       ]
+      ]
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_27",
+   "start": 646.63,
+   "end": 653.19,
+   "line": "Four p.m. The sun is getting lower, and at the next airport the temperature is dropping fast.",
+   "scene": "4:00 PM: sun lower, temperature dropping",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "wind",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "dusk",
+    "sunY": -20,
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "clock": "4:00 PM",
+    "ov": [
+     {
+      "k": "icon",
+      "name": "snow",
+      "x": 0.86,
+      "y": 0.24,
+      "r": 50,
+      "at": "temperature",
+      "text": "DROPPING FAST",
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c4_28",
+   "start": 653.19,
+   "end": 659.59,
+   "line": "Flight four is the last flight of the day. And it's the one where that number from this morning, V-one, finally matters.",
+   "scene": "Flight 4, the last flight: V1 finally matters",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.4,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "FLIGHT 4",
+      "at": 0.1,
+      "y": 0.26,
+      "size": 70,
+      "color": "cream",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "THE LAST FLIGHT OF THE DAY",
+      "at": "last",
+      "y": 0.36,
+      "size": 40,
+      "color": "text"
+     },
+     {
+      "k": "label",
+      "text": "V1",
+      "at": "v-one",
+      "y": 0.6,
+      "size": 200,
+      "color": "gold",
+      "font": "title"
+     }
+    ]
+   },
+   "notes": ""
   }
  ],
  "music": [],
