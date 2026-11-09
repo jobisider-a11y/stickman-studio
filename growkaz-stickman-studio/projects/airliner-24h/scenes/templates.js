@@ -46,6 +46,9 @@ export function icon(g, name, x, y, r, c) {
     case 'cross': L([[-0.45, -0.45], [0.45, 0.45]]); L([[0.45, -0.45], [-0.45, 0.45]]); break;
     case 'tire': ring(g, 0, 0, 0.8 * r, 0.3 * r, c); circle(g, 0, 0, 0.2 * r, c); break;
     case 'gauge': g.beginPath(); g.arc(0, 0.2 * r, 0.8 * r, Math.PI, 0); g.stroke(); L([[0, 0.2], [0.45, -0.35]]); break;
+    case 'ship': poly(g, [[-0.9 * r, 0.1 * r], [0.9 * r, 0.1 * r], [0.6 * r, 0.5 * r], [-0.6 * r, 0.5 * r]], c); L([[0, 0.1], [0, -0.9]]); poly(g, [[0.05 * r, -0.85 * r], [0.7 * r, 0], [0.05 * r, 0]], c); poly(g, [[-0.05 * r, -0.7 * r], [-0.6 * r, 0], [-0.05 * r, 0]], c); break;
+    case 'wind': for (let i = 0; i < 3; i++) { g.beginPath(); g.moveTo(-0.8 * r, (-0.4 + i * 0.4) * r); g.lineTo(0.3 * r, (-0.4 + i * 0.4) * r); g.arc(0.3 * r, (-0.55 + i * 0.4) * r, 0.15 * r, Math.PI / 2, -Math.PI / 2, true); g.stroke(); } break;
+    case 'seat': rr(g, -0.5 * r, -0.9 * r, 0.35 * r, 1.4 * r, 0.12 * r); g.fill(); rr(g, -0.5 * r, 0.25 * r, r, 0.3 * r, 0.1 * r); g.fill(); break;
     default: circle(g, 0, 0, 0.5 * r, c);
   }
   g.restore();
@@ -61,7 +64,7 @@ function overlays(g, t, info, list = []) {
     switch (o.k) {
       case 'label': { const p = ease.outBack(prog(t, a0, a0 + 0.35)); g.save(); g.translate(x, y); g.scale(0.7 + 0.3 * p, 0.7 + 0.3 * p); lbl(g, o.text, 0, 0, { size: o.size || 56, color: c, a: A, glow: 14, font: o.font === 'title' ? FONTS.title : FONTS.ui, align: o.align }); g.restore(); if (o.sub) lbl(g, o.sub, x, y + (o.size || 56) * 0.9, { size: (o.size || 56) * 0.55, color: col('text'), a: A, align: o.align }); break; }
       case 'readout': UI.readout(g, { label: o.label, value: o.value, x, y, align: o.align || 'center', color: c, size: o.size || 54, a: A }); break;
-      case 'counter': { const v = lerp(o.from ?? 0, o.to, ease.out(prog(t, a0, a0 + (o.over ?? 1.2)))); const s = (o.prefix || '') + (o.dec ? v.toFixed(o.dec) : Math.round(v).toLocaleString('en-US')) + (o.suffix || ''); text(g, s, x, y, { size: o.size || 120, color: c, font: FONTS.ui, weight: 900, alpha: A, glow: 18, glowColor: alpha(c, 0.5) }); if (o.label) lbl(g, o.label, x, y + (o.size || 120) * 0.7, { size: (o.size || 120) * 0.32, a: A }); break; }
+      case 'counter': { const v = lerp(o.from_ ?? o.from ?? 0, o.to, ease.out(prog(t, a0, a0 + (o.over ?? 1.2)))); const s = (o.prefix || '') + (o.dec ? v.toFixed(o.dec) : Math.round(v).toLocaleString('en-US')) + (o.suffix || ''); text(g, s, x, y, { size: o.size || 120, color: c, font: FONTS.ui, weight: 900, alpha: A, glow: 18, glowColor: alpha(c, 0.5) }); if (o.label) lbl(g, o.label, x, y + (o.size || 120) * 0.7, { size: (o.size || 120) * 0.32, a: A }); break; }
       case 'badge': UI.badge(g, { str: o.text, a: A, size: o.size || 46, color: c, x: o.x != null ? x : undefined, y: o.y != null ? y : undefined }); break;
       case 'bigLine': UI.bigLine(g, Math.max(0, t - a0 + 0.01), { str: o.text, dur: (a1 > info.dur ? info.dur - a0 + 0.5 : a1 - a0), y, size: o.size || 84, color: c }); break;
       case 'title': UI.titleCard(g, Math.max(0, t - a0), { lines: o.lines, sub: o.sub, dur: info.dur - a0 + 0.3, y }); break;
@@ -150,6 +153,24 @@ T.bp = (g, t, info, p) => {
     g.restore();
   }
 };
+// runway: takeoff roll / rotation / climb-out, or landing. p: {mood, roll:at, lift:at, land:at, x, s, night, snow, rain}
+T.runway = (g, t, info, p, cam) => {
+  const M = mood(p.mood || 'golden'), GY = E.H * 0.74, s = p.s ?? 0.75, nt = p.mood === 'night' || p.mood === 'storm';
+  const tr = p.roll != null ? at(p.roll, info, 0) : 1e9, V = p.v ?? 2400, T0 = 2.5, dt = Math.max(0, t - tr), dist = (p.land != null ? V * 0.6 * t : 0) + (dt < T0 ? V * dt * dt / (2 * T0) : V * (T0 / 2 + dt - T0));
+  let alt = 0, pitch = 0;
+  if (p.lift != null) { const tl = at(p.lift, info, 1); pitch = 0.16 * ease.out(prog(t, tl, tl + 0.8)); alt = Y(p.climb ?? 0.45) * ease.in(prog(t, tl + 0.3, tl + (p.climbT ?? 4))); }
+  if (p.land != null) { const td = at(p.land, info, 1); alt = Y(0.3) * (1 - ease.out(prog(t, 0, td))); pitch = 0.06 * (1 - prog(t, td, td + 0.6)); }
+  layer(g, cam, 0.1, (g) => { backdrop(g, M.sky); if (nt) FX.stars(g, t, { count: 100, area: [-E.W, -E.H, E.W * 3, E.H] }); else FX.sun(g, X(0.82), GY - 120, 55, '#fff4dc', M.key, 6); });
+  layer(g, cam, 0.3, (g) => { const off = -(dist * 0.05) % (E.W * 2); FX.skyline(g, { x: off - E.W, y: GY - 10, w: E.W * 5, minH: 15, maxH: 70, color: shade(M.dark, 0.08), windowColor: alpha(M.practical, 0.4), lit: 0.2, seed: 9 }); });
+  layer(g, cam, 0.7, (g) => { g.fillStyle = linGrad(g, 0, GY, 0, E.H * 1.3, [shade(M.grass || M.floor, -0.3), shade(M.dark, -0.2)]); g.fillRect(-E.W, GY, E.W * 3, E.H); rr(g, -E.W, GY + 20, E.W * 3, 90, 4); g.fillStyle = shade(M.dark, 0.1); g.fill();
+    for (let i = 0; i < 30; i++) { const x = ((i * 220 - dist) % (220 * 30) + 220 * 30) % (220 * 30) - 400; rr(g, x, GY + 60, 110, 8, 3); g.fillStyle = alpha('#ffffff', 0.7); g.fill(); circle(g, x + 40, GY + 18, 5, M.practical); glow(g, x + 40, GY + 18, 26, M.practical, nt ? 0.7 : 0.35); circle(g, x + 90, GY + 116, 6, M.practical); glow(g, x + 90, GY + 116, 30, M.practical, nt ? 0.7 : 0.35); } });
+  const x = X(p.x ?? 0.45), cy = GY + 30 - 150 * s - alt;
+  layer(g, cam, 1, (g) => { if (alt < 30) for (const gx of [380, -40, -90]) { const wx = x + gx * s; seg(g, [[wx, cy + 40 * s], [wx, cy + 135 * s]], 7 * s, '#0b141c'); circle(g, wx, cy + 134 * s, 17 * s, '#0b141c'); }
+    airliner(g, x, cy, s, { t, body: mix(M.wall, M.ambient, 0.5), rim: M.rim, win: M.practical, pitch, contrail: 0 });
+    if (p.reverse != null && t > at(p.reverse, info, 1.5)) for (let j = 0; j < 6; j++) { const u = ((t * 3 + j / 6) % 1); seg(g, [[x + 120 * s - u * 120, cy + 50 * s - 40 * u], [x + 60 * s - u * 120, cy + 50 * s - 70 * u]], 3, alpha('#e8fbff', 0.5 * (1 - u))); }
+    if (dt > 0.5 && alt < 40) FX.speedLines(g, t, { cx: x, cy, count: 30, a: 0.1 * clamp(dt / 2) }); });
+  if (p.rain) FX.rain(g, t, { count: 160 }); if (p.snow) FX.snow(g, t, { count: 140, color: '#ffffff', speed: 80 });
+};
 // inserts: close-up objects. p.obj = pitot | tire | window | meal | tail
 T.insert = (g, t, info, p, cam) => {
   blurLayer(g, 14, (g) => bg(g, t, p.bg || 'ramp', p)); veil(g, '#03080c', 0.3); const M = mood(p.mood || 'night'), ui = S().ui;
@@ -165,6 +186,17 @@ T.insert = (g, t, info, p, cam) => {
     circle(g, cx, cy, R * 0.5, '#5a6a74'); circle(g, cx, cy, R * 0.18, '#2a3a44'); for (let i = 0; i < 8; i++) { const a = i / 8 * Math.PI * 2; circle(g, cx + Math.cos(a) * R * 0.32, cy + Math.sin(a) * R * 0.32, 10, '#2a3a44'); }
     seg(g, [[cx, cy - R], [cx, -200]], 60, '#2a3a44');
     if (p.n2) { const a = ease.out(prog(t, at(p.n2, info, 0.3), at(p.n2, info, 0.3) + 0.4)); g.save(); g.globalAlpha *= a; for (let i = 0; i < 20; i++) { const an = i * 2.4 + t * 0.6, rr2 = R * 0.6 + (i % 5) * 18; text(g, 'N₂', cx + Math.cos(an) * rr2 * 0.55, cy + Math.sin(an) * rr2 * 0.55, { size: 30, color: alpha(ui.accent, 0.8), font: FONTS.ui, weight: 900 }); } g.restore(); }
+  } else if (p.obj === 'window') {
+    const cx = E.W * 0.5, cy = E.H * 0.5, w = 520, h = 680, OM = mood(p.outside || 'golden'); veil(g, '#0c1820', 0.4);
+    rr(g, cx - w / 2 - 50, cy - h / 2 - 50, w + 100, h + 100, w / 2); g.fillStyle = shade(M.wall, 0.25); g.fill();
+    g.save(); rr(g, cx - w / 2, cy - h / 2, w, h, w / 2.1); g.clip(); outsideView(g, cx - w / 2, cy - h / 2, w, h, t, OM, { sunX: 0.4 }); g.restore();
+    rr(g, cx - w / 2, cy - h / 2, w, h, w / 2.1); g.strokeStyle = alpha('#ffffff', 0.25); g.lineWidth = 8; g.stroke();
+    const hx = cx, hy = cy + h / 2 - 70; circle(g, hx, hy, 7, '#0b141c'); if (p.hole != null) { const k = ease.outBack(prog(t, at(p.hole, info, 1), at(p.hole, info, 1) + 0.4)); if (k > 0) { ring(g, hx, hy, 46 * k, 5, S().ui.accent); glow(g, hx, hy, 120, S().ui.accent, 0.3 * clamp(k)); } }
+  } else if (p.obj === 'chips') {
+    const cx = E.W * 0.5, cy = E.H * 0.55, k = p.puff != null ? ease.inOut(prog(t, at(p.puff, info, 0.5), at(p.puff, info, 0.5) + 1.6)) : 0, w = 360 + 60 * k, h = 480 + 80 * k, bulge = 40 + 110 * k;
+    g.fillStyle = '#d64a33'; g.beginPath(); g.moveTo(cx - w / 2, cy - h / 2); g.lineTo(cx + w / 2, cy - h / 2); g.quadraticCurveTo(cx + w / 2 + bulge, cy, cx + w / 2, cy + h / 2); g.lineTo(cx - w / 2, cy + h / 2); g.quadraticCurveTo(cx - w / 2 - bulge, cy, cx - w / 2, cy - h / 2); g.fill();
+    for (const yy of [cy - h / 2, cy + h / 2]) for (let x = cx - w / 2; x < cx + w / 2; x += 24) poly(g, [[x, yy], [x + 12, yy + (yy < cy ? -14 : 14)], [x + 24, yy]], '#b03a28');
+    seg(g, [[cx - w / 2 + 30, cy - h / 2 + 40], [cx - w / 2 + 10 - bulge * 0.5, cy]], 10, alpha('#ffffff', 0.35)); circle(g, cx, cy, 110, '#f2c21a'); text(g, 'CHIPS', cx, cy, { size: 64, color: '#7a2a18', font: FONTS.title, weight: 700 });
   } else if (p.obj === 'meal') {
     const cx = E.W * 0.5, cy = E.H * 0.55; rr(g, cx - 420, cy - 200, 840, 400, 30); g.fillStyle = '#c8d4dc'; g.fill(); rr(g, cx - 380, cy - 160, 360, 230, 20); g.fillStyle = '#e8eef0'; g.fill(); rr(g, cx - 340, cy - 120, 280, 150, 16); g.fillStyle = '#c9783a'; g.fill(); circle(g, cx + 190, cy - 40, 120, '#e8eef0'); circle(g, cx + 190, cy - 40, 80, '#7ab05a'); rr(g, cx + 20, cy + 100, 380, 60, 14); g.fillStyle = '#e8eef0'; g.fill();
     for (let i = 0; i < 3; i++) { const yy = cy - 200 - ((t * 60 + i * 50) % 150); g.strokeStyle = alpha('#ffffff', 0.4); g.lineWidth = 6; g.beginPath(); g.moveTo(cx - 200 + i * 60, cy - 160); g.quadraticCurveTo(cx - 240 + i * 60, yy + 60, cx - 200 + i * 60, yy); g.stroke(); }

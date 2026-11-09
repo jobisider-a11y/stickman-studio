@@ -1,6 +1,6 @@
 {
  "title": "24 Hours in the Life of an Airliner",
- "duration": 178.6,
+ "duration": 338.15,
  "shots": [
   {
    "id": "c1_01",
@@ -1593,8 +1593,8 @@
   {
    "id": "c1_28",
    "start": 173.51,
-   "end": 178.6,
-   "line": "And at the gate, the first strangers of the day are walking toward the door. Six",
+   "end": 177.0,
+   "line": "And at the gate, the first strangers of the day are walking toward the door.",
    "scene": "Terminal: passengers walking toward the gate",
    "bars": null,
    "in": {
@@ -1635,6 +1635,1893 @@
     "name": "murmur",
     "gain": -26
    }
+  },
+  {
+   "id": "c2_01",
+   "start": 177.0,
+   "end": 181.81,
+   "line": "Six fifteen. Boarding. Notice something?",
+   "scene": "Boarding at 6:15: passengers through the terminal to the jet bridge",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "golden",
+    "sunY": 80,
+    "walkers": true,
+    "cam": {
+     "z": [
+      1.2,
+      1.28
+     ],
+     "x": [
+      -200,
+      -160
+     ],
+     "y": [
+      -20,
+      -20
+     ]
+    },
+    "clock": "6:15 AM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "BOARDING",
+      "at": "boarding",
+      "y": 0.12,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_02",
+   "start": 181.81,
+   "end": 185.19,
+   "line": "You almost always board on the left side of the plane.",
+   "scene": "Top view: you board on the LEFT side",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "picon",
+      "x": 0.55,
+      "y": 0.52,
+      "s": 7,
+      "rot": -1.5708,
+      "at": 0,
+      "color": "text"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.18,
+      "y1": 0.3,
+      "x2": 0.45,
+      "y2": 0.3,
+      "at": "left",
+      "w": 10,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "LEFT SIDE",
+      "x": 0.18,
+      "y": 0.22,
+      "at": "left",
+      "size": 56,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "ALMOST ALWAYS",
+      "x": 0.82,
+      "y": 0.86,
+      "at": "always",
+      "size": 40
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_03",
+   "start": 185.19,
+   "end": 187.23,
+   "line": "Nobody is completely sure why.",
+   "scene": "PAX face: nobody is sure why",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "PAX",
+    "bg": "cabin",
+    "expr": "thinking",
+    "look": [
+     0.4,
+     -0.5
+    ],
+    "ov": [
+     {
+      "k": "qmark",
+      "at": 0.3,
+      "x": 0.2,
+      "y": 0.3,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_04",
+   "start": 187.23,
+   "end": 193.05,
+   "line": "One popular explanation goes back to ships, which were traditionally loaded from one side, called the port side.",
+   "scene": "Ships were loaded from the port side",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 4.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "icon",
+      "name": "ship",
+      "x": 0.5,
+      "y": 0.45,
+      "r": 150,
+      "ring": false,
+      "at": 0.1,
+      "color": "text"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.1,
+        0.62
+       ],
+       [
+        0.9,
+        0.62
+       ]
+      ],
+      "w": 4,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "x1": 0.15,
+      "y1": 0.4,
+      "x2": 0.3,
+      "y2": 0.45,
+      "at": "side",
+      "w": 8,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "PORT SIDE",
+      "x": 0.16,
+      "y": 0.3,
+      "at": "port",
+      "size": 56,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "ONE THEORY",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.2,
+      "size": 40
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_05",
+   "start": 193.05,
+   "end": 198.09,
+   "line": "Another is simpler: the captain sits on the left, so lining the left side up with the gate is easiest.",
+   "scene": "Captain sits left, so the left side lines up with the gate",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "picon",
+      "x": 0.6,
+      "y": 0.55,
+      "s": 7,
+      "rot": -1.5708,
+      "at": 0,
+      "color": "text"
+     },
+     {
+      "k": "box",
+      "x": 0.08,
+      "y": 0.2,
+      "w": 0.16,
+      "h": 0.7,
+      "label": "GATE",
+      "at": 0.3
+     },
+     {
+      "k": "icon",
+      "name": "seat",
+      "x": 0.565,
+      "y": 0.2,
+      "r": 26,
+      "ring": false,
+      "at": "captain",
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "CAPTAIN SITS LEFT",
+      "x": 0.62,
+      "y": 0.08,
+      "at": "captain",
+      "size": 44,
+      "color": "gold"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.42,
+      "y1": 0.5,
+      "x2": 0.26,
+      "y2": 0.5,
+      "at": "lining",
+      "w": 8,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_06",
+   "start": 198.09,
+   "end": 201.29,
+   "line": "Either way, the left door became the standard.",
+   "scene": "Jet bridge at the left front door: the standard",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "golden",
+    "sunY": 80,
+    "cam": {
+     "z": [
+      1.7,
+      1.75
+     ],
+     "x": [
+      -250,
+      -230
+     ],
+     "y": [
+      -60,
+      -60
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "THE STANDARD",
+      "at": "standard",
+      "y": 0.12,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_07",
+   "start": 201.29,
+   "end": 205.27,
+   "line": "As people find their seats, a low whine starts at the back of the plane.",
+   "scene": "Cabin filling up; a low whine from the back",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "hum",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "cabin",
+    "outside": "golden",
+    "paxExpr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      2.0,
+      "surprised"
+     ]
+    ],
+    "paxLook": [
+     -1,
+     0
+    ],
+    "cam": {
+     "z": [
+      1.05,
+      1.1
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "...A LOW WHINE",
+      "at": "whine",
+      "y": 0.12,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_08",
+   "start": 205.27,
+   "end": 216.19,
+   "line": "That's the APU, the auxiliary power unit. It's a small jet engine hidden in the tail. It runs the lights and air conditioning at the gate, and it supplies the blast of air used to start the main engines.",
+   "scene": "APU: a small jet engine in the tail",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "powerup",
+     "gain": -12
+    },
+    {
+     "at": 5.7,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 7.0,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 9.5,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "plane",
+      "x": 0.5,
+      "y": 0.5,
+      "s": 0.9,
+      "at": 0
+     },
+     {
+      "k": "ring",
+      "x": 0.28,
+      "y": 0.49,
+      "r": 60,
+      "at": "apu",
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "APU",
+      "x": 0.28,
+      "y": 0.33,
+      "at": "apu",
+      "size": 70,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "AUXILIARY POWER UNIT",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "auxiliary",
+      "size": 44
+     },
+     {
+      "k": "icon",
+      "name": "bolt",
+      "x": 0.3,
+      "y": 0.82,
+      "r": 36,
+      "at": "lights",
+      "label": "LIGHTS",
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "snow",
+      "x": 0.5,
+      "y": 0.82,
+      "r": 36,
+      "at": "air",
+      "label": "AIR CON",
+      "color": "accent"
+     },
+     {
+      "k": "icon",
+      "name": "flame",
+      "x": 0.7,
+      "y": 0.82,
+      "r": 36,
+      "at": "start",
+      "label": "ENGINE START",
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_09",
+   "start": 216.19,
+   "end": 219.29,
+   "line": "Six forty. The doors close.",
+   "scene": "6:40: doors close",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "golden",
+    "sunY": 100,
+    "cam": {
+     "z": [
+      1.5,
+      1.55
+     ],
+     "x": [
+      -160,
+      -150
+     ],
+     "y": [
+      -40,
+      -40
+     ]
+    },
+    "clock": "6:40 AM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "DOORS CLOSED",
+      "at": "doors",
+      "y": 0.12,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_10",
+   "start": 219.29,
+   "end": 223.23,
+   "line": "A small, powerful tug pushes the plane backward, away from the gate.",
+   "scene": "Tug pushes the jet back from the gate",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "powerup",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "golden",
+    "sunY": 100,
+    "noBridge": true,
+    "plane": {
+     "x": 0.5,
+     "x1": 0.7,
+     "a": 0.3,
+     "b": 3.8
+    },
+    "veh": [
+     {
+      "k": "tug",
+      "x": 0.2,
+      "from": 0.2,
+      "dy": 30
+     }
+    ],
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ],
+     "x": [
+      0,
+      120
+     ]
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_11",
+   "start": 223.23,
+   "end": 225.95,
+   "line": "One engine spins up. Then the other.",
+   "scene": "Engines spin up, one then the other",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "powerup",
+     "gain": -10
+    },
+    {
+     "at": 1.9,
+     "name": "powerup",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "golden",
+    "sunY": 100,
+    "noBridge": true,
+    "plane": {
+     "x": 0.7
+    },
+    "spool": [
+     0.2,
+     1.9
+    ],
+    "cam": {
+     "z": [
+      1.9,
+      1.95
+     ],
+     "x": [
+      700,
+      720
+     ],
+     "y": [
+      100,
+      100
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "ENGINE 1",
+      "at": 0.2,
+      "y": 0.12,
+      "color": "gold"
+     },
+     {
+      "k": "label",
+      "text": "ENGINE 2",
+      "at": "other",
+      "y": 0.2,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_12",
+   "start": 225.95,
+   "end": 232.53,
+   "line": "Six fifty. Lined up on the runway. Takeoff power. The plane starts to roll.",
+   "scene": "6:50: lined up on the runway, takeoff power",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 4.6,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "runway",
+    "mood": "golden",
+    "roll": "starts",
+    "cam": {
+     "z": [
+      1.08,
+      1.0
+     ]
+    },
+    "clock": "6:50 AM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "TAKEOFF POWER",
+      "at": "takeoff",
+      "y": 0.12,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_13",
+   "start": 232.53,
+   "end": 235.31,
+   "line": "And here's something most passengers never hear about.",
+   "scene": "Pilot face, something passengers never hear about",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "PILOT",
+    "bg": "cockpit",
+    "expr": "smirk",
+    "dx": -140,
+    "side": 1,
+    "look": [
+     0.5,
+     0
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_14",
+   "start": 235.31,
+   "end": 240.23,
+   "line": "Before every takeoff, the pilots calculate a special speed called V-one.",
+   "scene": "V1: a special speed",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.2,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "gauge",
+      "x": 0.3,
+      "y": 0.5,
+      "r": 170,
+      "v0": 0.1,
+      "v": 0.6,
+      "at": 0.3,
+      "over": 3,
+      "label": "SPEED"
+     },
+     {
+      "k": "text",
+      "s": "V1",
+      "x": 0.7,
+      "y": 0.48,
+      "at": "v-one",
+      "size": 200,
+      "color": "gold",
+      "font": "title",
+      "glow": true
+     },
+     {
+      "k": "text",
+      "s": "A SPECIAL SPEED",
+      "x": 0.7,
+      "y": 0.68,
+      "at": "special",
+      "size": 40
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_15",
+   "start": 240.23,
+   "end": 243.11,
+   "line": "Remember that name. It's going to matter later today.",
+   "scene": "REMEMBER THAT NAME",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "V1",
+      "at": 0.05,
+      "y": 0.42,
+      "size": 180,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "REMEMBER IT",
+      "at": 0.4,
+      "y": 0.62,
+      "size": 50,
+      "color": "cream"
+     },
+     {
+      "k": "badge",
+      "text": "V1",
+      "at": 1.2,
+      "size": 60
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_16",
+   "start": 243.11,
+   "end": 245.63,
+   "line": "The nose lifts, the wheels leave the ground,",
+   "scene": "Rotation, wheels leave the ground",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "runway",
+    "mood": "golden",
+    "roll": 0,
+    "lift": "lifts",
+    "climb": 0.55,
+    "climbT": 3.5,
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ],
+     "y": [
+      0,
+      -60
+     ]
+    },
+    "ov": [
+     {
+      "k": "badge",
+      "text": "V1",
+      "size": 40
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_17",
+   "start": 245.63,
+   "end": 249.11,
+   "line": "and within minutes the plane punches through the clouds into bright sunlight.",
+   "scene": "Punching through the clouds into sunlight",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 2.0,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "golden",
+    "plane": {
+     "x": 0.3,
+     "x1": 0.5,
+     "y": 0.75,
+     "y1": 0.4,
+     "s": 0.5,
+     "pitch": 0.18
+    },
+    "deckY": 0.6,
+    "cam": {
+     "z": [
+      1.1,
+      1.0
+     ],
+     "y": [
+      60,
+      -40
+     ]
+    },
+    "ov": [
+     {
+      "k": "badge",
+      "text": "V1",
+      "size": 40
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_18",
+   "start": 249.11,
+   "end": 255.33,
+   "line": "If you've seen our video on why planes cruise at thirty-five thousand feet, you'll know the next part isn't random.",
+   "scene": "Callback: cruising at 35,000 feet",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.4,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "golden",
+    "plane": {
+     "x": 0.3,
+     "x1": 0.45,
+     "y": 0.4,
+     "s": 0.5,
+     "contrail": 0.8
+    },
+    "ov": [
+     {
+      "k": "readout",
+      "label": "CRUISING",
+      "value": "FL350",
+      "at": "thirty",
+      "x": 0.82,
+      "y": 0.12
+     },
+     {
+      "k": "label",
+      "text": "NOT RANDOM",
+      "at": "random",
+      "y": 0.86,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_19",
+   "start": 255.33,
+   "end": 261.03,
+   "line": "The pilots climb to an altitude worked out for this plane's weight, today's winds, and the traffic around them.",
+   "scene": "Weight, winds, traffic -> the altitude",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.1,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "WORKED OUT FOR...",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 48,
+      "color": "cream"
+     },
+     {
+      "k": "icon",
+      "name": "weight",
+      "x": 0.2,
+      "y": 0.4,
+      "r": 60,
+      "at": "weight",
+      "label": "WEIGHT"
+     },
+     {
+      "k": "icon",
+      "name": "wind",
+      "x": 0.5,
+      "y": 0.4,
+      "r": 60,
+      "at": "winds",
+      "label": "WINDS"
+     },
+     {
+      "k": "icon",
+      "name": "plane",
+      "x": 0.8,
+      "y": 0.4,
+      "r": 60,
+      "at": "traffic",
+      "label": "TRAFFIC"
+     },
+     {
+      "k": "text",
+      "s": "= THE BEST ALTITUDE TODAY",
+      "x": 0.5,
+      "y": 0.8,
+      "at": "traffic",
+      "size": 48,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_20",
+   "start": 261.03,
+   "end": 265.15,
+   "line": "Up here, the plane is moving at roughly eight hundred kilometers an hour.",
+   "scene": "Cruise: about 800 km/h",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "golden",
+    "dots": 60,
+    "dotSpeed": 900,
+    "plane": {
+     "x": 0.45,
+     "y": 0.42,
+     "s": 0.55
+    },
+    "speed": true,
+    "ov": [
+     {
+      "k": "counter",
+      "from_": 0,
+      "to": 800,
+      "at": "eight",
+      "over": 1.0,
+      "suffix": " KM/H",
+      "x": 0.5,
+      "y": 0.16,
+      "size": 90,
+      "label": "ROUGHLY"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_21",
+   "start": 265.15,
+   "end": 272.93,
+   "line": "Inside, the cabin is pressurized, but not all the way to sea level. It's kept at the pressure you'd feel on a mountain, up to about eight thousand feet.",
+   "scene": "Pressurized cabin, like a mountain at 8,000 ft",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.4,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "cabin",
+    "outside": "golden",
+    "paxExpr": "neutral",
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "PRESSURIZED",
+      "at": "pressurized",
+      "y": 0.12,
+      "color": "accent"
+     },
+     {
+      "k": "counter",
+      "to": 8000,
+      "at": "eight",
+      "over": 1.2,
+      "suffix": " FT",
+      "x": 0.78,
+      "y": 0.86,
+      "size": 60,
+      "label": "CABIN FEELS LIKE",
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_22",
+   "start": 272.93,
+   "end": 274.43,
+   "line": "That's why your ears pop, and",
+   "scene": "Ears pop",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "PAX",
+    "bg": "cabin",
+    "outside": "golden",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      1.0,
+      "smirk"
+     ]
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "POP!",
+      "at": "pop",
+      "x": 0.24,
+      "y": 0.32,
+      "size": 90,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_23",
+   "start": 274.43,
+   "end": 277.33,
+   "line": "why a sealed bag of chips puffs up like a balloon.",
+   "scene": "A sealed bag of chips puffs up like a balloon",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "obj": "chips",
+    "bg": "cabin",
+    "puff": "puffs",
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_24",
+   "start": 277.33,
+   "end": 283.55,
+   "line": "And while you're looking out the window, check the bottom of it. See that tiny hole? Most airliner windows have one.",
+   "scene": "Window close-up: the tiny hole",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "obj": "window",
+    "bg": "cabin",
+    "hole": "hole",
+    "cam": {
+     "z": [
+      1.0,
+      1.12
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "SEE THAT TINY HOLE?",
+      "at": "hole",
+      "y": 0.08,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_25",
+   "start": 283.55,
+   "end": 292.55,
+   "line": "The window is actually several layers, and that little hole lets the pressure between them balance out, so the outer pane carries the load, and the inner one stays fog-free.",
+   "scene": "Window layers; the hole balances the pressure",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 4.5,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 7.5,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "box",
+      "x": 0.22,
+      "y": 0.18,
+      "w": 0.05,
+      "h": 0.62,
+      "at": 0.1,
+      "label": "",
+      "fill": 0.15,
+      "color": "text"
+     },
+     {
+      "k": "box",
+      "x": 0.42,
+      "y": 0.18,
+      "w": 0.05,
+      "h": 0.62,
+      "at": 0.4,
+      "fill": 0.15,
+      "color": "text"
+     },
+     {
+      "k": "box",
+      "x": 0.62,
+      "y": 0.18,
+      "w": 0.05,
+      "h": 0.62,
+      "at": 0.7,
+      "fill": 0.15,
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "OUTER",
+      "x": 0.245,
+      "y": 0.88,
+      "at": "outer",
+      "size": 36,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "MIDDLE",
+      "x": 0.445,
+      "y": 0.88,
+      "at": 0.7,
+      "size": 36
+     },
+     {
+      "k": "text",
+      "s": "INNER",
+      "x": 0.645,
+      "y": 0.88,
+      "at": "inner",
+      "size": 36,
+      "color": "accent"
+     },
+     {
+      "k": "ring",
+      "x": 0.445,
+      "y": 0.74,
+      "r": 24,
+      "at": "hole",
+      "color": "warn"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.445,
+      "y1": 0.74,
+      "x2": 0.33,
+      "y2": 0.74,
+      "at": "balance",
+      "w": 6,
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "CARRIES THE LOAD",
+      "x": 0.245,
+      "y": 0.12,
+      "at": "load",
+      "size": 32,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "STAYS FOG-FREE",
+      "x": 0.73,
+      "y": 0.12,
+      "at": "fog",
+      "size": 32,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_26",
+   "start": 292.55,
+   "end": 294.69,
+   "line": "Now you'll never stop noticing it.",
+   "scene": "PAX smirks: never stop noticing it",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "PAX",
+    "bg": "cabin",
+    "outside": "golden",
+    "expr": "smirk",
+    "look": [
+     -0.4,
+     0.3
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_27",
+   "start": 294.69,
+   "end": 299.55,
+   "line": "Remember those meals? The dry air and lower pressure dull your sense of taste.",
+   "scene": "The meals again: dry air and low pressure",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "obj": "meal",
+    "bg": "cabin",
+    "cam": {
+     "z": [
+      1.04,
+      1.0
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "DRY AIR + LOW PRESSURE",
+      "at": "dry",
+      "y": 0.1,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c2_28",
+   "start": 299.55,
+   "end": 306.69,
+   "line": "Studies suggest salty and sweet flavors feel noticeably weaker up here. That's why airline food is often seasoned more heavily than you'd expect.",
+   "scene": "Taste meters: salty and sweet drop",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 4.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "bar",
+      "x": 0.2,
+      "y": 0.36,
+      "w": 0.6,
+      "f0": 1,
+      "f": 0.6,
+      "at": "salty",
+      "over": 1.4,
+      "label": "SALTY",
+      "color": "gold"
+     },
+     {
+      "k": "bar",
+      "x": 0.2,
+      "y": 0.56,
+      "w": 0.6,
+      "f0": 1,
+      "f": 0.6,
+      "at": "sweet",
+      "over": 1.4,
+      "label": "SWEET",
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "UP HERE",
+      "x": 0.5,
+      "y": 0.14,
+      "at": 0.2,
+      "size": 48
+     },
+     {
+      "k": "text",
+      "s": "SO IT GETS SEASONED MORE",
+      "x": 0.5,
+      "y": 0.8,
+      "at": "seasoned",
+      "size": 44,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_29",
+   "start": 306.69,
+   "end": 319.05,
+   "line": "And in the cockpit, there's an unusual rule at many airlines. The two pilots often eat different meals. If one dish turns out to be bad, only one pilot gets sick, and the other can still fly the plane.",
+   "scene": "Two pilots, two different meals",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.7,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.7,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 8.6,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 10.5,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "icon",
+      "name": "meal",
+      "x": 0.3,
+      "y": 0.45,
+      "r": 90,
+      "at": "two",
+      "label": "PILOT 1: MEAL A",
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "meal",
+      "x": 0.7,
+      "y": 0.45,
+      "r": 90,
+      "at": "different",
+      "label": "PILOT 2: MEAL B",
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "DIFFERENT MEALS",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "different",
+      "size": 56,
+      "color": "cream"
+     },
+     {
+      "k": "x",
+      "x": 0.3,
+      "y": 0.45,
+      "at": "sick",
+      "r": 80
+     },
+     {
+      "k": "tick",
+      "x": 0.7,
+      "y": 0.82,
+      "at": "other",
+      "r": 40
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_30",
+   "start": 319.05,
+   "end": 325.13,
+   "line": "Eight o'clock. The engines throttle back, and the plane glides down in a long, gentle slope.",
+   "scene": "8:00: the long, gentle descent",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "golden",
+    "plane": {
+     "x": 0.25,
+     "x1": 0.6,
+     "y": 0.3,
+     "y1": 0.5,
+     "s": 0.5,
+     "pitch": -0.04
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "clock": "8:00 AM"
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_31",
+   "start": 325.13,
+   "end": 329.77,
+   "line": "Eight twenty. Touchdown. Brakes. Reverse thrust roaring.",
+   "scene": "8:20: touchdown, brakes, reverse thrust",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 3.2,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "runway",
+    "mood": "day",
+    "land": "touchdown",
+    "reverse": "reverse",
+    "v": 1600,
+    "clock": "8:20 AM",
+    "ov": [
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.22,
+      "items": [
+       [
+        "touchdown",
+        "TOUCHDOWN"
+       ],
+       [
+        "brakes",
+        "BRAKES"
+       ],
+       [
+        "reverse",
+        "REVERSE THRUST"
+       ]
+      ]
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c2_32",
+   "start": 329.77,
+   "end": 331.31,
+   "line": "Flight one is done.",
+   "scene": "Flight 1 done",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "icon",
+      "name": "check",
+      "r": 80,
+      "x": 0.5,
+      "y": 0.42,
+      "at": 0.05,
+      "color": "good"
+     },
+     {
+      "k": "label",
+      "text": "FLIGHT 1 DONE",
+      "at": 0.2,
+      "y": 0.62,
+      "size": 64,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c2_33",
+   "start": 331.31,
+   "end": 338.15,
+   "line": "But for the people on the ground, the real race is just starting. They have less than half an hour.",
+   "scene": "A stopwatch: less than half an hour",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 3.4,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "icon",
+      "name": "clock",
+      "r": 90,
+      "x": 0.5,
+      "y": 0.32,
+      "at": 0.2,
+      "color": "accent"
+     },
+     {
+      "k": "counter",
+      "from_": 0,
+      "to": 25,
+      "at": "half",
+      "over": 0.8,
+      "suffix": ":00",
+      "x": 0.5,
+      "y": 0.6,
+      "size": 140,
+      "color": "gold"
+     },
+     {
+      "k": "label",
+      "text": "TO GET IT READY AGAIN",
+      "at": "half",
+      "y": 0.78,
+      "size": 40,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
   }
  ],
  "music": [],

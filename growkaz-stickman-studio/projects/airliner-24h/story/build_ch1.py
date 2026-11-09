@@ -1,14 +1,6 @@
-# Chapter 1 shot list (data only). Run: python3 story/build_ch1.py
-import json
-W = json.load(open('timeline/words.json'))['words']
-def w(word, after=0):
-    for x in W:
-        if x['start'] >= after - 0.05 and x['word'].lower().strip('.,:;!?"').startswith(word): return x['start']
-    raise SystemExit('word not found: ' + word)
-def cut(word, after=0): return round(w(word, after) - 0.15, 2)
-S = []
-def shot(start, scene, params, sfx=(), amb=None, tin='cut'):
-    S.append(dict(start=start, scene=scene, params=params, sfx=[dict(at=a, name=n, gain=g) for a, n, g in sfx], amb=amb, tin=tin))
+# Chapter 1: BEFORE SUNRISE (0:00-2:57)
+from shotlib import *
+chapter(1)
 NIGHT = 'night'
 shot(0.0, 'Ramp at night: jet alone at the gate', dict(tpl='ramp', mood=NIGHT, dark=True, cam=dict(z=[1.0, 1.08], x=[-60, 0]), clock='4:45 AM'), [(0.2, 'whoosh', -18)], 'wind', 'fade')
 shot(cut('one'), 'Empty dark cabin: cold, silent, empty', dict(tpl='cabin', empty=True, outside='night', cam=dict(z=[1.0, 1.06]), ov=[dict(k='label', text='COLD.', at='cold', y=0.18, color='cream'), dict(k='label', text='SILENT.', at='silent', y=0.26, color='cream'), dict(k='label', text='EMPTY.', at='completely', y=0.34, color='accent')]), [], 'roomtone')
@@ -38,14 +30,3 @@ shot(cut('and', w('microwaves')), 'Insert: meal tray, taste fades', dict(tpl='in
 shot(cut('six'), 'Cockpit at dawn: checklists line by line', dict(tpl='cockpit', outside='golden', expr='determined', cam=dict(z=[1.1, 1.16], x=[-60, -80], y=[40, 40]), clock='6:00 AM', ov=[dict(k='check', x=0.06, y=0.22, size=34, gap=56, items=[['climb', 'COCKPIT PREP'], ['flight', 'FLIGHT PLAN'], ['checklists', 'CHECKLISTS'], ['line', 'LINE BY LINE']])]), [(1.0, 'blip', -14), (3.0, 'blip', -14), (5.0, 'blip', -14)], 'hum')
 shot(cut('outside', w('line')), 'Ramp at sunrise: the sky starts to glow', dict(tpl='ramp', mood='golden', sunY=40, cam=dict(z=[1.0, 0.96], y=[0, -20])), [(0.2, 'shimmer', -12)], 'wind')
 shot(cut('and', w('glow')), 'Terminal: passengers walking toward the gate', dict(tpl='ramp', mood='golden', sunY=60, walkers=True, cam=dict(z=[1.5, 1.55], x=[-420, -380], y=[-60, -60]), ov=[dict(k='label', text='THE FIRST PASSENGERS', at='strangers', y=0.12, color='gold')]), [], 'murmur')
-CH1_END = 178.6   # chapter 2 audio starts after the 1.2 s gap
-d = {"title": "24 Hours in the Life of an Airliner", "duration": CH1_END, "shots": [], "music": [], "sfx": []}
-for i, s in enumerate(S):
-    end = S[i + 1]['start'] if i + 1 < len(S) else CH1_END
-    sh = {"id": f"c1_{i+1:02d}", "start": s['start'], "end": round(end, 2), "line": ' '.join(x['word'] for x in W if s['start'] - 0.05 <= x['start'] < end - 0.05), "scene": s['scene'], "bars": None,
-          "in": {"type": s['tin'], "dur": 0.4} if s['tin'] != 'cut' else {"type": "cut"}, "sfx": s['sfx'], "params": s['params'], "notes": ""}
-    if s['amb']: sh['amb'] = {"name": s['amb'], "gain": -26 if s['amb'] in ('roomtone', 'murmur', 'hum') else -24}
-    d['shots'].append(sh)
-json.dump(d, open('story/shots.json', 'w'), indent=1)
-bad = [(a['id'], a['start'], a['end']) for a in d['shots'] if a['end'] - a['start'] < 0.8]
-print(len(d['shots']), 'shots; too short:', bad)

@@ -31,7 +31,7 @@ export function ramp(g, t, cam, o = {}) {
   layer(g, cam, 0.1, (g) => { backdrop(g, M.sky); if (nt) FX.stars(g, t, { count: 120, area: [-E.W, -E.H, E.W * 3, E.H * 1.2] }); else FX.sun(g, E.W * 0.86, GY - (o.sunY ?? 160), 55, '#fff4dc', M.key, 6); });
   layer(g, cam, 0.25, (g) => { const c = shade(M.dark, 0.08); FX.skyline(g, { x: -E.W, y: GY - 40, w: E.W * 3, minH: 20, maxH: 90, color: c, windowColor: alpha(M.practical, 0.4), lit: 0.2, seed: 7 });
     const tx = E.W * 0.8; rr(g, tx - 14, GY - 330, 28, 300, 4); g.fillStyle = c; g.fill(); rr(g, tx - 50, GY - 380, 100, 60, 10); g.fill(); rr(g, tx - 42, GY - 372, 84, 26, 4); g.fillStyle = alpha(M.practical, 0.7); g.fill(); });
-  const p = o.plane || {}, s = p.s ?? 1.15, px = E.W * (p.x ?? 0.62);
+  const p = o.plane || {}, s = p.s ?? 1.15, px = E.W * lerp(p.x ?? 0.62, p.x1 ?? p.x ?? 0.62, ease.inOut(prog(t, p.a ?? 0, p.b ?? 3)));
   let geo;
   layer(g, cam, 0.6, (g) => {
     const tw = E.W * 0.3, ty = GY - 440; g.fillStyle = shade(M.wall, -0.25); g.fillRect(-E.W, ty, E.W + tw, 460); g.fillStyle = shade(M.wall, -0.45); g.fillRect(-E.W, ty - 20, E.W + tw + 20, 24);
@@ -42,6 +42,8 @@ export function ramp(g, t, cam, o = {}) {
     seg(g, [[E.W * 0.15, GY + 60], [E.W * 1.4, GY + 60]], 5, alpha('#e8c23a', 0.6)); seg(g, [[-E.W, GY + 200], [E.W * 2, GY + 200]], 3, alpha('#ffffff', 0.25));
     if (nt || o.mood === 'dusk') for (const lx of [E.W * 0.38, E.W * 1.05]) { FX.lampPost(g, lx, GY, 520, { light: M.practical }); FX.lightCone(g, lx + 30, GY - 530, { len: 700, spread: 0.7, a: 0.16, color: M.practical }); FX.pool(g, lx, GY + 20, 320, 50, M.practical, 0.25); }
     geo = parkedJet(g, t, M, px, s, { dark: o.dark, reg: o.reg });
+    if (o.spool) o.spool.forEach((t0, i) => { const k = prog(t, t0, t0 + 1.5); if (k <= 0) return; const ex = px - 150 * s, ey = geo.cy + 46 * s; g.save(); g.translate(ex, ey); for (let j = 0; j < 6; j++) { const a = j / 6 * Math.PI * 2 + t * 30 * k; seg(g, [[0, 0], [Math.cos(a) * 3, Math.sin(a) * 20 * s]], 3, alpha('#e8fbff', 0.5 * k)); } g.restore(); for (let j = 0; j < 5; j++) { const u = ((t * 2 + j / 5) % 1); seg(g, [[ex + 140 * s + u * 300, ey - 10 + j * 5], [ex + 180 * s + u * 300, ey - 10 + j * 5]], 3, alpha('#e8fbff', 0.35 * k * (1 - u))); } glow(g, ex + 140 * s, ey, 90, '#ffb070', 0.35 * k); });
+    if (o.noBridge) return;
     const bx = geo.door[0], by = geo.door[1]; poly(g, [[tw - 40, ty + 120], [bx + 30, by - 60], [bx + 30, by + 50], [tw - 40, ty + 230]], shade(M.wall, -0.15)); seg(g, [[bx + 30, by + 50], [bx + 30, GY]], 14, shade(M.dark, 0.1)); seg(g, [[tw - 40, ty + 120], [bx + 30, by - 60]], 3, alpha(M.rim, 0.5));
     if (o.lap) { g.save(); g.setLineDash([16, 14]); g.lineDashOffset = -t * 60; g.strokeStyle = alpha(E.style.ui.gold, 0.8); g.lineWidth = 4; g.beginPath(); g.ellipse(px, GY + 30, 560 * s, 70, 0, 0, 7); g.stroke(); g.restore(); }
   });
