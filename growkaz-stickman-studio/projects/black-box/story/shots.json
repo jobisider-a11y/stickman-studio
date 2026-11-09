@@ -1,6 +1,6 @@
 {
  "title": "Inside the Black Box",
- "duration": 474.51,
+ "duration": 628.93,
  "shots": [
   {
    "id": "b1_01",
@@ -4091,6 +4091,1130 @@
       "size": 56,
       "color": "warn",
       "font": "title"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_01",
+   "start": 474.51,
+   "end": 482.77,
+   "line": "Back to June two thousand nine. Ships race to the area where the plane went down, towing sensitive underwater microphones, listening for the pings.",
+   "scene": "June 2009: ships tow underwater microphones",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 5.0,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 6.0,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "sea",
+    "mood": "day",
+    "ship": {
+     "x": 0.62
+    },
+    "tow": true,
+    "wl": 0.42,
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "clock": "JUNE 2009",
+    "ov": [
+     {
+      "k": "label",
+      "text": "LISTENING FOR THE PINGS",
+      "at": "listening",
+      "y": 0.12,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b4_02",
+   "start": 482.77,
+   "end": 492.81,
+   "line": "The problem is the ocean itself. The search area is huge, and the sea floor there is a landscape of underwater mountains and canyons, thousands of meters deep.",
+   "scene": "The sea floor: underwater mountains and canyons",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "deep",
+    "from": 2500,
+    "to": 3500,
+    "floor": true,
+    "floorY": 0.7,
+    "floorAmp": 4,
+    "cam": {
+     "z": [
+      1.0,
+      1.06
+     ],
+     "x": [
+      0,
+      -60
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "THE PROBLEM: THE OCEAN",
+      "at": "problem",
+      "y": 0.12,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "MOUNTAINS AND CANYONS",
+      "at": "mountains",
+      "y": 0.2,
+      "color": "accent",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b4_03",
+   "start": 492.81,
+   "end": 504.47,
+   "line": "Searching it is like mowing a lawn in the dark. Ships tow sonar back and forth in long stripes, slowly painting a picture of the sea floor, strip by strip, looking for anything that doesn't belong.",
+   "scene": "Mowing the lawn in the dark: sonar stripes",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.4,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 7.0,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "mow",
+      "x": 0.12,
+      "y": 0.18,
+      "w": 0.76,
+      "h": 0.66,
+      "n": 10,
+      "at": 0.3,
+      "over": 11
+     },
+     {
+      "k": "text",
+      "s": "LIKE MOWING A LAWN IN THE DARK",
+      "x": 0.5,
+      "y": 0.1,
+      "at": "mowing",
+      "size": 44,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_04",
+   "start": 504.47,
+   "end": 512.95,
+   "line": "The beacons are designed to ping for about thirty days. The searchers listen for weeks. They never hear them. And then the batteries go silent.",
+   "scene": "Beacon batteries: 30 days, then silence",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 4.0,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 5.2,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 7.0,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "recorder",
+      "x": 0.28,
+      "y": 0.5,
+      "s": 1.0,
+      "at": 0.1,
+      "ping": true
+     },
+     {
+      "k": "bar",
+      "x": 0.52,
+      "y": 0.5,
+      "w": 0.38,
+      "f0": 1,
+      "f": 0.02,
+      "at": "weeks",
+      "over": 3.5,
+      "color": "warn",
+      "label": "BEACON BATTERY"
+     },
+     {
+      "k": "text",
+      "s": "NEVER HEARD",
+      "x": 0.7,
+      "y": 0.66,
+      "at": "never",
+      "size": 50,
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "SILENT",
+      "x": 0.7,
+      "y": 0.78,
+      "at": "silent",
+      "size": 70,
+      "color": "warn",
+      "font": "title"
+     }
+    ],
+    "ov": [
+     {
+      "k": "counter",
+      "from_": 30,
+      "to": 0,
+      "at": "weeks",
+      "over": 3.5,
+      "suffix": " DAYS",
+      "x": 0.71,
+      "y": 0.3,
+      "size": 70,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_05",
+   "start": 512.95,
+   "end": 520.81,
+   "line": "Search after search comes up empty. Months pass. Then a whole year. Then almost two.",
+   "scene": "Search after search: months, a year, almost two",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.4,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 4.6,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 6.0,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "SEARCH AFTER SEARCH...",
+      "at": 0.1,
+      "y": 0.22,
+      "size": 50,
+      "color": "cream"
+     },
+     {
+      "k": "counter",
+      "from_": 2009,
+      "to": 2011,
+      "plain": true,
+      "at": "months",
+      "over": 4.5,
+      "x": 0.5,
+      "y": 0.48,
+      "size": 170,
+      "color": "gold"
+     },
+     {
+      "k": "label",
+      "text": "NOTHING FOUND",
+      "at": "empty",
+      "y": 0.72,
+      "size": 50,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_06",
+   "start": 520.81,
+   "end": 530.43,
+   "line": "In two thousand eleven, a new search uses underwater robots, torpedo-shaped vehicles that glide just above the sea floor, scanning it with sonar, mile after mile.",
+   "scene": "2011: robot subs glide above the floor with sonar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "powerup",
+     "gain": -14
+    },
+    {
+     "at": 4.0,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "deep",
+    "from": 3800,
+    "to": 3900,
+    "floor": true,
+    "floorY": 0.82,
+    "floorAmp": 1.5,
+    "auv": {
+     "x": -0.15,
+     "x1": 1.15,
+     "y": 0.45,
+     "a": 0.3,
+     "b": 9.5
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "clock": "2011",
+    "ov": [
+     {
+      "k": "label",
+      "text": "UNDERWATER ROBOTS",
+      "at": "robots",
+      "y": 0.12,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b4_07",
+   "start": 530.43,
+   "end": 539.47,
+   "line": "The robots used in that search came from the Woods Hole Oceanographic Institution in the United States, and they worked in shifts, diving for hours, surfacing, and diving again.",
+   "scene": "From Woods Hole, diving in shifts",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "WOODS HOLE OCEANOGRAPHIC INSTITUTION",
+      "x": 0.5,
+      "y": 0.14,
+      "at": "woods",
+      "size": 40,
+      "color": "gold"
+     },
+     {
+      "k": "picon",
+      "x": 0.15,
+      "y": 0.45,
+      "x1": 0.85,
+      "y1": 0.45,
+      "s": 1.6,
+      "at": 0.5,
+      "over": 7,
+      "color": "cream"
+     },
+     {
+      "k": "picon",
+      "x": 0.1,
+      "y": 0.6,
+      "x1": 0.8,
+      "y1": 0.6,
+      "s": 1.6,
+      "at": 1.2,
+      "over": 7,
+      "color": "cream"
+     },
+     {
+      "k": "picon",
+      "x": 0.05,
+      "y": 0.75,
+      "x1": 0.75,
+      "y1": 0.75,
+      "s": 1.6,
+      "at": 1.9,
+      "over": 7,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "DIVE \u00b7 SURFACE \u00b7 DIVE AGAIN",
+      "x": 0.5,
+      "y": 0.9,
+      "at": "shifts",
+      "size": 40,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_08",
+   "start": 539.47,
+   "end": 547.61,
+   "line": "And finally, in April, almost two years after the crash, they find the debris field. Nearly four kilometers down.",
+   "scene": "April 2011: the debris field is found",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.2,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "mow",
+      "x": 0.12,
+      "y": 0.18,
+      "w": 0.76,
+      "h": 0.66,
+      "n": 10,
+      "at": -20,
+      "over": 10,
+      "found": "debris"
+     },
+     {
+      "k": "text",
+      "s": "APRIL 2011",
+      "x": 0.5,
+      "y": 0.1,
+      "at": "april",
+      "size": 50,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "FOUND",
+      "x": 0.63,
+      "y": 0.92,
+      "at": "debris",
+      "size": 70,
+      "color": "warn",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "NEARLY 4 KM DOWN",
+      "x": 0.25,
+      "y": 0.92,
+      "at": "four",
+      "size": 40,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_09",
+   "start": 547.61,
+   "end": 551.89,
+   "line": "A remotely operated vehicle goes down, and lifts the recorders out of the mud.",
+   "scene": "An ROV lifts the recorders out of the mud",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "powerup",
+     "gain": -14
+    },
+    {
+     "at": 2.6,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "deep",
+    "from": 3900,
+    "floor": true,
+    "floorY": 0.8,
+    "boxes": [
+     {
+      "x": 0.5,
+      "y": 0.78,
+      "s": 0.8,
+      "rot": 0.1,
+      "lift": "lifts"
+     }
+    ],
+    "rov": {
+     "x": 0.5,
+     "y": 0.45,
+     "lift": "lifts"
+    },
+    "lamp": true,
+    "cam": {
+     "z": [
+      1.1,
+      1.0
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "REMOTELY OPERATED VEHICLE",
+      "at": "remotely",
+      "y": 0.12,
+      "color": "gold",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b4_10",
+   "start": 551.89,
+   "end": 562.81,
+   "line": "After almost two years under crushing pressure, in the cold and the dark, the memory chips are carefully cleaned, dried, and read. And the data is there. Almost all of it.",
+   "scene": "In the lab: cleaned, dried, read. The data is there.",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 5.4,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 6.2,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 6.9,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 8.3,
+     "name": "ding",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "lab",
+    "recorder": true,
+    "cam": {
+     "z": [
+      1.2,
+      1.26
+     ],
+     "x": [
+      80,
+      100
+     ],
+     "y": [
+      60,
+      60
+     ]
+    },
+    "figs": [
+     {
+      "who": "EXTRA",
+      "x": 0.4,
+      "pose": "holdFront",
+      "expr": "thinking",
+      "facing": 1
+     }
+    ],
+    "ov": [
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.2,
+      "items": [
+       [
+        "cleaned",
+        "CLEANED"
+       ],
+       [
+        "dried",
+        "DRIED"
+       ],
+       [
+        "read",
+        "READ"
+       ]
+      ]
+     },
+     {
+      "k": "label",
+      "text": "THE DATA IS THERE",
+      "at": "data",
+      "x": 0.62,
+      "y": 0.12,
+      "color": "good",
+      "size": 56
+     },
+     {
+      "k": "label",
+      "text": "ALMOST ALL OF IT",
+      "at": "almost",
+      "x": 0.62,
+      "y": 0.2,
+      "color": "cream",
+      "size": 40
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b4_11",
+   "start": 562.81,
+   "end": 572.71,
+   "line": "There's a clever trick to that. Boxes recovered from the sea are often kept in water until they reach the lab, because drying out too fast can let salt and corrosion damage the electronics.",
+   "scene": "Keep it wet: recovered boxes stay in water",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 6.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "box",
+      "x": 0.32,
+      "y": 0.4,
+      "w": 0.36,
+      "h": 0.42,
+      "at": 0.1,
+      "fill": 0.35,
+      "color": "accent",
+      "label": ""
+     },
+     {
+      "k": "recorder",
+      "x": 0.5,
+      "y": 0.66,
+      "s": 0.75,
+      "at": 0.1
+     },
+     {
+      "k": "text",
+      "s": "KEEP IT WET",
+      "x": 0.5,
+      "y": 0.14,
+      "at": "kept",
+      "size": 60,
+      "color": "accent",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "DRYING TOO FAST = SALT + CORROSION",
+      "x": 0.5,
+      "y": 0.9,
+      "at": "drying",
+      "size": 36,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_12",
+   "start": 572.71,
+   "end": 584.29,
+   "line": "Then comes the decoding. The raw data is just a stream of ones and zeros in the manufacturer's own format. Investigators translate it, check it against the plane's design, and turn it back into the flight.",
+   "scene": "Decoding: ones and zeros back into the flight",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 6.6,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "binary",
+      "x": 0.5,
+      "y": 0.22,
+      "rows": 7,
+      "at": 0.1,
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "DECODING",
+      "x": 0.5,
+      "y": 0.1,
+      "at": "decoding",
+      "size": 56,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.5,
+      "y1": 0.56,
+      "x2": 0.5,
+      "y2": 0.66,
+      "at": "translate",
+      "w": 8,
+      "color": "gold"
+     },
+     {
+      "k": "path",
+      "pts": [
+       [
+        0.2,
+        0.86
+       ],
+       [
+        0.4,
+        0.78
+       ],
+       [
+        0.6,
+        0.8
+       ],
+       [
+        0.8,
+        0.72
+       ]
+      ],
+      "at": "flight",
+      "over": 1.6,
+      "color": "gold",
+      "w": 5,
+      "head": 1.4
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_13",
+   "start": 584.29,
+   "end": 601.81,
+   "line": "Not every search ends like this. In two thousand fourteen, Malaysia Airlines flight three seventy disappeared with two hundred and thirty-nine people on board. Searchers combed a vast stretch of the Indian Ocean. Pieces of the plane eventually washed up on distant shores. But its recorders have never been found.",
+   "scene": "2014: a flight that was never found",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 15.0,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "2014",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.2,
+      "size": 90,
+      "color": "warn",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "239 PEOPLE ON BOARD",
+      "x": 0.5,
+      "y": 0.22,
+      "at": "two",
+      "size": 40,
+      "color": "cream"
+     },
+     {
+      "k": "box",
+      "x": 0.18,
+      "y": 0.32,
+      "w": 0.64,
+      "h": 0.46,
+      "at": "searchers",
+      "fill": 0.08,
+      "color": "text",
+      "label": ""
+     },
+     {
+      "k": "text",
+      "s": "INDIAN OCEAN SEARCH AREA",
+      "x": 0.5,
+      "y": 0.36,
+      "at": "indian",
+      "size": 34,
+      "color": "accent"
+     },
+     {
+      "k": "icon",
+      "name": "plane",
+      "x": 0.86,
+      "y": 0.56,
+      "r": 40,
+      "at": "pieces",
+      "ring": false,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "DEBRIS WASHED ASHORE",
+      "x": 0.86,
+      "y": 0.68,
+      "at": "pieces",
+      "size": 26,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "RECORDERS: NEVER FOUND",
+      "x": 0.5,
+      "y": 0.88,
+      "at": "never",
+      "size": 50,
+      "color": "warn"
+     }
+    ],
+    "ov": [
+     {
+      "k": "qmark",
+      "at": "never",
+      "x": 0.5,
+      "y": 0.56,
+      "color": "warn",
+      "size": 180
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_14",
+   "start": 601.81,
+   "end": 619.09,
+   "line": "And that changed the rules. Newer beacons now ping for ninety days instead of thirty. Airliners are being required to report their position more often over oceans. And engineers are working on recorders that eject and float, and systems that can stream key flight data live, before a plane ever hits the water.",
+   "scene": "New rules: 90-day beacons, tracking, eject & float, streaming",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.4,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 9.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 12.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "AND THAT CHANGED THE RULES",
+      "x": 0.5,
+      "y": 0.1,
+      "at": 0.1,
+      "size": 48,
+      "color": "cream"
+     },
+     {
+      "k": "icon",
+      "name": "clock",
+      "x": 0.16,
+      "y": 0.42,
+      "r": 60,
+      "at": "newer",
+      "label": "BEACONS: 30 > 90 DAYS",
+      "color": "gold",
+      "size": 26
+     },
+     {
+      "k": "icon",
+      "name": "globe",
+      "x": 0.39,
+      "y": 0.42,
+      "r": 60,
+      "at": "position",
+      "label": "MORE POSITION REPORTS",
+      "color": "accent",
+      "size": 26
+     },
+     {
+      "k": "icon",
+      "name": "flame",
+      "x": 0.62,
+      "y": 0.42,
+      "r": 0.1,
+      "ring": false,
+      "at": 99
+     },
+     {
+      "k": "recorder",
+      "x": 0.62,
+      "y": 0.42,
+      "s": 0.45,
+      "at": "eject"
+     },
+     {
+      "k": "text",
+      "s": "EJECT + FLOAT",
+      "x": 0.62,
+      "y": 0.58,
+      "at": "eject",
+      "size": 34,
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "wind",
+      "x": 0.85,
+      "y": 0.42,
+      "r": 60,
+      "at": "stream",
+      "label": "LIVE DATA STREAMING",
+      "color": "accent",
+      "size": 26
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b4_15",
+   "start": 619.09,
+   "end": 628.93,
+   "line": "But in two thousand eleven, in a lab in France, investigators finally pressed play. And for the first time, they heard what really happened that night.",
+   "scene": "2011, France: investigators press play",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "blip",
+     "gain": -8
+    },
+    {
+     "at": 5.2,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "2011 \u00b7 A LAB IN FRANCE",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 44,
+      "color": "cream"
+     },
+     {
+      "k": "icon",
+      "name": "bolt",
+      "x": 0.5,
+      "y": 0.36,
+      "r": 0.1,
+      "ring": false,
+      "at": 99
+     },
+     {
+      "k": "box",
+      "x": 0.44,
+      "y": 0.28,
+      "w": 0.12,
+      "h": 0.16,
+      "at": "play",
+      "fill": 0.6,
+      "color": "good",
+      "label": "\u25b6",
+      "labelColor": "#0b141c"
+     },
+     {
+      "k": "wave",
+      "x": 0.5,
+      "y": 0.66,
+      "w": 0.8,
+      "at": "heard",
+      "over": 3,
+      "amp": 50,
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "WHAT REALLY HAPPENED THAT NIGHT",
+      "x": 0.5,
+      "y": 0.88,
+      "at": "really",
+      "size": 44,
+      "color": "gold"
      }
     ]
    },

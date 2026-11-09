@@ -2,7 +2,7 @@
 import json, os, sys, importlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from shotlib import S, W, HERE, cut
-ENDS = {1: cut('nineteen', 170), 2: cut('here', 318), 3: cut('back', 472), 4: None, 5: None}
+ENDS = {1: cut('nineteen', 170), 2: cut('here', 318), 3: cut('back', 472), 4: cut('the', 627), 5: None}
 TOTAL = 811.9                                             # voiceover 810.4 s + 1.5 s tail
 done = []
 for n in range(1, 6):
