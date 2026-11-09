@@ -1,0 +1,33 @@
+Nineteen thirty-four. In Australia, a young boy named David Warren loses his father in a plane crash over the sea. Nobody ever finds out exactly what happened.
+
+Almost twenty years later, Warren is a scientist at an aeronautical research lab in Melbourne. And the aviation world has a terrifying new mystery: the de Havilland Comet, the world's first jet airliner, is breaking apart in mid-air.
+
+The cause turned out to be metal fatigue. Every flight, the cabin was pressurized and then released, flexing the metal again and again. And the sharp corners around some openings concentrated that stress until cracks spread. It's a big part of why airliner windows today have rounded corners.
+
+<break time="0.4s" />
+
+Warren is asked to help think about why. And sitting in that meeting, he has a simple idea. What if the cockpit had a recorder? What if investigators could hear the last words of the crew, and know exactly what the instruments were saying?
+
+At the time, there were already some flight recorders, but they captured only a few basic measurements. Warren wanted something that would capture the voices, too.
+
+By the late nineteen fifties, he had built a working prototype. It could record hours of cockpit sound and instrument readings, and it was small enough to fit in a plane.
+
+<break time="0.4s" />
+
+It stored about four hours of sound and instrument data on a spool of thin steel wire, recording over itself again and again, so it always held the most recent hours.
+
+And almost nobody wanted it. Some officials couldn't see the point. And pilots hated the idea of a microphone recording everything they said. One complaint stuck: it was like having a spy in the cockpit.
+
+Warren didn't give up. Interest grew in Britain, where an early commercial version was built. Then, after a deadly crash in Australia in nineteen sixty left investigators with no answers, Australia became one of the first countries to require cockpit recorders on airliners.
+
+<break time="0.4s" />
+
+Over the following decades, the rest of the world followed. Today, every large airliner carries both recorders.
+
+And the pilots' worry about a spy in the cockpit was taken seriously. In many countries, cockpit voice recordings are legally protected. They're used for safety investigations, not to listen in on pilots, and the actual audio is very rarely made public.
+
+The boy who never learned why his father's plane went down ended up making sure that, for countless families after him, there would usually be an answer.
+
+<break time="0.4s" />
+
+But a recorder is useless if it doesn't survive the crash. So how do you build a box that can't be destroyed?

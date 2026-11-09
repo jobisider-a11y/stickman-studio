@@ -1,0 +1,37 @@
+Back to June two thousand nine. Ships race to the area where the plane went down, towing sensitive underwater microphones, listening for the pings.
+
+The problem is the ocean itself. The search area is huge, and the sea floor there is a landscape of underwater mountains and canyons, thousands of meters deep.
+
+Searching it is like mowing a lawn in the dark. Ships tow sonar back and forth in long stripes, slowly painting a picture of the sea floor, strip by strip, looking for anything that doesn't belong.
+
+<break time="0.4s" />
+
+The beacons are designed to ping for about thirty days. The searchers listen for weeks. They never hear them. And then the batteries go silent.
+
+Search after search comes up empty. Months pass. Then a whole year. Then almost two.
+
+In two thousand eleven, a new search uses underwater robots, torpedo-shaped vehicles that glide just above the sea floor, scanning it with sonar, mile after mile.
+
+<break time="0.4s" />
+
+The robots used in that search came from the Woods Hole Oceanographic Institution in the United States, and they worked in shifts, diving for hours, surfacing, and diving again.
+
+And finally, in April, almost two years after the crash, they find the debris field. Nearly four kilometers down.
+
+A remotely operated vehicle goes down, and lifts the recorders out of the mud.
+
+<break time="0.4s" />
+
+After almost two years under crushing pressure, in the cold and the dark, the memory chips are carefully cleaned, dried, and read. And the data is there. Almost all of it.
+
+There's a clever trick to that. Boxes recovered from the sea are often kept in water until they reach the lab, because drying out too fast can let salt and corrosion damage the electronics.
+
+Then comes the decoding. The raw data is just a stream of ones and zeros in the manufacturer's own format. Investigators translate it, check it against the plane's design, and turn it back into the flight.
+
+<break time="0.4s" />
+
+Not every search ends like this. In two thousand fourteen, Malaysia Airlines flight three seventy disappeared with two hundred and thirty-nine people on board. Searchers combed a vast stretch of the Indian Ocean. Pieces of the plane eventually washed up on distant shores. But its recorders have never been found. And that changed the rules.
+
+Newer beacons now ping for ninety days instead of thirty. Airliners are being required to report their position more often over oceans. And engineers are working on recorders that eject and float, and systems that can stream key flight data live, before a plane ever hits the water.
+
+But in two thousand eleven, in a lab in France, investigators finally pressed play. And for the first time, they heard what really happened that night.

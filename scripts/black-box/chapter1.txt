@@ -1,0 +1,31 @@
+June first, two thousand nine. It's the middle of the night over the Atlantic Ocean. An Airbus A three-thirty is flying from Rio de Janeiro to Paris, with two hundred and twenty-eight people on board.
+
+Somewhere far from any coast, the plane flies into a region of thunderstorms. And then, it simply stops reporting. No mayday. No warning call. Nothing.
+
+Search teams find wreckage on the surface within days. But the most important question has no answer. A modern jet, flown by an experienced crew, fell out of the sky. Why?
+
+The answer is lying almost four kilometers below the surface, in two small orange boxes. And it will take almost two years to reach them.
+
+Stay with me, because by the end of this video, you'll know exactly what those boxes revealed, and how one tiny frozen sensor started it all.
+
+This is the story of the black box.
+
+First, let's clear something up. The black box isn't black. It's bright orange, often with reflective stripes, so searchers can spot it in wreckage, in a forest, or on the bottom of the ocean.
+
+So why the name? Nobody knows for sure. Some say the very first versions were painted black. Some say "black box" was simply old slang for any mysterious electronic gadget. Others say it's because the boxes were found scorched and charred after a fire. Take your pick.
+
+And here's the second surprise. It isn't one box. It's two.
+
+The first is the cockpit voice recorder. It records everything the pilots say, every radio call, every alarm, every click of a switch, through microphones in their headsets and one in the cockpit itself.
+
+The second is the flight data recorder. It quietly logs the plane's measurements, many times every second: speed, altitude, engine power, the position of every control. Modern recorders can track well over a thousand of them.
+
+Think of it like this. Every second of every flight becomes a long row of numbers. String those rows together, and you get a perfect digital record of everything the plane did, from push back to parking.
+
+After an accident, investigators feed those numbers into a computer and rebuild the flight as an animation, matched to the sounds from the cockpit. They can watch exactly where the plane went, what the controls did, and what the crew heard, moment by moment.
+
+That work is done by independent investigators, like the NTSB in the United States, the BEA in France, or the AAIB in the U.K. And their job isn't to blame anyone. It's to find out what happened, so it can't happen again.
+
+Together, they can rebuild the final minutes of a flight almost second by second.
+
+Quick question before we go on. Where on the plane do you think the recorders are kept? The nose, the middle, or the tail? Keep your answer in mind. We'll find out in a few minutes. But someone had to invent them first. And it started with a boy who lost his father.

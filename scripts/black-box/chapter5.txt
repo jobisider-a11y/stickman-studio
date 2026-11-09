@@ -1,0 +1,33 @@
+The recordings start calmly. The plane is cruising at night, at around thirty-five thousand feet, approaching an area of storms near the equator.
+
+Remember the pitot tubes from our last video, those little tubes on the nose that measure airspeed? Flying through the storm clouds, they begin to clog with ice crystals.
+
+Within seconds, the airspeed readings become unreliable. The plane no longer knows how fast it's going.
+
+Without a trustworthy airspeed, the autopilot does exactly what it's designed to do. It disconnects, and hands the plane back to the pilots, suddenly, in the dark, in turbulence.
+
+What happened next is the hardest part. The data shows the pilot flying pulled the nose up, and the plane climbed. As it climbed, it slowed. And the wings, losing the airflow they needed, stopped producing enough lift.
+
+That's called a stall. Not an engine stall. A wing stall. The airflow over the wing breaks away, and the wing stops holding the plane up.
+
+The stall warning sounded again and again. But in the confusion, with conflicting readings and alarms, the crew never fully recognized what was happening.
+
+And the recordings revealed two details that made it even harder. At times, the airspeed readings dropped so low that the system treated them as invalid, and the stall warning actually went quiet. Then, when the nose came down a little, the readings returned and the warning started again, sending exactly the wrong signal.
+
+On this aircraft, the two pilots' side sticks aren't mechanically linked. So one pilot couldn't feel what the other was doing with his controls. For most of the descent, the plane's nose stayed up.
+
+The way out of a stall is counterintuitive. You lower the nose, let the plane gain speed, and let the air flow smoothly over the wings again. Pulling up only makes it worse.
+
+The plane fell for about three and a half minutes, nose high, belly first, until it hit the ocean. Everyone on board was lost.
+
+Two hundred and twenty-eight people. And for almost two years, nobody knew why.
+
+Because the boxes survived, the investigators could answer that question, and change things. Airlines replaced that model of pitot tube. Pilots around the world began training much more on what to do when airspeed readings fail, and on recovering from a stall at high altitude. Cockpit procedures and warnings were rethought.
+
+And that's the real job of the black box. It isn't to tell a sad story. It's to make sure the same story never happens again. Many of the rules, checklists, and safety features on your flight today exist because a recorder survived and told investigators the truth.
+
+It's a big part of why flying has become one of the safest ways to travel, even as more people fly than ever.
+
+So the next time you board a plane, remember: somewhere near the tail, two orange boxes are already listening. Not to spy. But to make sure that, whatever happens, the next flight is safer than the last.
+
+If you watched all the way to here, tell me in the comments: did you know the black box was orange? And subscribe, because next, we're going to the deadliest accident in aviation history, and how it changed the way every cockpit works.

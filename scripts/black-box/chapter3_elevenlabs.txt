@@ -1,0 +1,37 @@
+Here's the trick. Most of a black box is protection. The part that actually matters, the memory, is a small, heavily armored core in the middle, wrapped in layers of insulation and steel or titanium.
+
+And before a design is approved, it's put through tests that sound almost cruel. Test one: impact. The box is fired at a target so it stops with a force of about three thousand four hundred times gravity.
+
+Test two: a heavy steel spike is dropped onto it, to make sure nothing sharp in a crash can punch through.
+
+<break time="0.4s" />
+
+Test three: it's crushed under a press with tons of force, for minutes at a time.
+
+Test four: fire. Jet fuel burns hot, so the box is blasted with flames of more than a thousand degrees Celsius for up to an hour.
+
+Test five: the deep ocean. It's held under pressure like the bottom of the sea, around six kilometers down, for a month, to prove the water and the pressure can't get in.
+
+<break time="0.4s" />
+
+And there's more. It's soaked in jet fuel, hydraulic fluid, and fire-fighting chemicals, all the nasty liquids that can end up around a crash site, to make sure none of them can eat their way inside.
+
+Only if the memory inside still reads perfectly afterwards does the design pass.
+
+And remember my question? Even where they sit is part of the plan. The recorders are usually mounted near the tail, because in many crashes the back of the aircraft takes less of the impact than the front.
+
+<break time="0.4s" />
+
+Inside, the technology changed too. Early recorders used metal foil and magnetic tape, with moving parts that could break. Modern ones store everything on solid-state memory chips, like a much tougher version of the memory in your phone.
+
+And even when the outside of a box is badly damaged, investigators can often remove the memory board, clean it, and read it directly in the lab. The armor only has to protect a tiny thing.
+
+For years, the cockpit voice recorder kept only the last two hours of sound, recording over the oldest audio again and again. Newer rules are pushing that to twenty-five hours, so investigators don't lose anything important that happened earlier in a long flight.
+
+<break time="0.4s" />
+
+Another lesson came from accidents where the plane's electrical power failed, and the recorders went silent at exactly the wrong moment. Many newer cockpit recorders now carry their own small backup power supply, so they keep recording for around ten minutes after the plane's power is lost.
+
+There's one more piece. Bolted to each recorder is a small beacon. If it lands in water, it switches on and starts sending out a high-pitched ping, once every second, so search teams can hear it.
+
+But that beacon runs on a battery. And for one flight, that battery ran out long before anyone found it.
