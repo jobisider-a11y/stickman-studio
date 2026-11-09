@@ -5,4 +5,5 @@ export const MECH = { top: 'jersey', color: '#ff8a1f', head: 'beanie', headColor
 export const CREW = { top: 'suit', color: '#8a5ad6', head: 'bun' };                            // flight attendant (purple)
 export const EXTRA = { top: 'none', head: 'none' };
 export const EXTRA2 = { top: 'none', head: 'bun' };
-export const WHO = { PAX, PILOT, MECH, CREW, EXTRA, EXTRA2 };
+export const PILOT2 = { top: 'suit', color: '#1f2a44', head: 'cap', headColor: '#3fb950' };  // the afternoon captain (green cap)
+export const WHO = { PAX, PILOT, PILOT2, MECH, CREW, EXTRA, EXTRA2 };

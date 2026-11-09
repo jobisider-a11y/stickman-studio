@@ -2,7 +2,7 @@
 import json, os, sys, importlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from shotlib import S, W, HERE
-ENDS = {1: 177.0, 2: 338.15, 3: None, 4: None, 5: None}   # chapter end times (start of the next chapter's first word)
+ENDS = {1: 177.0, 2: 338.15, 3: 502.23, 4: None, 5: None}   # chapter end times (start of the next chapter's first word)
 TOTAL = 879.9                                              # voiceover 878.4 s + 1.5 s tail
 done = []
 for n in range(1, 6):

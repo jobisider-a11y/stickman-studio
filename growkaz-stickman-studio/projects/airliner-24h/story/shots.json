@@ -1,6 +1,6 @@
 {
  "title": "24 Hours in the Life of an Airliner",
- "duration": 338.15,
+ "duration": 502.23,
  "shots": [
   {
    "id": "c1_01",
@@ -3522,6 +3522,1883 @@
     ]
    },
    "notes": ""
+  },
+  {
+   "id": "c3_01",
+   "start": 338.15,
+   "end": 344.59,
+   "line": "Eight twenty-five. The plane rolls up to the gate, and the moment the engines spin down, a crowd swarms it.",
+   "scene": "8:25: the jet rolls in, vehicles swarm",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "powerup",
+     "gain": -14
+    },
+    {
+     "at": 3.0,
+     "name": "carpass",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "day",
+    "sunY": 420,
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "clock": "8:25 AM",
+    "veh": [
+     {
+      "k": "belt",
+      "x": 0.52,
+      "at": 1.5
+     },
+     {
+      "k": "fuel",
+      "x": 0.82,
+      "at": 2.6
+     },
+     {
+      "k": "catering",
+      "x": 0.3,
+      "at": 3.4,
+      "from": 0.28
+     }
+    ],
+    "figs": [
+     {
+      "who": "MECH",
+      "x": 0.4,
+      "prop": "flashlight"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_02",
+   "start": 344.59,
+   "end": 351.57,
+   "line": "This is the turnaround. On short routes, it can take as little as twenty-five minutes. Watch how much happens at once.",
+   "scene": "Top-down: the turnaround, 25 minutes",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 4.0,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "topdown",
+    "flow": "watch",
+    "veh": [
+     {
+      "label": "BAGS",
+      "x": 0.42,
+      "y": 0.8,
+      "at": 1.0,
+      "color": "warn"
+     },
+     {
+      "label": "CATERING",
+      "x": 0.66,
+      "y": 0.36,
+      "at": 2.0,
+      "color": "#c8d4dc",
+      "w": 190,
+      "from": [
+       1.2,
+       0.36
+      ]
+     },
+     {
+      "label": "FUEL",
+      "x": 0.7,
+      "y": 0.82,
+      "at": 3.0,
+      "color": "#c8d4dc"
+     },
+     {
+      "label": "TUG",
+      "x": 0.88,
+      "y": 0.6,
+      "at": 4.0,
+      "color": "gold",
+      "w": 110,
+      "from": [
+       1.2,
+       0.6
+      ]
+     }
+    ],
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "THE TURNAROUND",
+      "at": "turnaround",
+      "y": 0.9,
+      "color": "cream",
+      "size": 60
+     },
+     {
+      "k": "timer",
+      "from_": 1500,
+      "at": "twenty",
+      "rate": 40,
+      "x": 0.85,
+      "y": 0.88,
+      "color": "gold",
+      "size": 80
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_03",
+   "start": 351.57,
+   "end": 353.47,
+   "line": "Passengers flow out the front.",
+   "scene": "Passengers flow out the front",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "topdown",
+    "flow": 0.1,
+    "cam": {
+     "z": [
+      1.3,
+      1.35
+     ],
+     "x": [
+      -220,
+      -220
+     ],
+     "y": [
+      160,
+      160
+     ]
+    },
+    "ov": [
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.22,
+      "items": [
+       [
+        "passengers",
+        "PASSENGERS OUT"
+       ]
+      ]
+     },
+     {
+      "k": "timer",
+      "from_": 1440,
+      "rate": 40,
+      "x": 0.85,
+      "y": 0.88,
+      "color": "gold",
+      "size": 80,
+      "at": 0
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c3_04",
+   "start": 353.47,
+   "end": 358.09,
+   "line": "Cleaners rush in, grab the trash, check the seat pockets, and wipe down tray tables.",
+   "scene": "Cleaners rush through the cabin",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.4,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "cabin",
+    "empty": true,
+    "outside": "day",
+    "stand": [
+     {
+      "who": "EXTRA",
+      "k": -1,
+      "pose": "holdFront",
+      "facing": 1
+     },
+     {
+      "who": "EXTRA2",
+      "k": 1,
+      "pose": "reach",
+      "facing": -1
+     }
+    ],
+    "ov": [
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.2,
+      "items": [
+       [
+        "trash",
+        "TRASH"
+       ],
+       [
+        "seat",
+        "SEAT POCKETS"
+       ],
+       [
+        "tray",
+        "TRAY TABLES"
+       ]
+      ]
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c3_05",
+   "start": 358.09,
+   "end": 361.79,
+   "line": "Underneath, baggage handlers unload the last flight's bags and load the next.",
+   "scene": "Bags out, bags in",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -16
+    },
+    {
+     "at": 2.5,
+     "name": "hit",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "day",
+    "sunY": 420,
+    "cam": {
+     "z": [
+      1.5,
+      1.55
+     ],
+     "x": [
+      120,
+      140
+     ],
+     "y": [
+      120,
+      120
+     ]
+    },
+    "veh": [
+     {
+      "k": "belt",
+      "x": 0.52,
+      "from": 0.52
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "BAGS OUT",
+      "at": "unload",
+      "y": 0.12,
+      "color": "warn"
+     },
+     {
+      "k": "label",
+      "text": "BAGS IN",
+      "at": "load",
+      "y": 0.2,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_06",
+   "start": 361.79,
+   "end": 367.51,
+   "line": "A catering truck lifts its whole box up to the galley door and swaps the empty carts for full ones.",
+   "scene": "Catering truck lifts its box, carts swapped",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "powerup",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "day",
+    "sunY": 420,
+    "cam": {
+     "z": [
+      1.3,
+      1.36
+     ],
+     "x": [
+      -100,
+      -80
+     ],
+     "y": [
+      60,
+      60
+     ]
+    },
+    "veh": [
+     {
+      "k": "catering",
+      "x": 0.36,
+      "from": 0.36,
+      "lift": [
+       0.2,
+       2.2
+      ],
+      "liftH": 110
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "EMPTY OUT, FULL IN",
+      "at": "swaps",
+      "y": 0.12,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_07",
+   "start": 367.51,
+   "end": 372.25,
+   "line": "The fuel truck connects again. Another truck drains the toilets, and fresh water is pumped in.",
+   "scene": "Top-down: fuel and water trucks",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "carpass",
+     "gain": -14
+    },
+    {
+     "at": 2.0,
+     "name": "carpass",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "topdown",
+    "veh": [
+     {
+      "label": "FUEL",
+      "x": 0.7,
+      "y": 0.82,
+      "at": "fuel",
+      "color": "#c8d4dc"
+     },
+     {
+      "label": "WATER",
+      "x": 0.3,
+      "y": 0.84,
+      "at": "water",
+      "color": "accent"
+     },
+     {
+      "label": "WASTE",
+      "x": 0.15,
+      "y": 0.66,
+      "at": "drains",
+      "color": "#8a9aa4",
+      "from": [
+       -0.2,
+       0.66
+      ]
+     }
+    ],
+    "ov": [
+     {
+      "k": "timer",
+      "from_": 1180,
+      "rate": 40,
+      "x": 0.85,
+      "y": 0.12,
+      "color": "gold",
+      "size": 70,
+      "at": 0
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_08",
+   "start": 372.25,
+   "end": 378.91,
+   "line": "And in the cockpit, the pilots are already preparing the next flight: new flight plan, new weather, new weight numbers.",
+   "scene": "Cockpit: already preparing the next flight",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 4.0,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 5.0,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "cockpit",
+    "outside": "day",
+    "expr": "determined",
+    "cam": {
+     "z": [
+      1.3,
+      1.35
+     ],
+     "x": [
+      -120,
+      -120
+     ],
+     "y": [
+      110,
+      110
+     ]
+    },
+    "ov": [
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.2,
+      "items": [
+       [
+        "plan",
+        "NEW FLIGHT PLAN"
+       ],
+       [
+        "weather",
+        "NEW WEATHER"
+       ],
+       [
+        "weight",
+        "NEW WEIGHT NUMBERS"
+       ]
+      ]
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c3_09",
+   "start": 378.91,
+   "end": 385.89,
+   "line": "Those weight numbers really matter. Every flight, the crew works out exactly how heavy the plane is, and where that weight sits.",
+   "scene": "Load sheet: how heavy, and where",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "HOW HEAVY?",
+      "x": 0.3,
+      "y": 0.16,
+      "at": "heavy",
+      "size": 56,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "AND WHERE?",
+      "x": 0.7,
+      "y": 0.16,
+      "at": "where",
+      "size": 56,
+      "color": "accent"
+     },
+     {
+      "k": "plane",
+      "x": 0.5,
+      "y": 0.5,
+      "s": 0.75,
+      "at": 0
+     },
+     {
+      "k": "icon",
+      "name": "weight",
+      "x": 0.5,
+      "y": 0.8,
+      "r": 50,
+      "at": "heavy",
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c3_10",
+   "start": 385.89,
+   "end": 396.23,
+   "line": "Too much weight at the front or the back changes how the plane handles. So the passengers, the bags, and the fuel are all added up, and checked against the limits, before the doors ever close.",
+   "scene": "Balance: weight at the front or back; add it all up",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.7,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 6.5,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.15,
+        0.5
+       ],
+       [
+        0.85,
+        0.5
+       ]
+      ],
+      "w": 8,
+      "at": 0
+     },
+     {
+      "k": "plane",
+      "x": 0.5,
+      "y": 0.38,
+      "s": 0.6,
+      "at": 0
+     },
+     {
+      "k": "ring",
+      "x": 0.5,
+      "y": 0.6,
+      "r": 30,
+      "at": 0,
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "weight",
+      "x": 0.18,
+      "y": 0.64,
+      "r": 40,
+      "at": "front",
+      "color": "warn",
+      "ring": false
+     },
+     {
+      "k": "icon",
+      "name": "weight",
+      "x": 0.82,
+      "y": 0.64,
+      "r": 40,
+      "at": "back",
+      "color": "warn",
+      "ring": false
+     },
+     {
+      "k": "text",
+      "s": "PASSENGERS + BAGS + FUEL",
+      "x": 0.5,
+      "y": 0.82,
+      "at": "passengers",
+      "size": 44
+     },
+     {
+      "k": "tick",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "checked",
+      "r": 50
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c3_11",
+   "start": 396.23,
+   "end": 399.85,
+   "line": "Why the rush? Because a plane on the ground earns nothing.",
+   "scene": "A plane on the ground earns nothing",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "day",
+    "sunY": 420,
+    "cam": {
+     "z": [
+      1.0,
+      1.06
+     ]
+    },
+    "veh": [
+     {
+      "k": "belt",
+      "x": 0.52,
+      "from": 0.52
+     },
+     {
+      "k": "fuel",
+      "x": 0.82,
+      "from": 0.82
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "WHY THE RUSH?",
+      "at": "why",
+      "y": 0.12,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "ON THE GROUND = $0",
+      "at": "nothing",
+      "y": 0.22,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_12",
+   "start": 399.85,
+   "end": 407.05,
+   "line": "Airlines want their jets in the air as many hours a day as possible. Some jets on short routes fly well over ten hours a day.",
+   "scene": "10+ hours a day in the air",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "counter",
+     "gain": -16
+    },
+    {
+     "at": 5.4,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "ONE DAY",
+      "x": 0.5,
+      "y": 0.2,
+      "at": 0.1,
+      "size": 50
+     },
+     {
+      "k": "bar",
+      "x": 0.1,
+      "y": 0.45,
+      "w": 0.8,
+      "f": 0.46,
+      "at": "hours",
+      "over": 1.6,
+      "color": "gold",
+      "label": "IN THE AIR",
+      "value": "24 HOURS"
+     },
+     {
+      "k": "text",
+      "s": "10+ HOURS",
+      "x": 0.5,
+      "y": 0.66,
+      "at": "ten",
+      "size": 90,
+      "color": "gold",
+      "font": "title",
+      "glow": true
+     },
+     {
+      "k": "text",
+      "s": "SOME SHORT-ROUTE JETS",
+      "x": 0.5,
+      "y": 0.8,
+      "at": "some",
+      "size": 36
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c3_13",
+   "start": 407.05,
+   "end": 414.59,
+   "line": "One late bag, one missing catering cart, one slow fuel truck, and the delay can ripple through every flight for the rest of the day.",
+   "scene": "Dominoes: one late bag ripples through the day",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.6,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 5.0,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 5.4,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 5.8,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "dominoes",
+      "x": 0.5,
+      "y": 0.62,
+      "w": 0.8,
+      "labels": [
+       "LATE BAG",
+       "FLIGHT 2",
+       "FLIGHT 3",
+       "FLIGHT 4"
+      ],
+      "at": "ripple",
+      "step": 0.4
+     },
+     {
+      "k": "text",
+      "s": "ONE SMALL DELAY...",
+      "x": 0.5,
+      "y": 0.14,
+      "at": 0.2,
+      "size": 50,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c3_14",
+   "start": 414.59,
+   "end": 417.97,
+   "line": "Quick quiz. How much does a jet like this weigh?",
+   "scene": "QUICK QUIZ",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 2.8,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "QUICK QUIZ",
+      "at": 0.05,
+      "y": 0.36,
+      "size": 110,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "HOW HEAVY IS THIS JET?",
+      "at": "heavy",
+      "y": 0.56,
+      "size": 50,
+      "color": "cream"
+     },
+     {
+      "k": "qmark",
+      "at": "weigh",
+      "x": 0.84,
+      "y": 0.7,
+      "color": "accent",
+      "size": 160
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c3_15",
+   "start": 417.97,
+   "end": 426.85,
+   "line": "For an Airbus A three-twenty, the answer is around forty tonnes empty, and up to nearly eighty tonnes at takeoff, once you add the fuel, the bags, and all of us.",
+   "scene": "Answer: ~40 t empty, nearly 80 t at takeoff",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 6.0,
+     "name": "counter",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "plane",
+      "x": 0.5,
+      "y": 0.36,
+      "s": 0.7,
+      "at": 0
+     },
+     {
+      "k": "text",
+      "s": "AIRBUS A320",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "airbus",
+      "size": 44
+     }
+    ],
+    "ov": [
+     {
+      "k": "counter",
+      "to": 40,
+      "at": "forty",
+      "over": 0.8,
+      "prefix": "~",
+      "suffix": " T",
+      "x": 0.28,
+      "y": 0.72,
+      "size": 110,
+      "label": "EMPTY",
+      "color": "cream"
+     },
+     {
+      "k": "counter",
+      "to": 80,
+      "at": "eighty",
+      "over": 0.8,
+      "prefix": "~",
+      "suffix": " T",
+      "x": 0.72,
+      "y": 0.72,
+      "size": 110,
+      "label": "AT TAKEOFF",
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c3_16",
+   "start": 426.85,
+   "end": 432.99,
+   "line": "And another question, for you this time. Window seat, or aisle seat? Tell me in the comments. I'll be reading them.",
+   "scene": "Window seat or aisle seat? Comment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.4,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "icon",
+      "name": "seat",
+      "x": 0.3,
+      "y": 0.45,
+      "r": 90,
+      "at": "window",
+      "label": "WINDOW",
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "seat",
+      "x": 0.7,
+      "y": 0.45,
+      "r": 90,
+      "at": "aisle",
+      "label": "AISLE",
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "OR",
+      "x": 0.5,
+      "y": 0.45,
+      "at": "aisle",
+      "size": 60
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "TELL ME IN THE COMMENTS",
+      "at": "comments",
+      "y": 0.86,
+      "size": 44,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c3_17",
+   "start": 432.99,
+   "end": 436.81,
+   "line": "Eight fifty. Doors close. Flight two.",
+   "scene": "8:50: doors close, flight two",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "ramp",
+    "mood": "day",
+    "sunY": 440,
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "clock": "8:50 AM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "FLIGHT 2",
+      "at": "flight",
+      "y": 0.12,
+      "color": "gold",
+      "size": 70,
+      "font": "title"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_18",
+   "start": 436.81,
+   "end": 444.49,
+   "line": "Before anyone boards, the flight attendants run their own checks: emergency equipment, oxygen bottles, fire extinguishers, the exits.",
+   "scene": "Flight attendant runs safety checks",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 3.2,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 4.4,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 6.0,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "cabin",
+    "empty": true,
+    "outside": "day",
+    "stand": [
+     {
+      "who": "CREW",
+      "k": 0,
+      "pose": "holdFront",
+      "facing": -1,
+      "expr": "determined"
+     }
+    ],
+    "cam": {
+     "z": [
+      1.3,
+      1.36
+     ],
+     "y": [
+      80,
+      80
+     ]
+    },
+    "ov": [
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.18,
+      "items": [
+       [
+        "emergency",
+        "EMERGENCY EQUIPMENT"
+       ],
+       [
+        "oxygen",
+        "OXYGEN BOTTLES"
+       ],
+       [
+        "fire",
+        "FIRE EXTINGUISHERS"
+       ],
+       [
+        "exits",
+        "THE EXITS"
+       ]
+      ]
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c3_19",
+   "start": 444.49,
+   "end": 449.29,
+   "line": "Because their main job isn't serving drinks. It's keeping everyone safe.",
+   "scene": "Crew face: keeping everyone safe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "CREW",
+    "bg": "cabin",
+    "outside": "day",
+    "expr": [
+     [
+      0,
+      "smirk"
+     ],
+     [
+      2.4,
+      "determined"
+     ]
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "NOT SERVING DRINKS",
+      "at": "serving",
+      "x": 0.22,
+      "y": 0.2,
+      "size": 40,
+      "color": "warn"
+     },
+     {
+      "k": "label",
+      "text": "KEEPING EVERYONE SAFE",
+      "at": "keeping",
+      "x": 0.24,
+      "y": 0.3,
+      "size": 44,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c3_20",
+   "start": 449.29,
+   "end": 452.19,
+   "line": "Same plane, different passengers, a different city.",
+   "scene": "Flight 2: same plane, different city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "day",
+    "plane": {
+     "x": 0.3,
+     "x1": 0.5,
+     "y": 0.4,
+     "s": 0.5,
+     "contrail": 0.7
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "SAME PLANE, NEW CITY",
+      "at": "same",
+      "y": 0.12,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_21",
+   "start": 452.19,
+   "end": 457.25,
+   "line": "This time, the plane flies most of the way on autopilot. And that surprises a lot of people.",
+   "scene": "Autopilot on",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "blip",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "cockpit",
+    "outside": "day",
+    "expr": "neutral",
+    "cam": {
+     "z": [
+      1.15,
+      1.2
+     ],
+     "x": [
+      -60,
+      -60
+     ],
+     "y": [
+      40,
+      40
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "AUTOPILOT: ON",
+      "at": "autopilot",
+      "x": 0.68,
+      "y": 0.12,
+      "color": "good",
+      "size": 50
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c3_22",
+   "start": 457.25,
+   "end": 468.61,
+   "line": "Autopilot doesn't mean the pilots relax. They're monitoring the systems, checking the fuel, talking to air traffic control, and constantly asking themselves: what would we do if something went wrong, right now?",
+   "scene": "Pilots monitor: what would we do if...?",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 4.6,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 6.0,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 8.0,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "cockpit",
+    "outside": "day",
+    "expr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      7.5,
+      "thinking"
+     ]
+    ],
+    "cam": {
+     "z": [
+      1.45,
+      1.5
+     ],
+     "x": [
+      -120,
+      -120
+     ],
+     "y": [
+      110,
+      110
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "NOT RELAXING",
+      "at": "relax",
+      "x": 0.68,
+      "y": 0.12,
+      "color": "warn",
+      "size": 44
+     },
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.22,
+      "items": [
+       [
+        "monitoring",
+        "MONITORING SYSTEMS"
+       ],
+       [
+        "checking",
+        "CHECKING FUEL"
+       ],
+       [
+        "talking",
+        "TALKING TO ATC"
+       ],
+       [
+        "asking",
+        "WHAT IF...?"
+       ]
+      ]
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c3_23",
+   "start": 468.61,
+   "end": 474.33,
+   "line": "Because that's the real job. Not just flying the plane, but being ready for the moment it stops being routine.",
+   "scene": "Pilot face: ready for when it stops being routine",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.4,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "PILOT",
+    "bg": "cockpit",
+    "expr": "determined",
+    "dx": -140,
+    "side": 1,
+    "ov": [
+     {
+      "k": "label",
+      "text": "BE READY",
+      "at": "ready",
+      "x": 0.78,
+      "y": 0.3,
+      "size": 70,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c3_24",
+   "start": 474.33,
+   "end": 477.97,
+   "line": "Eleven fifteen. Flight two lands.",
+   "scene": "11:15: flight two lands",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "runway",
+    "mood": "day",
+    "land": 1.2,
+    "reverse": 1.6,
+    "v": 1600,
+    "clock": "11:15 AM",
+    "ov": [
+     {
+      "k": "label",
+      "text": "FLIGHT 2: LANDED",
+      "at": "lands",
+      "y": 0.12,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_25",
+   "start": 477.97,
+   "end": 483.23,
+   "line": "And at noon, something else most passengers never notice: the crew changes.",
+   "scene": "Noon: crew swap at the gate",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "ramp",
+    "mood": "day",
+    "sunY": 460,
+    "clock": "12:00 PM",
+    "cam": {
+     "z": [
+      1.15,
+      1.2
+     ],
+     "x": [
+      -100,
+      -60
+     ],
+     "y": [
+      60,
+      60
+     ]
+    },
+    "figs": [
+     {
+      "who": "PILOT",
+      "x": 0.4,
+      "x1": 0.05,
+      "a": 1.0,
+      "b": 4.0
+     },
+     {
+      "who": "CREW",
+      "x": 0.35,
+      "x1": 0.0,
+      "a": 1.2,
+      "b": 4.2
+     },
+     {
+      "who": "PILOT2",
+      "x": 0.95,
+      "x1": 0.45,
+      "a": 1.0,
+      "b": 4.0
+     },
+     {
+      "who": "CREW",
+      "x": 1.05,
+      "x1": 0.52,
+      "a": 1.3,
+      "b": 4.3
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "THE CREW CHANGES",
+      "at": "crew",
+      "y": 0.12,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_26",
+   "start": 483.23,
+   "end": 490.73,
+   "line": "Pilots and flight attendants have strict legal limits on how long they can work, so a fresh crew can take over the same plane in the middle of the day.",
+   "scene": "Duty limits",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 4.4,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "icon",
+      "name": "clock",
+      "x": 0.2,
+      "y": 0.45,
+      "r": 80,
+      "at": 0.1,
+      "color": "gold"
+     },
+     {
+      "k": "bar",
+      "x": 0.35,
+      "y": 0.45,
+      "w": 0.5,
+      "f": 0.92,
+      "at": "long",
+      "over": 2.0,
+      "color": "accent",
+      "label": "HOURS ON DUTY"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.81,
+        0.33
+       ],
+       [
+        0.81,
+        0.57
+       ]
+      ],
+      "w": 6,
+      "color": "warn",
+      "at": "limits"
+     },
+     {
+      "k": "text",
+      "s": "LEGAL LIMIT",
+      "x": 0.81,
+      "y": 0.64,
+      "at": "limits",
+      "size": 36,
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "FRESH CREW TAKES OVER",
+      "x": 0.5,
+      "y": 0.84,
+      "at": "fresh",
+      "size": 48,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "c3_27",
+   "start": 490.73,
+   "end": 493.67,
+   "line": "The plane keeps going. The people don't.",
+   "scene": "The plane keeps going",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "ramp",
+    "mood": "day",
+    "sunY": 460,
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "figs": [
+     {
+      "who": "PILOT2",
+      "x": 0.42,
+      "pose": "relaxed"
+     },
+     {
+      "who": "CREW",
+      "x": 0.36
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "THE PLANE KEEPS GOING",
+      "at": "plane",
+      "y": 0.12,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c3_28",
+   "start": 493.67,
+   "end": 502.23,
+   "line": "Twelve thirty. Flight three is loading. And on the radar, across the route, something is growing. A line of thunderstorms.",
+   "scene": "12:30: storms growing on the radar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "riser",
+     "gain": -12
+    },
+    {
+     "at": 7.0,
+     "name": "thunder",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "radar",
+    "clock": "12:30 PM",
+    "cells": [
+     {
+      "x": 0.42,
+      "y": 0.42,
+      "r": 0.18,
+      "at": "growing",
+      "over": 4
+     },
+     {
+      "x": 0.6,
+      "y": 0.3,
+      "r": 0.13,
+      "at": "growing",
+      "over": 5
+     },
+     {
+      "x": 0.33,
+      "y": 0.25,
+      "r": 0.1,
+      "at": "line",
+      "over": 3
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "FLIGHT 3",
+      "at": "flight",
+      "x": 0.85,
+      "y": 0.12,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "A LINE OF THUNDERSTORMS",
+      "at": "line",
+      "y": 0.9,
+      "color": "warn",
+      "size": 50
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
   }
  ],
  "music": [],

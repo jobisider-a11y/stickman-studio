@@ -72,6 +72,7 @@ function overlays(g, t, info, list = []) {
       case 'dim': UI.dimension(g, t, { x1: X(o.p1[0]), y1: Y(o.p1[1]), x2: X(o.p2[0]), y2: Y(o.p2[1]), str: o.text, start: a0, color: c }); break;
       case 'check': (o.items || []).forEach(([w, s], i) => { const ti = at(w, info, 0.4 + i * 0.6), p = ease.outBack(prog(t, ti - 0.1, ti + 0.25)); if (p <= 0) return; const yy = y + i * (o.gap || 64); g.save(); g.globalAlpha *= clamp(p) * out; rr(g, x - 30, yy - 24, 48, 48, 10); g.fillStyle = alpha(S().ui.card, 0.9); g.fill(); icon(g, 'check', x - 6, yy, 22, c); lbl(g, s, x + 40, yy, { size: o.size || 40, align: 'left', color: col('cream') }); g.restore(); }); break;
       case 'qmark': { const p = ease.outBack(prog(t, a0, a0 + 0.4)); if (p > 0) text(g, o.text || '?', x, y, { size: (o.size || 220) * p, color: c, glow: 30, glowColor: alpha(c, 0.7), alpha: out }); break; }
+      case 'timer': { const secs = Math.max(0, (o.from_ ?? o.from ?? 1500) - (o.rate ?? 60) * Math.max(0, t - a0)), mm = Math.floor(secs / 60), ss = Math.floor(secs % 60); rr(g, x - 190, y - 70, 380, 140, 30); g.fillStyle = alpha(S().ui.card, 0.92 * A); g.fill(); text(g, String(mm).padStart(2, '0') + ':' + String(ss).padStart(2, '0'), x, y + 4, { size: o.size || 100, color: c, font: FONTS.ui, weight: 900, alpha: A, glow: 14, glowColor: alpha(c, 0.5) }); break; }
       case 'veil': veil(g, o.color || '#02080c', (o.a ?? 0.35) * A); break;
       case 'flash': { const f = 1 - prog(t, a0, a0 + (o.over ?? 0.4)); if (t >= a0 && f > 0) veil(g, o.color || '#ffffff', 0.85 * f); break; }
       case 'icon': { const p = ease.outBack(prog(t, a0, a0 + 0.35)); g.save(); g.translate(x, y); g.scale(p, p); icon(g, o.name, 0, 0, o.r || 60, c); g.restore(); if (o.text) lbl(g, o.text, x, y + (o.r || 60) * 1.5, { size: o.size || 34, color: c, a: A }); break; }
@@ -109,6 +110,7 @@ T.cabin = (g, t, info, p, cam) => {
   const r = cabinSet(g, t, cam, { outside: p.outside || 'dusk', mood: p.mood }); const { GY, M, OM } = r, s = p.s ?? 1.25, rim = { color: OM.rim, dir: [0.2, -1], w: 4 };
   layer(g, cam, 1, (g) => (p.rows || [-2, -1, 0, 1, 2]).forEach((k, i) => { const x = winX(k) + V(10, 0); seat(g, x, GY, s, shade(M.wall, -0.55)); if (p.empty) return;
     const who = k === 0 && p.pax !== false ? 'PAX' : (k % 2 ? 'EXTRA2' : 'EXTRA'); drawFigure(g, { x, y: GY, s, facing: 1, outfit: WHO[who], pose: breathe(POSES[k === 0 ? p.paxPose || 'sit' : 'sit'], t, 1, i), expr: k === 0 ? exprAt(p.paxExpr, t) : (p.extraExpr || 'neutral'), look: k === 0 ? p.paxLook : null, rim, shadow: false, blink: (t % (3 + i * 0.2)) > 2.9 + i * 0.2 }); }));
+  if (p.stand) layer(g, cam, 1.15, (g) => p.stand.forEach((f, i) => drawFigure(g, { x: winX(f.k ?? 0) + V(f.dx ?? 90, 0), y: GY + V(70, 60), s: s * 1.05, facing: f.facing ?? -1, outfit: WHO[f.who] || WHO.EXTRA, pose: breathe(POSES[f.pose || 'stand'] || POSES.stand, t, 1, i + 9), expr: exprAt(f.expr, t), prop: f.prop, look: f.look, rim })));
   if (p.fg !== false) blurLayer(g, 12, (g) => { for (const k of [-2, 0, 2]) seat(g, winX(k) + 120, E.H + V(380, 300), V(2.6, 2.4), shade(M.dark, -0.4)); }, cam, 1.7);
   FX.dust(g, t, { count: 24, color: '#dfe8ff', a: 0.2 });
 };
@@ -148,6 +150,8 @@ T.bp = (g, t, info, p) => {
       case 'box': { rr(g, x, y, X(it.w), Y(it.h), 16); g.strokeStyle = c; g.lineWidth = 4; g.stroke(); if (it.fill) { g.fillStyle = alpha(c, it.fill); g.fill(); } if (it.label) lbl(g, it.label, x + X(it.w) / 2, y + Y(it.h) / 2, { size: it.size || 38, color: it.labelColor ? col(it.labelColor) : c }); break; }
       case 'dots': { const r = rng(it.seed || 2); for (let i = 0; i < (it.n || 60); i++) { const px = X(it.x) + ((r() * X(it.w) - t * (it.speed || 0)) % X(it.w) + X(it.w)) % X(it.w), py = Y(it.y) + r() * Y(it.h) + Math.sin(t * 2 + i) * 6; circle(g, px, py, it.size || 5, alpha(c, 0.7)); } break; }
       case 'path': { const k = ease.inOut(prog(t, a0, a0 + (it.over ?? 2))), pts = it.pts.map(([a, b]) => [X(a), Y(b)]); g.save(); if (it.dashed) g.setLineDash([16, 12]); g.strokeStyle = c; g.lineWidth = it.w || 5; g.beginPath(); const n = pts.length - 1, f = k * n, m = Math.min(n - 1, Math.floor(f)), u = f - m; g.moveTo(...pts[0]); for (let i = 1; i <= m; i++) g.lineTo(...pts[i]); const hd = [lerp(pts[m][0], pts[m + 1][0], u), lerp(pts[m][1], pts[m + 1][1], u)]; g.lineTo(...hd); g.stroke(); g.restore(); if (it.head) { const nx = pts[Math.min(n, m + 1)]; planeIcon(g, hd[0], hd[1], it.head, c, Math.atan2(nx[1] - pts[m][1], nx[0] - pts[m][0])); } break; }
+      case 'dominoes': { const n = it.labels.length, gap = X(it.w ?? 0.7) / n; it.labels.forEach((lb, i) => { const ti = a0 + i * (it.step ?? 0.45), f = ease.in(prog(t, ti, ti + 0.35)) * (i === n - 1 && it.last === false ? 0 : 1), bx = x - X(it.w ?? 0.7) / 2 + i * gap + gap / 2, by = y;
+          g.save(); g.translate(bx + 30, by); g.rotate(f * 1.2); rr(g, -60, -220, 60, 220, 10); g.fillStyle = i === 0 ? WARN : alpha(c, 0.25); g.fill(); g.strokeStyle = i === 0 ? WARN : c; g.lineWidth = 3; g.stroke(); g.restore(); lbl(g, lb, bx, by + 50, { size: 30, color: i === 0 ? WARN : c }); }); break; }
       case 'oval': { g.save(); g.setLineDash([16, 12]); g.lineDashOffset = -t * 60; g.strokeStyle = c; g.lineWidth = 4; g.beginPath(); g.ellipse(x, y, X(it.rx), Y(it.ry), 0, 0, 7); g.stroke(); g.restore(); if (it.plane) { const a = t * (it.speed || 0.8); planeIcon(g, x + Math.cos(a) * X(it.rx), y + Math.sin(a) * Y(it.ry), 1, S().ui.gold, a + Math.PI / 2); } break; }
     }
     g.restore();
@@ -170,6 +174,35 @@ T.runway = (g, t, info, p, cam) => {
     if (p.reverse != null && t > at(p.reverse, info, 1.5)) for (let j = 0; j < 6; j++) { const u = ((t * 3 + j / 6) % 1); seg(g, [[x + 120 * s - u * 120, cy + 50 * s - 40 * u], [x + 60 * s - u * 120, cy + 50 * s - 70 * u]], 3, alpha('#e8fbff', 0.5 * (1 - u))); }
     if (dt > 0.5 && alt < 40) FX.speedLines(g, t, { cx: x, cy, count: 30, a: 0.1 * clamp(dt / 2) }); });
   if (p.rain) FX.rain(g, t, { count: 160 }); if (p.snow) FX.snow(g, t, { count: 140, color: '#ffffff', speed: 80 });
+};
+// top-down apron: p.veh=[{label, x,y, from:[x,y], at, w,h, color}], p.flow (passengers out at 'at'), p.plane {x,y,s}
+T.topdown = (g, t, info, p, cam) => {
+  const M = mood('day'), cz = cam.z; g.save(); g.translate(E.W / 2, E.H / 2); g.scale(cz, cz); g.translate(-E.W / 2 + cam.x, -E.H / 2 + cam.y);
+  g.fillStyle = '#3a454c'; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); for (let i = -10; i < 30; i++) seg(g, [[i * 160, -E.H], [i * 160 - 400, E.H * 2]], 2, 'rgba(0,0,0,.08)');
+  g.fillStyle = '#5a6a74'; g.fillRect(-E.W, -E.H, E.W * 3, E.H + Y(0.12)); g.fillStyle = alpha(M.practical, 0.5); g.fillRect(-E.W, Y(0.1), E.W * 3, 12);
+  seg(g, [[X(0.05), Y(0.62)], [X(0.95), Y(0.62)]], 6, alpha('#e8c23a', 0.7));
+  const pp = p.plane || {}, px = X(pp.x ?? 0.5), py = Y(pp.y ?? 0.6), ps = pp.s ?? 8.5;
+  g.save(); g.shadowColor = 'rgba(0,0,0,.4)'; g.shadowBlur = 30; g.shadowOffsetY = 20; planeIcon(g, px, py, ps, '#c8d4dc', 0); g.restore(); planeIcon(g, px, py, ps * 0.97, '#e8eef0', 0);
+  const door = [px + 20 * ps, py - 5 * ps]; poly(g, [[door[0] - 30, Y(0.12)], [door[0] + 30, Y(0.12)], [door[0] + 20, door[1]], [door[0] - 20, door[1]]], '#7a8a94');
+  if (p.flow != null) { const a0 = at(p.flow, info, 0.2); for (let i = 0; i < 24; i++) { const u = ((t - a0) * 0.5 + i / 24) % 1; if (t < a0) break; circle(g, door[0] + Math.sin(i * 7) * 8, lerp(door[1], Y(0.04), u), 9, i % 5 === 2 ? '#d64a33' : '#1a2630'); } }
+  for (const v of p.veh || []) { const a0 = at(v.at, info, 0.2), k = ease.out(prog(t, a0, a0 + 1.2)); if (k <= 0) continue; const x = X(lerp(v.from?.[0] ?? v.x, v.x, k)), y = Y(lerp(v.from?.[1] ?? 1.2, v.y, k)), w = v.w ?? 150, h = v.h ?? 80, c = col(v.color || 'gold');
+    g.save(); g.shadowColor = 'rgba(0,0,0,.35)'; g.shadowBlur = 16; g.shadowOffsetY = 10; rr(g, x - w / 2, y - h / 2, w, h, 14); g.fillStyle = c; g.fill(); g.restore(); rr(g, x - w / 2 + 8, y - h / 2 + 8, w * 0.3, h - 16, 8); g.fillStyle = 'rgba(0,0,0,.25)'; g.fill();
+    if (((t + x) % 0.9) < 0.2) glow(g, x, y - h / 2, 30, '#ffb020', 0.9); text(g, v.label, x + w * 0.12, y, { size: 24, color: '#0b141c', font: FONTS.ui, weight: 900 });
+    if (k >= 1 && v.done != null && t > at(v.done, info, 2)) { circle(g, x + w / 2, y - h / 2, 22, S().ui.good); icon(g, 'check', x + w / 2, y - h / 2, 14, '#0b141c'); } }
+  g.restore();
+};
+// weather radar screen: p.cells=[{x,y,r,at}], p.route, p.reroute (at), p.grow
+T.radar = (g, t, info, p) => {
+  backdrop(g, ['#020608', '#04100c']); const cx = E.W / 2, cy = E.H * 0.92, R = E.H * 0.85, gr = '#3fdc6a';
+  g.save(); g.beginPath(); g.arc(cx, cy, R, Math.PI, 0); g.closePath(); g.clip(); g.fillStyle = '#031208'; g.fillRect(0, 0, E.W, E.H);
+  for (const c of p.cells || []) { const a0 = at(c.at, info, 0), k = ease.out(prog(t, a0, a0 + (c.over ?? 3))) * (p.growAll ? 1 : 1); if (k <= 0) continue; const x = X(c.x), y = Y(c.y), r = c.r * E.H * (0.4 + 0.6 * k);
+    for (const [f, cc] of [[1, '#2fb84f'], [0.68, '#e8d23a'], [0.38, '#e8402e']]) { g.fillStyle = alpha(cc, 0.75); g.beginPath(); for (let i = 0; i <= 24; i++) { const a = i / 24 * Math.PI * 2, rr2 = r * f * (1 + 0.18 * Math.sin(a * 3 + c.x * 10 + t * 0.3)); i ? g.lineTo(x + Math.cos(a) * rr2, y + Math.sin(a) * rr2 * 0.8) : g.moveTo(x + Math.cos(a) * rr2, y + Math.sin(a) * rr2 * 0.8); } g.fill(); } }
+  for (let i = 1; i <= 4; i++) { g.strokeStyle = alpha(gr, 0.35); g.lineWidth = 2; g.beginPath(); g.arc(cx, cy, R * i / 4, Math.PI, 0); g.stroke(); }
+  const sw = Math.PI + ((t * 0.9) % 1) * Math.PI; g.fillStyle = alpha(gr, 0.12); g.beginPath(); g.moveTo(cx, cy); g.arc(cx, cy, R, sw - 0.35, sw); g.closePath(); g.fill(); seg(g, [[cx, cy], [cx + Math.cos(sw) * R, cy + Math.sin(sw) * R]], 3, alpha(gr, 0.8));
+  g.setLineDash([16, 12]); seg(g, [[cx, cy - 40], [cx, cy - R]], 4, alpha('#e8fbff', p.reroute != null && t > at(p.reroute, info, 2) ? 0.25 : 0.8)); g.setLineDash([]);
+  if (p.reroute != null) { const k = ease.inOut(prog(t, at(p.reroute, info, 2), at(p.reroute, info, 2) + 1.5)); if (k > 0) { g.strokeStyle = S().ui.accent; g.lineWidth = 6; g.setLineDash([18, 12]); g.beginPath(); g.moveTo(cx, cy - 40); g.bezierCurveTo(cx - E.W * 0.32 * k, cy - R * 0.35, cx - E.W * 0.32 * k, cy - R * 0.7, cx, cy - R); g.stroke(); g.setLineDash([]); } }
+  g.restore(); planeIcon(g, cx, cy - 40, 1.6, '#e8fbff', -Math.PI / 2); g.strokeStyle = alpha(gr, 0.6); g.lineWidth = 4; g.beginPath(); g.arc(cx, cy, R, Math.PI, 0); g.stroke();
+  text(g, 'WX', X(0.06), Y(0.08), { size: 36, color: gr, font: FONTS.ui, weight: 900, align: 'left' });
 };
 // inserts: close-up objects. p.obj = pitot | tire | window | meal | tail
 T.insert = (g, t, info, p, cam) => {
