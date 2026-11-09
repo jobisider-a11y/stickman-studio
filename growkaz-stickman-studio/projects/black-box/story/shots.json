@@ -1,0 +1,1551 @@
+{
+ "title": "Inside the Black Box",
+ "duration": 173.57,
+ "shots": [
+  {
+   "id": "b1_01",
+   "start": 0.0,
+   "end": 5.09,
+   "line": "June first, two thousand nine. It's the middle of the night over the Atlantic Ocean.",
+   "scene": "Night over the Atlantic, an airliner above the storms",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "wind",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "night",
+    "storm": "light",
+    "plane": {
+     "x": 0.25,
+     "x1": 0.55,
+     "y": 0.4,
+     "s": 0.5
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.06
+     ]
+    },
+    "clock": "JUNE 1, 2009"
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b1_02",
+   "start": 5.09,
+   "end": 11.57,
+   "line": "An Airbus A three-thirty is flying from Rio de Janeiro to Paris, with two hundred and twenty-eight people on board.",
+   "scene": "Map: Rio to Paris, 228 people",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.18,
+        0.82
+       ],
+       [
+        0.82,
+        0.18
+       ]
+      ],
+      "w": 3,
+      "dashed": true,
+      "at": 0,
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "RIO DE JANEIRO",
+      "x": 0.18,
+      "y": 0.9,
+      "at": 0,
+      "size": 34
+     },
+     {
+      "k": "text",
+      "s": "PARIS",
+      "x": 0.82,
+      "y": 0.1,
+      "at": 0,
+      "size": 34
+     },
+     {
+      "k": "text",
+      "s": "ATLANTIC OCEAN",
+      "x": 0.3,
+      "y": 0.4,
+      "at": 0,
+      "size": 30,
+      "color": "accent"
+     },
+     {
+      "k": "picon",
+      "x": 0.18,
+      "y": 0.82,
+      "x1": 0.42,
+      "y1": 0.58,
+      "s": 1.8,
+      "rot": -0.785,
+      "at": 0.2,
+      "over": 5.5,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "AIRBUS A330",
+      "x": 0.62,
+      "y": 0.62,
+      "at": "airbus",
+      "size": 44,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "228 PEOPLE",
+      "x": 0.62,
+      "y": 0.72,
+      "at": "two",
+      "size": 60,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_03",
+   "start": 11.57,
+   "end": 16.43,
+   "line": "Somewhere far from any coast, the plane flies into a region of thunderstorms.",
+   "scene": "The plane flies into a region of thunderstorms",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "thunder",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "sky",
+    "mood": "storm",
+    "storm": true,
+    "plane": {
+     "x": 0.3,
+     "x1": 0.5,
+     "y": 0.42,
+     "s": 0.5,
+     "shake": 4
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.08
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "THUNDERSTORMS",
+      "at": "thunderstorms",
+      "y": 0.12,
+      "color": "warn"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b1_04",
+   "start": 16.43,
+   "end": 22.81,
+   "line": "And then, it simply stops reporting. No mayday. No warning call. Nothing.",
+   "scene": "It stops reporting: no mayday, no warning, nothing",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 3.2,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 4.2,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 5.6,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.18,
+        0.82
+       ],
+       [
+        0.82,
+        0.18
+       ]
+      ],
+      "w": 3,
+      "dashed": true,
+      "at": 0,
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "RIO DE JANEIRO",
+      "x": 0.18,
+      "y": 0.9,
+      "at": 0,
+      "size": 34
+     },
+     {
+      "k": "text",
+      "s": "PARIS",
+      "x": 0.82,
+      "y": 0.1,
+      "at": 0,
+      "size": 34
+     },
+     {
+      "k": "text",
+      "s": "ATLANTIC OCEAN",
+      "x": 0.3,
+      "y": 0.4,
+      "at": 0,
+      "size": 30,
+      "color": "accent"
+     },
+     {
+      "k": "picon",
+      "x": 0.42,
+      "y": 0.58,
+      "s": 1.8,
+      "rot": -0.785,
+      "at": 0,
+      "color": "gold"
+     },
+     {
+      "k": "ring",
+      "x": 0.42,
+      "y": 0.58,
+      "r": 50,
+      "at": "stops",
+      "color": "warn"
+     },
+     {
+      "k": "x",
+      "x": 0.42,
+      "y": 0.58,
+      "at": "nothing",
+      "r": 50
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "NO MAYDAY",
+      "at": "mayday",
+      "x": 0.72,
+      "y": 0.5,
+      "color": "cream",
+      "size": 48
+     },
+     {
+      "k": "label",
+      "text": "NO WARNING CALL",
+      "at": "warning",
+      "x": 0.72,
+      "y": 0.6,
+      "color": "cream",
+      "size": 48
+     },
+     {
+      "k": "label",
+      "text": "NOTHING.",
+      "at": "nothing",
+      "x": 0.72,
+      "y": 0.72,
+      "color": "warn",
+      "size": 70
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_05",
+   "start": 22.81,
+   "end": 25.33,
+   "line": "Search teams find wreckage on the surface within days.",
+   "scene": "Search planes over the ocean, wreckage on the surface",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "sea",
+    "mood": "day",
+    "debris": 14,
+    "planes": 2,
+    "ship": {
+     "x": 0.6
+    },
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "WRECKAGE FOUND",
+      "at": "wreckage",
+      "y": 0.12,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b1_06",
+   "start": 25.33,
+   "end": 34.53,
+   "line": "But the most important question has no answer. A modern jet, flown by an experienced crew, fell out of the sky. Why?",
+   "scene": "A modern jet, an experienced crew... why?",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 8.3,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "A MODERN JET",
+      "at": "modern",
+      "y": 0.3,
+      "size": 56,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "AN EXPERIENCED CREW",
+      "at": "experienced",
+      "y": 0.4,
+      "size": 56,
+      "color": "cream"
+     },
+     {
+      "k": "label",
+      "text": "WHY?",
+      "at": "why",
+      "y": 0.62,
+      "size": 180,
+      "color": "gold",
+      "font": "title"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_07",
+   "start": 34.53,
+   "end": 43.31,
+   "line": "The answer is lying almost four kilometers below the surface, in two small orange boxes. And it will take almost two years to reach them.",
+   "scene": "Descending to the sea floor: two orange boxes, ~4 km down",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "riser",
+     "gain": -16
+    },
+    {
+     "at": 5.0,
+     "name": "freeze",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "deep",
+    "from": 0,
+    "to": 3900,
+    "floor": true,
+    "floorY": 0.8,
+    "boxes": [
+     {
+      "x": 0.42,
+      "y": 0.77,
+      "s": 0.7,
+      "rot": 0.2
+     },
+     {
+      "x": 0.62,
+      "y": 0.8,
+      "s": 0.65,
+      "rot": -0.3
+     }
+    ],
+    "debris": 10,
+    "lamp": true,
+    "cam": {
+     "z": [
+      1.0,
+      1.1
+     ],
+     "y": [
+      0,
+      -60
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "ALMOST 4 KM DOWN",
+      "at": "four",
+      "y": 0.12,
+      "color": "accent"
+     },
+     {
+      "k": "label",
+      "text": "~2 YEARS TO REACH THEM",
+      "at": "years",
+      "y": 0.2,
+      "color": "gold",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b1_08",
+   "start": 43.31,
+   "end": 51.71,
+   "line": "Stay with me, because by the end of this video, you'll know exactly what those boxes revealed, and how one tiny frozen sensor started it all.",
+   "scene": "Freeze on the boxes: what did they reveal?",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "deep",
+    "from": 3900,
+    "floor": true,
+    "floorY": 0.8,
+    "boxes": [
+     {
+      "x": 0.42,
+      "y": 0.77,
+      "s": 0.8,
+      "rot": 0.2,
+      "ping": true
+     },
+     {
+      "x": 0.62,
+      "y": 0.8,
+      "s": 0.75,
+      "rot": -0.3
+     }
+    ],
+    "lamp": true,
+    "cam": {
+     "z": [
+      1.3,
+      1.4
+     ],
+     "y": [
+      -200,
+      -220
+     ]
+    },
+    "ov": [
+     {
+      "k": "qmark",
+      "at": 0.4,
+      "x": 0.5,
+      "y": 0.32,
+      "color": "gold"
+     },
+     {
+      "k": "label",
+      "text": "WHAT THEY REVEALED",
+      "at": "revealed",
+      "y": 0.12,
+      "color": "cream",
+      "size": 44
+     },
+     {
+      "k": "label",
+      "text": "...AND ONE FROZEN SENSOR",
+      "at": "frozen",
+      "y": 0.88,
+      "color": "accent",
+      "size": 40
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b1_09",
+   "start": 51.71,
+   "end": 55.31,
+   "line": "This is the story of the black box.",
+   "scene": "Title: INSIDE THE BLACK BOX",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "deep",
+    "from": 3900,
+    "floor": true,
+    "floorY": 0.82,
+    "boxes": [
+     {
+      "x": 0.5,
+      "y": 0.79,
+      "s": 0.8,
+      "rot": 0.1,
+      "ping": true
+     }
+    ],
+    "lamp": true,
+    "depth": false,
+    "ov": [
+     {
+      "k": "title",
+      "lines": [
+       "INSIDE THE",
+       "BLACK BOX"
+      ],
+      "at": 0.1,
+      "y": 0.4
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b1_10",
+   "start": 55.31,
+   "end": 66.17,
+   "line": "First, let's clear something up. The black box isn't black. It's bright orange, often with reflective stripes, so searchers can spot it in wreckage, in a forest, or on the bottom of the ocean.",
+   "scene": "Myth: the black box is orange",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 4.1,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "recorder",
+      "x": 0.28,
+      "y": 0.52,
+      "s": 1.1,
+      "burnt": 1,
+      "at": 0.1,
+      "tag": "BLACK?",
+      "tagColor": "text"
+     },
+     {
+      "k": "x",
+      "x": 0.28,
+      "y": 0.5,
+      "at": "isn",
+      "r": 90
+     },
+     {
+      "k": "recorder",
+      "x": 0.72,
+      "y": 0.52,
+      "s": 1.1,
+      "at": "orange",
+      "tag": "BRIGHT ORANGE",
+      "tagColor": "#ff8a1f"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_11",
+   "start": 66.17,
+   "end": 82.49,
+   "line": "So why the name? Nobody knows for sure. Some say the very first versions were painted black. Some say \"black box\" was simply old slang for any mysterious electronic gadget. Others say it's because the boxes were found scorched and charred after a fire. Take your pick.",
+   "scene": "Theories behind the name",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.8,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 11.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 15.4,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "WHY THE NAME?",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 56,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "NOBODY KNOWS FOR SURE",
+      "x": 0.5,
+      "y": 0.2,
+      "at": "nobody",
+      "size": 36,
+      "color": "accent"
+     },
+     {
+      "k": "box",
+      "x": 0.06,
+      "y": 0.36,
+      "w": 0.26,
+      "h": 0.3,
+      "at": "painted",
+      "fill": 0.1,
+      "color": "text",
+      "label": "PAINTED BLACK?"
+     },
+     {
+      "k": "box",
+      "x": 0.37,
+      "y": 0.36,
+      "w": 0.26,
+      "h": 0.3,
+      "at": "slang",
+      "fill": 0.1,
+      "color": "text",
+      "label": "OLD SLANG?"
+     },
+     {
+      "k": "box",
+      "x": 0.68,
+      "y": 0.36,
+      "w": 0.26,
+      "h": 0.3,
+      "at": "scorched",
+      "fill": 0.1,
+      "color": "text",
+      "label": "SCORCHED?"
+     },
+     {
+      "k": "text",
+      "s": "TAKE YOUR PICK",
+      "x": 0.5,
+      "y": 0.84,
+      "at": "pick",
+      "size": 50,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_12",
+   "start": 82.49,
+   "end": 86.95,
+   "line": "And here's the second surprise. It isn't one box. It's two.",
+   "scene": "It isn't one box. It's two.",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "recorder",
+      "x": 0.5,
+      "y": 0.5,
+      "x1": 0.28,
+      "s": 0.95,
+      "at": 0.1,
+      "moveAt": "two",
+      "over": 0.6,
+      "label": "COCKPIT VOICE"
+     },
+     {
+      "k": "recorder",
+      "x": 0.5,
+      "y": 0.5,
+      "x1": 0.72,
+      "s": 0.95,
+      "at": "two",
+      "over": 0.6,
+      "label": "FLIGHT DATA"
+     },
+     {
+      "k": "text",
+      "s": "CVR",
+      "x": 0.28,
+      "y": 0.74,
+      "at": "two",
+      "size": 60,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "FDR",
+      "x": 0.72,
+      "y": 0.74,
+      "at": "two",
+      "size": 60,
+      "color": "accent",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "SURPRISE #2",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 44
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_13",
+   "start": 86.95,
+   "end": 99.11,
+   "line": "The first is the cockpit voice recorder. It records everything the pilots say, every radio call, every alarm, every click of a switch, through microphones in their headsets and one in the cockpit itself.",
+   "scene": "CVR: everything heard in the cockpit",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 5.0,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 6.0,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 7.0,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "cockpit",
+    "mood": "night",
+    "outside": "night",
+    "expr": "talk",
+    "cam": {
+     "z": [
+      1.3,
+      1.35
+     ],
+     "x": [
+      -120,
+      -120
+     ],
+     "y": [
+      110,
+      110
+     ]
+    },
+    "ov": [
+     {
+      "k": "label",
+      "text": "COCKPIT VOICE RECORDER",
+      "at": 0.1,
+      "x": 0.66,
+      "y": 0.12,
+      "color": "gold",
+      "size": 44
+     },
+     {
+      "k": "check",
+      "x": 0.06,
+      "y": 0.2,
+      "items": [
+       [
+        "pilots",
+        "THE PILOTS"
+       ],
+       [
+        "radio",
+        "RADIO CALLS"
+       ],
+       [
+        "alarm",
+        "ALARMS"
+       ],
+       [
+        "click",
+        "SWITCH CLICKS"
+       ],
+       [
+        "microphones",
+        "HEADSET + COCKPIT MICS"
+       ]
+      ]
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b1_14",
+   "start": 99.11,
+   "end": 113.79,
+   "line": "The second is the flight data recorder. It quietly logs the plane's measurements, many times every second: speed, altitude, engine power, the position of every control. Modern recorders can track well over a thousand of them.",
+   "scene": "FDR: data streams from all over the plane",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 11.6,
+     "name": "counter",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "plane",
+      "x": 0.5,
+      "y": 0.5,
+      "s": 0.95,
+      "at": 0
+     },
+     {
+      "k": "path",
+      "pts": [
+       [
+        0.58,
+        0.58
+       ],
+       [
+        0.4,
+        0.55
+       ],
+       [
+        0.28,
+        0.5
+       ]
+      ],
+      "at": "measurements",
+      "over": 1.2,
+      "color": "gold",
+      "w": 4
+     },
+     {
+      "k": "path",
+      "pts": [
+       [
+        0.72,
+        0.48
+       ],
+       [
+        0.5,
+        0.47
+       ],
+       [
+        0.28,
+        0.5
+       ]
+      ],
+      "at": "speed",
+      "over": 1.2,
+      "color": "gold",
+      "w": 4
+     },
+     {
+      "k": "path",
+      "pts": [
+       [
+        0.45,
+        0.62
+       ],
+       [
+        0.35,
+        0.56
+       ],
+       [
+        0.28,
+        0.5
+       ]
+      ],
+      "at": "engine",
+      "over": 1.2,
+      "color": "gold",
+      "w": 4
+     },
+     {
+      "k": "ring",
+      "x": 0.28,
+      "y": 0.5,
+      "r": 36,
+      "at": 0.2,
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "FLIGHT DATA RECORDER",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 50,
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "MANY TIMES EVERY SECOND",
+      "x": 0.5,
+      "y": 0.82,
+      "at": "many",
+      "size": 40
+     }
+    ],
+    "ov": [
+     {
+      "k": "counter",
+      "to": 1000,
+      "at": "thousand",
+      "over": 1.0,
+      "suffix": "+",
+      "x": 0.8,
+      "y": 0.84,
+      "size": 90,
+      "label": "MEASUREMENTS",
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_15",
+   "start": 113.79,
+   "end": 125.73,
+   "line": "Think of it like this. Every second of every flight becomes a long row of numbers. String those rows together, and you get a perfect digital record of everything the plane did, from push back to parking.",
+   "scene": "Every second becomes a row of numbers",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "ticker",
+      "x": 0.5,
+      "y": 0.28,
+      "rows": 9,
+      "at": 0,
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "EVERY SECOND = ONE ROW OF NUMBERS",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "every",
+      "size": 44,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "PUSH BACK  >>>  PARKING",
+      "x": 0.5,
+      "y": 0.9,
+      "at": "push",
+      "size": 40,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_16",
+   "start": 125.73,
+   "end": 140.19,
+   "line": "After an accident, investigators feed those numbers into a computer and rebuild the flight as an animation, matched to the sounds from the cockpit. They can watch exactly where the plane went, what the controls did, and what the crew heard, moment by moment.",
+   "scene": "The numbers become a replay of the flight",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.4,
+     "name": "powerup",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "path",
+      "pts": [
+       [
+        0.1,
+        0.7
+       ],
+       [
+        0.3,
+        0.5
+       ],
+       [
+        0.55,
+        0.45
+       ],
+       [
+        0.8,
+        0.3
+       ]
+      ],
+      "at": 0.3,
+      "over": 7,
+      "color": "gold",
+      "w": 5,
+      "head": 1.6,
+      "dashed": true
+     },
+     {
+      "k": "gauge",
+      "x": 0.84,
+      "y": 0.72,
+      "r": 110,
+      "v0": 0.3,
+      "v": 0.7,
+      "at": 0.5,
+      "over": 7,
+      "label": "SPEED"
+     },
+     {
+      "k": "text",
+      "s": "REBUILT AS AN ANIMATION",
+      "x": 0.4,
+      "y": 0.14,
+      "at": "animation",
+      "size": 48,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "+ THE COCKPIT SOUNDS",
+      "x": 0.4,
+      "y": 0.22,
+      "at": "sounds",
+      "size": 36,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_17",
+   "start": 140.19,
+   "end": 154.03,
+   "line": "That work is done by independent investigators, like the NTSB in the United States, the BEA in France, or the AAIB in the U.K. And their job isn't to blame anyone. It's to find out what happened, so it can't happen again.",
+   "scene": "Independent investigators: safety, not blame",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.4,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.0,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 9.0,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "box",
+      "x": 0.08,
+      "y": 0.3,
+      "w": 0.24,
+      "h": 0.22,
+      "at": "ntsb",
+      "fill": 0.12,
+      "color": "text",
+      "label": "NTSB \u00b7 USA"
+     },
+     {
+      "k": "box",
+      "x": 0.38,
+      "y": 0.3,
+      "w": 0.24,
+      "h": 0.22,
+      "at": "bea",
+      "fill": 0.12,
+      "color": "text",
+      "label": "BEA \u00b7 FRANCE"
+     },
+     {
+      "k": "box",
+      "x": 0.68,
+      "y": 0.3,
+      "w": 0.24,
+      "h": 0.22,
+      "at": "aaib",
+      "fill": 0.12,
+      "color": "text",
+      "label": "AAIB \u00b7 UK"
+     },
+     {
+      "k": "text",
+      "s": "INDEPENDENT INVESTIGATORS",
+      "x": 0.5,
+      "y": 0.14,
+      "at": "independent",
+      "size": 44,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "NOT BLAME",
+      "x": 0.3,
+      "y": 0.74,
+      "at": "blame",
+      "size": 56,
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "SAFETY",
+      "x": 0.7,
+      "y": 0.74,
+      "at": "happened",
+      "size": 56,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_18",
+   "start": 154.03,
+   "end": 159.01,
+   "line": "Together, they can rebuild the final minutes of a flight almost second by second.",
+   "scene": "Together: the final minutes, second by second",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "recorder",
+      "x": 0.32,
+      "y": 0.48,
+      "s": 0.8,
+      "at": 0,
+      "label": "COCKPIT VOICE"
+     },
+     {
+      "k": "recorder",
+      "x": 0.68,
+      "y": 0.48,
+      "s": 0.8,
+      "at": 0,
+      "label": "FLIGHT DATA"
+     },
+     {
+      "k": "text",
+      "s": "+",
+      "x": 0.5,
+      "y": 0.48,
+      "at": 0,
+      "size": 90,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "THE FINAL MINUTES, SECOND BY SECOND",
+      "x": 0.5,
+      "y": 0.8,
+      "at": "final",
+      "size": 44,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_19",
+   "start": 159.01,
+   "end": 168.95,
+   "line": "Quick question before we go on. Where on the plane do you think the recorders are kept? The nose, the middle, or the tail? Keep your answer in mind. We'll find out in a few minutes.",
+   "scene": "Quiz: where are the recorders kept?",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 5.0,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.0,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 8.0,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "QUICK QUESTION",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 56,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "plane",
+      "x": 0.5,
+      "y": 0.52,
+      "s": 0.95,
+      "at": 0
+     },
+     {
+      "k": "ring",
+      "x": 0.73,
+      "y": 0.52,
+      "r": 50,
+      "at": "nose",
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "NOSE",
+      "x": 0.73,
+      "y": 0.66,
+      "at": "nose",
+      "size": 40,
+      "color": "accent"
+     },
+     {
+      "k": "ring",
+      "x": 0.5,
+      "y": 0.5,
+      "r": 50,
+      "at": "middle",
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "MIDDLE",
+      "x": 0.5,
+      "y": 0.66,
+      "at": "middle",
+      "size": 40,
+      "color": "accent"
+     },
+     {
+      "k": "ring",
+      "x": 0.28,
+      "y": 0.48,
+      "r": 50,
+      "at": "tail",
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "TAIL",
+      "x": 0.28,
+      "y": 0.66,
+      "at": "tail",
+      "size": 40,
+      "color": "accent"
+     },
+     {
+      "k": "text",
+      "s": "REMEMBER YOUR ANSWER",
+      "x": 0.5,
+      "y": 0.86,
+      "at": "keep",
+      "size": 40,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b1_20",
+   "start": 168.95,
+   "end": 173.57,
+   "line": "But someone had to invent them first. And it started with a boy who lost his father.",
+   "scene": "Someone had to invent them: a boy who lost his father",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "card",
+    "ov": [
+     {
+      "k": "label",
+      "text": "WHO INVENTED IT?",
+      "at": 0.1,
+      "y": 0.4,
+      "size": 70,
+      "color": "cream",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "A BOY WHO LOST HIS FATHER",
+      "at": "boy",
+      "y": 0.56,
+      "size": 44,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  }
+ ],
+ "music": [],
+ "sfx": []
+}

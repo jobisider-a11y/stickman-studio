@@ -1,0 +1,199 @@
+[00:00.00 -> 00:02.54] June first, two thousand nine.
+[00:02.54 -> 00:04.62] It's the middle of the night over the Atlantic Ocean.
+[00:05.24 -> 00:11.06] An Airbus A three-thirty is flying from Rio de Janeiro to Paris, with two hundred and twenty-eight people on board.
+[00:11.72 -> 00:16.10] Somewhere far from any coast, the plane flies into a region of thunderstorms.
+[00:16.58 -> 00:18.80] And then, it simply stops reporting.
+[00:19.36 -> 00:19.98] No mayday.
+[00:20.32 -> 00:21.20] No warning call.
+[00:21.80 -> 00:22.00] Nothing.
+[00:22.96 -> 00:25.26] Search teams find wreckage on the surface within days.
+[00:25.48 -> 00:28.22] But the most important question has no answer.
+[00:28.74 -> 00:32.96] A modern jet, flown by an experienced crew, fell out of the sky.
+[00:33.60 -> 00:33.92] Why?
+[00:34.68 -> 00:39.90] The answer is lying almost four kilometers below the surface, in two small orange boxes.
+[00:40.46 -> 00:42.92] And it will take almost two years to reach them.
+[00:43.46 -> 00:51.30] Stay with me, because by the end of this video, you'll know exactly what those boxes revealed, and how one tiny frozen sensor started it all.
+[00:51.86 -> 00:54.26] This is the story of the black box.
+[00:55.46 -> 00:56.84] First, let's clear something up.
+[00:57.26 -> 00:58.70] The black box isn't black.
+[00:59.14 -> 01:05.80] It's bright orange, often with reflective stripes, so searchers can spot it in wreckage, in a forest, or on the bottom of the ocean.
+[01:06.32 -> 01:07.42] So why the name?
+[01:07.96 -> 01:09.10] Nobody knows for sure.
+[01:09.62 -> 01:12.02] Some say the very first versions were painted black.
+[01:12.42 -> 01:16.86] Some say "black box" was simply old slang for any mysterious electronic gadget.
+[01:17.36 -> 01:20.92] Others say it's because the boxes were found scorched and charred after a fire.
+[01:21.30 -> 01:21.98] Take your pick.
+[01:22.64 -> 01:23.74] And here's the second surprise.
+[01:24.34 -> 01:25.46] It isn't one box.
+[01:25.96 -> 01:26.50] It's two.
+[01:27.10 -> 01:29.18] The first is the cockpit voice recorder.
+[01:29.62 -> 01:38.52] It records everything the pilots say, every radio call, every alarm, every click of a switch, through microphones in their headsets and one in the cockpit itself.
+[01:39.26 -> 01:41.18] The second is the flight data recorder.
+[01:41.70 -> 01:49.96] It quietly logs the plane's measurements, many times every second: speed, altitude, engine power, the position of every control.
+[01:50.76 -> 01:53.30] Modern recorders can track well over a thousand of them.
+[01:53.94 -> 01:54.72] Think of it like this.
+[01:55.24 -> 01:58.58] Every second of every flight becomes a long row of numbers.
+[01:59.24 -> 02:05.16] String those rows together, and you get a perfect digital record of everything the plane did, from push back to parking.
+[02:05.88 -> 02:13.16] After an accident, investigators feed those numbers into a computer and rebuild the flight as an animation, matched to the sounds from the cockpit.
+[02:13.66 -> 02:19.72] They can watch exactly where the plane went, what the controls did, and what the crew heard, moment by moment.
+[02:20.34 -> 02:28.24] That work is done by independent investigators, like the NTSB in the United States, the BEA in France, or the AAIB in the U.K.
+[02:28.82 -> 02:30.56] And their job isn't to blame anyone.
+[02:30.84 -> 02:33.86] It's to find out what happened, so it can't happen again.
+[02:34.18 -> 02:38.54] Together, they can rebuild the final minutes of a flight almost second by second.
+[02:39.16 -> 02:40.40] Quick question before we go on.
+[02:40.78 -> 02:44.30] Where on the plane do you think the recorders are kept?
+[02:44.30 -> 02:45.72] The nose, the middle, or the tail?
+[02:46.26 -> 02:47.20] Keep your answer in mind.
+[02:47.48 -> 02:48.62] We'll find out in a few minutes.
+[02:49.10 -> 02:50.92] But someone had to invent them first.
+[02:51.34 -> 02:53.72] And it started with a boy who lost his father.
+[02:53.72 -> 02:56.88] Nineteen thirty-four.
+[02:56.88 -> 03:02.06] In Australia, a young boy named David Warren loses his father in a plane crash over the sea.
+[03:02.62 -> 03:04.86] Nobody ever finds out exactly what happened.
+[03:05.50 -> 03:10.22] Almost twenty years later, Warren is a scientist at an aeronautical research lab in Melbourne.
+[03:10.54 -> 03:18.88] And the aviation world has a terrifying new mystery: the de Havilland Comet, the world's first jet airliner, is breaking apart in mid-air.
+[03:19.38 -> 03:21.32] The cause turned out to be metal fatigue.
+[03:21.80 -> 03:26.76] Every flight, the cabin was pressurized and then released, flexing the metal again and again.
+[03:27.20 -> 03:31.42] And the sharp corners around some openings concentrated that stress until cracks spread.
+[03:31.86 -> 03:35.16] It's a big part of why airliner windows today have rounded corners.
+[03:35.88 -> 03:37.54] Warren is asked to help think about why.
+[03:37.98 -> 03:40.50] And sitting in that meeting, he has a simple idea.
+[03:41.08 -> 03:42.42] What if the cockpit had a recorder?
+[03:42.90 -> 03:48.08] What if investigators could hear the last words of the crew, and know exactly what the instruments were saying?
+[03:48.52 -> 03:53.44] At the time, there were already some flight recorders, but they captured only a few basic measurements.
+[03:54.10 -> 03:56.34] Warren wanted something that would capture the voices, too.
+[03:56.84 -> 03:59.74] By the late nineteen fifties, he had built a working prototype.
+[04:00.24 -> 04:05.30] It could record hours of cockpit sound and instrument readings, and it was small enough to fit in a plane.
+[04:05.86 -> 04:14.96] It stored about four hours of sound and instrument data on a spool of thin steel wire, recording over itself again and again, so it always held the most recent hours.
+[04:15.46 -> 04:17.28] And almost nobody wanted it.
+[04:17.60 -> 04:19.08] Some officials couldn't see the point.
+[04:19.40 -> 04:23.36] And pilots hated the idea of a microphone recording everything they said.
+[04:23.80 -> 04:27.24] One complaint stuck: it was like having a spy in the cockpit.
+[04:28.10 -> 04:28.98] Warren didn't give up.
+[04:29.38 -> 04:32.30] Interest grew in Britain, where an early commercial version was built.
+[04:32.30 -> 04:37.94] Then, after a deadly crash in Australia in nineteen sixty left investigators with no answers,
+[04:38.74 -> 04:42.64] Australia became one of the first countries to require cockpit recorders on airliners.
+[04:43.20 -> 04:45.72] Over the following decades, the rest of the world followed.
+[04:46.20 -> 04:49.32] Today, every large airliner carries both recorders.
+[04:49.66 -> 04:52.76] And the pilots' worry about a spy in the cockpit was taken seriously.
+[04:53.28 -> 04:56.56] In many countries, cockpit voice recordings are legally protected.
+[04:57.02 -> 05:03.14] They're used for safety investigations, not to listen in on pilots, and the actual audio is very rarely made public.
+[05:03.58 -> 05:11.50] The boy who never learned why his father's plane went down ended up making sure that, for countless families after him, there would usually be an answer.
+[05:11.88 -> 05:14.90] But a recorder is useless if it doesn't survive the crash.
+[05:15.34 -> 05:17.96] So how do you build a box that can't be destroyed?
+[05:19.42 -> 05:20.22] Here's the trick.
+[05:20.74 -> 05:22.48] Most of a black box is protection.
+[05:22.98 -> 05:31.06] The part that actually matters, the memory, is a small, heavily armored core in the middle, wrapped in layers of insulation and steel or titanium.
+[05:31.60 -> 05:35.58] And before a design is approved, it's put through tests that sound almost cruel.
+[05:36.26 -> 05:37.38] Test one: impact.
+[05:38.04 -> 05:43.48] The box is fired at a target so it stops with a force of about three thousand four hundred times gravity.
+[05:44.18 -> 05:49.78] Test two: a heavy steel spike is dropped onto it, to make sure nothing sharp in a crash can punch through.
+[05:50.50 -> 05:55.20] Test three: it's crushed under a press with tons of force, for minutes at a time.
+[05:55.88 -> 05:57.10] Test four: fire.
+[05:57.68 -> 06:03.74] Jet fuel burns hot, so the box is blasted with flames of more than a thousand degrees Celsius for up to an hour.
+[06:04.50 -> 06:06.26] Test five: the deep ocean.
+[06:06.72 -> 06:13.98] It's held under pressure like the bottom of the sea, around six kilometers down, for a month, to prove the water and the pressure can't get in.
+[06:14.42 -> 06:15.04] And there's more.
+[06:15.42 -> 06:24.66] It's soaked in jet fuel, hydraulic fluid, and fire-fighting chemicals, all the nasty liquids that can end up around a crash site, to make sure none of them can eat their way inside.
+[06:25.24 -> 06:29.52] Only if the memory inside still reads perfectly afterwards does the design pass.
+[06:30.20 -> 06:31.22] And remember my question?
+[06:31.68 -> 06:33.58] Even where they sit is part of the plan.
+[06:34.04 -> 06:40.34] The recorders are usually mounted near the tail, because in many crashes the back of the aircraft takes less of the impact than the front.
+[06:40.98 -> 06:42.96] Inside, the technology changed too.
+[06:43.36 -> 06:47.74] Early recorders used metal foil and magnetic tape, with moving parts that could break.
+[06:48.46 -> 06:53.80] Modern ones store everything on solid-state memory chips, like a much tougher version of the memory in your phone.
+[06:54.28 -> 07:01.82] And even when the outside of a box is badly damaged, investigators can often remove the memory board, clean it, and read it directly in the lab.
+[07:02.22 -> 07:04.78] The armor only has to protect a tiny thing.
+[07:05.42 -> 07:12.60] For years, the cockpit voice recorder kept only the last two hours of sound, recording over the oldest audio again and again.
+[07:12.60 -> 07:19.70] Newer rules are pushing that to twenty-five hours, so investigators don't lose anything important that happened earlier in a long flight.
+[07:20.32 -> 07:26.76] Another lesson came from accidents where the plane's electrical power failed, and the recorders went silent at exactly the wrong moment.
+[07:27.26 -> 07:35.24] Many newer cockpit recorders now carry their own small backup power supply, so they keep recording for around ten minutes after the plane's power is lost.
+[07:35.90 -> 07:36.88] There's one more piece.
+[07:37.52 -> 07:39.72] Bolted to each recorder is a small beacon.
+[07:39.72 -> 07:47.18] If it lands in water, it switches on and starts sending out a high-pitched ping, once every second, so search teams can hear it.
+[07:47.28 -> 07:49.10] But that beacon runs on a battery.
+[07:49.44 -> 07:53.46] And for one flight, that battery ran out long before anyone found it.
+[07:54.66 -> 07:56.90] Back to June two thousand nine.
+[07:56.90 -> 08:02.50] Ships race to the area where the plane went down, towing sensitive underwater microphones, listening for the pings.
+[08:02.92 -> 08:04.78] The problem is the ocean itself.
+[08:05.28 -> 08:12.26] The search area is huge, and the sea floor there is a landscape of underwater mountains and canyons, thousands of meters deep.
+[08:12.96 -> 08:15.12] Searching it is like mowing a lawn in the dark.
+[08:15.92 -> 08:24.06] Ships tow sonar back and forth in long stripes, slowly painting a picture of the sea floor, strip by strip, looking for anything that doesn't belong.
+[08:24.62 -> 08:27.14] The beacons are designed to ping for about thirty days.
+[08:27.64 -> 08:29.18] The searchers listen for weeks.
+[08:29.78 -> 08:30.82] They never hear them.
+[08:31.26 -> 08:33.10] And then the batteries go silent.
+[08:33.10 -> 08:35.68] Search after search comes up empty.
+[08:36.32 -> 08:36.80] Months pass.
+[08:37.50 -> 08:38.54] Then a whole year.
+[08:39.14 -> 08:40.34] Then almost two.
+[08:40.96 -> 08:50.14] In two thousand eleven, a new search uses underwater robots, torpedo-shaped vehicles that glide just above the sea floor, scanning it with sonar, mile after mile.
+[08:50.58 -> 08:59.62] The robots used in that search came from the Woods Hole Oceanographic Institution in the United States, and they worked in shifts, diving for hours, surfacing, and diving again.
+[08:59.62 -> 09:05.22] And finally, in April, almost two years after the crash, they find the debris field.
+[09:05.64 -> 09:07.30] Nearly four kilometers down.
+[09:07.76 -> 09:11.54] A remotely operated vehicle goes down, and lifts the recorders out of the mud.
+[09:12.04 -> 09:19.54] After almost two years under crushing pressure, in the cold and the dark, the memory chips are carefully cleaned, dried, and read.
+[09:20.08 -> 09:21.24] And the data is there.
+[09:21.68 -> 09:22.52] Almost all of it.
+[09:22.96 -> 09:24.16] There's a clever trick to that.
+[09:24.62 -> 09:32.16] Boxes recovered from the sea are often kept in water until they reach the lab, because drying out too fast can let salt and corrosion damage the electronics.
+[09:32.86 -> 09:33.94] Then comes the decoding.
+[09:34.52 -> 09:38.84] The raw data is just a stream of ones and zeros in the manufacturer's own format.
+[09:39.26 -> 09:43.80] Investigators translate it, check it against the plane's design, and turn it back into the flight.
+[09:44.44 -> 09:46.22] Not every search ends like this.
+[09:46.58 -> 09:52.66] In two thousand fourteen, Malaysia Airlines flight three seventy disappeared with two hundred and thirty-nine people on board.
+[09:53.26 -> 09:55.64] Searchers combed a vast stretch of the Indian Ocean.
+[09:55.64 -> 09:59.02] Pieces of the plane eventually washed up on distant shores.
+[09:59.26 -> 10:01.46] But its recorders have never been found.
+[10:01.96 -> 10:03.26] And that changed the rules.
+[10:03.82 -> 10:06.98] Newer beacons now ping for ninety days instead of thirty.
+[10:06.98 -> 10:10.66] Airliners are being required to report their position more often over oceans.
+[10:11.06 -> 10:18.94] And engineers are working on recorders that eject and float, and systems that can stream key flight data live, before a plane ever hits the water.
+[10:19.24 -> 10:24.00] But in two thousand eleven, in a lab in France, investigators finally pressed play.
+[10:24.00 -> 10:27.64] And for the first time, they heard what really happened that night.
+[10:29.08 -> 10:30.62] The recordings start calmly.
+[10:31.28 -> 10:36.94] The plane is cruising at night, at around thirty-five thousand feet, approaching an area of storms near the equator.
+[10:37.40 -> 10:41.78] Remember the pitot tubes from our last video, those little tubes on the nose that measure airspeed?
+[10:42.22 -> 10:45.44] Flying through the storm clouds, they begin to clog with ice crystals.
+[10:45.98 -> 10:48.82] Within seconds, the airspeed readings become unreliable.
+[10:49.38 -> 10:51.66] The plane no longer knows how fast it's going.
+[10:51.66 -> 10:56.54] Without a trustworthy airspeed, the autopilot does exactly what it's designed to do.
+[10:56.80 -> 10:59.48] It disconnects, and hands the plane back to the pilots,
+[11:00.38 -> 11:02.38] suddenly, in the dark, in turbulence.
+[11:03.18 -> 11:05.14] What happened next is the hardest part.
+[11:05.52 -> 11:09.30] The data shows the pilot flying pulled the nose up, and the plane climbed.
+[11:09.82 -> 11:11.28] As it climbed, it slowed.
+[11:11.74 -> 11:15.68] And the wings, losing the airflow they needed, stopped producing enough lift.
+[11:16.10 -> 11:17.30] That's called a stall.
+[11:17.74 -> 11:18.72] Not an engine stall.
+[11:19.08 -> 11:19.86] A wing stall.
+[11:19.86 -> 11:24.20] The airflow over the wing breaks away, and the wing stops holding the plane up.
+[11:24.68 -> 11:27.04] The stall warning sounded again and again.
+[11:27.32 -> 11:32.78] But in the confusion, with conflicting readings and alarms, the crew never fully recognized what was happening.
+[11:33.12 -> 11:36.28] And the recordings revealed two details that made it even harder.
+[11:36.66 -> 11:43.64] At times, the airspeed readings dropped so low that the system treated them as invalid, and the stall warning actually went quiet.
+[11:44.12 -> 11:50.84] Then, when the nose came down a little, the readings returned and the warning started again, sending exactly the wrong signal.
+[11:51.30 -> 11:54.78] On this aircraft, the two pilots' side sticks aren't mechanically linked.
+[11:54.94 -> 11:58.20] So one pilot couldn't feel what the other was doing with his controls.
+[11:58.82 -> 12:01.76] For most of the descent, the plane's nose stayed up.
+[12:02.18 -> 12:04.22] The way out of a stall is counterintuitive.
+[12:04.66 -> 12:09.92] You lower the nose, let the plane gain speed, and let the air flow smoothly over the wings again.
+[12:10.32 -> 12:11.96] Pulling up only makes it worse.
+[12:12.54 -> 12:18.28] The plane fell for about three and a half minutes, nose high, belly first, until it hit the ocean.
+[12:18.84 -> 12:20.28] Everyone on board was lost.
+[12:20.28 -> 12:22.44] Two hundred and twenty-eight people.
+[12:22.84 -> 12:25.50] And for almost two years, nobody knew why.
+[12:26.00 -> 12:30.76] Because the boxes survived, the investigators could answer that question, and change things.
+[12:31.20 -> 12:33.30] Airlines replaced that model of pitot tube.
+[12:33.80 -> 12:40.92] Pilots around the world began training much more on what to do when airspeed readings fail, and on recovering from a stall at high altitude.
+[12:41.50 -> 12:43.58] Cockpit procedures and warnings were rethought.
+[12:44.06 -> 12:46.04] And that's the real job of the black box.
+[12:46.04 -> 12:48.06] It isn't to tell a sad story.
+[12:48.46 -> 12:51.54] It's to make sure the same story never happens again.
+[12:51.92 -> 12:59.20] Many of the rules, checklists, and safety features on your flight today exist because a recorder survived and told investigators the truth.
+[12:59.60 -> 13:05.20] It's a big part of why flying has become one of the safest ways to travel, even as more people fly than ever.
+[13:05.70 -> 13:11.82] So the next time you board a plane, remember: somewhere near the tail, two orange boxes are already listening.
+[13:12.22 -> 13:12.94] Not to spy.
+[13:13.26 -> 13:17.58] But to make sure that, whatever happens, the next flight is safer than the last.
+[13:18.18 -> 13:22.42] If you watched all the way to here, tell me in the comments: did you know the black box was orange?
+[13:22.92 -> 13:29.96] And subscribe, because next, we're going to the deadliest accident in aviation history, and how it changed the way every cockpit works.

@@ -1,0 +1,1196 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 2.54,
+  "text": "June first, two thousand nine."
+ },
+ {
+  "i": 1,
+  "start": 2.54,
+  "end": 4.62,
+  "text": "It's the middle of the night over the Atlantic Ocean."
+ },
+ {
+  "i": 2,
+  "start": 5.24,
+  "end": 11.06,
+  "text": "An Airbus A three-thirty is flying from Rio de Janeiro to Paris, with two hundred and twenty-eight people on board."
+ },
+ {
+  "i": 3,
+  "start": 11.72,
+  "end": 16.1,
+  "text": "Somewhere far from any coast, the plane flies into a region of thunderstorms."
+ },
+ {
+  "i": 4,
+  "start": 16.58,
+  "end": 18.8,
+  "text": "And then, it simply stops reporting."
+ },
+ {
+  "i": 5,
+  "start": 19.36,
+  "end": 19.98,
+  "text": "No mayday."
+ },
+ {
+  "i": 6,
+  "start": 20.32,
+  "end": 21.2,
+  "text": "No warning call."
+ },
+ {
+  "i": 7,
+  "start": 21.8,
+  "end": 22.0,
+  "text": "Nothing."
+ },
+ {
+  "i": 8,
+  "start": 22.96,
+  "end": 25.26,
+  "text": "Search teams find wreckage on the surface within days."
+ },
+ {
+  "i": 9,
+  "start": 25.48,
+  "end": 28.22,
+  "text": "But the most important question has no answer."
+ },
+ {
+  "i": 10,
+  "start": 28.74,
+  "end": 32.96,
+  "text": "A modern jet, flown by an experienced crew, fell out of the sky."
+ },
+ {
+  "i": 11,
+  "start": 33.6,
+  "end": 33.92,
+  "text": "Why?"
+ },
+ {
+  "i": 12,
+  "start": 34.68,
+  "end": 39.9,
+  "text": "The answer is lying almost four kilometers below the surface, in two small orange boxes."
+ },
+ {
+  "i": 13,
+  "start": 40.46,
+  "end": 42.92,
+  "text": "And it will take almost two years to reach them."
+ },
+ {
+  "i": 14,
+  "start": 43.46,
+  "end": 51.3,
+  "text": "Stay with me, because by the end of this video, you'll know exactly what those boxes revealed, and how one tiny frozen sensor started it all."
+ },
+ {
+  "i": 15,
+  "start": 51.86,
+  "end": 54.26,
+  "text": "This is the story of the black box."
+ },
+ {
+  "i": 16,
+  "start": 55.46,
+  "end": 56.84,
+  "text": "First, let's clear something up."
+ },
+ {
+  "i": 17,
+  "start": 57.26,
+  "end": 58.7,
+  "text": "The black box isn't black."
+ },
+ {
+  "i": 18,
+  "start": 59.14,
+  "end": 65.8,
+  "text": "It's bright orange, often with reflective stripes, so searchers can spot it in wreckage, in a forest, or on the bottom of the ocean."
+ },
+ {
+  "i": 19,
+  "start": 66.32,
+  "end": 67.42,
+  "text": "So why the name?"
+ },
+ {
+  "i": 20,
+  "start": 67.96,
+  "end": 69.1,
+  "text": "Nobody knows for sure."
+ },
+ {
+  "i": 21,
+  "start": 69.62,
+  "end": 72.02,
+  "text": "Some say the very first versions were painted black."
+ },
+ {
+  "i": 22,
+  "start": 72.42,
+  "end": 76.86,
+  "text": "Some say \"black box\" was simply old slang for any mysterious electronic gadget."
+ },
+ {
+  "i": 23,
+  "start": 77.36,
+  "end": 80.92,
+  "text": "Others say it's because the boxes were found scorched and charred after a fire."
+ },
+ {
+  "i": 24,
+  "start": 81.3,
+  "end": 81.98,
+  "text": "Take your pick."
+ },
+ {
+  "i": 25,
+  "start": 82.64,
+  "end": 83.74,
+  "text": "And here's the second surprise."
+ },
+ {
+  "i": 26,
+  "start": 84.34,
+  "end": 85.46,
+  "text": "It isn't one box."
+ },
+ {
+  "i": 27,
+  "start": 85.96,
+  "end": 86.5,
+  "text": "It's two."
+ },
+ {
+  "i": 28,
+  "start": 87.1,
+  "end": 89.18,
+  "text": "The first is the cockpit voice recorder."
+ },
+ {
+  "i": 29,
+  "start": 89.62,
+  "end": 98.52,
+  "text": "It records everything the pilots say, every radio call, every alarm, every click of a switch, through microphones in their headsets and one in the cockpit itself."
+ },
+ {
+  "i": 30,
+  "start": 99.26,
+  "end": 101.18,
+  "text": "The second is the flight data recorder."
+ },
+ {
+  "i": 31,
+  "start": 101.7,
+  "end": 109.96,
+  "text": "It quietly logs the plane's measurements, many times every second: speed, altitude, engine power, the position of every control."
+ },
+ {
+  "i": 32,
+  "start": 110.76,
+  "end": 113.3,
+  "text": "Modern recorders can track well over a thousand of them."
+ },
+ {
+  "i": 33,
+  "start": 113.94,
+  "end": 114.72,
+  "text": "Think of it like this."
+ },
+ {
+  "i": 34,
+  "start": 115.24,
+  "end": 118.58,
+  "text": "Every second of every flight becomes a long row of numbers."
+ },
+ {
+  "i": 35,
+  "start": 119.24,
+  "end": 125.16,
+  "text": "String those rows together, and you get a perfect digital record of everything the plane did, from push back to parking."
+ },
+ {
+  "i": 36,
+  "start": 125.88,
+  "end": 133.16,
+  "text": "After an accident, investigators feed those numbers into a computer and rebuild the flight as an animation, matched to the sounds from the cockpit."
+ },
+ {
+  "i": 37,
+  "start": 133.66,
+  "end": 139.72,
+  "text": "They can watch exactly where the plane went, what the controls did, and what the crew heard, moment by moment."
+ },
+ {
+  "i": 38,
+  "start": 140.34,
+  "end": 148.24,
+  "text": "That work is done by independent investigators, like the NTSB in the United States, the BEA in France, or the AAIB in the U.K."
+ },
+ {
+  "i": 39,
+  "start": 148.82,
+  "end": 150.56,
+  "text": "And their job isn't to blame anyone."
+ },
+ {
+  "i": 40,
+  "start": 150.84,
+  "end": 153.86,
+  "text": "It's to find out what happened, so it can't happen again."
+ },
+ {
+  "i": 41,
+  "start": 154.18,
+  "end": 158.54,
+  "text": "Together, they can rebuild the final minutes of a flight almost second by second."
+ },
+ {
+  "i": 42,
+  "start": 159.16,
+  "end": 160.4,
+  "text": "Quick question before we go on."
+ },
+ {
+  "i": 43,
+  "start": 160.78,
+  "end": 164.296,
+  "text": "Where on the plane do you think the recorders are kept?"
+ },
+ {
+  "i": 44,
+  "start": 164.296,
+  "end": 165.72,
+  "text": "The nose, the middle, or the tail?"
+ },
+ {
+  "i": 45,
+  "start": 166.26,
+  "end": 167.2,
+  "text": "Keep your answer in mind."
+ },
+ {
+  "i": 46,
+  "start": 167.48,
+  "end": 168.62,
+  "text": "We'll find out in a few minutes."
+ },
+ {
+  "i": 47,
+  "start": 169.1,
+  "end": 170.92,
+  "text": "But someone had to invent them first."
+ },
+ {
+  "i": 48,
+  "start": 171.34,
+  "end": 173.72,
+  "text": "And it started with a boy who lost his father."
+ },
+ {
+  "i": 49,
+  "start": 173.72,
+  "end": 176.88,
+  "text": "Nineteen thirty-four."
+ },
+ {
+  "i": 50,
+  "start": 176.88,
+  "end": 182.06,
+  "text": "In Australia, a young boy named David Warren loses his father in a plane crash over the sea."
+ },
+ {
+  "i": 51,
+  "start": 182.62,
+  "end": 184.86,
+  "text": "Nobody ever finds out exactly what happened."
+ },
+ {
+  "i": 52,
+  "start": 185.5,
+  "end": 190.22,
+  "text": "Almost twenty years later, Warren is a scientist at an aeronautical research lab in Melbourne."
+ },
+ {
+  "i": 53,
+  "start": 190.54,
+  "end": 198.88,
+  "text": "And the aviation world has a terrifying new mystery: the de Havilland Comet, the world's first jet airliner, is breaking apart in mid-air."
+ },
+ {
+  "i": 54,
+  "start": 199.38,
+  "end": 201.32,
+  "text": "The cause turned out to be metal fatigue."
+ },
+ {
+  "i": 55,
+  "start": 201.8,
+  "end": 206.76,
+  "text": "Every flight, the cabin was pressurized and then released, flexing the metal again and again."
+ },
+ {
+  "i": 56,
+  "start": 207.2,
+  "end": 211.42,
+  "text": "And the sharp corners around some openings concentrated that stress until cracks spread."
+ },
+ {
+  "i": 57,
+  "start": 211.86,
+  "end": 215.16,
+  "text": "It's a big part of why airliner windows today have rounded corners."
+ },
+ {
+  "i": 58,
+  "start": 215.88,
+  "end": 217.54,
+  "text": "Warren is asked to help think about why."
+ },
+ {
+  "i": 59,
+  "start": 217.98,
+  "end": 220.5,
+  "text": "And sitting in that meeting, he has a simple idea."
+ },
+ {
+  "i": 60,
+  "start": 221.08,
+  "end": 222.42,
+  "text": "What if the cockpit had a recorder?"
+ },
+ {
+  "i": 61,
+  "start": 222.9,
+  "end": 228.08,
+  "text": "What if investigators could hear the last words of the crew, and know exactly what the instruments were saying?"
+ },
+ {
+  "i": 62,
+  "start": 228.52,
+  "end": 233.44,
+  "text": "At the time, there were already some flight recorders, but they captured only a few basic measurements."
+ },
+ {
+  "i": 63,
+  "start": 234.1,
+  "end": 236.34,
+  "text": "Warren wanted something that would capture the voices, too."
+ },
+ {
+  "i": 64,
+  "start": 236.84,
+  "end": 239.74,
+  "text": "By the late nineteen fifties, he had built a working prototype."
+ },
+ {
+  "i": 65,
+  "start": 240.24,
+  "end": 245.3,
+  "text": "It could record hours of cockpit sound and instrument readings, and it was small enough to fit in a plane."
+ },
+ {
+  "i": 66,
+  "start": 245.86,
+  "end": 254.96,
+  "text": "It stored about four hours of sound and instrument data on a spool of thin steel wire, recording over itself again and again, so it always held the most recent hours."
+ },
+ {
+  "i": 67,
+  "start": 255.46,
+  "end": 257.28,
+  "text": "And almost nobody wanted it."
+ },
+ {
+  "i": 68,
+  "start": 257.6,
+  "end": 259.08,
+  "text": "Some officials couldn't see the point."
+ },
+ {
+  "i": 69,
+  "start": 259.4,
+  "end": 263.36,
+  "text": "And pilots hated the idea of a microphone recording everything they said."
+ },
+ {
+  "i": 70,
+  "start": 263.8,
+  "end": 267.24,
+  "text": "One complaint stuck: it was like having a spy in the cockpit."
+ },
+ {
+  "i": 71,
+  "start": 268.1,
+  "end": 268.98,
+  "text": "Warren didn't give up."
+ },
+ {
+  "i": 72,
+  "start": 269.38,
+  "end": 272.3,
+  "text": "Interest grew in Britain, where an early commercial version was built."
+ },
+ {
+  "i": 73,
+  "start": 272.3,
+  "end": 277.94,
+  "text": "Then, after a deadly crash in Australia in nineteen sixty left investigators with no answers,"
+ },
+ {
+  "i": 74,
+  "start": 278.74,
+  "end": 282.64,
+  "text": "Australia became one of the first countries to require cockpit recorders on airliners."
+ },
+ {
+  "i": 75,
+  "start": 283.2,
+  "end": 285.72,
+  "text": "Over the following decades, the rest of the world followed."
+ },
+ {
+  "i": 76,
+  "start": 286.2,
+  "end": 289.32,
+  "text": "Today, every large airliner carries both recorders."
+ },
+ {
+  "i": 77,
+  "start": 289.66,
+  "end": 292.76,
+  "text": "And the pilots' worry about a spy in the cockpit was taken seriously."
+ },
+ {
+  "i": 78,
+  "start": 293.28,
+  "end": 296.56,
+  "text": "In many countries, cockpit voice recordings are legally protected."
+ },
+ {
+  "i": 79,
+  "start": 297.02,
+  "end": 303.14,
+  "text": "They're used for safety investigations, not to listen in on pilots, and the actual audio is very rarely made public."
+ },
+ {
+  "i": 80,
+  "start": 303.58,
+  "end": 311.5,
+  "text": "The boy who never learned why his father's plane went down ended up making sure that, for countless families after him, there would usually be an answer."
+ },
+ {
+  "i": 81,
+  "start": 311.88,
+  "end": 314.9,
+  "text": "But a recorder is useless if it doesn't survive the crash."
+ },
+ {
+  "i": 82,
+  "start": 315.34,
+  "end": 317.96,
+  "text": "So how do you build a box that can't be destroyed?"
+ },
+ {
+  "i": 83,
+  "start": 319.42,
+  "end": 320.22,
+  "text": "Here's the trick."
+ },
+ {
+  "i": 84,
+  "start": 320.74,
+  "end": 322.48,
+  "text": "Most of a black box is protection."
+ },
+ {
+  "i": 85,
+  "start": 322.98,
+  "end": 331.06,
+  "text": "The part that actually matters, the memory, is a small, heavily armored core in the middle, wrapped in layers of insulation and steel or titanium."
+ },
+ {
+  "i": 86,
+  "start": 331.6,
+  "end": 335.58,
+  "text": "And before a design is approved, it's put through tests that sound almost cruel."
+ },
+ {
+  "i": 87,
+  "start": 336.26,
+  "end": 337.38,
+  "text": "Test one: impact."
+ },
+ {
+  "i": 88,
+  "start": 338.04,
+  "end": 343.48,
+  "text": "The box is fired at a target so it stops with a force of about three thousand four hundred times gravity."
+ },
+ {
+  "i": 89,
+  "start": 344.18,
+  "end": 349.78,
+  "text": "Test two: a heavy steel spike is dropped onto it, to make sure nothing sharp in a crash can punch through."
+ },
+ {
+  "i": 90,
+  "start": 350.5,
+  "end": 355.2,
+  "text": "Test three: it's crushed under a press with tons of force, for minutes at a time."
+ },
+ {
+  "i": 91,
+  "start": 355.88,
+  "end": 357.1,
+  "text": "Test four: fire."
+ },
+ {
+  "i": 92,
+  "start": 357.68,
+  "end": 363.74,
+  "text": "Jet fuel burns hot, so the box is blasted with flames of more than a thousand degrees Celsius for up to an hour."
+ },
+ {
+  "i": 93,
+  "start": 364.5,
+  "end": 366.26,
+  "text": "Test five: the deep ocean."
+ },
+ {
+  "i": 94,
+  "start": 366.72,
+  "end": 373.98,
+  "text": "It's held under pressure like the bottom of the sea, around six kilometers down, for a month, to prove the water and the pressure can't get in."
+ },
+ {
+  "i": 95,
+  "start": 374.42,
+  "end": 375.04,
+  "text": "And there's more."
+ },
+ {
+  "i": 96,
+  "start": 375.42,
+  "end": 384.66,
+  "text": "It's soaked in jet fuel, hydraulic fluid, and fire-fighting chemicals, all the nasty liquids that can end up around a crash site, to make sure none of them can eat their way inside."
+ },
+ {
+  "i": 97,
+  "start": 385.24,
+  "end": 389.52,
+  "text": "Only if the memory inside still reads perfectly afterwards does the design pass."
+ },
+ {
+  "i": 98,
+  "start": 390.2,
+  "end": 391.22,
+  "text": "And remember my question?"
+ },
+ {
+  "i": 99,
+  "start": 391.68,
+  "end": 393.58,
+  "text": "Even where they sit is part of the plan."
+ },
+ {
+  "i": 100,
+  "start": 394.04,
+  "end": 400.34,
+  "text": "The recorders are usually mounted near the tail, because in many crashes the back of the aircraft takes less of the impact than the front."
+ },
+ {
+  "i": 101,
+  "start": 400.98,
+  "end": 402.96,
+  "text": "Inside, the technology changed too."
+ },
+ {
+  "i": 102,
+  "start": 403.36,
+  "end": 407.74,
+  "text": "Early recorders used metal foil and magnetic tape, with moving parts that could break."
+ },
+ {
+  "i": 103,
+  "start": 408.46,
+  "end": 413.8,
+  "text": "Modern ones store everything on solid-state memory chips, like a much tougher version of the memory in your phone."
+ },
+ {
+  "i": 104,
+  "start": 414.28,
+  "end": 421.82,
+  "text": "And even when the outside of a box is badly damaged, investigators can often remove the memory board, clean it, and read it directly in the lab."
+ },
+ {
+  "i": 105,
+  "start": 422.22,
+  "end": 424.78,
+  "text": "The armor only has to protect a tiny thing."
+ },
+ {
+  "i": 106,
+  "start": 425.42,
+  "end": 432.6,
+  "text": "For years, the cockpit voice recorder kept only the last two hours of sound, recording over the oldest audio again and again."
+ },
+ {
+  "i": 107,
+  "start": 432.6,
+  "end": 439.7,
+  "text": "Newer rules are pushing that to twenty-five hours, so investigators don't lose anything important that happened earlier in a long flight."
+ },
+ {
+  "i": 108,
+  "start": 440.32,
+  "end": 446.76,
+  "text": "Another lesson came from accidents where the plane's electrical power failed, and the recorders went silent at exactly the wrong moment."
+ },
+ {
+  "i": 109,
+  "start": 447.26,
+  "end": 455.24,
+  "text": "Many newer cockpit recorders now carry their own small backup power supply, so they keep recording for around ten minutes after the plane's power is lost."
+ },
+ {
+  "i": 110,
+  "start": 455.9,
+  "end": 456.88,
+  "text": "There's one more piece."
+ },
+ {
+  "i": 111,
+  "start": 457.52,
+  "end": 459.72,
+  "text": "Bolted to each recorder is a small beacon."
+ },
+ {
+  "i": 112,
+  "start": 459.72,
+  "end": 467.18,
+  "text": "If it lands in water, it switches on and starts sending out a high-pitched ping, once every second, so search teams can hear it."
+ },
+ {
+  "i": 113,
+  "start": 467.28,
+  "end": 469.1,
+  "text": "But that beacon runs on a battery."
+ },
+ {
+  "i": 114,
+  "start": 469.44,
+  "end": 473.46,
+  "text": "And for one flight, that battery ran out long before anyone found it."
+ },
+ {
+  "i": 115,
+  "start": 474.66,
+  "end": 476.9,
+  "text": "Back to June two thousand nine."
+ },
+ {
+  "i": 116,
+  "start": 476.9,
+  "end": 482.5,
+  "text": "Ships race to the area where the plane went down, towing sensitive underwater microphones, listening for the pings."
+ },
+ {
+  "i": 117,
+  "start": 482.92,
+  "end": 484.78,
+  "text": "The problem is the ocean itself."
+ },
+ {
+  "i": 118,
+  "start": 485.28,
+  "end": 492.26,
+  "text": "The search area is huge, and the sea floor there is a landscape of underwater mountains and canyons, thousands of meters deep."
+ },
+ {
+  "i": 119,
+  "start": 492.96,
+  "end": 495.12,
+  "text": "Searching it is like mowing a lawn in the dark."
+ },
+ {
+  "i": 120,
+  "start": 495.92,
+  "end": 504.06,
+  "text": "Ships tow sonar back and forth in long stripes, slowly painting a picture of the sea floor, strip by strip, looking for anything that doesn't belong."
+ },
+ {
+  "i": 121,
+  "start": 504.62,
+  "end": 507.14,
+  "text": "The beacons are designed to ping for about thirty days."
+ },
+ {
+  "i": 122,
+  "start": 507.64,
+  "end": 509.18,
+  "text": "The searchers listen for weeks."
+ },
+ {
+  "i": 123,
+  "start": 509.78,
+  "end": 510.82,
+  "text": "They never hear them."
+ },
+ {
+  "i": 124,
+  "start": 511.26,
+  "end": 513.1,
+  "text": "And then the batteries go silent."
+ },
+ {
+  "i": 125,
+  "start": 513.1,
+  "end": 515.68,
+  "text": "Search after search comes up empty."
+ },
+ {
+  "i": 126,
+  "start": 516.32,
+  "end": 516.8,
+  "text": "Months pass."
+ },
+ {
+  "i": 127,
+  "start": 517.5,
+  "end": 518.54,
+  "text": "Then a whole year."
+ },
+ {
+  "i": 128,
+  "start": 519.14,
+  "end": 520.34,
+  "text": "Then almost two."
+ },
+ {
+  "i": 129,
+  "start": 520.96,
+  "end": 530.14,
+  "text": "In two thousand eleven, a new search uses underwater robots, torpedo-shaped vehicles that glide just above the sea floor, scanning it with sonar, mile after mile."
+ },
+ {
+  "i": 130,
+  "start": 530.58,
+  "end": 539.62,
+  "text": "The robots used in that search came from the Woods Hole Oceanographic Institution in the United States, and they worked in shifts, diving for hours, surfacing, and diving again."
+ },
+ {
+  "i": 131,
+  "start": 539.62,
+  "end": 545.22,
+  "text": "And finally, in April, almost two years after the crash, they find the debris field."
+ },
+ {
+  "i": 132,
+  "start": 545.64,
+  "end": 547.3,
+  "text": "Nearly four kilometers down."
+ },
+ {
+  "i": 133,
+  "start": 547.76,
+  "end": 551.54,
+  "text": "A remotely operated vehicle goes down, and lifts the recorders out of the mud."
+ },
+ {
+  "i": 134,
+  "start": 552.04,
+  "end": 559.54,
+  "text": "After almost two years under crushing pressure, in the cold and the dark, the memory chips are carefully cleaned, dried, and read."
+ },
+ {
+  "i": 135,
+  "start": 560.08,
+  "end": 561.24,
+  "text": "And the data is there."
+ },
+ {
+  "i": 136,
+  "start": 561.68,
+  "end": 562.52,
+  "text": "Almost all of it."
+ },
+ {
+  "i": 137,
+  "start": 562.96,
+  "end": 564.16,
+  "text": "There's a clever trick to that."
+ },
+ {
+  "i": 138,
+  "start": 564.62,
+  "end": 572.16,
+  "text": "Boxes recovered from the sea are often kept in water until they reach the lab, because drying out too fast can let salt and corrosion damage the electronics."
+ },
+ {
+  "i": 139,
+  "start": 572.86,
+  "end": 573.94,
+  "text": "Then comes the decoding."
+ },
+ {
+  "i": 140,
+  "start": 574.52,
+  "end": 578.84,
+  "text": "The raw data is just a stream of ones and zeros in the manufacturer's own format."
+ },
+ {
+  "i": 141,
+  "start": 579.26,
+  "end": 583.8,
+  "text": "Investigators translate it, check it against the plane's design, and turn it back into the flight."
+ },
+ {
+  "i": 142,
+  "start": 584.44,
+  "end": 586.22,
+  "text": "Not every search ends like this."
+ },
+ {
+  "i": 143,
+  "start": 586.58,
+  "end": 592.66,
+  "text": "In two thousand fourteen, Malaysia Airlines flight three seventy disappeared with two hundred and thirty-nine people on board."
+ },
+ {
+  "i": 144,
+  "start": 593.26,
+  "end": 595.64,
+  "text": "Searchers combed a vast stretch of the Indian Ocean."
+ },
+ {
+  "i": 145,
+  "start": 595.64,
+  "end": 599.02,
+  "text": "Pieces of the plane eventually washed up on distant shores."
+ },
+ {
+  "i": 146,
+  "start": 599.26,
+  "end": 601.46,
+  "text": "But its recorders have never been found."
+ },
+ {
+  "i": 147,
+  "start": 601.96,
+  "end": 603.26,
+  "text": "And that changed the rules."
+ },
+ {
+  "i": 148,
+  "start": 603.82,
+  "end": 606.98,
+  "text": "Newer beacons now ping for ninety days instead of thirty."
+ },
+ {
+  "i": 149,
+  "start": 606.98,
+  "end": 610.66,
+  "text": "Airliners are being required to report their position more often over oceans."
+ },
+ {
+  "i": 150,
+  "start": 611.06,
+  "end": 618.94,
+  "text": "And engineers are working on recorders that eject and float, and systems that can stream key flight data live, before a plane ever hits the water."
+ },
+ {
+  "i": 151,
+  "start": 619.24,
+  "end": 624.0,
+  "text": "But in two thousand eleven, in a lab in France, investigators finally pressed play."
+ },
+ {
+  "i": 152,
+  "start": 624.0,
+  "end": 627.64,
+  "text": "And for the first time, they heard what really happened that night."
+ },
+ {
+  "i": 153,
+  "start": 629.08,
+  "end": 630.62,
+  "text": "The recordings start calmly."
+ },
+ {
+  "i": 154,
+  "start": 631.28,
+  "end": 636.94,
+  "text": "The plane is cruising at night, at around thirty-five thousand feet, approaching an area of storms near the equator."
+ },
+ {
+  "i": 155,
+  "start": 637.4,
+  "end": 641.78,
+  "text": "Remember the pitot tubes from our last video, those little tubes on the nose that measure airspeed?"
+ },
+ {
+  "i": 156,
+  "start": 642.22,
+  "end": 645.44,
+  "text": "Flying through the storm clouds, they begin to clog with ice crystals."
+ },
+ {
+  "i": 157,
+  "start": 645.98,
+  "end": 648.82,
+  "text": "Within seconds, the airspeed readings become unreliable."
+ },
+ {
+  "i": 158,
+  "start": 649.38,
+  "end": 651.66,
+  "text": "The plane no longer knows how fast it's going."
+ },
+ {
+  "i": 159,
+  "start": 651.66,
+  "end": 656.54,
+  "text": "Without a trustworthy airspeed, the autopilot does exactly what it's designed to do."
+ },
+ {
+  "i": 160,
+  "start": 656.8,
+  "end": 659.48,
+  "text": "It disconnects, and hands the plane back to the pilots,"
+ },
+ {
+  "i": 161,
+  "start": 660.38,
+  "end": 662.38,
+  "text": "suddenly, in the dark, in turbulence."
+ },
+ {
+  "i": 162,
+  "start": 663.18,
+  "end": 665.14,
+  "text": "What happened next is the hardest part."
+ },
+ {
+  "i": 163,
+  "start": 665.52,
+  "end": 669.3,
+  "text": "The data shows the pilot flying pulled the nose up, and the plane climbed."
+ },
+ {
+  "i": 164,
+  "start": 669.82,
+  "end": 671.28,
+  "text": "As it climbed, it slowed."
+ },
+ {
+  "i": 165,
+  "start": 671.74,
+  "end": 675.68,
+  "text": "And the wings, losing the airflow they needed, stopped producing enough lift."
+ },
+ {
+  "i": 166,
+  "start": 676.1,
+  "end": 677.3,
+  "text": "That's called a stall."
+ },
+ {
+  "i": 167,
+  "start": 677.74,
+  "end": 678.72,
+  "text": "Not an engine stall."
+ },
+ {
+  "i": 168,
+  "start": 679.08,
+  "end": 679.86,
+  "text": "A wing stall."
+ },
+ {
+  "i": 169,
+  "start": 679.86,
+  "end": 684.2,
+  "text": "The airflow over the wing breaks away, and the wing stops holding the plane up."
+ },
+ {
+  "i": 170,
+  "start": 684.68,
+  "end": 687.04,
+  "text": "The stall warning sounded again and again."
+ },
+ {
+  "i": 171,
+  "start": 687.32,
+  "end": 692.78,
+  "text": "But in the confusion, with conflicting readings and alarms, the crew never fully recognized what was happening."
+ },
+ {
+  "i": 172,
+  "start": 693.12,
+  "end": 696.28,
+  "text": "And the recordings revealed two details that made it even harder."
+ },
+ {
+  "i": 173,
+  "start": 696.66,
+  "end": 703.64,
+  "text": "At times, the airspeed readings dropped so low that the system treated them as invalid, and the stall warning actually went quiet."
+ },
+ {
+  "i": 174,
+  "start": 704.12,
+  "end": 710.84,
+  "text": "Then, when the nose came down a little, the readings returned and the warning started again, sending exactly the wrong signal."
+ },
+ {
+  "i": 175,
+  "start": 711.3,
+  "end": 714.78,
+  "text": "On this aircraft, the two pilots' side sticks aren't mechanically linked."
+ },
+ {
+  "i": 176,
+  "start": 714.94,
+  "end": 718.2,
+  "text": "So one pilot couldn't feel what the other was doing with his controls."
+ },
+ {
+  "i": 177,
+  "start": 718.82,
+  "end": 721.76,
+  "text": "For most of the descent, the plane's nose stayed up."
+ },
+ {
+  "i": 178,
+  "start": 722.18,
+  "end": 724.22,
+  "text": "The way out of a stall is counterintuitive."
+ },
+ {
+  "i": 179,
+  "start": 724.66,
+  "end": 729.92,
+  "text": "You lower the nose, let the plane gain speed, and let the air flow smoothly over the wings again."
+ },
+ {
+  "i": 180,
+  "start": 730.32,
+  "end": 731.96,
+  "text": "Pulling up only makes it worse."
+ },
+ {
+  "i": 181,
+  "start": 732.54,
+  "end": 738.28,
+  "text": "The plane fell for about three and a half minutes, nose high, belly first, until it hit the ocean."
+ },
+ {
+  "i": 182,
+  "start": 738.84,
+  "end": 740.28,
+  "text": "Everyone on board was lost."
+ },
+ {
+  "i": 183,
+  "start": 740.28,
+  "end": 742.44,
+  "text": "Two hundred and twenty-eight people."
+ },
+ {
+  "i": 184,
+  "start": 742.84,
+  "end": 745.5,
+  "text": "And for almost two years, nobody knew why."
+ },
+ {
+  "i": 185,
+  "start": 746.0,
+  "end": 750.76,
+  "text": "Because the boxes survived, the investigators could answer that question, and change things."
+ },
+ {
+  "i": 186,
+  "start": 751.2,
+  "end": 753.3,
+  "text": "Airlines replaced that model of pitot tube."
+ },
+ {
+  "i": 187,
+  "start": 753.8,
+  "end": 760.92,
+  "text": "Pilots around the world began training much more on what to do when airspeed readings fail, and on recovering from a stall at high altitude."
+ },
+ {
+  "i": 188,
+  "start": 761.5,
+  "end": 763.58,
+  "text": "Cockpit procedures and warnings were rethought."
+ },
+ {
+  "i": 189,
+  "start": 764.06,
+  "end": 766.04,
+  "text": "And that's the real job of the black box."
+ },
+ {
+  "i": 190,
+  "start": 766.04,
+  "end": 768.06,
+  "text": "It isn't to tell a sad story."
+ },
+ {
+  "i": 191,
+  "start": 768.46,
+  "end": 771.54,
+  "text": "It's to make sure the same story never happens again."
+ },
+ {
+  "i": 192,
+  "start": 771.92,
+  "end": 779.2,
+  "text": "Many of the rules, checklists, and safety features on your flight today exist because a recorder survived and told investigators the truth."
+ },
+ {
+  "i": 193,
+  "start": 779.6,
+  "end": 785.2,
+  "text": "It's a big part of why flying has become one of the safest ways to travel, even as more people fly than ever."
+ },
+ {
+  "i": 194,
+  "start": 785.7,
+  "end": 791.82,
+  "text": "So the next time you board a plane, remember: somewhere near the tail, two orange boxes are already listening."
+ },
+ {
+  "i": 195,
+  "start": 792.22,
+  "end": 792.94,
+  "text": "Not to spy."
+ },
+ {
+  "i": 196,
+  "start": 793.26,
+  "end": 797.58,
+  "text": "But to make sure that, whatever happens, the next flight is safer than the last."
+ },
+ {
+  "i": 197,
+  "start": 798.18,
+  "end": 802.42,
+  "text": "If you watched all the way to here, tell me in the comments: did you know the black box was orange?"
+ },
+ {
+  "i": 198,
+  "start": 802.92,
+  "end": 809.96,
+  "text": "And subscribe, because next, we're going to the deadliest accident in aviation history, and how it changed the way every cockpit works."
+ }
+]
