@@ -30,3 +30,4 @@ python3 audio/mix.py --project projects/airliner-24h                            
 | turbulence-short | 9:16 1080p, captions | done |
 | langley-wrights | 9:16 1080p, Retro Print, captions | done |
 | airliner-24h | 16:9 720p, Arctic Glass, 14:40 | done: 146 data-driven shots (`scenes/templates.js` + `story/build_ch1-5.py`, assemble with `python3 story/build.py`) |
+| black-box | 16:9 720p, Arctic Glass, 13:32 | done: 88 data-driven shots, rendered with tools/render_chunked.sh |
