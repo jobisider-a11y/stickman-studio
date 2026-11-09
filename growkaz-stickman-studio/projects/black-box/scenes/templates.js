@@ -14,6 +14,7 @@ import { ramp as rampSet, rampGY } from './sets/ramp.js';
 import { airliner, planeIcon } from './props/plane.js';
 import { WHO } from './cast.js';
 import { recorder } from './props/recorder.js';
+import { newspaper } from './props/machines.js';
 
 const WARN = '#ff5a4f';
 export const col = (c) => !c ? S().ui.gold : c === 'warn' ? WARN : (S().ui[c] || c);
@@ -50,6 +51,9 @@ export function icon(g, name, x, y, r, c) {
     case 'ship': poly(g, [[-0.9 * r, 0.1 * r], [0.9 * r, 0.1 * r], [0.6 * r, 0.5 * r], [-0.6 * r, 0.5 * r]], c); L([[0, 0.1], [0, -0.9]]); poly(g, [[0.05 * r, -0.85 * r], [0.7 * r, 0], [0.05 * r, 0]], c); poly(g, [[-0.05 * r, -0.7 * r], [-0.6 * r, 0], [-0.05 * r, 0]], c); break;
     case 'wind': for (let i = 0; i < 3; i++) { g.beginPath(); g.moveTo(-0.8 * r, (-0.4 + i * 0.4) * r); g.lineTo(0.3 * r, (-0.4 + i * 0.4) * r); g.arc(0.3 * r, (-0.55 + i * 0.4) * r, 0.15 * r, Math.PI / 2, -Math.PI / 2, true); g.stroke(); } break;
     case 'seat': rr(g, -0.5 * r, -0.9 * r, 0.35 * r, 1.4 * r, 0.12 * r); g.fill(); rr(g, -0.5 * r, 0.25 * r, r, 0.3 * r, 0.1 * r); g.fill(); break;
+    case 'bulb': circle(g, 0, -0.2 * r, 0.55 * r, c); rr(g, -0.25 * r, 0.35 * r, 0.5 * r, 0.35 * r, 0.08 * r); g.fill(); break;
+    case 'lock': rr(g, -0.55 * r, -0.1 * r, 1.1 * r, 0.85 * r, 0.12 * r); g.fill(); g.beginPath(); g.arc(0, -0.1 * r, 0.35 * r, Math.PI, 0); g.stroke(); break;
+    case 'globe': ring(g, 0, 0, 0.8 * r, Math.max(3, r * 0.08), c); g.beginPath(); g.ellipse(0, 0, 0.35 * r, 0.8 * r, 0, 0, 7); g.stroke(); L([[-0.8, 0], [0.8, 0]]); break;
     default: circle(g, 0, 0, 0.5 * r, c);
   }
   g.restore();
@@ -75,7 +79,7 @@ function overlays(g, t, info, list = []) {
       case 'qmark': { const p = ease.outBack(prog(t, a0, a0 + 0.4)); if (p > 0) text(g, o.text || '?', x, y, { size: (o.size || 220) * p, color: c, glow: 30, glowColor: alpha(c, 0.7), alpha: out }); break; }
       case 'timer': { const secs = Math.max(0, (o.from_ ?? o.from ?? 1500) - (o.rate ?? 60) * Math.max(0, t - a0)), mm = Math.floor(secs / 60), ss = Math.floor(secs % 60); rr(g, x - 190, y - 70, 380, 140, 30); g.fillStyle = alpha(S().ui.card, 0.92 * A); g.fill(); text(g, String(mm).padStart(2, '0') + ':' + String(ss).padStart(2, '0'), x, y + 4, { size: o.size || 100, color: c, font: FONTS.ui, weight: 900, alpha: A, glow: 14, glowColor: alpha(c, 0.5) }); break; }
       case 'mark': { const p2 = ease.outBack(prog(t, a0, a0 + 0.35)); circle(g, x, y, 7, '#1a1008'); if (p2 > 0) { ring(g, x, y, 40 * p2, 4, c); glow(g, x, y, 90, c, 0.3 * clamp(p2)); } if (o.text) lbl(g, o.text, x, y - 70, { size: 36, color: c, a: A }); break; }
-      case 'veil': veil(g, o.color || '#02080c', (o.a ?? 0.35) * A); break;
+      case 'veil': veil(g, o.color || '#02080c', (o.a ?? 0.35) * A, o.op || 'source-over'); break;
       case 'flash': { const f = 1 - prog(t, a0, a0 + (o.over ?? 0.4)); if (t >= a0 && f > 0) veil(g, o.color || '#ffffff', 0.85 * f); break; }
       case 'icon': { const p = ease.outBack(prog(t, a0, a0 + 0.35)); g.save(); g.translate(x, y); g.scale(p, p); icon(g, o.name, 0, 0, o.r || 60, c); g.restore(); if (o.text) lbl(g, o.text, x, y + (o.r || 60) * 1.5, { size: o.size || 34, color: c, a: A }); break; }
     }
@@ -96,6 +100,8 @@ const bg = (g, t, kind, p) => {
   else if (kind === 'ramp') rampSet(g, t, { z: 1.6, x: 260, y: -160 }, { mood: p.mood || 'night' });
   else if (kind === 'sky') skySet(g, t, { z: 1.4 }, { mood: p.mood || 'dusk' });
   else if (kind === 'dark') backdrop(g, ['#03070b', '#071822']);
+  else if (kind === 'lab') T.lab(g, t, { shot: { start: 0 }, dur: 1 }, { ...p, figs: [] }, { z: 1.5, x: -200, y: -120 });
+  else if (kind === 'sea') T.sea(g, t, { shot: { start: 0 }, dur: 1 }, { mood: p.seaMood || 'dusk' }, { z: 1.3, x: 0, y: 0 });
   else cabinSet(g, t, { z: 1.7, x: 200, y: -160 }, { outside: p.outside || 'dusk' });
 };
 T.ramp = (g, t, info, p, cam) => {
@@ -166,6 +172,7 @@ T.bp = (g, t, info, p) => {
           const L = 260 * (1 - 0.55 * ice); arrow(g, x, y - 80, x, y - 80 - L, 12, S().ui.gold, A); lbl(g, 'LIFT', x + 60, y - 80 - L, { size: 40, color: S().ui.gold, align: 'left' }); break; }
       case 'recorder': { const m0 = it.moveAt != null ? at(it.moveAt, info, a0) : a0, k = ease.inOut(prog(t, m0, m0 + (it.over ?? 1))); recorder(g, X(lerp(it.x, it.x1 ?? it.x, k)), Y(lerp(it.y, it.y1 ?? it.y, k)), it.s ?? 1, { label: it.label, burnt: it.burnt || 0, ping: it.ping ? 0.5 + 0.5 * Math.sin(t * 6) : 0, rot: it.rot || 0 }); if (it.tag) lbl(g, it.tag, X(lerp(it.x, it.x1 ?? it.x, k)), Y(lerp(it.y, it.y1 ?? it.y, k)) + 130 * (it.s ?? 1), { size: it.size || 40, color: it.tagColor ? col(it.tagColor) : S().ui.gold }); break; }
       case 'ticker': { const rows = it.rows || 8, r = rng(it.seed || 3), names = it.names || ['SPEED', 'ALT', 'PITCH', 'ROLL', 'ENG1', 'ENG2', 'FLAPS', 'HDG']; for (let i = 0; i < rows; i++) { const yy = y + i * 46 - ((t * 60) % 46); const vals = names.map((n, j) => { const v = Math.abs(Math.sin(i * 1.7 + j * 2.3 + Math.floor(t * 4 + i))) * (j < 2 ? 900 : 99); return n + ' ' + v.toFixed(j === 2 || j === 3 ? 1 : 0); }); lbl(g, vals.join('   '), x, yy, { size: 26, color: alpha(c, 1 - Math.abs(i - rows / 2) / rows), spacing: 1 }); } break; }
+      case 'paper': { const p2 = ease.out(prog(t, a0, a0 + 0.7)); newspaper(g, x, y, X(it.w ?? 0.35) * (0.5 + 0.5 * p2), Y(it.h ?? 0.75) * (0.5 + 0.5 * p2), { head: it.head, sub: it.sub, rot: (1 - p2) * 4 + (it.rot ?? -0.04), a: clamp(p2 * 2) }); break; }
       case 'oval': { g.save(); g.setLineDash([16, 12]); g.lineDashOffset = -t * 60; g.strokeStyle = c; g.lineWidth = 4; g.beginPath(); g.ellipse(x, y, X(it.rx), Y(it.ry), 0, 0, 7); g.stroke(); g.restore(); if (it.plane) { const a = t * (it.speed || 0.8); planeIcon(g, x + Math.cos(a) * X(it.rx), y + Math.sin(a) * Y(it.ry), 1, S().ui.gold, a + Math.PI / 2); } break; }
     }
     g.restore();
@@ -250,6 +257,21 @@ T.deep = (g, t, info, p, cam) => {
     seg(g, [[x + 40, yy + 50], [x + 80, yy + 110], [x + 60, yy + 150]], 10, '#8a9aa4'); }
   g.restore();
   if (p.depth !== false) UI.readout(g, { label: 'DEPTH', value: Math.round(d).toLocaleString('en-US') + ' M', x: X(0.86), y: Y(0.9), align: 'center', size: 50, color: S().ui.accent });
+};
+// research lab (1950s): back wall, window with dusk city, chalkboard, bench. p {mood, figs:[{who,x,pose,facing,expr,prop}], bench, proto, recorder, board}
+T.lab = (g, t, info, p, cam) => {
+  const M = mood(p.mood || 'interiorWarm'), GY = E.H * 0.82, CX = E.W / 2, s = p.s ?? 1.5;
+  layer(g, cam, 0.4, (g) => { g.fillStyle = linGrad(g, 0, -E.H, 0, GY, [shade(M.dark, -0.1), M.wall, shade(M.wall, -0.2)]); g.fillRect(-E.W, -E.H, E.W * 3, GY + E.H);
+    FX.windowFrame(g, { x: CX + 180, y: GY - 640, w: 520, h: 360, cols: 3, rows: 2, frame: shade(M.wall, -0.5), bar: 10 }, (g, x, y, w, h) => { g.fillStyle = linGrad(g, 0, y, 0, y + h, mood('dusk').sky); g.fillRect(x, y, w, h); FX.skyline(g, { x, y: y + h, w, maxH: h * 0.45, color: shade(M.dark, -0.1), windowColor: alpha(M.practical, 0.7), seed: 3 }); });
+    rr(g, CX - 760, GY - 620, 640, 330, 8); g.fillStyle = '#1e3228'; g.fill(); g.strokeStyle = '#5a4030'; g.lineWidth = 12; g.stroke();
+    g.save(); g.strokeStyle = alpha('#e8eef0', 0.7); g.lineWidth = 3; for (let i = 0; i < 5; i++) { g.beginPath(); g.moveTo(CX - 720, GY - 570 + i * 55); for (let k = 0; k < 14; k++) g.lineTo(CX - 720 + k * 36, GY - 570 + i * 55 + Math.sin(k * 1.7 + i) * 8); g.stroke(); } if (p.board) { rr(g, CX - 560, GY - 540, 200, 110, 10); g.stroke(); g.font = '700 26px Fredoka'; g.fillStyle = '#e8eef0'; g.fillText(p.board, CX - 540, GY - 470); } g.restore();
+    g.fillStyle = linGrad(g, 0, GY, 0, E.H * 1.3, [shade(M.floor, 0.1), shade(M.dark, -0.2)]); g.fillRect(-E.W, GY, E.W * 3, E.H); FX.pool(g, CX, GY + 20, 520, 70, M.key, 0.2);
+    glow(g, CX + 440, GY - 460, 420, M.key, 0.15); });
+  layer(g, cam, 0.9, (g) => { if (p.bench !== false) { rr(g, CX - 160, GY - 150, 640, 26, 6); g.fillStyle = '#4a3428'; g.fill(); seg(g, [[CX - 130, GY - 124], [CX - 130, GY]], 10, '#3a2820'); seg(g, [[CX + 450, GY - 124], [CX + 450, GY]], 10, '#3a2820');
+      if (p.proto) { rr(g, CX + 40, GY - 250, 200, 100, 10); g.fillStyle = '#5a6a74'; g.fill(); for (const dx of [80, 180]) { circle(g, CX + dx, GY - 200, 32, '#2a3a44'); circle(g, CX + dx, GY - 200, 8, '#c8d4dc'); } seg(g, [[CX + 80, GY - 232], [CX + 180, GY - 232]], 2, '#c8d4dc'); }
+      if (p.recorder) recorder(g, CX + 160, GY - 200, 0.55, { rot: 0 }); } });
+  layer(g, cam, 1, (g) => (p.figs || []).forEach((f, i) => drawFigure(g, { x: X(f.x), y: GY + (f.dy ?? 0), s: f.s ?? s, facing: f.facing ?? 1, outfit: WHO[f.who] || WHO.EXTRA, pose: breathe(POSES[f.pose || 'stand'] || POSES.stand, t, 1, i + 3), expr: exprAt(f.expr, t), look: f.look, prop: f.prop, rim: { color: M.rim, dir: [0.8, -0.6] } })));
+  FX.dust(g, t, { count: 30, color: '#ffe2bd', a: 0.25 });
 };
 // inserts: close-up objects. p.obj = pitot | tire | window | meal | tail
 T.insert = (g, t, info, p, cam) => {

@@ -1,6 +1,6 @@
 {
  "title": "Inside the Black Box",
- "duration": 173.57,
+ "duration": 319.27,
  "shots": [
   {
    "id": "b1_01",
@@ -1540,6 +1540,1335 @@
       "y": 0.56,
       "size": 44,
       "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b2_01",
+   "start": 173.57,
+   "end": 176.73,
+   "line": "Nineteen thirty-four.",
+   "scene": "1934: sepia flashback over the sea",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "wind",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "sea",
+    "mood": "dusk",
+    "cam": {
+     "z": [
+      1.08,
+      1.0
+     ]
+    },
+    "ov": [
+     {
+      "k": "veil",
+      "at": 0,
+      "a": 0.75,
+      "color": "#a07840",
+      "op": "color"
+     },
+     {
+      "k": "label",
+      "text": "1934",
+      "at": 0.1,
+      "y": 0.3,
+      "size": 150,
+      "color": "cream",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "AUSTRALIA",
+      "at": 0.6,
+      "y": 0.44,
+      "size": 50,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b2_02",
+   "start": 176.73,
+   "end": 182.47,
+   "line": "In Australia, a young boy named David Warren loses his father in a plane crash over the sea.",
+   "scene": "Young David Warren, who loses his father",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "heartbeat",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "WARREN_KID",
+    "bg": "sea",
+    "seaMood": "dusk",
+    "expr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      3.5,
+      "sad"
+     ]
+    ],
+    "look": [
+     -0.4,
+     0.2
+    ],
+    "ov": [
+     {
+      "k": "veil",
+      "at": 0,
+      "a": 0.75,
+      "color": "#a07840",
+      "op": "color"
+     },
+     {
+      "k": "label",
+      "text": "DAVID WARREN",
+      "at": "david",
+      "x": 0.24,
+      "y": 0.2,
+      "size": 56,
+      "color": "gold",
+      "font": "title"
+     },
+     {
+      "k": "label",
+      "text": "LOSES HIS FATHER IN A PLANE CRASH",
+      "at": "father",
+      "x": 0.24,
+      "y": 0.3,
+      "size": 32,
+      "color": "cream"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b2_03",
+   "start": 182.47,
+   "end": 185.35,
+   "line": "Nobody ever finds out exactly what happened.",
+   "scene": "The empty sea: no answers",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "sea",
+    "mood": "dusk",
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "ov": [
+     {
+      "k": "veil",
+      "at": 0,
+      "a": 0.75,
+      "color": "#a07840",
+      "op": "color"
+     },
+     {
+      "k": "label",
+      "text": "NO ANSWERS",
+      "at": "nobody",
+      "y": 0.2,
+      "size": 70,
+      "color": "cream",
+      "font": "title"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "b2_04",
+   "start": 185.35,
+   "end": 190.39,
+   "line": "Almost twenty years later, Warren is a scientist at an aeronautical research lab in Melbourne.",
+   "scene": "Melbourne lab: Warren is now a scientist",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "lab",
+    "proto": false,
+    "cam": {
+     "z": [
+      1.0,
+      1.05
+     ]
+    },
+    "clock": "~1953",
+    "figs": [
+     {
+      "who": "WARREN",
+      "x": 0.46,
+      "pose": "think",
+      "expr": "thinking",
+      "facing": 1
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "MELBOURNE",
+      "at": "melbourne",
+      "y": 0.12,
+      "color": "gold",
+      "size": 50
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b2_05",
+   "start": 190.39,
+   "end": 199.23,
+   "line": "And the aviation world has a terrifying new mystery: the de Havilland Comet, the world's first jet airliner, is breaking apart in mid-air.",
+   "scene": "Newspaper: the Comet jets are breaking apart",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 5.0,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "paper",
+      "x": 0.5,
+      "y": 0.5,
+      "head": "COMET JETS LOST",
+      "sub": "Mystery over the Mediterranean",
+      "at": 0.2
+     },
+     {
+      "k": "text",
+      "s": "THE WORLD'S FIRST JET AIRLINER",
+      "x": 0.5,
+      "y": 0.08,
+      "at": "first",
+      "size": 40,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b2_06",
+   "start": 199.23,
+   "end": 215.73,
+   "line": "The cause turned out to be metal fatigue. Every flight, the cabin was pressurized and then released, flexing the metal again and again. And the sharp corners around some openings concentrated that stress until cracks spread. It's a big part of why airliner windows today have rounded corners.",
+   "scene": "Metal fatigue: stress at sharp corners, cracks; round windows",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 8.0,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 12.6,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "METAL FATIGUE",
+      "x": 0.5,
+      "y": 0.1,
+      "at": "metal",
+      "size": 60,
+      "color": "warn",
+      "font": "title"
+     },
+     {
+      "k": "box",
+      "x": 0.12,
+      "y": 0.3,
+      "w": 0.22,
+      "h": 0.4,
+      "at": 0.3,
+      "fill": 0.12,
+      "color": "text"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.23,
+      "y1": 0.25,
+      "x2": 0.23,
+      "y2": 0.18,
+      "at": "pressurized",
+      "w": 6,
+      "color": "gold"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.39,
+      "y1": 0.5,
+      "x2": 0.46,
+      "y2": 0.5,
+      "at": "pressurized",
+      "w": 6,
+      "color": "gold"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.34,
+        0.3
+       ],
+       [
+        0.38,
+        0.24
+       ],
+       [
+        0.37,
+        0.2
+       ],
+       [
+        0.41,
+        0.15
+       ]
+      ],
+      "w": 4,
+      "at": "corners",
+      "color": "warn"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.12,
+        0.7
+       ],
+       [
+        0.08,
+        0.76
+       ],
+       [
+        0.09,
+        0.81
+       ]
+      ],
+      "w": 4,
+      "at": "cracks",
+      "color": "warn"
+     },
+     {
+      "k": "text",
+      "s": "SHARP CORNERS",
+      "x": 0.23,
+      "y": 0.82,
+      "at": "sharp",
+      "size": 36,
+      "color": "warn"
+     },
+     {
+      "k": "ring",
+      "x": 0.75,
+      "y": 0.5,
+      "r": 120,
+      "w": 6,
+      "at": "rounded",
+      "color": "good"
+     },
+     {
+      "k": "tick",
+      "x": 0.75,
+      "y": 0.5,
+      "at": "rounded",
+      "r": 50
+     },
+     {
+      "k": "text",
+      "s": "ROUNDED CORNERS TODAY",
+      "x": 0.75,
+      "y": 0.82,
+      "at": "rounded",
+      "size": 36,
+      "color": "good"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b2_07",
+   "start": 215.73,
+   "end": 217.83,
+   "line": "Warren is asked to help think about why.",
+   "scene": "The investigation meeting",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "lab",
+    "bench": false,
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "figs": [
+     {
+      "who": "OFFICIAL",
+      "x": 0.3,
+      "pose": "crossArms",
+      "expr": "worried",
+      "facing": 1
+     },
+     {
+      "who": "OFFICIAL",
+      "x": 0.42,
+      "pose": "think",
+      "expr": "thinking",
+      "facing": 1
+     },
+     {
+      "who": "WARREN",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "neutral",
+      "facing": -1
+     }
+    ],
+    "ov": [
+     {
+      "k": "qmark",
+      "at": 0.3,
+      "x": 0.36,
+      "y": 0.3,
+      "color": "accent",
+      "size": 150
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b2_08",
+   "start": 217.83,
+   "end": 220.93,
+   "line": "And sitting in that meeting, he has a simple idea.",
+   "scene": "Warren gets a simple idea",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.4,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "WARREN",
+    "bg": "lab",
+    "expr": [
+     [
+      0,
+      "thinking"
+     ],
+     [
+      1.6,
+      "surprised"
+     ]
+    ],
+    "look": [
+     0.3,
+     -0.5
+    ],
+    "ov": [
+     {
+      "k": "icon",
+      "name": "bulb",
+      "at": "idea",
+      "x": 0.24,
+      "y": 0.3,
+      "r": 70,
+      "color": "gold",
+      "text": "A SIMPLE IDEA"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b2_09",
+   "start": 220.93,
+   "end": 228.37,
+   "line": "What if the cockpit had a recorder? What if investigators could hear the last words of the crew, and know exactly what the instruments were saying?",
+   "scene": "What if the cockpit had a recorder?",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.4,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "WHAT IF THE COCKPIT HAD A RECORDER?",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 48,
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "people",
+      "x": 0.25,
+      "y": 0.5,
+      "r": 70,
+      "at": "last",
+      "label": "THE CREW'S LAST WORDS",
+      "color": "cream"
+     },
+     {
+      "k": "icon",
+      "name": "gauge",
+      "x": 0.75,
+      "y": 0.5,
+      "r": 70,
+      "at": "instruments",
+      "label": "WHAT THE INSTRUMENTS SAID",
+      "color": "accent"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.25,
+      "y1": 0.72,
+      "x2": 0.45,
+      "y2": 0.82,
+      "at": "last",
+      "w": 6,
+      "color": "cream"
+     },
+     {
+      "k": "arrow",
+      "x1": 0.75,
+      "y1": 0.72,
+      "x2": 0.55,
+      "y2": 0.82,
+      "at": "instruments",
+      "w": 6,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b2_10",
+   "start": 228.37,
+   "end": 236.69,
+   "line": "At the time, there were already some flight recorders, but they captured only a few basic measurements. Warren wanted something that would capture the voices, too.",
+   "scene": "Existing recorders captured a few basics; Warren wanted voices",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 6.0,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "RECORDERS IN THE 1950s",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "size": 50,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "ALREADY: A FEW BASIC MEASUREMENTS",
+      "x": 0.3,
+      "y": 0.3,
+      "at": "basic",
+      "size": 36
+     },
+     {
+      "k": "bar",
+      "x": 0.08,
+      "y": 0.42,
+      "w": 0.4,
+      "f": 0.15,
+      "at": "basic",
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "WARREN: VOICES TOO",
+      "x": 0.72,
+      "y": 0.3,
+      "at": "voices",
+      "size": 40,
+      "color": "gold"
+     },
+     {
+      "k": "bar",
+      "x": 0.52,
+      "y": 0.42,
+      "w": 0.4,
+      "f": 1,
+      "at": "voices",
+      "color": "gold"
+     },
+     {
+      "k": "icon",
+      "name": "people",
+      "x": 0.72,
+      "y": 0.66,
+      "r": 60,
+      "at": "voices",
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b2_11",
+   "start": 236.69,
+   "end": 245.71,
+   "line": "By the late nineteen fifties, he had built a working prototype. It could record hours of cockpit sound and instrument readings, and it was small enough to fit in a plane.",
+   "scene": "Late 1950s: a working prototype",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "powerup",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "lab",
+    "proto": true,
+    "cam": {
+     "z": [
+      1.15,
+      1.22
+     ],
+     "x": [
+      100,
+      120
+     ],
+     "y": [
+      60,
+      60
+     ]
+    },
+    "figs": [
+     {
+      "who": "WARREN",
+      "x": 0.4,
+      "pose": "point",
+      "expr": "happy",
+      "facing": 1
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "WORKING PROTOTYPE",
+      "at": "working",
+      "y": 0.12,
+      "color": "gold"
+     },
+     {
+      "k": "badge",
+      "text": "LATE 1950s",
+      "at": "nineteen",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b2_12",
+   "start": 245.71,
+   "end": 255.31,
+   "line": "It stored about four hours of sound and instrument data on a spool of thin steel wire, recording over itself again and again, so it always held the most recent hours.",
+   "scene": "4 hours on steel wire, recording over itself",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "clock",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "ring",
+      "x": 0.32,
+      "y": 0.5,
+      "r": 130,
+      "w": 10,
+      "at": 0.1
+     },
+     {
+      "k": "ring",
+      "x": 0.68,
+      "y": 0.5,
+      "r": 130,
+      "w": 10,
+      "at": 0.1
+     },
+     {
+      "k": "ring",
+      "x": 0.32,
+      "y": 0.5,
+      "r": 30,
+      "at": 0.1
+     },
+     {
+      "k": "ring",
+      "x": 0.68,
+      "y": 0.5,
+      "r": 30,
+      "at": 0.1
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.32,
+        0.38
+       ],
+       [
+        0.68,
+        0.38
+       ]
+      ],
+      "w": 3,
+      "at": 0.1,
+      "color": "gold"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0.32,
+        0.62
+       ],
+       [
+        0.68,
+        0.62
+       ]
+      ],
+      "w": 3,
+      "at": 0.1,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "~4 HOURS ON THIN STEEL WIRE",
+      "x": 0.5,
+      "y": 0.12,
+      "at": "four",
+      "size": 48,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "RECORDS OVER ITSELF",
+      "x": 0.5,
+      "y": 0.84,
+      "at": "recording",
+      "size": 44,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b2_13",
+   "start": 255.31,
+   "end": 259.25,
+   "line": "And almost nobody wanted it. Some officials couldn't see the point.",
+   "scene": "Almost nobody wanted it",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "lab",
+    "proto": true,
+    "cam": {
+     "z": [
+      1.0,
+      1.04
+     ]
+    },
+    "figs": [
+     {
+      "who": "OFFICIAL",
+      "x": 0.24,
+      "pose": "crossArms",
+      "expr": "smirk",
+      "facing": 1
+     },
+     {
+      "who": "OFFICIAL",
+      "x": 0.34,
+      "pose": "shrug",
+      "expr": "confused",
+      "facing": 1
+     },
+     {
+      "who": "WARREN",
+      "x": 0.55,
+      "pose": "stand",
+      "expr": "sad",
+      "facing": -1
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "NOBODY WANTED IT",
+      "at": "nobody",
+      "y": 0.12,
+      "color": "warn",
+      "size": 60
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b2_14",
+   "start": 259.25,
+   "end": 267.95,
+   "line": "And pilots hated the idea of a microphone recording everything they said. One complaint stuck: it was like having a spy in the cockpit.",
+   "scene": "Pilots: \"a spy in the cockpit\"",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.8,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "PILOT",
+    "bg": "cockpit",
+    "expr": "angry",
+    "dx": -140,
+    "side": 1,
+    "ov": [
+     {
+      "k": "label",
+      "text": "\"A SPY IN THE COCKPIT\"",
+      "at": "spy",
+      "x": 0.74,
+      "y": 0.3,
+      "size": 48,
+      "color": "warn",
+      "font": "title"
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b2_15",
+   "start": 267.95,
+   "end": 283.05,
+   "line": "Warren didn't give up. Interest grew in Britain, where an early commercial version was built. Then, after a deadly crash in Australia in nineteen sixty left investigators with no answers, Australia became one of the first countries to require cockpit recorders on airliners.",
+   "scene": "Britain builds a version; after a 1960 crash, Australia requires them",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.6,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 10.8,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "text",
+      "s": "WARREN DIDN'T GIVE UP",
+      "x": 0.5,
+      "y": 0.1,
+      "at": 0.1,
+      "size": 48,
+      "color": "cream"
+     },
+     {
+      "k": "icon",
+      "name": "globe",
+      "x": 0.25,
+      "y": 0.42,
+      "r": 60,
+      "at": "britain",
+      "label": "BRITAIN: EARLY COMMERCIAL VERSION",
+      "color": "text"
+     },
+     {
+      "k": "text",
+      "s": "1960",
+      "x": 0.75,
+      "y": 0.34,
+      "at": "nineteen",
+      "size": 70,
+      "color": "warn",
+      "font": "title"
+     },
+     {
+      "k": "text",
+      "s": "A DEADLY CRASH, NO ANSWERS",
+      "x": 0.75,
+      "y": 0.46,
+      "at": "deadly",
+      "size": 32,
+      "color": "warn"
+     },
+     {
+      "k": "tick",
+      "x": 0.75,
+      "y": 0.66,
+      "at": "require",
+      "r": 50
+     },
+     {
+      "k": "text",
+      "s": "AUSTRALIA: AMONG THE FIRST TO REQUIRE THEM",
+      "x": 0.5,
+      "y": 0.84,
+      "at": "require",
+      "size": 40,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b2_16",
+   "start": 283.05,
+   "end": 289.51,
+   "line": "Over the following decades, the rest of the world followed. Today, every large airliner carries both recorders.",
+   "scene": "The world follows: every large airliner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -12
+    },
+    {
+     "at": 3.2,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "icon",
+      "name": "globe",
+      "x": 0.5,
+      "y": 0.45,
+      "r": 180,
+      "at": 0.1,
+      "ring": false,
+      "color": "text"
+     },
+     {
+      "k": "dots",
+      "x": 0.32,
+      "y": 0.25,
+      "w": 0.36,
+      "h": 0.4,
+      "n": 40,
+      "size": 9,
+      "at": 0.5,
+      "color": "#ff8a1f",
+      "seed": 8
+     },
+     {
+      "k": "text",
+      "s": "EVERY LARGE AIRLINER TODAY",
+      "x": 0.5,
+      "y": 0.86,
+      "at": "today",
+      "size": 48,
+      "color": "gold"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b2_17",
+   "start": 289.51,
+   "end": 303.43,
+   "line": "And the pilots' worry about a spy in the cockpit was taken seriously. In many countries, cockpit voice recordings are legally protected. They're used for safety investigations, not to listen in on pilots, and the actual audio is very rarely made public.",
+   "scene": "Recordings are legally protected",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.8,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 7.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "recorder",
+      "x": 0.32,
+      "y": 0.5,
+      "s": 1.0,
+      "at": 0.1,
+      "label": "COCKPIT VOICE"
+     },
+     {
+      "k": "icon",
+      "name": "lock",
+      "x": 0.32,
+      "y": 0.5,
+      "r": 60,
+      "ring": false,
+      "at": "protected",
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "LEGALLY PROTECTED",
+      "x": 0.7,
+      "y": 0.4,
+      "at": "protected",
+      "size": 48,
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "SAFETY INVESTIGATIONS ONLY",
+      "x": 0.7,
+      "y": 0.52,
+      "at": "safety",
+      "size": 34,
+      "color": "cream"
+     },
+     {
+      "k": "text",
+      "s": "AUDIO RARELY MADE PUBLIC",
+      "x": 0.7,
+      "y": 0.62,
+      "at": "rarely",
+      "size": 34,
+      "color": "accent"
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "b2_18",
+   "start": 303.43,
+   "end": 311.73,
+   "line": "The boy who never learned why his father's plane went down ended up making sure that, for countless families after him, there would usually be an answer.",
+   "scene": "Warren, older, beside a modern orange recorder",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "lab",
+    "recorder": true,
+    "cam": {
+     "z": [
+      1.1,
+      1.16
+     ],
+     "x": [
+      80,
+      100
+     ],
+     "y": [
+      40,
+      40
+     ]
+    },
+    "figs": [
+     {
+      "who": "WARREN",
+      "x": 0.42,
+      "pose": "relaxed",
+      "expr": "smile",
+      "facing": 1
+     }
+    ],
+    "ov": [
+     {
+      "k": "label",
+      "text": "AN ANSWER FOR COUNTLESS FAMILIES",
+      "at": "families",
+      "y": 0.12,
+      "color": "gold",
+      "size": 44
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "b2_19",
+   "start": 311.73,
+   "end": 319.27,
+   "line": "But a recorder is useless if it doesn't survive the crash. So how do you build a box that can't be destroyed?",
+   "scene": "Teaser: can a box survive a crash?",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "impact",
+     "gain": -8
+    },
+    {
+     "at": 4.0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "bp",
+    "items": [
+     {
+      "k": "recorder",
+      "x": 0.5,
+      "y": 0.55,
+      "s": 1.2,
+      "at": 0.1
+     },
+     {
+      "k": "icon",
+      "name": "flame",
+      "x": 0.32,
+      "y": 0.7,
+      "r": 60,
+      "ring": false,
+      "at": "survive",
+      "color": "warn"
+     },
+     {
+      "k": "icon",
+      "name": "flame",
+      "x": 0.68,
+      "y": 0.7,
+      "r": 70,
+      "ring": false,
+      "at": "survive",
+      "color": "gold"
+     },
+     {
+      "k": "text",
+      "s": "A BOX THAT CAN'T BE DESTROYED?",
+      "x": 0.5,
+      "y": 0.14,
+      "at": "destroyed",
+      "size": 50,
+      "color": "cream"
+     }
+    ],
+    "ov": [
+     {
+      "k": "flash",
+      "at": "survive",
+      "color": "#ff7a30",
+      "over": 0.5
      }
     ]
    },
