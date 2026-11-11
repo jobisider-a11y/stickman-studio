@@ -32,21 +32,21 @@ This is the story of the black box: who invented it, how it's built to survive a
 3:56 The first prototype
 4:19 "A spy in the cockpit"
 5:19 The Toughest Box on Earth
-5:35 The torture tests
+5:36 The torture tests
 6:30 The answer: where they're kept
-7:35 The underwater beacon
+7:36 The underwater beacon
 7:54 The Search
-8:12 Mowing a lawn in the dark
-8:40 The robots that found it
+8:13 Mowing a lawn in the dark
+8:41 The robots that found it
 9:44 The flight that was never found
 10:01 How the rules changed
-10:28 What the Boxes Revealed
+10:29 What the Boxes Revealed
 10:37 The frozen sensor
-11:15 What a stall really is
+11:16 What a stall really is
 11:33 The two details that made it worse
 12:02 How to recover from a stall
-12:25 What changed afterwards
-12:43 The real job of the black box
+12:26 What changed afterwards
+12:44 The real job of the black box
 
 💬 Did you know the black box was orange? Tell me in the comments.
 
